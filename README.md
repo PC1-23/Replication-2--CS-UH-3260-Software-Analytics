@@ -97,9 +97,5 @@ Do **not** hardcode the token in the script.
 
 **Claude (Anthropic)** was used during this replication for the following:
 
-- Debugging deprecated pandas and seaborn API calls in the analysis notebooks (`.append()` → list accumulation, `distplot` → `histplot`)
-- Fixing a type error in the Spearman correlation computation caused by non-numeric columns in newer pandas versions
-- Drafting and editing sections of the replication report (LaTeX)
-- Troubleshooting LaTeX compilation errors in Overleaf
+- Troubleshooting LaTeX compilation errors in Overleaf for the report file 
 
-All analytical decisions, data interpretation, and results are our own.
