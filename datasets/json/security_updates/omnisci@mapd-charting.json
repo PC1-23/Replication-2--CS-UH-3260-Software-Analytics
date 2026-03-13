@@ -1,0 +1,149 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 376,
+        "createdAt": "2019-08-05T18:18:10Z",
+        "title": "Bump eslint from 3.19.0 to 4.18.2",
+        "bodyText": "Bumps eslint from 3.19.0 to 4.18.2.\n\nRelease notes\nSourced from eslint's releases.\n\nv4.18.2\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n4f898c7 Build: Fix JSDoc syntax errors (#9813) (Matija Marohnić)\n13bcf3c Fix: Removing curly quotes in no-eq-null report message (#9852) (Kevin Partington)\nb96fb31 Docs: configuration hierarchy for CLIEngine options (fixes #9526) (#9855) (PiIsFour)\n8ccbdda Docs: Clarify that -c configs merge with .eslintrc.* (fixes #9535) (#9847) (Kevin Partington)\n978574f Docs: Fix examples for no-useless-escape (#9853) (Toru Kobayashi)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv4.18.2 - March 2, 2018\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1 - February 20, 2018\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0 - February 16, 2018\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0 - February 2, 2018\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0 - January 19, 2018\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n\n ... (truncated)\n\n\n\nCommits\n\n22ff6f3 4.18.2\n817b84b Build: changelog update for 4.18.2\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020)\n33177cd Chore: make library files non-executable (#10021)\n558ccba Chore: refactor directive comment processing (#10007)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-07T21:35:48Z",
+        "mergedBy": {
+            "login": "int3h",
+            "resourcePath": "/int3h"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 413,
+        "createdAt": "2020-02-19T17:39:56Z",
+        "title": "Bump codecov from 2.3.1 to 3.6.5",
+        "bodyText": "Bumps codecov from 2.3.1 to 3.6.5.\n\nRelease notes\nSourced from codecov's releases.\n\nv3.6.4\nFix for Cirrus CI\nv3.6.3\nAWS Codebuild fixes + package updates\nv3.6.2\ncommand line args sanitised\nv3.6.1\nFix for Semaphore\nv3.6.0\nAWS CodeBuild\nSemaphore v2\nv3.3.0\nAdded pipe --pipe, -l\nv3.1.0\nCustom Yaml file\nToken from .codecov.yml\nv3.0.4\nSecurity fixes\nv3.0.3\nFix for not git repos\nV3.0.2\nNo release notes provided.\nv3.0.1\nFixing security vulnerability\nv3.0.0\nRemoved support for node 0.12\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by drazisil, a new releaser for codecov since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-07-21T12:35:06Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #450.",
+                    "createdAt": "2020-07-21T12:35:06Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

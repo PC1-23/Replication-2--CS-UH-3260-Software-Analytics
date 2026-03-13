@@ -1,0 +1,167 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 458,
+        "createdAt": "2019-10-21T18:50:09Z",
+        "title": "chore(deps): bump eslint-utils from 1.3.1 to 1.4.3",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-10-27T21:41:33Z",
+        "mergedBy": {
+            "login": "dvaJi",
+            "resourcePath": "/dvaJi"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #458 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master     #458   +/-   ##\n=======================================\n  Coverage   77.18%   77.18%           \n=======================================\n  Files         152      152           \n  Lines        2235     2235           \n  Branches      518      518           \n=======================================\n  Hits         1725     1725           \n  Misses        510      510\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 2a9964e...9cbfb70. Read the comment docs.",
+                    "createdAt": "2019-10-21T19:00:53Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 688,
+        "createdAt": "2020-04-04T15:46:05Z",
+        "title": "chore(deps): bump acorn from 6.4.0 to 6.4.1",
+        "bodyText": "Bumps acorn from 6.4.0 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-04T22:24:24Z",
+        "mergedBy": {
+            "login": "dvaJi",
+            "resourcePath": "/dvaJi"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,1012 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1771,
+        "createdAt": "2019-06-06T10:39:35Z",
+        "title": "Bump handlebars from 4.0.12 to 4.1.2",
+        "bodyText": "Bumps handlebars from 4.0.12 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\nv4.1.0 - February 7th, 2019\nNew Features\n\nimport TypeScript typings - 27ac1ee\n\nSecurity fixes:\n\ndisallow access to the constructor in templates to prevent RCE - 42841c4, #1495\n\nHousekeeping\n\nchore: fix components/handlebars package.json and auto-update on release - bacd473\nchore: Use node 10 to build handlebars - 78dd89c\nchore/doc: Add more release docs - 6b87c21\n\n ... (truncated)\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-06-06T11:04:54Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1771 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1771   +/-   ##\n=======================================\n  Coverage   90.37%   90.37%           \n=======================================\n  Files          17       17           \n  Lines        1216     1216           \n  Branches      207      207           \n=======================================\n  Hits         1099     1099           \n  Misses          9        9           \n  Partials      108      108\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update ff541a9...2dc1bdc. Read the comment docs.",
+                    "createdAt": "2019-06-06T10:44:22Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1783,
+        "createdAt": "2019-06-13T00:15:14Z",
+        "title": "Bump macaddress from 0.2.8 to 0.2.9",
+        "bodyText": "Bumps macaddress from 0.2.8 to 0.2.9.\n\nRelease notes\nSourced from macaddress's releases.\n\nv0.2.9\n\nFixes an arbitrary command execution vulnerability (https://github-redirect.dependabot.com/scravy/node-macaddress/pull/16/files)\nAdds support for freebsd\nFixes a few typos\n\n\n\n\nCommits\n\n3379146 Added note about vulnerability\n4d311a5 Set version 0.2.9\nb83e3f8 Merge pull request #11 from TheBeastOfCaerbannog/master\n68ecfae Added explicit LICENSE file recognizable by github\ne3e76d5 Support for freebsd as per pull #16\n6ab7a11 Merge pull request #13 from roebuk/master\n4d10ca6 Merge pull request #17 from dekoding/patch-1\n358fd59 Merge pull request #20 from flypapertech/fixCommandInjection\n214ad00 Run travis against osx and linux, travis doesn't do windows\n7b0a488 Fix for Node 0.8 thru 0.10\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-06-13T02:20:00Z",
+        "mergedBy": {
+            "login": "reedloden",
+            "resourcePath": "/reedloden"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1852,
+        "createdAt": "2019-08-21T09:30:45Z",
+        "title": "Bump webpack-dev-server from 1.16.5 to 3.1.11",
+        "bodyText": "Bumps webpack-dev-server from 1.16.5 to 3.1.11.\n\nRelease notes\nSourced from webpack-dev-server's releases.\n\nv3.1.11\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\nv3.1.10\n2018-10-23\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\nv3.1.9\nNo release notes provided.\nv3.1.8\n2018-09-06\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\nv3.1.7\n2018-08-29\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\nv3.1.6\n2018-08-26\nBug Fixes\n ... (truncated)\n\n\n\nChangelog\nSourced from webpack-dev-server's changelog.\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\n\n3.1.10 (2018-10-23)\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\n\n3.1.9 (2018-09-24)\n\n3.1.8 (2018-09-06)\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\n\n3.1.7 (2018-08-29)\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\n ... (truncated)\n\n\n\nCommits\n\nff2874f chore(release): 3.1.11\nb3217ca fix: check origin header for websocket connection (#1603)\n68dd49a fix: add url for compatibility with webpack@5 (#1598) (#1599)\nfadae5d fix(Server): mime type for wasm in contentBase directory (#1575) (#1580)\n7a3a257 fix(package): update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563)\n1fe82de ci(travis): Node 11 (on OS X) crashes, use 10 for now (#1588)\n55398b5 fix(bin/options): correct check for color support (options.color) (#1555)\n927a2b3 fix(Server): correct node version checks (#1543)\nfa96a76 chore(PULL_REQUEST_TEMPLATE): allow features (#1539)\nfe3219f chore(release): 3.1.10\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by evilebottnawi, a new releaser for webpack-dev-server since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-08-22T08:43:42Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1852 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1852   +/-   ##\n=======================================\n  Coverage   90.59%   90.59%           \n=======================================\n  Files          17       17           \n  Lines        1244     1244           \n  Branches      208      208           \n=======================================\n  Hits         1127     1127           \n  Misses         10       10           \n  Partials      107      107\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 4ad51c9...a4400b6. Read the comment docs.",
+                    "createdAt": "2019-08-21T09:35:27Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like webpack-dev-server is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2019-08-22T08:43:39Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1853,
+        "createdAt": "2019-08-21T09:30:45Z",
+        "title": "Bump react-dom from 16.1.0 to 16.1.2",
+        "bodyText": "Bumps react-dom from 16.1.0 to 16.1.2.\n\nRelease notes\nSourced from react-dom's releases.\n\nv16.1.1\n16.1.1 (November 13, 2017)\nReact\n\nImprove the warning about undefined component type. (@​selbekk in #11505)\n\nReact DOM\n\nSupport string values for the capture attribute. (@​maxschmeling in #11424)\n\nReact DOM Server\n\nDon't freeze the ReactDOMServer public API. (@​travi in #11531)\nDon't emit autoFocus={false} attribute on the server. (@​gaearon in #11543)\n\nReact Reconciler\n\nChange the hydration API for better Flow typing. (@​sebmarkbage in #11493)\n\n\n\n\nChangelog\nSourced from react-dom's changelog.\n\n16.1.2 (August 1, 2018)\nReact DOM Server\n\nFix a potential XSS vulnerability when the attacker controls an attribute name (CVE-2018-6341). This fix is available in the latest react-dom@16.4.2, as well as in previous affected minor versions: react-dom@16.0.1, react-dom@16.1.2, react-dom@16.2.1, and react-dom@16.3.3. (@​gaearon in #13302)\n\n16.1.1 (November 13, 2017)\nReact\n\nImprove the warning about undefined component type. (@​selbekk in #11505)\n\nReact DOM\n\nSupport string values for the capture attribute. (@​maxschmeling in #11424)\n\nReact DOM Server\n\nDon't freeze the ReactDOMServer public API. (@​travi in #11531)\nDon't emit autoFocus={false} attribute on the server. (@​gaearon in #11543)\n\nReact Reconciler\n\nChange the hydration API for better Flow typing. (@​sebmarkbage in #11493)\n\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-21T09:35:44Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1853 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1853   +/-   ##\n=======================================\n  Coverage   90.59%   90.59%           \n=======================================\n  Files          17       17           \n  Lines        1244     1244           \n  Branches      208      208           \n=======================================\n  Hits         1127     1127           \n  Misses         10       10           \n  Partials      107      107\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 5a0cb7c...4e6e6e5. Read the comment docs.",
+                    "createdAt": "2019-08-21T09:33:58Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1854,
+        "createdAt": "2019-08-21T09:30:47Z",
+        "title": "Bump eslint from 4.14.0 to 4.18.2",
+        "bodyText": "Bumps eslint from 4.14.0 to 4.18.2.\n\nRelease notes\nSourced from eslint's releases.\n\nv4.18.2\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n4f898c7 Build: Fix JSDoc syntax errors (#9813) (Matija Marohnić)\n13bcf3c Fix: Removing curly quotes in no-eq-null report message (#9852) (Kevin Partington)\nb96fb31 Docs: configuration hierarchy for CLIEngine options (fixes #9526) (#9855) (PiIsFour)\n8ccbdda Docs: Clarify that -c configs merge with .eslintrc.* (fixes #9535) (#9847) (Kevin Partington)\n978574f Docs: Fix examples for no-useless-escape (#9853) (Toru Kobayashi)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv4.18.2 - March 2, 2018\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1 - February 20, 2018\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0 - February 16, 2018\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0 - February 2, 2018\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0 - January 19, 2018\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n\n ... (truncated)\n\n\n\nCommits\n\n22ff6f3 4.18.2\n817b84b Build: changelog update for 4.18.2\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020)\n33177cd Chore: make library files non-executable (#10021)\n558ccba Chore: refactor directive comment processing (#10007)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-21T09:41:05Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1854 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1854   +/-   ##\n=======================================\n  Coverage   90.59%   90.59%           \n=======================================\n  Files          17       17           \n  Lines        1244     1244           \n  Branches      208      208           \n=======================================\n  Hits         1127     1127           \n  Misses         10       10           \n  Partials      107      107\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 408eba8...ccc35d0. Read the comment docs.",
+                    "createdAt": "2019-08-21T09:36:37Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1869,
+        "createdAt": "2019-08-26T07:38:34Z",
+        "title": "Bump lodash.template from 4.4.0 to 4.5.0 in /docs-site",
+        "bodyText": "Bumps lodash.template from 4.4.0 to 4.5.0.\n\nCommits\n\nab73503 Bump to v4.5.0.\na4f7d4c Rebuild lodash and docs.\ncca5ac6 Fix npm-test by removing the call to test-docs.\n9f7f9fc Adjust heading order. [ci skip]\n6e2fb92 Remove unused baseArity.\n4f702e2 Specify utf8 encoding.\nb188f90 Add fp tests for iteratee shorthands.\n7b93dc9 Ensure clone methods clone expando properties of boolean, number, & string ob...\n664d66a Make string tests more consistent.\nd9dc0e6 Add _.invertBy tests.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-26T07:42:32Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1869 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@          Coverage Diff           @@\n##           master   #1869   +/-   ##\n======================================\n  Coverage    94.5%   94.5%           \n======================================\n  Files          17      17           \n  Lines         964     964           \n  Branches      233     233           \n======================================\n  Hits          911     911           \n  Misses         10      10           \n  Partials       43      43\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 18def4c...47f4fbf. Read the comment docs.",
+                    "createdAt": "2019-08-26T07:42:08Z"
+                },
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1869 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@          Coverage Diff           @@\n##           master   #1869   +/-   ##\n======================================\n  Coverage    94.5%   94.5%           \n======================================\n  Files          17      17           \n  Lines         964     964           \n  Branches      233     233           \n======================================\n  Hits          911     911           \n  Misses         10      10           \n  Partials       43      43\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 18def4c...47f4fbf. Read the comment docs.",
+                    "createdAt": "2019-08-26T07:42:08Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "docs-site/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1876,
+        "createdAt": "2019-08-27T10:47:19Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.2 in /examples/hello-world",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.2.\n\nCommits\n\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\n230a4e2 1.4.1\n08158db 🐛 fix getStaticValue security issue\n587cca2 🐛 fix getStringIfConstant to handle literals correctly\nc119e83 🐛 fix getStaticValue to handle bigint correctly\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-27T10:55:58Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1876 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1876   +/-   ##\n=======================================\n  Coverage   94.51%   94.51%           \n=======================================\n  Files          17       17           \n  Lines         966      966           \n  Branches      233      233           \n=======================================\n  Hits          913      913           \n  Misses         10       10           \n  Partials       43       43\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 10c0776...0447d2e. Read the comment docs.",
+                    "createdAt": "2019-08-27T10:50:20Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/hello-world/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1881,
+        "createdAt": "2019-08-29T08:56:19Z",
+        "title": "Bump mixin-deep from 1.3.1 to 1.3.2 in /docs-site",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\nDependabot will merge this PR once CI passes on it, as requested by @martijnrusschen.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-29T08:59:20Z",
+        "mergedBy": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "martijnrusschen",
+                        "resourcePath": "/martijnrusschen"
+                    },
+                    "bodyText": "@dependabot merge",
+                    "createdAt": "2019-08-29T08:58:55Z"
+                },
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1881 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1881   +/-   ##\n=======================================\n  Coverage   94.74%   94.74%           \n=======================================\n  Files          17       17           \n  Lines        1009     1009           \n  Branches      241      241           \n=======================================\n  Hits          956      956           \n  Misses         10       10           \n  Partials       43       43\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 6159c73...16e6877. Read the comment docs.",
+                    "createdAt": "2019-08-29T08:59:10Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "docs-site/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1996,
+        "createdAt": "2019-12-29T20:23:57Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3 in /examples/hello-world",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-06T07:52:24Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1996 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1996   +/-   ##\n=======================================\n  Coverage   94.95%   94.95%           \n=======================================\n  Files          17       17           \n  Lines        1030     1030           \n  Branches      248      248           \n=======================================\n  Hits          978      978           \n  Misses          9        9           \n  Partials       43       43\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update d0a13ed...4a23df5. Read the comment docs.",
+                    "createdAt": "2019-12-29T20:26:15Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/hello-world/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1997,
+        "createdAt": "2019-12-29T21:06:54Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3 in /docs-site",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-06T07:51:00Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #1997 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #1997   +/-   ##\n=======================================\n  Coverage   94.95%   94.95%           \n=======================================\n  Files          17       17           \n  Lines        1030     1030           \n  Branches      248      248           \n=======================================\n  Hits          978      978           \n  Misses          9        9           \n  Partials       43       43\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update afff52d...a7e3cfa. Read the comment docs.",
+                    "createdAt": "2019-12-29T21:09:11Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "docs-site/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2060,
+        "createdAt": "2020-02-19T18:20:31Z",
+        "title": "Bump codecov from 3.6.1 to 3.6.5",
+        "bodyText": "Bumps codecov from 3.6.1 to 3.6.5.\n\nRelease notes\nSourced from codecov's releases.\n\nv3.6.4\nFix for Cirrus CI\nv3.6.3\nAWS Codebuild fixes + package updates\nv3.6.2\ncommand line args sanitised\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by drazisil, a new releaser for codecov since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-02-19T18:40:39Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #2060 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #2060   +/-   ##\n=======================================\n  Coverage   92.97%   92.97%           \n=======================================\n  Files          18       18           \n  Lines        1096     1096           \n  Branches      273      273           \n=======================================\n  Hits         1019     1019           \n  Misses         26       26           \n  Partials       51       51\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update cf1902a...6a5d7cb. Read the comment docs.",
+                    "createdAt": "2020-02-19T18:25:48Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2086,
+        "createdAt": "2020-03-14T02:00:14Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /docs-site",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T13:31:07Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #2086 into master will not change coverage by %.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #2086   +/-   ##\n=======================================\n  Coverage   92.99%   92.99%           \n=======================================\n  Files          18       18           \n  Lines        1113     1113           \n  Branches      283      283           \n=======================================\n  Hits         1035     1035           \n  Misses         26       26           \n  Partials       52       52           \n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 08fe57c...caad443. Read the comment docs.",
+                    "createdAt": "2020-03-14T02:02:26Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "docs-site/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2090,
+        "createdAt": "2020-03-18T13:32:04Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /examples/hello-world",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T13:34:27Z",
+        "mergedBy": {
+            "login": "martijnrusschen",
+            "resourcePath": "/martijnrusschen"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov",
+                        "resourcePath": "/apps/codecov"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #2090 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master    #2090   +/-   ##\n=======================================\n  Coverage   92.99%   92.99%           \n=======================================\n  Files          18       18           \n  Lines        1113     1113           \n  Branches      283      283           \n=======================================\n  Hits         1035     1035           \n  Misses         26       26           \n  Partials       52       52\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update a1eaa97...465aa8b. Read the comment docs.",
+                    "createdAt": "2020-03-18T13:34:18Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/hello-world/yarn.lock"
+                }
+            ]
+        }
+    }
+]

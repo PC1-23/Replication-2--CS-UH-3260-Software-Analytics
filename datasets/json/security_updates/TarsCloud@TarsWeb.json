@@ -1,0 +1,351 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 30,
+        "createdAt": "2019-08-28T07:46:41Z",
+        "title": "Bump mixin-deep from 1.3.1 to 1.3.2 in /client",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-13T11:29:45Z",
+        "mergedBy": {
+            "login": "ruanshudong",
+            "resourcePath": "/ruanshudong"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "client/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 36,
+        "createdAt": "2019-11-06T18:42:31Z",
+        "title": "Bump sequelize from 4.44.3 to 5.21.2",
+        "bodyText": "Bumps sequelize from 4.44.3 to 5.21.2.\n\nRelease notes\nSourced from sequelize's releases.\n\nv5.21.2\n5.21.2 (2019-10-29)\nBug Fixes\n\ntypings: transaction locking (#11621) (6c781d6)\n\nv5.21.1\n5.21.1 (2019-10-19)\nBug Fixes\n\nassociations: allow binary key for belongs-to-many (#11581) (2083c9a)\n\nv5.21.0\n5.21.0 (2019-10-18)\nBug Fixes\n\npostgres: update upsert regex to match the last RETURNING * (#11538) (2b9baa2)\n\nFeatures\n\nmariadb: support indexHints on mariadb dialect (#11573) (a34399f)\n\nv5.20.0\n5.20.0 (2019-10-18)\nFeatures\n\nmodel: add options.include[].right option (#11537) (2949a63)\n\nv5.19.8\n5.19.8 (2019-10-17)\nBug Fixes\n\ntypes: add array of Buffers to WhereValue type (#11559) (3517eb7)\n\nv5.19.7\n5.19.7 (2019-10-16)\nBug Fixes\n ... (truncated)\n\n\n\nCommits\n\n6c781d6 fix(typings): transaction locking (#11621)\n2083c9a fix(associations): allow binary key for belongs-to-many (#11581)\n10bf060 [ci-skip] change: use latest tag\ncaa677f build: enable appveyor\n300ee61 build: setup publish config for v5\n2b9baa2 fix(postgres): update upsert regex to match the last RETURNING * (#11538)\na34399f feat(mariadb): support indexHints on mariadb dialect (#11573)\n2949a63 feat(model): add options.include[].right option (#11537)\n7d251bd docs: .sequelizerc configuration options (#11553)\n3517eb7 fix(types): add array of Buffers to WhereValue type (#11559)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-13T11:29:26Z",
+        "mergedBy": {
+            "login": "ruanshudong",
+            "resourcePath": "/ruanshudong"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 45,
+        "createdAt": "2020-01-19T09:39:09Z",
+        "title": "Bump webpack-dev-server from 2.11.5 to 3.1.11 in /client",
+        "bodyText": "Bumps webpack-dev-server from 2.11.5 to 3.1.11.\n\nRelease notes\nSourced from webpack-dev-server's releases.\n\nv3.1.11\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\nv3.1.10\n2018-10-23\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\nv3.1.9\nNo release notes provided.\nv3.1.8\n2018-09-06\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\nv3.1.7\n2018-08-29\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\nv3.1.6\n2018-08-26\nBug Fixes\n ... (truncated)\n\n\n\nChangelog\nSourced from webpack-dev-server's changelog.\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\n\n3.1.10 (2018-10-23)\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\n\n3.1.9 (2018-09-24)\n\n3.1.8 (2018-09-06)\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\n\n3.1.7 (2018-08-29)\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\n ... (truncated)\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-21T05:06:47Z",
+        "mergedBy": {
+            "login": "zouchengzhuo",
+            "resourcePath": "/zouchengzhuo"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "client/package-lock.json"
+                },
+                {
+                    "path": "client/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 46,
+        "createdAt": "2020-01-19T09:39:10Z",
+        "title": "Bump webpack-bundle-analyzer from 2.13.1 to 3.3.2 in /client",
+        "bodyText": "Bumps webpack-bundle-analyzer from 2.13.1 to 3.3.2.\n\nRelease notes\nSourced from webpack-bundle-analyzer's releases.\n\nFirst test with Lerna monorepo\nth0r/webpack-bundle-analyzer#98\n\n\n\nChangelog\nSourced from webpack-bundle-analyzer's changelog.\n\n3.3.2\n\nBug Fix\n\nFix regression with escaping internal assets (#264, fixes #263)\n\n\n\n3.3.1\n\n\nImprovements\n\nUse relative links for serving internal assets (#261, fixes #254)\nProperly escape embedded JS/JSON (#262)\n\n\n\nBug Fix\n\nFix showing help message on -h flag (#260, fixes #239)\n\n\n\n3.3.0\n\n\nNew Feature\n\nShow/hide chunks using context menu (#246, @​bregenspan)\n\n\n\nInternal\n\nUpdated dev dependencies\n\n\n\n3.2.0\n\nImprovements\n\nAdd support for .mjs output files (#252, @​jlopezxs)\n\n\n\n3.1.0\n\nBug Fix\n\nProperly determine the size of the modules containing special characters (#223, @​hulkish)\nUpdate acorn to v6 (#248, @​realityking)\n\n\n\n3.0.4\n\nBug Fix\n\nMake webpack's done hook wait until analyzer writes report or stat file (#247, @​mareolan)\n\n\n\n3.0.3\n\nBug Fix\n\nDisable viewer websocket connection when report is generated in static mode (#215, @​sebastianhaeni)\n\n\n\n3.0.2\n\n\nImprovements\n\nDrop @babel/runtime dependency (#209, @​realityking)\nProperly specify minimal Node.js version in .babelrc (#209, @​realityking)\n\n\n\nBug Fix\n\n\n ... (truncated)\n\n\n\nCommits\n\n345c3f5 v3.3.2\na615815 Merge pull request #264 from webpack-contrib/fix-escape-regression\n20f2b4c Fix regression with escaping internal assets\n9836649 v3.3.1\nd1db526 Remove outdated item from troubleshooting section\nca34279 Merge pull request #261 from webpack-contrib/relative-links-to-assets\n99818f9 Fix changelog\n21722d2 Add changelog entry\ned99c32 Use relative links for serving internal assets\n3ce1b8c Merge pull request #262 from webpack-contrib/proper-js-escape\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-21T05:08:04Z",
+        "mergedBy": {
+            "login": "zouchengzhuo",
+            "resourcePath": "/zouchengzhuo"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "client/package-lock.json"
+                },
+                {
+                    "path": "client/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 50,
+        "createdAt": "2020-03-10T17:08:44Z",
+        "title": "Bump webpack-bundle-analyzer from 2.13.1 to 3.6.1 in /demo/client",
+        "bodyText": "Bumps webpack-bundle-analyzer from 2.13.1 to 3.6.1.\n\nRelease notes\nSourced from webpack-bundle-analyzer's releases.\n\nFirst test with Lerna monorepo\nth0r/webpack-bundle-analyzer#98\n\n\n\nChangelog\nSourced from webpack-bundle-analyzer's changelog.\n\n3.6.1\n\n\nBug Fix\n\nAdd leading zero to hour & minute on <title /> when needed (#314 by @mhxbe)\n\n\n\nInternal\n\nUpdate some dependencies to get rid of vulnerability warnings (#339)\n\n\n\n3.6.0\n\nImprovement\n\nSupport webpack builds where output.globalObject is set to 'self' (#323 by @lemonmade)\nImprove readability of tooltips (#320 by @lorenzos)\n\n\n\n3.5.2\n\nBug Fix\n\nFix sidebar not showing visibility status of chunks hidden via popup menu (issue #316 by @gaokun, fixed in #317 by @bregenspan)\n\n\n\n3.5.1\n\nBug Fix\n\nFix regression in support of webpack dev server and webpack --watch (issue #312, fixed in #313 by @gaokun)\n\n\n\n3.5.0\n\nImprovements\n\nImproved report title and added favicon (#310, @gaokun)\n\n\n\n3.4.1\n\nBug Fix\n\nFix regression of requiring an object to be passed to new BundleAnalyzerPlugin() (issue #300, fixed in #302 by @jerryOnlyZRJ)\n\n\n\n3.4.0\n\n\nImprovements\n\nAdd port: 'auto' option (#290, @avin-kavish)\n\n\n\nBug Fix\n\nAvoid mutation of the generated stats.json (#293, @wood1986)\n\n\n\nInternal\n\nUse Autoprefixer (#266, @bregenspan)\nDetect AsyncMFS to support dev-server of Nuxt 2.5 and above (#275, @amoshydra)\n\n\n\n3.3.2\n\nBug Fix\n\nFix regression with escaping internal assets (#264, fixes #263)\n\n\n\n ... (truncated)\n\n\n\nCommits\n\n660dba6 v3.6.1\n387d7f9 Merge pull request #339 from webpack-contrib/update-some-deps\ne90b3b1 Downgrade terser-webpack-plugin because v2 requires at least Node v8.9\n45ffbf9 Update some dependencies to get rid of vulnerability warnings\ndd4a03a Merge pull request #328 from pustovalov/node-ci\nf2f7fda Add Node 12 to CI\n7cefb58 Merge pull request #314 from mhxbe/bugfix/page-title-hours-minutes\n2596783 Consolidate changelog whitespace\n3faca9d Merge branch 'master' into bugfix/page-title-hours-minutes\nf614bd1 Update CHANGELOG.md\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-12T06:04:05Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like webpack-bundle-analyzer is no longer a dependency, so this is no longer needed.",
+                    "createdAt": "2020-03-12T06:04:04Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "demo/client/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 54,
+        "createdAt": "2020-04-04T17:24:38Z",
+        "title": "Bump acorn from 6.4.0 to 6.4.1 in /client",
+        "bodyText": "Bumps acorn from 6.4.0 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-06-12T03:29:31Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like acorn is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-06-12T03:29:30Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "client/package-lock.json"
+                }
+            ]
+        }
+    }
+]

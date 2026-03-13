@@ -1,0 +1,351 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 305,
+        "createdAt": "2020-03-17T21:05:05Z",
+        "title": "Bump minimist from 1.2.0 to 1.2.5 in /gpii-service",
+        "bodyText": "Bumps minimist from 1.2.0 to 1.2.5.\n\nCommits\n\naeb3e27 1.2.5\n278677b 1.2.4\n4cf1354 security notice\n1043d21 additional test for constructor prototype pollution\n6457d74 1.2.3\n38a4d1c even more aggressive checks for protocol pollution\n13c01a5 more failing proto pollution tests\nf34df07 1.2.2\n67d3722 cleanup\n63e7ed0 don't assign onto proto\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-06-04T17:55:24Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "Could one of the admins verify that these changes are reasonable to test? If so, please reply with \"ok to test\".",
+                    "createdAt": "2020-03-17T21:05:45Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-17T21:12:30Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job failed: https://ci.gpii.net/job/windows-tests/1236/",
+                    "createdAt": "2020-03-17T21:59:44Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-17T22:07:20Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job passed: https://ci.gpii.net/job/windows-tests/1237/",
+                    "createdAt": "2020-03-17T22:52:04Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-17T23:04:00Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job failed: https://ci.gpii.net/job/windows-tests/1238/",
+                    "createdAt": "2020-03-17T23:49:06Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "Windows magnifier failed to shut down:\n16:47:55.516:  jq: Expected: {\n    \"gpii.windows.enableRegisteredAT\": {\n        \"com.microsoft.windows.magnifier\": [\n            {\n                \"settings\": {\n                    \"running\": true\n                }\n            }\n        ],\n        \"com.microsoft.windows.onscreenKeyboard\": [\n            {\n                \"settings\": {\n                    \"running\": false\n                }\n            }\n        ]\n    }\n}\n16:47:55.516:  jq: Actual: {\n    \"gpii.windows.enableRegisteredAT\": {\n        \"com.microsoft.windows.magnifier\": [\n            {\n                \"settings\": {\n                    \"running\": false\n                }\n            }\n        ],\n        \"com.microsoft.windows.onscreenKeyboard\": [\n            {\n                \"settings\": {\n                    \"running\": false\n                }\n            }\n        ]\n    }\n}",
+                    "createdAt": "2020-03-18T00:21:23Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-18T00:21:30Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job passed: https://ci.gpii.net/job/windows-tests/1239/",
+                    "createdAt": "2020-03-18T01:04:00Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-18T10:40:02Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job failed: https://ci.gpii.net/job/windows-tests/1240/",
+                    "createdAt": "2020-03-18T11:22:02Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "Same again:\n            {\n                \"settings\": {\n                    \"WindowsArrangement\": {\n                        \"value\": 0,\n                        \"path\": {\n                            \"get\": \"pvParam\",\n                            \"set\": \"uiParam\"\n                        }\n                    }\n                }\n            },",
+                    "createdAt": "2020-03-18T12:19:27Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-18T12:19:32Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job failed: https://ci.gpii.net/job/windows-tests/1241/",
+                    "createdAt": "2020-03-18T13:04:28Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "Different failure this time - this time we had a failure of most of the nativeSettingsHandler settings and the first half dozen SPI:\n06:02:16.550:  jq: Expected: {\n    \"gpii.windows.nativeSettingsHandler\": {\n        \"com.microsoft.windows.mouseSettings\": [\n            {\n                \"settings\": {\n                    \"DoubleClickTimeConfig\": {\n                        \"value\": 600\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"DoubleClickWidthConfig\": {\n                        \"value\": 32\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"DoubleClickHeightConfig\": {\n                        \"value\": 32\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"Volume\": {\n                        \"value\": 0.7\n                    }\n                }\n            }\n        ],\n        \"com.microsoft.windows.mirrorScreen\": [\n            {\n                \"settings\": {\n                    \"ScreenMirrorConfig\": {\n                        \"value\": false\n                    }\n                }\n            }\n        ]\n    },\n    \"gpii.windows.spiSettingsHandler\": {\n        \"com.microsoft.windows.mouseSettings\": [\n            {\n                \"settings\": {\n                    \"SwapMouseButtonsConfig\": {\n                        \"path\": {\n                            \"get\": \"pvParam\",\n                            \"set\": \"uiParam\"\n                        },\n                        \"value\": 1\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"ScrollWheelModeConfig\": {\n                        \"path\": {\n                            \"get\": \"pvParam\",\n                            \"set\": \"uiParam\"\n                        },\n                        \"value\": 4294967294\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"ScrollFocusRoutingConfig\": {\n                        \"path\": \"pvParam\",\n                        \"value\": 1\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"MouseCursorShadowEnable\": {\n                        \"path\": \"pvParam\",\n                        \"value\": 1\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"ScrollCharsConfig\": {\n                        \"path\": {\n                            \"get\": \"pvParam\",\n                            \"set\": \"uiParam\"\n                        },\n                        \"value\": 10\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"WindowsTrackingConfig\": {\n                        \"path\": \"pvParam\",\n                        \"value\": 1\n                    }\n                }\n            },\n06:02:16.553:  jq: Actual: {\n    \"gpii.windows.nativeSettingsHandler\": {\n        \"com.microsoft.windows.mouseSettings\": [\n            {\n                \"settings\": {\n                    \"DoubleClickTimeConfig\": {\n                        \"value\": 600\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"DoubleClickWidthConfig\": {\n                        \"value\": 4\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"DoubleClickHeightConfig\": {\n                        \"value\": 4\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"Volume\": {\n                        \"value\": 0.7\n                    }\n                }\n            }\n        ],\n        \"com.microsoft.windows.mirrorScreen\": [\n            {\n                \"settings\": {\n                    \"ScreenMirrorConfig\": {\n                        \"value\": false\n                    }\n                }\n            }\n        ]\n    },\n    \"gpii.windows.spiSettingsHandler\": {\n        \"com.microsoft.windows.mouseSettings\": [\n            {\n                \"settings\": {\n                    \"SwapMouseButtonsConfig\": {\n                        \"value\": 0,\n                        \"path\": {\n                            \"get\": \"pvParam\",\n                            \"set\": \"uiParam\"\n                        }\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"ScrollWheelModeConfig\": {\n                        \"value\": 3,\n                        \"path\": {\n                            \"get\": \"pvParam\",\n                            \"set\": \"uiParam\"\n                        }\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"ScrollFocusRoutingConfig\": {\n                        \"value\": 2,\n                        \"path\": \"pvParam\"\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"MouseCursorShadowEnable\": {\n                        \"value\": 0,\n                        \"path\": \"pvParam\"\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"ScrollCharsConfig\": {\n                        \"value\": 3,\n                        \"path\": {\n                            \"get\": \"pvParam\",\n                            \"set\": \"uiParam\"\n                        }\n                    }\n                }\n            },\n            {\n                \"settings\": {\n                    \"WindowsTrackingConfig\": {\n                        \"value\": 0,\n                        \"path\": \"pvParam\"\n                    }\n                }\n            },",
+                    "createdAt": "2020-03-18T14:04:58Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-18T14:05:05Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job passed: https://ci.gpii.net/job/windows-tests/1242/",
+                    "createdAt": "2020-03-18T14:45:55Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "ok to test",
+                    "createdAt": "2020-03-18T15:14:43Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job failed: https://ci.gpii.net/job/windows-tests/1243/",
+                    "createdAt": "2020-03-18T16:01:06Z"
+                },
+                {
+                    "author": {
+                        "login": "amb26",
+                        "resourcePath": "/amb26"
+                    },
+                    "bodyText": "Another one-off failure - \"Timed out waiting for the SPI call to complete (see GPII-2001)\"\nok to test",
+                    "createdAt": "2020-03-18T16:08:17Z"
+                },
+                {
+                    "author": {
+                        "login": "gpii-bot",
+                        "resourcePath": "/gpii-bot"
+                    },
+                    "bodyText": "CI job failed: https://ci.gpii.net/job/windows-tests/1244/",
+                    "createdAt": "2020-03-18T16:50:50Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like minimist is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-06-04T17:55:23Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "gpii-service/package.json"
+                }
+            ]
+        }
+    }
+]

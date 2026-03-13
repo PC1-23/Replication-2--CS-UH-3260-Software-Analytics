@@ -1,0 +1,1055 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 759,
+        "createdAt": "2019-11-04T21:50:06Z",
+        "title": "Bump lodash from 4.17.10 to 4.17.13 in /packages/coinstac-docker-manager",
+        "bodyText": "Bumps lodash from 4.17.10 to 4.17.13.\n\nCommits\n\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\n29e2584 Fix style:test lint nits.\n8f4d3eb Update deps.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-07T07:01:50Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-docker-manager/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 760,
+        "createdAt": "2019-11-04T21:50:08Z",
+        "title": "Bump lodash.template from 4.4.0 to 4.5.0",
+        "bodyText": "Bumps lodash.template from 4.4.0 to 4.5.0.\n\nCommits\n\nab73503 Bump to v4.5.0.\na4f7d4c Rebuild lodash and docs.\ncca5ac6 Fix npm-test by removing the call to test-docs.\n9f7f9fc Adjust heading order. [ci skip]\n6e2fb92 Remove unused baseArity.\n4f702e2 Specify utf8 encoding.\nb188f90 Add fp tests for iteratee shorthands.\n7b93dc9 Ensure clone methods clone expando properties of boolean, number, & string ob...\n664d66a Make string tests more consistent.\nd9dc0e6 Add _.invertBy tests.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-07T07:02:52Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 761,
+        "createdAt": "2019-11-04T21:50:09Z",
+        "title": "Bump lodash from 4.17.4 to 4.17.15",
+        "bodyText": "Bumps lodash from 4.17.4 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:25:19Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 762,
+        "createdAt": "2019-11-04T21:50:09Z",
+        "title": "Bump eslint-utils from 1.3.1 to 1.4.3",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:25:37Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 763,
+        "createdAt": "2019-11-04T21:50:11Z",
+        "title": "Bump handlebars from 4.0.11 to 4.5.1",
+        "bodyText": "Bumps handlebars from 4.0.11 to 4.5.1.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.1 - October 29th, 2019\nBugfixs\n\nfix: move \"eslint-plugin-compat\" to devDependencies - 5e9d17f (#1589)\n\nCompatibility notes:\n\nNo compatibility issues are to be expected\n\nCommits\nv4.5.0 - October 28th, 2019\nFeatures / Improvements\n\nAdd method Handlebars.parseWithoutProcessing (#1584) - 62ed3c2\nadd guard to if & unless helpers (#1549)\nshow source location for the strict lookup exceptions - feb60f8\n\nBugfixes:\n\nUse objects for hash value tracking - 7fcf9d2\n\nChore:\n\nResolve deprecation warning message from eslint while running eslint (#1586) - 7052e88\nchore: add eslint-plugin-compat and eslint-plugin-es5 - 088e618\n\nCompatibility notes:\n\nNo compatibility issues are to be expected\n\nCommits\nv4.4.5 - October 20th, 2019\nBugfixes:\n\nContents of raw-blocks must be matched with non-eager regex-matching - 8d5530e, #1579\n\nCommits\nv4.4.4 - October 20th, 2019\nBugfixes:\n\nfix: prevent zero length tokens in raw-blocks (#1577, #1578) - f1752fe\n\nChore:\n\nchore: link to s3 bucket with https, add \"npm ci\" to build instructions - 0b593bf\n\nCompatibility notes:\n\nno compatibility issues are expected\n\nCommits\n ... (truncated)\n\n\n\nCommits\n\n7ef8617 v4.5.1\nb75e3e1 Update release notes\n5e9d17f fix: move \"eslint-plugin-compat\" to devDependencies\nb24797d v4.5.0\na243067 Update release notes\n088e618 chore: add eslint-plugin-compat and eslint-plugin-es5\n7052e88 Resolve deprecation warning message from eslint while running eslint (#1586)\nb8913fc Add missing types for the Exception class properties (#1583)\n62ed3c2 Add Handlebars.parseWithoutProcessing (#1584)\n7fcf9d2 Use objects for hash value tracking\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:26:02Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 764,
+        "createdAt": "2019-11-04T21:50:11Z",
+        "title": "Bump lodash from 4.17.10 to 4.17.15 in /packages/coinstac-images/coinstac-python-base-stream",
+        "bodyText": "Bumps lodash from 4.17.10 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:26:24Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-images/coinstac-python-base-stream/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 765,
+        "createdAt": "2019-11-04T21:50:16Z",
+        "title": "Bump lodash from 4.17.10 to 4.17.13 in /packages/coinstac-client-core",
+        "bodyText": "Bumps lodash from 4.17.10 to 4.17.13.\n\nCommits\n\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\n29e2584 Fix style:test lint nits.\n8f4d3eb Update deps.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:26:50Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-client-core/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 766,
+        "createdAt": "2019-11-04T21:50:16Z",
+        "title": "Bump csv-parse from 4.4.3 to 4.4.6 in /packages/coinstac-client-core",
+        "bodyText": "Bumps csv-parse from 4.4.3 to 4.4.6.\n\nChangelog\nSourced from csv-parse's changelog.\n\nVersion 4.4.6\n\nsecurity: remove regexp vulnerable to DOS in cast option, npm report 69742\n\nVersion 4.4.5\n\nts: add buffer as allowed type for input, fix #248\n\nVersion 4.4.4\n\npackage: latest dependencies\nbom: detection when buffer smaller than bom\npackage: remove deprecated @types/should dependency\npackage: update file path\n\n\n\n\nCommits\n\nfe3fe58 Bump to version 4.4.6\nb9d3594 security: remove regexp vulnerable to DOS in cast option, npm report 69742\n76d96e1 Bump to version 4.4.5\nfecf171 ts: add buffer as allowed type for input, fix #248\n9c53199 fix: add buffer as allowed type for input\n53ff6e7 Bump to version 4.4.4\n7693582 package: latest dependencies\n620125e fix: Detecting BOM when data is not enough\nc28279e package: update file path\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:27:27Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-client-core/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 767,
+        "createdAt": "2019-11-04T21:50:27Z",
+        "title": "Bump axios from 0.16.2 to 0.18.1 in /packages/coinstac-ui",
+        "bodyText": "Bumps axios from 0.16.2 to 0.18.1.\n\nRelease notes\nSourced from axios's releases.\n\nv0.18.1\nSecurity Fix:\n\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\n\nv.0.18.0\n\nAdding support for UNIX Sockets when running with Node.js (#1070)\nFixing typings (#1177):\n\nAxiosRequestConfig.proxy: allows type false\nAxiosProxyConfig: added auth field\n\n\nAdding function signature in AxiosInstance interface so AxiosInstance can be invoked (#1192, #1254)\nAllowing maxContentLength to pass through to redirected calls as maxBodyLength in follow-redirects config (#1287)\nFixing configuration when using an instance - method can now be set (#1342)\n\n0.17.1 (Nov 11, 2017)\n\nFixing issue with web workers (#1160)\nAllowing overriding transport (#1080)\nUpdating TypeScript typings (#1165, #1125, #1131)\n\nv0.17.1\nNo release notes provided.\nv0.17.0\nNo release notes provided.\n\n\n\nChangelog\nSourced from axios's changelog.\n\n0.18.1 (May 31, 2019)\nSecurity Fix:\n\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\n\n0.18.0 (Feb 19, 2018)\n\nAdding support for UNIX Sockets when running with Node.js (#1070)\nFixing typings (#1177):\n\nAxiosRequestConfig.proxy: allows type false\nAxiosProxyConfig: added auth field\n\n\nAdding function signature in AxiosInstance interface so AxiosInstance can be invoked (#1192, #1254)\nAllowing maxContentLength to pass through to redirected calls as maxBodyLength in follow-redirects config (#1287)\nFixing configuration when using an instance - method can now be set (#1342)\n\n0.17.1 (Nov 11, 2017)\n\nFixing issue with web workers (#1160)\nAllowing overriding transport (#1080)\nUpdating TypeScript typings (#1165, #1125, #1131)\n\n0.17.0 (Oct 21, 2017)\n\nBREAKING Fixing issue with baseURL and interceptors (#950)\nBREAKING Improving handing of duplicate headers (#874)\nAdding support for disabling proxies (#691)\nUpdating TypeScript typings with generic type parameters (#1061)\n\n\n\n\nCommits\n\nface016 Releasing 0.18.1\n0628763 Update Changelog for release (0.18.1)\ndc9b29c adjust README to match IE support\n16326d5 Remove usages of isOldIE in tests\n5a4228b Remove IE10 launcher from karma config\n695b5f7 Remove isOldIE check in tests\ne314ab0 Remove HTTP 1223 handling\n7efa822 Remove btoa polyfill tests\nf3cdcc7 Delete btoa polyfill\nefc0b58 Remove ie8/9 special CORS treatment and btoa polyfill\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by emilyemorehouse, a new releaser for axios since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:29:20Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-ui/package-lock.json"
+                },
+                {
+                    "path": "packages/coinstac-ui/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 784,
+        "createdAt": "2019-12-07T07:03:31Z",
+        "title": "Bump js-yaml from 3.12.0 to 3.13.1",
+        "bodyText": "Bumps js-yaml from 3.12.0 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n[3.13.1] - 2019-04-05\nSecurity\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n[3.13.0] - 2019-03-20\nSecurity\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n[3.12.2] - 2019-02-26\nFixed\n\nFix noArrayIndent option for root level, #468.\n\n[3.12.1] - 2019-01-05\nAdded\n\nAdded noArrayIndent option, #432.\n\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\ne4267fc 3.12.2 released\n7231a49 Browser files rebuild\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:27:52Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 785,
+        "createdAt": "2019-12-09T05:25:49Z",
+        "title": "Bump marked from 0.3.12 to 0.3.18",
+        "bodyText": "Bumps marked from 0.3.12 to 0.3.18.\n\nRelease notes\nSourced from marked's releases.\n\nMinor fixes and updated docs\n\nSupported Markdown flavors: CommonMark 0.28 and GitHub Flavored Markdown 0.28\nUpdates to our CI pipeline; we're all green! #1098 with the caveat that there is a test that needs to get sorted (help us out #1092)\nStart ordered lists using the initial numbers from markdown lists (#1144)\nAdded GitHub Pages site for documentation https://marked.js.org/ (#1138)\n\nProcesses and tools\n\nThe elephant in the room: A security vulnerability was discovered and fixed. Please note, if something breaks due to these changes, it was not our intent, and please let us know by submitting a PR or issue to course correct (the nature of the zero-major release and having security as a number one priority) #1083\nThe other elephant in the room: We missed publishing a 0.3.16 release to GitHub; so, trying to make up for that a bit.\nUpdates to the project documentation and operations, you should check it out, just start with the README and you should be good.\nNew release PR template available #1076\nUpdates to default PR and Issue templates #1076\nLint checks + tests + continuous integration using Travis #1020\nUpdated testing output #1085 & #1087\n\nFix capturing parens\nFixes unintended breaking change from v0.3.14\nNew year, new home\n\nMarked has a new home under the MarkedJS org! Other advances soon to come.\nUpdated minifier.\nVarious parser fixes\n\n\n\n\nCommits\n\nc1e19a9 Merge pull request #1152 from 8fold/release-0.3.18\n98c9d14 Update home page\n5d5fa04 0.3.18\n6661fe5 Merge pull request #1148 from 8fold/styfle-admin\n5d3d70a Merge pull request #1144 from paulroub/OL_initial_numbers\n002c565 Merge pull request #1151 from wraith13/master\n2c20df9 Fix usage links in USING_ADVANCED.md\nf69a82f Remove redundant cast\nf886f40 Merge pull request #1147 from 8fold/update-badges\n78a0258 styfle to admin\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:28:04Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 786,
+        "createdAt": "2019-12-09T05:26:28Z",
+        "title": "Bump axios from 0.17.1 to 0.18.1 in /packages/coinstac-server",
+        "bodyText": "Bumps axios from 0.17.1 to 0.18.1.\n\nRelease notes\nSourced from axios's releases.\n\nv0.18.1\nSecurity Fix:\n\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\n\nv.0.18.0\n\nAdding support for UNIX Sockets when running with Node.js (#1070)\nFixing typings (#1177):\n\nAxiosRequestConfig.proxy: allows type false\nAxiosProxyConfig: added auth field\n\n\nAdding function signature in AxiosInstance interface so AxiosInstance can be invoked (#1192, #1254)\nAllowing maxContentLength to pass through to redirected calls as maxBodyLength in follow-redirects config (#1287)\nFixing configuration when using an instance - method can now be set (#1342)\n\n0.17.1 (Nov 11, 2017)\n\nFixing issue with web workers (#1160)\nAllowing overriding transport (#1080)\nUpdating TypeScript typings (#1165, #1125, #1131)\n\n\n\n\nChangelog\nSourced from axios's changelog.\n\n0.18.1 (May 31, 2019)\nSecurity Fix:\n\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\n\n0.18.0 (Feb 19, 2018)\n\nAdding support for UNIX Sockets when running with Node.js (#1070)\nFixing typings (#1177):\n\nAxiosRequestConfig.proxy: allows type false\nAxiosProxyConfig: added auth field\n\n\nAdding function signature in AxiosInstance interface so AxiosInstance can be invoked (#1192, #1254)\nAllowing maxContentLength to pass through to redirected calls as maxBodyLength in follow-redirects config (#1287)\nFixing configuration when using an instance - method can now be set (#1342)\n\n\n\n\nCommits\n\nface016 Releasing 0.18.1\n0628763 Update Changelog for release (0.18.1)\ndc9b29c adjust README to match IE support\n16326d5 Remove usages of isOldIE in tests\n5a4228b Remove IE10 launcher from karma config\n695b5f7 Remove isOldIE check in tests\ne314ab0 Remove HTTP 1223 handling\n7efa822 Remove btoa polyfill tests\nf3cdcc7 Delete btoa polyfill\nefc0b58 Remove ie8/9 special CORS treatment and btoa polyfill\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by emilyemorehouse, a new releaser for axios since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:29:36Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-server/package-lock.json"
+                },
+                {
+                    "path": "packages/coinstac-server/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 787,
+        "createdAt": "2019-12-09T05:26:34Z",
+        "title": "Bump axios from 0.17.1 to 0.18.1 in /packages/coinstac-api-server",
+        "bodyText": "Bumps axios from 0.17.1 to 0.18.1.\n\nRelease notes\nSourced from axios's releases.\n\nv0.18.1\nSecurity Fix:\n\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\n\nv.0.18.0\n\nAdding support for UNIX Sockets when running with Node.js (#1070)\nFixing typings (#1177):\n\nAxiosRequestConfig.proxy: allows type false\nAxiosProxyConfig: added auth field\n\n\nAdding function signature in AxiosInstance interface so AxiosInstance can be invoked (#1192, #1254)\nAllowing maxContentLength to pass through to redirected calls as maxBodyLength in follow-redirects config (#1287)\nFixing configuration when using an instance - method can now be set (#1342)\n\n0.17.1 (Nov 11, 2017)\n\nFixing issue with web workers (#1160)\nAllowing overriding transport (#1080)\nUpdating TypeScript typings (#1165, #1125, #1131)\n\n\n\n\nChangelog\nSourced from axios's changelog.\n\n0.18.1 (May 31, 2019)\nSecurity Fix:\n\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\n\n0.18.0 (Feb 19, 2018)\n\nAdding support for UNIX Sockets when running with Node.js (#1070)\nFixing typings (#1177):\n\nAxiosRequestConfig.proxy: allows type false\nAxiosProxyConfig: added auth field\n\n\nAdding function signature in AxiosInstance interface so AxiosInstance can be invoked (#1192, #1254)\nAllowing maxContentLength to pass through to redirected calls as maxBodyLength in follow-redirects config (#1287)\nFixing configuration when using an instance - method can now be set (#1342)\n\n\n\n\nCommits\n\nface016 Releasing 0.18.1\n0628763 Update Changelog for release (0.18.1)\ndc9b29c adjust README to match IE support\n16326d5 Remove usages of isOldIE in tests\n5a4228b Remove IE10 launcher from karma config\n695b5f7 Remove isOldIE check in tests\ne314ab0 Remove HTTP 1223 handling\n7efa822 Remove btoa polyfill tests\nf3cdcc7 Delete btoa polyfill\nefc0b58 Remove ie8/9 special CORS treatment and btoa polyfill\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by emilyemorehouse, a new releaser for axios since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-09T05:29:47Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-api-server/package-lock.json"
+                },
+                {
+                    "path": "packages/coinstac-api-server/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 788,
+        "createdAt": "2019-12-09T05:30:15Z",
+        "title": "Bump axios from 0.18.1 to 0.19.0 in /packages/coinstac-server",
+        "bodyText": "Bumps axios from 0.18.1 to 0.19.0.\n\nRelease notes\nSourced from axios's releases.\n\nv0.19.0\nFixes and Functionality:\n\nUnzip response body only for statuses != 204 (#1129) - drawski\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\nMakes Axios error generic to use AxiosResponse (#1738) - Suman Lama\nFixing Mocha tests by locking follow-redirects version to 1.5.10 (#1993) - grumblerchester\nAllow uppercase methods in typings. (#1781) - Ken Powers\nFixing .eslintrc without extension (#1789) - Manoel\nConsistent coding style (#1787) - Ali Servet Donmez\nFixing building url with hash mark (#1771) - Anatoly Ryabov\nThis commit fix building url with hash map (fragment identifier) when parameters are present: they must not be added after #, because client cut everything after #\nPreserve HTTP method when following redirect (#1758) - Rikki Gibson\nAdd getUri signature to TypeScript definition. (#1736) - Alexander Trauzzi\nAdding isAxiosError flag to errors thrown by axios (#1419) - Ayush Gupta\nFix failing SauceLabs tests by updating configuration - Emily Morehouse\n\nDocumentation:\n\nAdd information about auth parameter to README (#2166) - xlaguna\nAdd DELETE to list of methods that allow data as a config option (#2169) - Daniela Borges Matos de Carvalho\nUpdate ECOSYSTEM.md - Add Axios Endpoints (#2176) - Renan\nAdd r2curl in ECOSYSTEM (#2141) - 유용우 / CX\nUpdate README.md - Add instructions for installing with yarn (#2036) - Victor Hermes\nFixing spacing for README.md (#2066) - Josh McCarty\nUpdate README.md. - Change .then to .finally in example code (#2090) - Omar Cai\nClarify what values responseType can have in Node (#2121) - Tyler Breisacher\ndocs(ECOSYSTEM): add axios-api-versioning (#2020) - Weffe\nIt seems that responseType: 'blob' doesn't actually work in Node (when I tried using it, response.data was a string, not a Blob, since Node doesn't have Blobs), so this clarifies that this option should only be used in the browser\nAdd issue templates - Emily Morehouse\nUpdate README.md. - Add Querystring library note (#1896) - Dmitriy Eroshenko\nAdd react-hooks-axios to Libraries section of ECOSYSTEM.md (#1925) - Cody Chan\nClarify in README that default timeout is 0 (no timeout) (#1750) - Ben Standefer\n\nv0.19.0-beta.1\nNOTE: This is a beta version of this release. There may be functionality that is broken in\ncertain browsers, though we suspect that builds are hanging and not erroring. See\nhttps://saucelabs.com/u/axios for the most up-to-date information.\nNew Functionality:\n\nAdd getUri method (#1712)\nAdd support for no_proxy env variable (#1693)\nAdd toJSON to decorated Axios errors to faciliate serialization (#1625)\nAdd second then on axios call (#1623)\nTypings: allow custom return types\nAdd option to specify character set in responses (with http adapter)\n\nFixes:\n ... (truncated)\n\n\n\nChangelog\nSourced from axios's changelog.\n\n0.19.0 (May 30, 2019)\nFixes and Functionality:\n\nAdded support for no_proxy env variable (#434) - Chance Dickson\nUnzip response body only for statuses != 204 (#1129) - drawski\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\nMakes Axios error generic to use AxiosResponse (#1738) - Suman Lama\nFixing Mocha tests by locking follow-redirects version to 1.5.10 (#1993) - grumblerchester\nAllow uppercase methods in typings. (#1781) - Ken Powers\nFixing building url with hash mark (#1771) - Anatoly Ryabov\nThis commit fix building url with hash map (fragment identifier) when parameters are present: they must not be added after #, because client cut everything after #\nPreserve HTTP method when following redirect (#1758) - Rikki Gibson\nAdd getUri signature to TypeScript definition. (#1736) - Alexander Trauzzi\nAdding isAxiosError flag to errors thrown by axios (#1419) - Ayush Gupta\n\nInternal:\n\nFixing .eslintrc without extension (#1789) - Manoel\nFix failing SauceLabs tests by updating configuration - Emily Morehouse\nAdd issue templates - Emily Morehouse\n\nDocumentation:\n\nConsistent coding style in README (#1787) - Ali Servet Donmez\nAdd information about auth parameter to README (#2166) - xlaguna\nAdd DELETE to list of methods that allow data as a config option (#2169) - Daniela Borges Matos de Carvalho\nUpdate ECOSYSTEM.md - Add Axios Endpoints (#2176) - Renan\nAdd r2curl in ECOSYSTEM (#2141) - 유용우 / CX\nUpdate README.md - Add instructions for installing with yarn (#2036) - Victor Hermes\nFixing spacing for README.md (#2066) - Josh McCarty\nUpdate README.md. - Change .then to .finally in example code (#2090) - Omar Cai\nClarify what values responseType can have in Node (#2121) - Tyler Breisacher\ndocs(ECOSYSTEM): add axios-api-versioning (#2020) - Weffe\nIt seems that responseType: 'blob' doesn't actually work in Node (when I tried using it, response.data was a string, not a Blob, since Node doesn't have Blobs), so this clarifies that this option should only be used in the browser\nUpdate README.md. - Add Querystring library note (#1896) - Dmitriy Eroshenko\nAdd react-hooks-axios to Libraries section of ECOSYSTEM.md (#1925) - Cody Chan\nClarify in README that default timeout is 0 (no timeout) (#1750) - Ben Standefer\n\n0.19.0-beta.1 (Aug 9, 2018)\nNOTE: This is a beta version of this release. There may be functionality that is broken in\ncertain browsers, though we suspect that builds are hanging and not erroring. See\nhttps://saucelabs.com/u/axios for the most up-to-date information.\nNew Functionality:\n\nAdd getUri method (#1712)\nAdd support for no_proxy env variable (#1693)\nAdd toJSON to decorated Axios errors to faciliate serialization (#1625)\n\n ... (truncated)\n\n\n\nCommits\n\n8d0b92b Releasing 0.19.0\n3f7451c Update Changelog for release (0.19.0)\nf28ff93 Add information about auth parameter to README (#2166)\n5250e6e Add DELETE to list of methods that allow data as a config option (#2169)\n6b0ccd1 Update ECOSYSTEM.md - Add Axios Endpoints (#2176)\n299e827 Add r2curl in ECOSYSTEM (#2141)\nfd0c959 Unzip response body only for statuses != 204 (#1129)\n92d2313 Update README.md - Add instructions for installing with yarn (#2036)\nddcc2e4 Fixing spacing for README.md (#2066)\n48c43d5 Update README.md. - Change .then to .finally in example code (#2090)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-16T02:58:51Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-server/package-lock.json"
+                },
+                {
+                    "path": "packages/coinstac-server/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 794,
+        "createdAt": "2019-12-29T20:42:45Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3 in /packages/coinstac-images/coinstac-python-base-stream",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-02-10T23:00:21Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-images/coinstac-python-base-stream/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 841,
+        "createdAt": "2020-03-13T21:38:23Z",
+        "title": "Bump acorn from 6.0.2 to 6.4.1",
+        "bodyText": "Bumps acorn from 6.0.2 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\ndf0cf1a Mark version 6.4.0\n5303412 Also export Parser via Parser.acorn\nefe273e give token types and etc to plugins\nac6decb Mark version 6.3.0\n7e9817d Allow sourceType: module even with ecmaVersion < 6\ne2b8cc0 Fix broken parsing of new expressions when allowReserved==\"never\"\n1555c52 Update acorn.d.ts\n77c20fa Mark version 6.2.1\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-23T17:25:08Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 843,
+        "createdAt": "2020-03-16T11:59:58Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /packages/coinstac-simulator",
+        "bodyText": "⚠️  Dependabot is rebasing this PR ⚠️\nIf you make any changes to it yourself then they will take precedence over the rebase.\n\nBumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-23T17:25:42Z",
+        "mergedBy": {
+            "login": "rssk",
+            "resourcePath": "/rssk"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/coinstac-simulator/package-lock.json"
+                }
+            ]
+        }
+    }
+]

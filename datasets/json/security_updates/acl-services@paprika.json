@@ -1,0 +1,183 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 186,
+        "createdAt": "2019-09-13T00:00:12Z",
+        "title": "Bump eslint-utils from 1.3.1 to 1.4.2",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.2.\n\nCommits\n\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\n230a4e2 1.4.1\n08158db 🐛 fix getStaticValue security issue\n587cca2 🐛 fix getStringIfConstant to handle literals correctly\nc119e83 🐛 fix getStaticValue to handle bigint correctly\n531b16f 🔖 1.4.0\n276303d ⚒ upgrade rollup\ncb518c7 🐛 fix hasSideEffect false negative\naac472e 🐛 fix isParenthesized had false positive on ImportExpression (fixes #1)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n \n ### 📙 Storybook \n http://storybooks.highbond-s3.com/paprika/dependabot/npm_and_yarn/eslint-utils-1.4.2",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-10-09T17:49:22Z",
+        "mergedBy": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "nahumzs",
+                        "resourcePath": "/nahumzs"
+                    },
+                    "bodyText": "@dependabot rebase",
+                    "createdAt": "2019-09-25T16:04:06Z"
+                },
+                {
+                    "author": {
+                        "login": "nahumzs",
+                        "resourcePath": "/nahumzs"
+                    },
+                    "bodyText": "@dependabot merge",
+                    "createdAt": "2019-10-09T17:48:16Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Dependabot tried to merge this PR, but received the following error from GitHub:\nAt least 1 approving review is required by reviewers with write access.",
+                    "createdAt": "2019-10-09T17:48:18Z"
+                },
+                {
+                    "author": {
+                        "login": "nahumzs",
+                        "resourcePath": "/nahumzs"
+                    },
+                    "bodyText": "@dependabot merge",
+                    "createdAt": "2019-10-09T17:49:20Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

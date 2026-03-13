@@ -1,0 +1,484 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1538,
+        "createdAt": "2019-11-02T17:46:58Z",
+        "title": "Bump knex from 0.14.6 to 0.20.1 in /examples/minimal",
+        "bodyText": "Bumps knex from 0.14.6 to 0.20.1.\n\nChangelog\nSourced from knex's changelog.\n\n0.20.1 - 29 October, 2019\nNew features:\n\nDeclare drivers as optional peerDependencies #3081\nDynamic connection configuration resolution #3497\n\nBug fixes:\n\nWrap subQuery with parenthesis when it appears as table name #3496\nFix Oracle error codes #3498\n\nTypings:\n\nAdd interface for PG Connection object #3372\nGracefully handle global promise pollution #3502\n\n0.20.0 - 25 October, 2019\nNew features:\n\norderBy accepts QueryBuilder #3491\nAdd validation in .offset() #2908\ndisable_migrations_list_validation feature #3448\n\nBug fixes:\n\nFix oracledb driver v4 support #3480\nFix some issues around seed and migration generation #3479\nFix bugs in replacement logic used when dropping columns in SQLite #3476\n\nTypings:\n\nAdd types to the Migrator interface #3459\nFix typings of index and dropIndex TableBuilder methods #3486\nFixes types for Seeder#run #3438\n\nTest / internal changes:\n\nExecute CI on Node.js 13\nBluebird: remove usage of return, reflect, fromCallback methods #3483\nBluebird: remove Bluebird.bind #3477\nBluebird: use util.promisify instead of Bluebird.promisify #3470\nBluebird: remove Bluebird.each #3471\nBluebird: remove Bluebird.map and Bluebird.mapSeries #3474\nBluebird: replace Bluebird.map with Promise.all #3469\nUpdate badges #3482\n\n0.19.5 - 06 October, 2019\n ... (truncated)\n\n\n\nCommits\n\n6dfd566 Prepare 0.20.1 release\na5c23a4 Declare drivers as peerDependencies(Meta) (Fix #3059) (#3081)\n6f5a13d Gracefully handle global promise pollution (#3502)\n0560959 feat: wrap subQuery with parenthesis when it appears as table name (#3496)\n1f4d8f2 Fix Oracle error codes (#3498)\nf4b6848 Dynamic connection configuration resolution (#3497)\nd806ec0 #3367 Add interface for PG Connection object (#3372)\n1c65562 Prepare 0.20.0 release\n03ecbee Bluebird remove return, reflect, fromCallback (#3483)\n2d04591 orderBy accepts QueryBuilder (#3491)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by kibertoad, a new releaser for knex since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-03T09:07:04Z",
+        "mergedBy": {
+            "login": "koskimas",
+            "resourcePath": "/koskimas"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage decreased (-0.003%) to 97.168% when pulling 0954258 on dependabot/npm_and_yarn/examples/minimal/knex-0.20.1 into cf2f2e5 on master.",
+                    "createdAt": "2019-11-02T18:34:59Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/minimal/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1539,
+        "createdAt": "2019-11-03T09:08:24Z",
+        "title": "Bump knex from 0.14.6 to 0.20.1 in /examples/plugin",
+        "bodyText": "Bumps knex from 0.14.6 to 0.20.1.\n\nChangelog\nSourced from knex's changelog.\n\n0.20.1 - 29 October, 2019\nNew features:\n\nDeclare drivers as optional peerDependencies #3081\nDynamic connection configuration resolution #3497\n\nBug fixes:\n\nWrap subQuery with parenthesis when it appears as table name #3496\nFix Oracle error codes #3498\n\nTypings:\n\nAdd interface for PG Connection object #3372\nGracefully handle global promise pollution #3502\n\n0.20.0 - 25 October, 2019\nNew features:\n\norderBy accepts QueryBuilder #3491\nAdd validation in .offset() #2908\ndisable_migrations_list_validation feature #3448\n\nBug fixes:\n\nFix oracledb driver v4 support #3480\nFix some issues around seed and migration generation #3479\nFix bugs in replacement logic used when dropping columns in SQLite #3476\n\nTypings:\n\nAdd types to the Migrator interface #3459\nFix typings of index and dropIndex TableBuilder methods #3486\nFixes types for Seeder#run #3438\n\nTest / internal changes:\n\nExecute CI on Node.js 13\nBluebird: remove usage of return, reflect, fromCallback methods #3483\nBluebird: remove Bluebird.bind #3477\nBluebird: use util.promisify instead of Bluebird.promisify #3470\nBluebird: remove Bluebird.each #3471\nBluebird: remove Bluebird.map and Bluebird.mapSeries #3474\nBluebird: replace Bluebird.map with Promise.all #3469\nUpdate badges #3482\n\n0.19.5 - 06 October, 2019\n ... (truncated)\n\n\n\nCommits\n\n6dfd566 Prepare 0.20.1 release\na5c23a4 Declare drivers as peerDependencies(Meta) (Fix #3059) (#3081)\n6f5a13d Gracefully handle global promise pollution (#3502)\n0560959 feat: wrap subQuery with parenthesis when it appears as table name (#3496)\n1f4d8f2 Fix Oracle error codes (#3498)\nf4b6848 Dynamic connection configuration resolution (#3497)\nd806ec0 #3367 Add interface for PG Connection object (#3372)\n1c65562 Prepare 0.20.0 release\n03ecbee Bluebird remove return, reflect, fromCallback (#3483)\n2d04591 orderBy accepts QueryBuilder (#3491)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by kibertoad, a new releaser for knex since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-05T08:34:54Z",
+        "mergedBy": {
+            "login": "koskimas",
+            "resourcePath": "/koskimas"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/plugin/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1540,
+        "createdAt": "2019-11-03T09:08:25Z",
+        "title": "Bump knex from 0.14.6 to 0.20.1 in /examples/express-es6",
+        "bodyText": "Bumps knex from 0.14.6 to 0.20.1.\n\nChangelog\nSourced from knex's changelog.\n\n0.20.1 - 29 October, 2019\nNew features:\n\nDeclare drivers as optional peerDependencies #3081\nDynamic connection configuration resolution #3497\n\nBug fixes:\n\nWrap subQuery with parenthesis when it appears as table name #3496\nFix Oracle error codes #3498\n\nTypings:\n\nAdd interface for PG Connection object #3372\nGracefully handle global promise pollution #3502\n\n0.20.0 - 25 October, 2019\nNew features:\n\norderBy accepts QueryBuilder #3491\nAdd validation in .offset() #2908\ndisable_migrations_list_validation feature #3448\n\nBug fixes:\n\nFix oracledb driver v4 support #3480\nFix some issues around seed and migration generation #3479\nFix bugs in replacement logic used when dropping columns in SQLite #3476\n\nTypings:\n\nAdd types to the Migrator interface #3459\nFix typings of index and dropIndex TableBuilder methods #3486\nFixes types for Seeder#run #3438\n\nTest / internal changes:\n\nExecute CI on Node.js 13\nBluebird: remove usage of return, reflect, fromCallback methods #3483\nBluebird: remove Bluebird.bind #3477\nBluebird: use util.promisify instead of Bluebird.promisify #3470\nBluebird: remove Bluebird.each #3471\nBluebird: remove Bluebird.map and Bluebird.mapSeries #3474\nBluebird: replace Bluebird.map with Promise.all #3469\nUpdate badges #3482\n\n0.19.5 - 06 October, 2019\n ... (truncated)\n\n\n\nCommits\n\n6dfd566 Prepare 0.20.1 release\na5c23a4 Declare drivers as peerDependencies(Meta) (Fix #3059) (#3081)\n6f5a13d Gracefully handle global promise pollution (#3502)\n0560959 feat: wrap subQuery with parenthesis when it appears as table name (#3496)\n1f4d8f2 Fix Oracle error codes (#3498)\nf4b6848 Dynamic connection configuration resolution (#3497)\nd806ec0 #3367 Add interface for PG Connection object (#3372)\n1c65562 Prepare 0.20.0 release\n03ecbee Bluebird remove return, reflect, fromCallback (#3483)\n2d04591 orderBy accepts QueryBuilder (#3491)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by kibertoad, a new releaser for knex since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-05T08:35:05Z",
+        "mergedBy": {
+            "login": "koskimas",
+            "resourcePath": "/koskimas"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage decreased (-0.009%) to 97.113% when pulling 4a560e0 on dependabot/npm_and_yarn/examples/express-es6/knex-0.20.1 into 12268cd on master.",
+                    "createdAt": "2019-11-03T09:53:48Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/express-es6/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1541,
+        "createdAt": "2019-11-03T09:08:27Z",
+        "title": "Bump knex from 0.14.6 to 0.20.1 in /examples/plugin-with-options",
+        "bodyText": "⚠️  Dependabot is rebasing this PR ⚠️\nIf you make any changes to it yourself then they will take precedence over the rebase.\n\nBumps knex from 0.14.6 to 0.20.1.\n\nChangelog\nSourced from knex's changelog.\n\n0.20.1 - 29 October, 2019\nNew features:\n\nDeclare drivers as optional peerDependencies #3081\nDynamic connection configuration resolution #3497\n\nBug fixes:\n\nWrap subQuery with parenthesis when it appears as table name #3496\nFix Oracle error codes #3498\n\nTypings:\n\nAdd interface for PG Connection object #3372\nGracefully handle global promise pollution #3502\n\n0.20.0 - 25 October, 2019\nNew features:\n\norderBy accepts QueryBuilder #3491\nAdd validation in .offset() #2908\ndisable_migrations_list_validation feature #3448\n\nBug fixes:\n\nFix oracledb driver v4 support #3480\nFix some issues around seed and migration generation #3479\nFix bugs in replacement logic used when dropping columns in SQLite #3476\n\nTypings:\n\nAdd types to the Migrator interface #3459\nFix typings of index and dropIndex TableBuilder methods #3486\nFixes types for Seeder#run #3438\n\nTest / internal changes:\n\nExecute CI on Node.js 13\nBluebird: remove usage of return, reflect, fromCallback methods #3483\nBluebird: remove Bluebird.bind #3477\nBluebird: use util.promisify instead of Bluebird.promisify #3470\nBluebird: remove Bluebird.each #3471\nBluebird: remove Bluebird.map and Bluebird.mapSeries #3474\nBluebird: replace Bluebird.map with Promise.all #3469\nUpdate badges #3482\n\n0.19.5 - 06 October, 2019\n ... (truncated)\n\n\n\nCommits\n\n6dfd566 Prepare 0.20.1 release\na5c23a4 Declare drivers as peerDependencies(Meta) (Fix #3059) (#3081)\n6f5a13d Gracefully handle global promise pollution (#3502)\n0560959 feat: wrap subQuery with parenthesis when it appears as table name (#3496)\n1f4d8f2 Fix Oracle error codes (#3498)\nf4b6848 Dynamic connection configuration resolution (#3497)\nd806ec0 #3367 Add interface for PG Connection object (#3372)\n1c65562 Prepare 0.20.0 release\n03ecbee Bluebird remove return, reflect, fromCallback (#3483)\n2d04591 orderBy accepts QueryBuilder (#3491)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by kibertoad, a new releaser for knex since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-05T08:35:16Z",
+        "mergedBy": {
+            "login": "koskimas",
+            "resourcePath": "/koskimas"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage increased (+0.05%) to 97.168% when pulling 7a8000c on dependabot/npm_and_yarn/examples/plugin-with-options/knex-0.20.1 into 12268cd on master.",
+                    "createdAt": "2019-11-03T10:03:15Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/plugin-with-options/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1542,
+        "createdAt": "2019-11-03T09:08:30Z",
+        "title": "Bump knex from 0.14.6 to 0.20.1 in /examples/express-ts",
+        "bodyText": "Bumps knex from 0.14.6 to 0.20.1.\n\nChangelog\nSourced from knex's changelog.\n\n0.20.1 - 29 October, 2019\nNew features:\n\nDeclare drivers as optional peerDependencies #3081\nDynamic connection configuration resolution #3497\n\nBug fixes:\n\nWrap subQuery with parenthesis when it appears as table name #3496\nFix Oracle error codes #3498\n\nTypings:\n\nAdd interface for PG Connection object #3372\nGracefully handle global promise pollution #3502\n\n0.20.0 - 25 October, 2019\nNew features:\n\norderBy accepts QueryBuilder #3491\nAdd validation in .offset() #2908\ndisable_migrations_list_validation feature #3448\n\nBug fixes:\n\nFix oracledb driver v4 support #3480\nFix some issues around seed and migration generation #3479\nFix bugs in replacement logic used when dropping columns in SQLite #3476\n\nTypings:\n\nAdd types to the Migrator interface #3459\nFix typings of index and dropIndex TableBuilder methods #3486\nFixes types for Seeder#run #3438\n\nTest / internal changes:\n\nExecute CI on Node.js 13\nBluebird: remove usage of return, reflect, fromCallback methods #3483\nBluebird: remove Bluebird.bind #3477\nBluebird: use util.promisify instead of Bluebird.promisify #3470\nBluebird: remove Bluebird.each #3471\nBluebird: remove Bluebird.map and Bluebird.mapSeries #3474\nBluebird: replace Bluebird.map with Promise.all #3469\nUpdate badges #3482\n\n0.19.5 - 06 October, 2019\n ... (truncated)\n\n\n\nCommits\n\n6dfd566 Prepare 0.20.1 release\na5c23a4 Declare drivers as peerDependencies(Meta) (Fix #3059) (#3081)\n6f5a13d Gracefully handle global promise pollution (#3502)\n0560959 feat: wrap subQuery with parenthesis when it appears as table name (#3496)\n1f4d8f2 Fix Oracle error codes (#3498)\nf4b6848 Dynamic connection configuration resolution (#3497)\nd806ec0 #3367 Add interface for PG Connection object (#3372)\n1c65562 Prepare 0.20.0 release\n03ecbee Bluebird remove return, reflect, fromCallback (#3483)\n2d04591 orderBy accepts QueryBuilder (#3491)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by kibertoad, a new releaser for knex since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-05T08:35:28Z",
+        "mergedBy": {
+            "login": "koskimas",
+            "resourcePath": "/koskimas"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage increased (+0.05%) to 97.168% when pulling b4d531f on dependabot/npm_and_yarn/examples/express-ts/knex-0.20.1 into 12268cd on master.",
+                    "createdAt": "2019-11-03T10:24:00Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/express-ts/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1543,
+        "createdAt": "2019-11-03T09:08:32Z",
+        "title": "Bump knex from 0.14.6 to 0.20.1 in /examples/express-es7",
+        "bodyText": "Bumps knex from 0.14.6 to 0.20.1.\n\nChangelog\nSourced from knex's changelog.\n\n0.20.1 - 29 October, 2019\nNew features:\n\nDeclare drivers as optional peerDependencies #3081\nDynamic connection configuration resolution #3497\n\nBug fixes:\n\nWrap subQuery with parenthesis when it appears as table name #3496\nFix Oracle error codes #3498\n\nTypings:\n\nAdd interface for PG Connection object #3372\nGracefully handle global promise pollution #3502\n\n0.20.0 - 25 October, 2019\nNew features:\n\norderBy accepts QueryBuilder #3491\nAdd validation in .offset() #2908\ndisable_migrations_list_validation feature #3448\n\nBug fixes:\n\nFix oracledb driver v4 support #3480\nFix some issues around seed and migration generation #3479\nFix bugs in replacement logic used when dropping columns in SQLite #3476\n\nTypings:\n\nAdd types to the Migrator interface #3459\nFix typings of index and dropIndex TableBuilder methods #3486\nFixes types for Seeder#run #3438\n\nTest / internal changes:\n\nExecute CI on Node.js 13\nBluebird: remove usage of return, reflect, fromCallback methods #3483\nBluebird: remove Bluebird.bind #3477\nBluebird: use util.promisify instead of Bluebird.promisify #3470\nBluebird: remove Bluebird.each #3471\nBluebird: remove Bluebird.map and Bluebird.mapSeries #3474\nBluebird: replace Bluebird.map with Promise.all #3469\nUpdate badges #3482\n\n0.19.5 - 06 October, 2019\n ... (truncated)\n\n\n\nCommits\n\n6dfd566 Prepare 0.20.1 release\na5c23a4 Declare drivers as peerDependencies(Meta) (Fix #3059) (#3081)\n6f5a13d Gracefully handle global promise pollution (#3502)\n0560959 feat: wrap subQuery with parenthesis when it appears as table name (#3496)\n1f4d8f2 Fix Oracle error codes (#3498)\nf4b6848 Dynamic connection configuration resolution (#3497)\nd806ec0 #3367 Add interface for PG Connection object (#3372)\n1c65562 Prepare 0.20.0 release\n03ecbee Bluebird remove return, reflect, fromCallback (#3483)\n2d04591 orderBy accepts QueryBuilder (#3491)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by kibertoad, a new releaser for knex since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-05T08:35:39Z",
+        "mergedBy": {
+            "login": "koskimas",
+            "resourcePath": "/koskimas"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage increased (+0.05%) to 97.171% when pulling ec5ed73 on dependabot/npm_and_yarn/examples/express-es7/knex-0.20.1 into 12268cd on master.",
+                    "createdAt": "2019-11-03T10:33:02Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/express-es7/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "koskimas",
+                            "resourcePath": "/koskimas"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1544,
+        "createdAt": "2019-11-03T09:09:11Z",
+        "title": "Bump knex from 0.17.6 to 0.20.1",
+        "bodyText": "Bumps knex from 0.17.6 to 0.20.1.\n\nChangelog\nSourced from knex's changelog.\n\n0.20.1 - 29 October, 2019\nNew features:\n\nDeclare drivers as optional peerDependencies #3081\nDynamic connection configuration resolution #3497\n\nBug fixes:\n\nWrap subQuery with parenthesis when it appears as table name #3496\nFix Oracle error codes #3498\n\nTypings:\n\nAdd interface for PG Connection object #3372\nGracefully handle global promise pollution #3502\n\n0.20.0 - 25 October, 2019\nNew features:\n\norderBy accepts QueryBuilder #3491\nAdd validation in .offset() #2908\ndisable_migrations_list_validation feature #3448\n\nBug fixes:\n\nFix oracledb driver v4 support #3480\nFix some issues around seed and migration generation #3479\nFix bugs in replacement logic used when dropping columns in SQLite #3476\n\nTypings:\n\nAdd types to the Migrator interface #3459\nFix typings of index and dropIndex TableBuilder methods #3486\nFixes types for Seeder#run #3438\n\nTest / internal changes:\n\nExecute CI on Node.js 13\nBluebird: remove usage of return, reflect, fromCallback methods #3483\nBluebird: remove Bluebird.bind #3477\nBluebird: use util.promisify instead of Bluebird.promisify #3470\nBluebird: remove Bluebird.each #3471\nBluebird: remove Bluebird.map and Bluebird.mapSeries #3474\nBluebird: replace Bluebird.map with Promise.all #3469\nUpdate badges #3482\n\n0.19.5 - 06 October, 2019\n ... (truncated)\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-27T20:26:57Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage decreased (-30.2%) to 66.773% when pulling 0074c1e on dependabot/npm_and_yarn/knex-0.20.1 into 794a036 on master.",
+                    "createdAt": "2019-11-03T10:41:09Z"
+                },
+                {
+                    "author": {
+                        "login": "kibertoad",
+                        "resourcePath": "/kibertoad"
+                    },
+                    "bodyText": "@koskimas When is it planned to drop Node 6-7 support? Even Node 8 is soon getting deprecated :)",
+                    "createdAt": "2019-11-03T20:36:15Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-27T20:26:59Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,1214 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1477,
+        "createdAt": "2019-08-27T03:27:06Z",
+        "title": "chore(deps): bump eslint-utils from 1.4.0 to 1.4.2",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.2.\n\nCommits\n\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\n230a4e2 1.4.1\n08158db 🐛 fix getStaticValue security issue\n587cca2 🐛 fix getStringIfConstant to handle literals correctly\nc119e83 🐛 fix getStaticValue to handle bigint correctly\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-28T14:51:11Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 1717,
+        "createdAt": "2019-12-05T20:46:15Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.3 in /examples/column-hiding",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-05T20:48:42Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "size-plugin",
+                        "resourcePath": "/apps/size-plugin"
+                    },
+                    "bodyText": "Size report for the changes in this PR:\nsizes-cjs Overall size: 21.2 kB\n index.js ⏤  21.2 kB (+652 B)\n\n\nsizes-es Overall size: 21 kB\n index.es.js ⏤  21 kB (+575 B)\n\n\ncommit: 3247edd\nlike it?\n⭐️ me 😊",
+                    "createdAt": "2019-12-05T20:54:24Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/column-hiding/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1720,
+        "createdAt": "2019-12-06T04:15:32Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.3 in /examples/basic",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-06T04:17:01Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/basic/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 1730,
+        "createdAt": "2019-12-06T23:35:17Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.3 in /examples/grouping",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-06T23:42:42Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "size-plugin",
+                        "resourcePath": "/apps/size-plugin"
+                    },
+                    "bodyText": "Size report for the changes in this PR:\nsizes-cjs Overall size: 21 kB\n index.js ⏤  21 kB (-421 B ✅)\n\n\nsizes-es Overall size: 20.8 kB\n index.es.js ⏤  20.8 kB (-383 B ✅)\n\n\ncommit: cce00fa\nlike it?\n⭐️ me 😊",
+                    "createdAt": "2019-12-06T23:44:50Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/grouping/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1754,
+        "createdAt": "2019-12-10T18:43:43Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.3 in /examples/row-selection",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-10T18:51:39Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "size-plugin",
+                        "resourcePath": "/apps/size-plugin"
+                    },
+                    "bodyText": "Size report for the changes in this PR:\nsizes-cjs Overall size: 22.6 kB\n index.js ⏤  22.6 kB (+652 B)\n\n\nsizes-es Overall size: 22.4 kB\n index.es.js ⏤  22.4 kB (+656 B)\n\n\ncommit: 4ea1ede\nlike it?\n⭐️ me 😊",
+                    "createdAt": "2019-12-10T18:46:45Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/row-selection/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1816,
+        "createdAt": "2019-12-30T03:04:12Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-08T23:31:20Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "size-plugin",
+                        "resourcePath": "/apps/size-plugin"
+                    },
+                    "bodyText": "Size report for the changes in this PR:\nsizes-cjs Overall size: 23.1 kB\n index.js ⏤  23.1 kB\n\n\nsizes-es Overall size: 22.9 kB\n index.es.js ⏤  22.9 kB\n\n\ncommit: e739ab7\nlike it?\n⭐️ me 😊",
+                    "createdAt": "2019-12-30T03:05:45Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1817,
+        "createdAt": "2019-12-30T05:54:42Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3 in /examples/column-hiding",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-08T23:31:08Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "size-plugin",
+                        "resourcePath": "/apps/size-plugin"
+                    },
+                    "bodyText": "Size report for the changes in this PR:\nsizes-cjs Overall size: 23.1 kB\n index.js ⏤  23.1 kB\n\n\nsizes-es Overall size: 22.9 kB\n index.es.js ⏤  22.9 kB\n\n\ncommit: 4ee6027\nlike it?\n⭐️ me 😊",
+                    "createdAt": "2019-12-30T05:56:14Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/column-hiding/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1818,
+        "createdAt": "2019-12-30T05:55:07Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3 in /examples/basic",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-08T23:30:57Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "size-plugin",
+                        "resourcePath": "/apps/size-plugin"
+                    },
+                    "bodyText": "Size report for the changes in this PR:\nsizes-cjs Overall size: 23.1 kB\n index.js ⏤  23.1 kB\n\n\nsizes-es Overall size: 22.9 kB\n index.es.js ⏤  22.9 kB\n\n\ncommit: 25c3f54\nlike it?\n⭐️ me 😊",
+                    "createdAt": "2019-12-30T06:01:10Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/basic/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1819,
+        "createdAt": "2019-12-30T05:59:10Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3 in /examples/grouping",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-08T23:30:47Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/grouping/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1820,
+        "createdAt": "2019-12-30T06:07:59Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3 in /examples/row-selection",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-08T23:30:37Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/row-selection/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1840,
+        "createdAt": "2020-01-08T23:31:20Z",
+        "title": "Bump handlebars from 4.1.2 to 4.6.0",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.6.0.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.6.0 - January 8th, 2020\nFeatures:\n\nfeat: access control to prototype properties via whitelist (#1633)- d03b6ec\n\nBugfixes:\n\nfix(runtime.js): partials compile not caching (#1600) - 23d58e7\n\nChores, docs:\n\nvarious refactorings and improvements to tests - d7f0dcf, 187d611, d337f40\nmodernize the build-setup\n\nuse prettier to format and eslint to verify - c40d9f3, 8901c28, e97685e, 1f61f21\nuse nyc instead of istanbul to collect coverage - 164b7ff, 1ebce2b\nupdate build code to use modern javascript and make it cleaner - 14b621c, 1ec1737, 3a5b65e, dde108e, 04b1984, 587e7a3\nrestructur build commands - e913dc5,\n\n\neslint rule changes - ac4655e, dc54952\nUpdate (C) year in the LICENSE file - d1fb07b\nchore: try to fix saucelabs credentials (#1627) -\nUpdate readme.md with updated links (#1620) - edcc84f\n\nBREAKING CHANGES:\n\n\naccess to prototype properties is forbidden completely by default,\nspecific properties or methods can be allow via runtime-options.\nSee #1633 for details.\nIf you are using Handlebars as documented, you should not be accessing prototype\nproperties from your template anyway, so the changes should not be a problem\nfor you. Only the use of undocumented features can break your build.\nThat is why we only bump the minor version despite mentioning breaking changes\n\n\nCommits\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n ... (truncated)\n\n\n\nCommits\n\n91a1b5d v4.6.0\n770d746 Update release notes\nd7f0dcf refactor: fix typo in private test method\n187d611 test: add path to nodeJs when running test:bin\nd337f40 test: show diff when test:bin fails\nd03b6ec feat: access control to prototype properties via whitelist\n164b7ff chore: ignore .nyc_output\nac4655e chore: disable \"dot-notation\" rule\n14b621c test/style: remove or hide unused code in git.js, add tests\n1ec1737 test/style: refactor remaining grunt tasks to use promises instead of callbacks\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-08T23:32:34Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1841,
+        "createdAt": "2020-01-08T23:31:22Z",
+        "title": "Bump handlebars from 4.1.2 to 4.6.0 in /examples/column-hiding",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.6.0.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.6.0 - January 8th, 2020\nFeatures:\n\nfeat: access control to prototype properties via whitelist (#1633)- d03b6ec\n\nBugfixes:\n\nfix(runtime.js): partials compile not caching (#1600) - 23d58e7\n\nChores, docs:\n\nvarious refactorings and improvements to tests - d7f0dcf, 187d611, d337f40\nmodernize the build-setup\n\nuse prettier to format and eslint to verify - c40d9f3, 8901c28, e97685e, 1f61f21\nuse nyc instead of istanbul to collect coverage - 164b7ff, 1ebce2b\nupdate build code to use modern javascript and make it cleaner - 14b621c, 1ec1737, 3a5b65e, dde108e, 04b1984, 587e7a3\nrestructur build commands - e913dc5,\n\n\neslint rule changes - ac4655e, dc54952\nUpdate (C) year in the LICENSE file - d1fb07b\nchore: try to fix saucelabs credentials (#1627) -\nUpdate readme.md with updated links (#1620) - edcc84f\n\nBREAKING CHANGES:\n\n\naccess to prototype properties is forbidden completely by default,\nspecific properties or methods can be allow via runtime-options.\nSee #1633 for details.\nIf you are using Handlebars as documented, you should not be accessing prototype\nproperties from your template anyway, so the changes should not be a problem\nfor you. Only the use of undocumented features can break your build.\nThat is why we only bump the minor version despite mentioning breaking changes\n\n\nCommits\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n ... (truncated)\n\n\n\nCommits\n\n91a1b5d v4.6.0\n770d746 Update release notes\nd7f0dcf refactor: fix typo in private test method\n187d611 test: add path to nodeJs when running test:bin\nd337f40 test: show diff when test:bin fails\nd03b6ec feat: access control to prototype properties via whitelist\n164b7ff chore: ignore .nyc_output\nac4655e chore: disable \"dot-notation\" rule\n14b621c test/style: remove or hide unused code in git.js, add tests\n1ec1737 test/style: refactor remaining grunt tasks to use promises instead of callbacks\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-08T23:32:23Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/column-hiding/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1997,
+        "createdAt": "2020-03-14T00:17:23Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T21:37:28Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "github-actions",
+                        "resourcePath": "/apps/github-actions"
+                    },
+                    "bodyText": "Size Change: 0 B\nTotal Size: 41.9 kB\nℹ️ View Unchanged\n\n\n\nFilename\nSize\nChange\n\n\n\n\n\ndist/react-table.development.js\n26.8 kB\n0 B\n\n\n\ndist/react-table.production.min.js\n15.1 kB\n0 B\n\n\n\n\n\ncompressed-size-action",
+                    "createdAt": "2020-03-14T00:18:38Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2002,
+        "createdAt": "2020-03-15T21:58:54Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /examples/grouping",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T21:38:14Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "github-actions",
+                        "resourcePath": "/apps/github-actions"
+                    },
+                    "bodyText": "Size Change: 0 B\nTotal Size: 41.9 kB\nℹ️ View Unchanged\n\n\n\nFilename\nSize\nChange\n\n\n\n\n\ndist/react-table.development.js\n26.8 kB\n0 B\n\n\n\ndist/react-table.production.min.js\n15.1 kB\n0 B\n\n\n\n\n\ncompressed-size-action",
+                    "createdAt": "2020-03-15T22:00:03Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/grouping/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2019,
+        "createdAt": "2020-03-18T21:38:31Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /examples/row-selection",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T21:45:38Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "github-actions",
+                        "resourcePath": "/apps/github-actions"
+                    },
+                    "bodyText": "Size Change: 0 B\nTotal Size: 41.9 kB\nℹ️ View Unchanged\n\n\n\nFilename\nSize\nChange\n\n\n\n\n\ndist/react-table.development.js\n26.7 kB\n0 B\n\n\n\ndist/react-table.production.min.js\n15.1 kB\n0 B\n\n\n\n\n\ncompressed-size-action",
+                    "createdAt": "2020-03-18T21:39:46Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/row-selection/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2020,
+        "createdAt": "2020-03-18T21:38:32Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /examples/basic",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T21:45:49Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "github-actions",
+                        "resourcePath": "/apps/github-actions"
+                    },
+                    "bodyText": "Size Change: 0 B\nTotal Size: 41.9 kB\nℹ️ View Unchanged\n\n\n\nFilename\nSize\nChange\n\n\n\n\n\ndist/react-table.development.js\n26.7 kB\n0 B\n\n\n\ndist/react-table.production.min.js\n15.1 kB\n0 B\n\n\n\n\n\ncompressed-size-action",
+                    "createdAt": "2020-03-18T21:39:44Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/basic/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2054,
+        "createdAt": "2020-03-25T20:31:00Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /examples/column-hiding",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-01T16:34:51Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "github-actions",
+                        "resourcePath": "/apps/github-actions"
+                    },
+                    "bodyText": "Size Change: 0 B\nTotal Size: 41.9 kB\nℹ️ View Unchanged\n\n\n\nFilename\nSize\nChange\n\n\n\n\n\ndist/react-table.development.js\n26.8 kB\n0 B\n\n\n\ndist/react-table.production.min.js\n15.2 kB\n0 B\n\n\n\n\n\ncompressed-size-action",
+                    "createdAt": "2020-03-25T20:33:16Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/column-hiding/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2103,
+        "createdAt": "2020-04-05T11:27:06Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /examples/full-width-table",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-05T18:29:31Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "github-actions",
+                        "resourcePath": "/apps/github-actions"
+                    },
+                    "bodyText": "Size Change: 0 B\nTotal Size: 41.9 kB\nℹ️ View Unchanged\n\n\n\nFilename\nSize\nChange\n\n\n\n\n\ndist/react-table.development.js\n26.8 kB\n0 B\n\n\n\ndist/react-table.production.min.js\n15.1 kB\n0 B\n\n\n\n\n\ncompressed-size-action",
+                    "createdAt": "2020-04-05T11:29:30Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/full-width-table/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2105,
+        "createdAt": "2020-04-05T13:01:43Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /examples/kitchen-sink",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-05T18:29:41Z",
+        "mergedBy": {
+            "login": "tannerlinsley",
+            "resourcePath": "/tannerlinsley"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "github-actions",
+                        "resourcePath": "/apps/github-actions"
+                    },
+                    "bodyText": "Size Change: 0 B\nTotal Size: 41.9 kB\nℹ️ View Unchanged\n\n\n\nFilename\nSize\nChange\n\n\n\n\n\ndist/react-table.development.js\n26.8 kB\n0 B\n\n\n\ndist/react-table.production.min.js\n15.1 kB\n0 B\n\n\n\n\n\ncompressed-size-action",
+                    "createdAt": "2020-04-05T13:04:15Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "examples/kitchen-sink/yarn.lock"
+                }
+            ]
+        }
+    }
+]

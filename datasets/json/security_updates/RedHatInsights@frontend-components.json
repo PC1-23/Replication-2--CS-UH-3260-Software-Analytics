@@ -1,0 +1,312 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 139,
+        "createdAt": "2019-09-11T14:06:26Z",
+        "title": "Bump bootstrap-sass from 3.3.7 to 3.4.1",
+        "bodyText": "Bumps bootstrap-sass from 3.3.7 to 3.4.1.\n\nRelease notes\nSourced from bootstrap-sass's releases.\n\nv3.4.1\n\nSecurity: Fixed an XSS vulnerability (CVE-2019-8331) in our tooltip and popover plugins by implementing a new HTML sanitizer\nHandle bad selectors (#) in data-target for Dropdowns\nClarified tooltip selector documentation\nAdded support for NuGet contentFiles\n\nv3.4.0\n\nNew: Added a .row-no-gutters class.\nNew: Added docs searching via Algolia.\nFixed: Resolved an XSS issue in Alert, Carousel, Collapse, Dropdown, Modal, and Tab components. See https://snyk.io/vuln/npm:bootstrap:20160627 for details.\nFixed: Added padding to .navbar-fixed-* on modal open\nFixed: Removed the double border on  elements.\nRemoved Gist creation in web-based Customizer since anonymous gists were disabled long ago by GitHub.\nRemoved drag and drop support from Customizer since it didn’t work anymore.\n\nFramework version: Bootstrap v3.4.0\nSee the upstream blog post for a detailed overview.\n\n\n\nChangelog\nSourced from bootstrap-sass's changelog.\n\nChangelog\n3.4.0\n\nBootstrap rubygem now depends on SassC instead of Sass.\nCompass no longer supported.\n\n\n\n\nCommits\n\nb34765d Rakefile: require 'bundler/gem_tasks'\n143aa6a Bump bootstrap-sass to 3.4.1\n69157ce rake convert[v3.4.1]\nbb7dbf8 v3.4.0\n3c126b3 Revert relative imports change\ndcdef9b Test Rails app: Depend on sassc-rails\ncd1542b rake convert[v3.4.0]\n07b9b64 less_conversion.rb: Update stylelint comment removal\n6634d0a Remove compass support\n489b6f2 lotus -> hanami\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-09-11T14:51:04Z",
+        "mergedBy": {
+            "login": "karelhala",
+            "resourcePath": "/karelhala"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov-io",
+                        "resourcePath": "/codecov-io"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #139 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master     #139   +/-   ##\n=======================================\n  Coverage   55.13%   55.13%           \n=======================================\n  Files         142      142           \n  Lines        2055     2055           \n  Branches      358      358           \n=======================================\n  Hits         1133     1133           \n  Misses        767      767           \n  Partials      155      155\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update 1a1d212...40f0c2a. Read the comment docs.",
+                    "createdAt": "2019-09-11T14:13:27Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 140,
+        "createdAt": "2019-09-11T14:06:55Z",
+        "title": "Bump lodash.template from 4.4.0 to 4.5.0",
+        "bodyText": "Bumps lodash.template from 4.4.0 to 4.5.0.\n\nCommits\n\nab73503 Bump to v4.5.0.\na4f7d4c Rebuild lodash and docs.\ncca5ac6 Fix npm-test by removing the call to test-docs.\n9f7f9fc Adjust heading order. [ci skip]\n6e2fb92 Remove unused baseArity.\n4f702e2 Specify utf8 encoding.\nb188f90 Add fp tests for iteratee shorthands.\n7b93dc9 Ensure clone methods clone expando properties of boolean, number, & string ob...\n664d66a Make string tests more consistent.\nd9dc0e6 Add _.invertBy tests.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-09-11T14:35:54Z",
+        "mergedBy": {
+            "login": "karelhala",
+            "resourcePath": "/karelhala"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 141,
+        "createdAt": "2019-09-11T14:07:07Z",
+        "title": "Bump lodash-es from 4.17.11 to 4.17.15",
+        "bodyText": "Bumps lodash-es from 4.17.11 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-09-11T14:43:17Z",
+        "mergedBy": {
+            "login": "karelhala",
+            "resourcePath": "/karelhala"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codecov-io",
+                        "resourcePath": "/codecov-io"
+                    },
+                    "bodyText": "Codecov Report\n\nMerging #141 into master will not change coverage.\nThe diff coverage is n/a.\n\n\n@@           Coverage Diff           @@\n##           master     #141   +/-   ##\n=======================================\n  Coverage   55.13%   55.13%           \n=======================================\n  Files         142      142           \n  Lines        2055     2055           \n  Branches      358      358           \n=======================================\n  Hits         1133     1133           \n  Misses        767      767           \n  Partials      155      155\n\nContinue to review full report at Codecov.\n\nLegend - Click here to learn more\nΔ = absolute <relative> (impact), ø = not affected, ? = missing data\nPowered by Codecov. Last update b6f95ac...24e535f. Read the comment docs.",
+                    "createdAt": "2019-09-11T14:19:23Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 402,
+        "createdAt": "2020-03-16T14:27:46Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\nDependabot will merge this PR once it's up-to-date and CI passes on it, as requested by @karelhala.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-17T14:52:26Z",
+        "mergedBy": {
+            "login": "karelhala",
+            "resourcePath": "/karelhala"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    }
+]

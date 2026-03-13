@@ -1,0 +1,2341 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 302,
+        "createdAt": "2019-07-04T03:03:25Z",
+        "title": "chore(deps): bump handlebars from 4.0.11 to 4.1.2 in /packages/optimizely-sdk",
+        "bodyText": "Bumps handlebars from 4.0.11 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\nv4.1.0 - February 7th, 2019\nNew Features\n\nimport TypeScript typings - 27ac1ee\n\nSecurity fixes:\n\ndisallow access to the constructor in templates to prevent RCE - 42841c4, #1495\n\nHousekeeping\n\nchore: fix components/handlebars package.json and auto-update on release - bacd473\nchore: Use node 10 to build handlebars - 78dd89c\nchore/doc: Add more release docs - 6b87c21\n\n ... (truncated)\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-11T23:35:22Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.528% when pulling 675b540 on dependabot/npm_and_yarn/packages/optimizely-sdk/handlebars-4.1.2 into a7060ea on master.",
+                    "createdAt": "2019-07-04T03:10:20Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "mikeproeng37",
+                            "resourcePath": "/mikeproeng37"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 303,
+        "createdAt": "2019-07-04T07:39:44Z",
+        "title": "chore(deps): bump handlebars from 4.0.11 to 4.1.2",
+        "bodyText": "Bumps handlebars from 4.0.11 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\nv4.1.0 - February 7th, 2019\nNew Features\n\nimport TypeScript typings - 27ac1ee\n\nSecurity fixes:\n\ndisallow access to the constructor in templates to prevent RCE - 42841c4, #1495\n\nHousekeeping\n\nchore: fix components/handlebars package.json and auto-update on release - bacd473\nchore: Use node 10 to build handlebars - 78dd89c\nchore/doc: Add more release docs - 6b87c21\n\n ... (truncated)\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-07-19T21:47:58Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.528% when pulling b006014 on dependabot/npm_and_yarn/handlebars-4.1.2 into ae941da on master.",
+                    "createdAt": "2019-07-04T07:47:36Z"
+                },
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.531% when pulling 563d736 on dependabot/npm_and_yarn/handlebars-4.1.2 into 8f4f403 on master.",
+                    "createdAt": "2019-07-04T07:47:36Z"
+                },
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.531% when pulling 563d736 on dependabot/npm_and_yarn/handlebars-4.1.2 into 8f4f403 on master.",
+                    "createdAt": "2019-07-04T07:47:36Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-07-19T21:48:00Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "packages/datafile-manager/yarn.lock"
+                },
+                {
+                    "path": "packages/event-processor/package-lock.json"
+                },
+                {
+                    "path": "packages/logging/package-lock.json"
+                },
+                {
+                    "path": "packages/logging/yarn.lock"
+                },
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                },
+                {
+                    "path": "packages/utils/package-lock.json"
+                },
+                {
+                    "path": "packages/utils/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 306,
+        "createdAt": "2019-07-11T02:50:14Z",
+        "title": "chore(deps): bump lodash.template from 4.4.0 to 4.5.0",
+        "bodyText": "Bumps lodash.template from 4.4.0 to 4.5.0.\n\nCommits\n\nab73503 Bump to v4.5.0.\na4f7d4c Rebuild lodash and docs.\ncca5ac6 Fix npm-test by removing the call to test-docs.\n9f7f9fc Adjust heading order. [ci skip]\n6e2fb92 Remove unused baseArity.\n4f702e2 Specify utf8 encoding.\nb188f90 Add fp tests for iteratee shorthands.\n7b93dc9 Ensure clone methods clone expando properties of boolean, number, & string ob...\n664d66a Make string tests more consistent.\nd9dc0e6 Add _.invertBy tests.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-19T22:14:52Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 812831f on dependabot/npm_and_yarn/lodash.template-4.5.0 into a3b097c on master.",
+                    "createdAt": "2019-07-11T02:58:25Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 307,
+        "createdAt": "2019-07-11T12:34:18Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.13 in /packages/optimizely-sdk",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.13.\n\nCommits\n\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\n29e2584 Fix style:test lint nits.\n8f4d3eb Update deps.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-22T22:55:48Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 65097bc on dependabot/npm_and_yarn/packages/optimizely-sdk/lodash-4.17.13 into da23507 on master.",
+                    "createdAt": "2019-07-11T12:42:48Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 308,
+        "createdAt": "2019-07-11T22:09:09Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.13",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.13.\n\nCommits\n\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\n29e2584 Fix style:test lint nits.\n8f4d3eb Update deps.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-22T22:56:29Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 56ca894 on dependabot/npm_and_yarn/lodash-4.17.13 into da23507 on master.",
+                    "createdAt": "2019-07-11T22:29:38Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 309,
+        "createdAt": "2019-07-13T19:48:04Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.14 in /packages/logging",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.14.\n\nCommits\n\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-07-19T22:16:27Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.528% when pulling 8e841e7 on dependabot/npm_and_yarn/packages/logging/lodash-4.17.14 into ae941da on master.",
+                    "createdAt": "2019-07-13T19:56:50Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #313.",
+                    "createdAt": "2019-07-19T22:16:26Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/logging/package-lock.json"
+                },
+                {
+                    "path": "packages/logging/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 310,
+        "createdAt": "2019-07-13T19:48:07Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.14 in /packages/utils",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.14.\n\nCommits\n\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-07-19T22:16:25Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.528% when pulling 5abf9db on dependabot/npm_and_yarn/packages/utils/lodash-4.17.14 into ae941da on master.",
+                    "createdAt": "2019-07-13T19:55:39Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #312.",
+                    "createdAt": "2019-07-19T22:16:24Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/utils/package-lock.json"
+                },
+                {
+                    "path": "packages/utils/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 312,
+        "createdAt": "2019-07-19T22:16:23Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.15 in /packages/utils",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-22T23:31:22Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 1cc61c4 on dependabot/npm_and_yarn/packages/utils/lodash-4.17.15 into 8358c2d on master.",
+                    "createdAt": "2019-07-19T22:30:27Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/utils/package-lock.json"
+                },
+                {
+                    "path": "packages/utils/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 313,
+        "createdAt": "2019-07-19T22:16:25Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.15 in /packages/logging",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-31T20:11:27Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 3a40b9e on dependabot/npm_and_yarn/packages/logging/lodash-4.17.15 into 10fab48 on master.",
+                    "createdAt": "2019-07-19T22:38:29Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/logging/package-lock.json"
+                },
+                {
+                    "path": "packages/logging/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 314,
+        "createdAt": "2019-07-22T22:57:49Z",
+        "title": "chore(deps): bump lodash from 4.17.13 to 4.17.15",
+        "bodyText": "Bumps lodash from 4.17.13 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-08T23:31:33Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling a2d6e82 on dependabot/npm_and_yarn/lodash-4.17.15 into 6a62ccf on master.",
+                    "createdAt": "2019-07-22T23:47:57Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 324,
+        "createdAt": "2019-08-08T16:06:33Z",
+        "title": "chore(deps): bump handlebars from 4.1.0 to 4.1.2 in /packages/datafile-manager",
+        "bodyText": "Bumps handlebars from 4.1.0 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-09T22:53:49Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 0d2d831 on dependabot/npm_and_yarn/packages/datafile-manager/handlebars-4.1.2 into 9926334 on master.",
+                    "createdAt": "2019-08-08T16:16:17Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/datafile-manager/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 325,
+        "createdAt": "2019-08-08T16:06:34Z",
+        "title": "chore(deps): bump js-yaml from 3.12.2 to 3.13.1 in /packages/datafile-manager",
+        "bodyText": "Bumps js-yaml from 3.12.2 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n3.13.1 / 2019-04-05\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n3.13.0 / 2019-03-20\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-12T19:19:54Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 0dfd93d on dependabot/npm_and_yarn/packages/datafile-manager/js-yaml-3.13.1 into 83de14e on master.",
+                    "createdAt": "2019-08-08T16:17:44Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/datafile-manager/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 326,
+        "createdAt": "2019-08-08T16:06:35Z",
+        "title": "chore(deps): bump handlebars from 4.1.0 to 4.1.2 in /packages/event-processor",
+        "bodyText": "Bumps handlebars from 4.1.0 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-13T22:40:29Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling c4400a5 on dependabot/npm_and_yarn/packages/event-processor/handlebars-4.1.2 into 99f4f8a on master.",
+                    "createdAt": "2019-08-08T16:32:30Z"
+                },
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling f2dcf9d on dependabot/npm_and_yarn/packages/event-processor/handlebars-4.1.2 into db3ac55 on master.",
+                    "createdAt": "2019-08-08T16:32:30Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/event-processor/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 327,
+        "createdAt": "2019-08-08T16:06:35Z",
+        "title": "chore(deps): bump js-yaml from 3.12.2 to 3.13.1 in /packages/event-processor",
+        "bodyText": "Bumps js-yaml from 3.12.2 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n3.13.1 / 2019-04-05\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n3.13.0 / 2019-03-20\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-13T22:50:44Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 5c6e02a on dependabot/npm_and_yarn/packages/event-processor/js-yaml-3.13.1 into 0ab1759 on master.",
+                    "createdAt": "2019-08-08T16:19:14Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/event-processor/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 328,
+        "createdAt": "2019-08-08T16:06:36Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.15 in /packages/datafile-manager",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-13T23:12:26Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 8561b5a on dependabot/npm_and_yarn/packages/datafile-manager/lodash-4.17.15 into 9926334 on master.",
+                    "createdAt": "2019-08-08T16:20:50Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/datafile-manager/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 329,
+        "createdAt": "2019-08-08T16:06:39Z",
+        "title": "chore(deps): bump lodash from 4.17.11 to 4.17.15 in /packages/event-processor",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-13T23:29:14Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 11ff972 on dependabot/npm_and_yarn/packages/event-processor/lodash-4.17.15 into 9926334 on master.",
+                    "createdAt": "2019-08-08T16:30:40Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/event-processor/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 330,
+        "createdAt": "2019-08-08T16:06:41Z",
+        "title": "chore(deps): bump handlebars from 4.1.0 to 4.1.2 in /packages/utils",
+        "bodyText": "Bumps handlebars from 4.1.0 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-13T23:40:14Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling c463bb7 on dependabot/npm_and_yarn/packages/utils/handlebars-4.1.2 into db3ac55 on master.",
+                    "createdAt": "2019-08-08T16:31:12Z"
+                },
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 69317a7 on dependabot/npm_and_yarn/packages/utils/handlebars-4.1.2 into 99f4f8a on master.",
+                    "createdAt": "2019-08-08T16:31:13Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/utils/package-lock.json"
+                },
+                {
+                    "path": "packages/utils/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "mikeproeng37",
+                            "resourcePath": "/mikeproeng37"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 331,
+        "createdAt": "2019-08-08T16:06:41Z",
+        "title": "chore(deps): bump extend from 3.0.1 to 3.0.2 in /packages/optimizely-sdk",
+        "bodyText": "Bumps extend from 3.0.1 to 3.0.2.\n\nChangelog\nSourced from extend's changelog.\n\n3.0.2 / 2018-07-19\n\n[Fix] Prevent merging __proto__ property (#48)\n[Dev Deps] update eslint, @ljharb/eslint-config, tape\n[Tests] up to node v10.7, v9.11, v8.11, v7.10, v6.14, v4.9; use nvm install-latest-npm\n\n\n\n\nCommits\n\n8d106d2 v3.0.2\ne97091f [Dev Deps] update tape\ne841aac [Tests] up to node v10.7\n0e68e71 [Fix] Prevent merging proto property\na689700 Only apps should have lockfiles\nf13c1c4 [Dev Deps] update eslint, @ljharb/eslint-config, tape\nf3570fe [Tests] up to node v10.0, v9.11, v8.11, v7.10, v6.14, v4.9; use...\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-08-14T17:35:31Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 14bc3aa on dependabot/npm_and_yarn/packages/optimizely-sdk/extend-3.0.2 into db3ac55 on master.",
+                    "createdAt": "2019-08-08T16:43:06Z"
+                },
+                {
+                    "author": {
+                        "login": "mikeproeng37",
+                        "resourcePath": "/mikeproeng37"
+                    },
+                    "bodyText": "Closing as this is low severity",
+                    "createdAt": "2019-08-14T17:35:31Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-08-14T17:35:33Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 332,
+        "createdAt": "2019-08-08T16:06:41Z",
+        "title": "chore(deps): bump js-yaml from 3.6.1 to 3.13.1 in /packages/optimizely-sdk",
+        "bodyText": "Bumps js-yaml from 3.6.1 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n3.13.1 / 2019-04-05\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n3.13.0 / 2019-03-20\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n3.12.2 / 2019-02-26\n\nFix noArrayIndent option for root level, #468.\n\n3.12.1 / 2019-01-05\n\nAdded noArrayIndent option, #432.\n\n3.12.0 / 2018-06-02\n\nSupport arrow functions without a block statement, #421.\n\n3.11.0 / 2018-03-05\n\nFix dump in bin/octal/hex formats for negative integers, #399.\nAdd arrow functions suport for !!js/function.\n\n3.10.0 / 2017-09-10\n\nFix condenseFlow output (quote keys for sure, instead of spaces), #371, #370.\nDump astrals as codepoints instead of surrogate pair, #368.\n\n3.9.1 / 2017-07-08\n\nEnsure stack is present for custom errors in node 7.+, #351.\n\n ... (truncated)\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\ne4267fc 3.12.2 released\n7231a49 Browser files rebuild\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-13T23:51:22Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 40e964a on dependabot/npm_and_yarn/packages/optimizely-sdk/js-yaml-3.13.1 into 0ab1759 on master.",
+                    "createdAt": "2019-08-08T16:55:05Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 333,
+        "createdAt": "2019-08-08T16:06:42Z",
+        "title": "chore(deps): bump js-yaml from 3.12.1 to 3.13.1 in /packages/utils",
+        "bodyText": "Bumps js-yaml from 3.12.1 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n3.13.1 / 2019-04-05\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n3.13.0 / 2019-03-20\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n3.12.2 / 2019-02-26\n\nFix noArrayIndent option for root level, #468.\n\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\ne4267fc 3.12.2 released\n7231a49 Browser files rebuild\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-14T00:08:52Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling a742436 on dependabot/npm_and_yarn/packages/utils/js-yaml-3.13.1 into 0ab1759 on master.",
+                    "createdAt": "2019-08-08T16:44:37Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/utils/package-lock.json"
+                },
+                {
+                    "path": "packages/utils/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 334,
+        "createdAt": "2019-08-08T16:06:43Z",
+        "title": "chore(deps): bump handlebars from 4.1.0 to 4.1.2 in /packages/logging",
+        "bodyText": "Bumps handlebars from 4.1.0 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-14T20:08:15Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling e348ada on dependabot/npm_and_yarn/packages/logging/handlebars-4.1.2 into 4102539 on master.",
+                    "createdAt": "2019-08-08T16:48:50Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/logging/package-lock.json"
+                },
+                {
+                    "path": "packages/logging/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 335,
+        "createdAt": "2019-08-08T16:06:44Z",
+        "title": "chore(deps): bump js-yaml from 3.12.1 to 3.13.1 in /packages/logging",
+        "bodyText": "Bumps js-yaml from 3.12.1 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n3.13.1 / 2019-04-05\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n3.13.0 / 2019-03-20\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n3.12.2 / 2019-02-26\n\nFix noArrayIndent option for root level, #468.\n\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\ne4267fc 3.12.2 released\n7231a49 Browser files rebuild\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-14T17:35:16Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 7192711 on dependabot/npm_and_yarn/packages/logging/js-yaml-3.13.1 into 0ab1759 on master.",
+                    "createdAt": "2019-08-08T16:33:52Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/logging/package-lock.json"
+                },
+                {
+                    "path": "packages/logging/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 336,
+        "createdAt": "2019-08-08T16:06:45Z",
+        "title": "chore(deps-dev): bump eslint from 2.13.1 to 4.18.2 in /packages/optimizely-sdk",
+        "bodyText": "Bumps eslint from 2.13.1 to 4.18.2.\n\nRelease notes\nSourced from eslint's releases.\n\nv4.18.2\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n4f898c7 Build: Fix JSDoc syntax errors (#9813) (Matija Marohnić)\n13bcf3c Fix: Removing curly quotes in no-eq-null report message (#9852) (Kevin Partington)\nb96fb31 Docs: configuration hierarchy for CLIEngine options (fixes #9526) (#9855) (PiIsFour)\n8ccbdda Docs: Clarify that -c configs merge with .eslintrc.* (fixes #9535) (#9847) (Kevin Partington)\n978574f Docs: Fix examples for no-useless-escape (#9853) (Toru Kobayashi)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv4.18.2 - March 2, 2018\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1 - February 20, 2018\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0 - February 16, 2018\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0 - February 2, 2018\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0 - January 19, 2018\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n\n ... (truncated)\n\n\n\nCommits\n\n22ff6f3 4.18.2\n817b84b Build: changelog update for 4.18.2\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020)\n33177cd Chore: make library files non-executable (#10021)\n558ccba Chore: refactor directive comment processing (#10007)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by eslint, a new releaser for eslint since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-14T20:34:58Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling 71b5a26 on dependabot/npm_and_yarn/packages/optimizely-sdk/eslint-4.18.2 into db3ac55 on master.",
+                    "createdAt": "2019-08-08T16:35:15Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/optimizely-sdk/package-lock.json"
+                },
+                {
+                    "path": "packages/optimizely-sdk/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 337,
+        "createdAt": "2019-08-08T16:07:09Z",
+        "title": "chore(deps): bump tar from 2.2.1 to 2.2.2",
+        "bodyText": "Bumps tar from 2.2.1 to 2.2.2.\n\nCommits\n\n523c5c7 2.2.2\n7ecef07 Bump fstream to fix hardlink overwriting vulnerability\n9fc84b9 Use {} for hardlink tracking instead of []\n15e59f1 Only track previously seen hardlinks\n4f85851 Ignore potentially unsafe files\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-14T23:41:33Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.597% when pulling cbfa3e9 on dependabot/npm_and_yarn/tar-2.2.2 into bbd5383 on master.",
+                    "createdAt": "2019-08-08T16:45:55Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 338,
+        "createdAt": "2019-08-08T16:07:29Z",
+        "title": "chore(deps): bump js-yaml from 3.6.1 to 3.13.1",
+        "bodyText": "Bumps js-yaml from 3.6.1 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n3.13.1 / 2019-04-05\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n3.13.0 / 2019-03-20\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n3.12.2 / 2019-02-26\n\nFix noArrayIndent option for root level, #468.\n\n3.12.1 / 2019-01-05\n\nAdded noArrayIndent option, #432.\n\n3.12.0 / 2018-06-02\n\nSupport arrow functions without a block statement, #421.\n\n3.11.0 / 2018-03-05\n\nFix dump in bin/octal/hex formats for negative integers, #399.\nAdd arrow functions suport for !!js/function.\n\n3.10.0 / 2017-09-10\n\nFix condenseFlow output (quote keys for sure, instead of spaces), #371, #370.\nDump astrals as codepoints instead of surrogate pair, #368.\n\n3.9.1 / 2017-07-08\n\nEnsure stack is present for custom errors in node 7.+, #351.\n\n ... (truncated)\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\ne4267fc 3.12.2 released\n7231a49 Browser files rebuild\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-15T17:54:37Z",
+        "mergedBy": {
+            "login": "mikeproeng37",
+            "resourcePath": "/mikeproeng37"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 97.607% when pulling 4dbcda3 on dependabot/npm_and_yarn/js-yaml-3.13.1 into 748eaca on master.",
+                    "createdAt": "2019-08-08T16:47:15Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    }
+]

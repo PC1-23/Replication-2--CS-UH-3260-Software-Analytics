@@ -1,0 +1,350 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1726,
+        "createdAt": "2020-05-08T13:45:59Z",
+        "title": "chore(deps): bump acorn from 6.1.1 to 6.4.1",
+        "bodyText": "Bumps acorn from 6.1.1 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\ndf0cf1a Mark version 6.4.0\n5303412 Also export Parser via Parser.acorn\nefe273e give token types and etc to plugins\nac6decb Mark version 6.3.0\n7e9817d Allow sourceType: module even with ecmaVersion < 6\ne2b8cc0 Fix broken parsing of new expressions when allowReserved==\"never\"\n1555c52 Update acorn.d.ts\n77c20fa Mark version 6.2.1\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-11T05:51:14Z",
+        "mergedBy": {
+            "login": "manast",
+            "resourcePath": "/manast"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage decreased (-0.08%) to 94.248% when pulling cf24ced on dependabot/npm_and_yarn/acorn-6.4.1 into a4aa27c on develop.",
+                    "createdAt": "2020-05-08T13:54:21Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1727,
+        "createdAt": "2020-05-08T13:45:59Z",
+        "title": "chore(deps): bump lodash.template from 4.4.0 to 4.5.0",
+        "bodyText": "Bumps lodash.template from 4.4.0 to 4.5.0.\n\nCommits\n\nab73503 Bump to v4.5.0.\na4f7d4c Rebuild lodash and docs.\ncca5ac6 Fix npm-test by removing the call to test-docs.\n9f7f9fc Adjust heading order. [ci skip]\n6e2fb92 Remove unused baseArity.\n4f702e2 Specify utf8 encoding.\nb188f90 Add fp tests for iteratee shorthands.\n7b93dc9 Ensure clone methods clone expando properties of boolean, number, & string ob...\n664d66a Make string tests more consistent.\nd9dc0e6 Add _.invertBy tests.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-11T05:51:52Z",
+        "mergedBy": {
+            "login": "manast",
+            "resourcePath": "/manast"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage decreased (-0.08%) to 94.248% when pulling 110ef04 on dependabot/npm_and_yarn/lodash.template-4.5.0 into a4aa27c on develop.",
+                    "createdAt": "2020-05-08T14:02:33Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1728,
+        "createdAt": "2020-05-08T13:46:01Z",
+        "title": "chore(deps): bump handlebars from 4.1.2 to 4.7.6",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.7.6.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.7.6 - April 3rd, 2020\nChore/Housekeeping:\n\n#1672 - Switch cmd parser to latest minimist (@dougwilson\n\nCompatibility notes:\n\nRestored Node.js compatibility\n\nCommits\nv4.7.5 - April 2nd, 2020\nChore/Housekeeping:\n\nNode.js version support has been changed to v6+ Reverted in 4.7.6\n\nCompatibility notes:\n\nNode.js < v6 is no longer supported Reverted in 4.7.6\n\nCommits\nv4.7.4 - April 1st, 2020\nChore/Housekeeping:\n\n#1666 - Replaced minimist with yargs for handlebars CLI (@aorinevo, @AviVahl & @fabb)\n\nCompatibility notes:\n\nNo incompatibilities are to be expected\n\nCommits\nv4.7.3 - February 5th, 2020\nChore/Housekeeping:\n\n#1644 - Download links to aws broken on handlebarsjs.com - access denied (@Tea56)\nFix spelling and punctuation in changelog - d78cc73\n\nBugfixes:\n\nAdd Type Definition for Handlebars.VERSION, Fixes #1647 - 4de51fe\nInclude Type Definition for runtime.js in Package - a32d05f\n\nCompatibility notes:\n ... (truncated)\n\n\n\nCommits\n\ne6ad93e v4.7.6\n2bf4fc6 Update release notes\nb64202b Update release-notes.md\nc2f1e62 Switch cmd parser to latest minimist\n08e9a11 Revert \"chore: set Node.js compatibility to v6+\"\n1fd2ede v4.7.5\n3c9c2f5 Update release notes\n16487a0 chore: downgrade yargs to v14\n309d2b4 chore: set Node.js compatibility to v6+\n645ac73 test: fix integration tests\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by erisds, a new releaser for handlebars since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-11T05:52:16Z",
+        "mergedBy": {
+            "login": "manast",
+            "resourcePath": "/manast"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 94.33% when pulling 8e89e63 on dependabot/npm_and_yarn/handlebars-4.7.6 into a4aa27c on develop.",
+                    "createdAt": "2020-05-08T13:58:31Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1729,
+        "createdAt": "2020-05-08T13:49:22Z",
+        "title": "chore(deps): bump eslint-utils from 1.3.1 to 1.4.3",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.3.\n\nRelease notes\nSourced from eslint-utils's releases.\n\nv1.4.3\n🐛 Bug fixes\n\n8f9e481ecc1204c7a1331b697f97903f90c75154 fixed false positive of ReferenceTracker.\n\nv1.4.2\n🐛 Bug fixes\n\ne4cb01498df6096b66edb0c78965ee6f47d3ac77 fixed a regression of the previous release.\n\nv1.4.1\n🐛 Bug fixes\n\nc119e832952c8c653bd4f21e39eb9f7ce48e5947 fixed getStaticValue() function to handle null literal correctly even if runtimes don't support BigInt natively.\n587cca2f82c245f5fc4a8b9fb2cf6b35c0d02552 fixed getStringIfConstant() function to handle regular expression literals and BigInt literals even if runtimes don't support those.\n08158db1c98fd71cf0f32ddefbc147e2620e724c fixed GHSA-3gx7-xhv7-5mx3.\n\nv1.4.0\n✨ Enhancements\n\n66456c5356310fc4309b4fe2756995f27b907747 (and ebf5a8378d3f0a20a74adb158a7112cb616bce44, aac472e815551688d23cc8fd88f9044dbf276804) added isParenthesized() function that checks if a given node is parenthesized or not.\n4f8407dd6cd52274ba115b3a8558153ec6d799a7 (and cb518c70ee037722f802d808bbbe93da83f07fb3) added hasSideEffect() function that checks if a given node may have side-effects or not.\n\n\n\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-11T05:50:49Z",
+        "mergedBy": {
+            "login": "manast",
+            "resourcePath": "/manast"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage decreased (-0.08%) to 94.248% when pulling c194863 on dependabot/npm_and_yarn/eslint-utils-1.4.3 into a4aa27c on develop.",
+                    "createdAt": "2020-05-08T14:06:45Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1730,
+        "createdAt": "2020-05-08T19:05:34Z",
+        "title": "chore(deps): bump mixin-deep from 1.3.1 to 1.3.2",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-11T05:52:35Z",
+        "mergedBy": {
+            "login": "manast",
+            "resourcePath": "/manast"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 94.33% when pulling 141f277 on dependabot/npm_and_yarn/mixin-deep-1.3.2 into a4aa27c on develop.",
+                    "createdAt": "2020-05-08T19:14:01Z"
+                },
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 94.33% when pulling 141f277 on dependabot/npm_and_yarn/mixin-deep-1.3.2 into a4aa27c on develop.",
+                    "createdAt": "2020-05-08T19:14:01Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

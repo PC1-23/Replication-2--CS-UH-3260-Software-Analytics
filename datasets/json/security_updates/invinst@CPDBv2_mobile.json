@@ -1,0 +1,1146 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "ea-open-source",
+                            "resourcePath": "/ea-open-source"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1,
+        "createdAt": "2019-10-29T14:18:49Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.3",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-07T03:29:01Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-07T03:29:03Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "live-tests/page-objects/search.js"
+                },
+                {
+                    "path": "live-tests/test/search-page.spec.js"
+                },
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "src/actions/suggestion.js"
+                },
+                {
+                    "path": "src/components/main-page.jsx"
+                },
+                {
+                    "path": "src/components/officer-page/index.jsx"
+                },
+                {
+                    "path": "src/components/officer-page/officer-page.sass"
+                },
+                {
+                    "path": "src/components/search-page/index.jsx"
+                },
+                {
+                    "path": "src/components/search-page/search-category.jsx"
+                },
+                {
+                    "path": "src/containers/main-page-container.jsx"
+                },
+                {
+                    "path": "src/containers/search-page-container.jsx"
+                },
+                {
+                    "path": "src/reducers/suggestion-app/index.js"
+                },
+                {
+                    "path": "src/reducers/suggestion-app/initial-suggestions.js"
+                },
+                {
+                    "path": "src/reducers/suggestion-app/recent-suggestions.js"
+                },
+                {
+                    "path": "src/reducers/suggestion-app/suggestions.js"
+                },
+                {
+                    "path": "src/selectors/search-page.js"
+                },
+                {
+                    "path": "src/stores/local-storage-config.js"
+                },
+                {
+                    "path": "test/actions/suggestion.spec.js"
+                },
+                {
+                    "path": "test/components/main-page.spec.js"
+                },
+                {
+                    "path": "test/components/search-page.spec.js"
+                },
+                {
+                    "path": "test/components/search-page/search-category.spec.js"
+                },
+                {
+                    "path": "test/reducers/suggestion-app/initial-suggestions.spec.js"
+                },
+                {
+                    "path": "test/reducers/suggestion-app/recent-suggestions.spec.js"
+                },
+                {
+                    "path": "test/reducers/suggestion-app/suggestions.spec.js"
+                },
+                {
+                    "path": "test/selectors/search-page.spec.js"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "ea-open-source",
+                            "resourcePath": "/ea-open-source"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 2,
+        "createdAt": "2019-12-28T20:28:12Z",
+        "title": "Bump handlebars from 4.1.2 to 4.3.0",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.3.0.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.3.0 - September 24th, 2019\nFixes:\n\nSecurity: Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nFeatures:\n\nAdd new runtime option allowCallsToHelperMissing to allow calling blockHelperMissing and helperMissing.\n\nBreaking changes:\nCompatibility notes:\n\n\nCompiler revision increased - 06b7224\n\nThis means that template compiled with versions prior to 4.3.0 will not work with runtimes >= 4.3.0\nThe increase was done because the \"helperMissing\" and \"blockHelperMissing\" are now moved from the helpers\nto the internal \"container.hooks\" object, so old templates will not be able to call them anymore. We suggest\nthat you always recompile your templates with the latest compiler in your build pipelines.\n\n\n\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nCalling \"helperMissing\" and \"blockHelperMissing\" directly from a template (like in {{blockHelperMissing}} was\nnever intended and was part of the exploits that have been revealed early in 2019\n(see https://github-redirect.dependabot.com/wycats/handlebars.js/issues/1495). It is also part of a new exploit that\nis not captured by the earlier fix. In order to harden Handlebars against such exploits, calling thos helpers\nis now not possible anymore. Overriding those helpers is still possible.\nIf you really need this behavior, you can set the runtime option allowCallsToHelperMissing to true and the\ncalls will again be possible\n\n\n\nBoth bullet points imly that Handlebars is not 100% percent compatible to 4.2.0, despite the minor version bump.\nWe consider it more important to resolve a major security issue than to maintain 100% compatibility.\nCommits\nv4.2.1 - September 20th, 2019\nBugfixes:\n\nThe \"browser\" property in the package.json has been updated to use the common-js builds instead of the minified UMD - c55a7be, #1553\n\nCompatibility notes:\n\nNo compatibility issues should arise\n\nCommits\nv4.2.0 - September 3rd, 2019\nChore/Test:\n\nUse custom grunt-saucelab with current sauce-connect proxy - f119497\nAdd framework for various integration tests - f9cce4d\n\n ... (truncated)\n\n\n\nCommits\n\na89081d v4.3.0\nbba6560 Update release notes\n06b7224 adjust compiler revision\n2078c72 Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly\nfff3e40 v4.2.1\n35bcd44 Update release notes\n00b4f2f Fix some small typos.\ne47b5ec integration-tests for various webpack-scenarios\nc55a7be fix: use cjs for browser fields\n164c7ce v4.2.0\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-30T04:05:23Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-12-30T04:05:25Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "ea-open-source",
+                            "resourcePath": "/ea-open-source"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 3,
+        "createdAt": "2020-03-14T00:21:50Z",
+        "title": "Bump acorn from 6.2.1 to 6.4.1",
+        "bodyText": "Bumps acorn from 6.2.1 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\ndf0cf1a Mark version 6.4.0\n5303412 Also export Parser via Parser.acorn\nefe273e give token types and etc to plugins\nac6decb Mark version 6.3.0\n7e9817d Allow sourceType: module even with ecmaVersion < 6\ne2b8cc0 Fix broken parsing of new expressions when allowReserved==\"never\"\n1555c52 Update acorn.d.ts\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-18T02:04:21Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-03-18T02:04:23Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": ".circleci/config.yml"
+                },
+                {
+                    "path": ".eslintrc"
+                },
+                {
+                    "path": ".gitignore"
+                },
+                {
+                    "path": "README.md"
+                },
+                {
+                    "path": "integration-test/constants.js"
+                },
+                {
+                    "path": "integration-test/integration-test-setup.js"
+                },
+                {
+                    "path": "integration-test/mock-api.js"
+                },
+                {
+                    "path": "integration-test/mock-data/main-page.js"
+                },
+                {
+                    "path": "integration-test/mock-data/pinboard-page.js"
+                },
+                {
+                    "path": "integration-test/mock-data/toasts.js"
+                },
+                {
+                    "path": "integration-test/mock-server.js"
+                },
+                {
+                    "path": "integration-test/page-objects/common.js"
+                },
+                {
+                    "path": "integration-test/page-objects/complaintPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/embedOfficersPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/embedTopOfficersPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/emptyPinboardPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/main.js"
+                },
+                {
+                    "path": "integration-test/page-objects/officerPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/pinboardPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/search.js"
+                },
+                {
+                    "path": "integration-test/page-objects/trrPage.js"
+                },
+                {
+                    "path": "integration-test/test/complaint-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/disable-pinboard.spec.js"
+                },
+                {
+                    "path": "integration-test/test/embed-officers-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/embed-top-officers-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/empty-pinboard-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/main-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/officer-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page/saving-pinboard-error-handling.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page/session-creator-pinboard-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page/social-graph.spec.js"
+                },
+                {
+                    "path": "integration-test/test/search-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/tracking.spec.js"
+                },
+                {
+                    "path": "integration-test/test/trr-page.spec.js"
+                },
+                {
+                    "path": "integration-test/utils/assertCount.js"
+                },
+                {
+                    "path": "integration-test/utils/assertInViewport.js"
+                },
+                {
+                    "path": "integration-test/utils/dragAndDrop.js"
+                },
+                {
+                    "path": "integration-test/utils/getPaginationResponse.js"
+                },
+                {
+                    "path": "integration-test/utils/switchToRecentTab.js"
+                },
+                {
+                    "path": "integration-test/utils/waitForAnimationEnd.js"
+                },
+                {
+                    "path": "integration-test/utils/waitForCondition.js"
+                },
+                {
+                    "path": "karma.conf.js"
+                },
+                {
+                    "path": "nightwatch.js"
+                },
+                {
+                    "path": "nightwatch.json"
+                },
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "src/components/officer-page/tabbed-pane-section/attachments-tab/complaint/attachment.js"
+                },
+                {
+                    "path": "src/components/officer-page/tabbed-pane-section/attachments-tab/complaint/index.jsx"
+                },
+                {
+                    "path": "src/components/officer-page/tabbed-pane-section/attachments-tab/index.jsx"
+                },
+                {
+                    "path": "src/config/integration-test.js"
+                },
+                {
+                    "path": "src/constants/index.js"
+                },
+                {
+                    "path": "src/index.html"
+                },
+                {
+                    "path": "src/index.html.template"
+                },
+                {
+                    "path": "src/utils/date.js"
+                },
+                {
+                    "path": "src/utils/mapbox.js"
+                },
+                {
+                    "path": "src/utils/tracking.js"
+                },
+                {
+                    "path": "test/components/officer-page/tabbed-pane-section/attachments-tab/attachments-tab.spec.js"
+                },
+                {
+                    "path": "test/components/officer-page/tabbed-pane-section/attachments-tab/complaint/attachment.spec.js"
+                },
+                {
+                    "path": "test/components/officer-page/tabbed-pane-section/attachments-tab/complaint/complaint.spec.js"
+                },
+                {
+                    "path": "test/utils/tracking.spec.js"
+                },
+                {
+                    "path": "webpack-config/base.js"
+                },
+                {
+                    "path": "webpack-config/defaults.js"
+                },
+                {
+                    "path": "webpack-config/dev.js"
+                },
+                {
+                    "path": "webpack-config/dist.js"
+                },
+                {
+                    "path": "webpack-config/integration-test.js"
+                },
+                {
+                    "path": "webpack-config/test.js"
+                },
+                {
+                    "path": "webpack.config.js"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "ea-open-source",
+                            "resourcePath": "/ea-open-source"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 4,
+        "createdAt": "2020-03-16T20:06:17Z",
+        "title": "Bump minimist from 1.2.0 to 1.2.2",
+        "bodyText": "Bumps minimist from 1.2.0 to 1.2.2.\n\nCommits\n\nf34df07 1.2.2\n67d3722 cleanup\n63e7ed0 don't assign onto proto\n47acf72 console.dir -> console.log\n0efed03 failing test for protocol pollution\n29783cd 1.2.1\n6be5dae add test\nac3fc79 fix bad boolean regexp\n4cf45a2 Merge pull request #63 from lydell/dash-dash-docs-fix\n5fa440e move the opts['--'] example back where it belongs\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-18T02:06:27Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-03-18T02:06:28Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": ".circleci/config.yml"
+                },
+                {
+                    "path": ".eslintrc"
+                },
+                {
+                    "path": ".gitignore"
+                },
+                {
+                    "path": "README.md"
+                },
+                {
+                    "path": "integration-test/constants.js"
+                },
+                {
+                    "path": "integration-test/integration-test-setup.js"
+                },
+                {
+                    "path": "integration-test/mock-api.js"
+                },
+                {
+                    "path": "integration-test/mock-data/main-page.js"
+                },
+                {
+                    "path": "integration-test/mock-data/pinboard-page.js"
+                },
+                {
+                    "path": "integration-test/mock-data/toasts.js"
+                },
+                {
+                    "path": "integration-test/mock-server.js"
+                },
+                {
+                    "path": "integration-test/page-objects/common.js"
+                },
+                {
+                    "path": "integration-test/page-objects/complaintPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/embedOfficersPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/embedTopOfficersPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/emptyPinboardPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/main.js"
+                },
+                {
+                    "path": "integration-test/page-objects/officerPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/pinboardPage.js"
+                },
+                {
+                    "path": "integration-test/page-objects/search.js"
+                },
+                {
+                    "path": "integration-test/page-objects/trrPage.js"
+                },
+                {
+                    "path": "integration-test/test/complaint-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/disable-pinboard.spec.js"
+                },
+                {
+                    "path": "integration-test/test/embed-officers-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/embed-top-officers-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/empty-pinboard-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/main-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/officer-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page/saving-pinboard-error-handling.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page/session-creator-pinboard-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/pinboard-page/social-graph.spec.js"
+                },
+                {
+                    "path": "integration-test/test/search-page.spec.js"
+                },
+                {
+                    "path": "integration-test/test/tracking.spec.js"
+                },
+                {
+                    "path": "integration-test/test/trr-page.spec.js"
+                },
+                {
+                    "path": "integration-test/utils/assertCount.js"
+                },
+                {
+                    "path": "integration-test/utils/assertInViewport.js"
+                },
+                {
+                    "path": "integration-test/utils/dragAndDrop.js"
+                },
+                {
+                    "path": "integration-test/utils/getPaginationResponse.js"
+                },
+                {
+                    "path": "integration-test/utils/switchToRecentTab.js"
+                },
+                {
+                    "path": "integration-test/utils/waitForAnimationEnd.js"
+                },
+                {
+                    "path": "integration-test/utils/waitForCondition.js"
+                },
+                {
+                    "path": "karma.conf.js"
+                },
+                {
+                    "path": "nightwatch.js"
+                },
+                {
+                    "path": "nightwatch.json"
+                },
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "src/components/officer-page/tabbed-pane-section/attachments-tab/complaint/attachment.js"
+                },
+                {
+                    "path": "src/components/officer-page/tabbed-pane-section/attachments-tab/complaint/index.jsx"
+                },
+                {
+                    "path": "src/components/officer-page/tabbed-pane-section/attachments-tab/index.jsx"
+                },
+                {
+                    "path": "src/config/integration-test.js"
+                },
+                {
+                    "path": "src/constants/index.js"
+                },
+                {
+                    "path": "src/index.html"
+                },
+                {
+                    "path": "src/index.html.template"
+                },
+                {
+                    "path": "src/utils/date.js"
+                },
+                {
+                    "path": "src/utils/mapbox.js"
+                },
+                {
+                    "path": "src/utils/tracking.js"
+                },
+                {
+                    "path": "test/components/officer-page/tabbed-pane-section/attachments-tab/attachments-tab.spec.js"
+                },
+                {
+                    "path": "test/components/officer-page/tabbed-pane-section/attachments-tab/complaint/attachment.spec.js"
+                },
+                {
+                    "path": "test/components/officer-page/tabbed-pane-section/attachments-tab/complaint/complaint.spec.js"
+                },
+                {
+                    "path": "test/utils/tracking.spec.js"
+                },
+                {
+                    "path": "webpack-config/base.js"
+                },
+                {
+                    "path": "webpack-config/defaults.js"
+                },
+                {
+                    "path": "webpack-config/dev.js"
+                },
+                {
+                    "path": "webpack-config/dist.js"
+                },
+                {
+                    "path": "webpack-config/integration-test.js"
+                },
+                {
+                    "path": "webpack-config/test.js"
+                },
+                {
+                    "path": "webpack.config.js"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "ea-open-source",
+                            "resourcePath": "/ea-open-source"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 5,
+        "createdAt": "2020-04-05T23:10:14Z",
+        "title": "Bump minimist from 1.2.0 to 1.2.3",
+        "bodyText": "Bumps minimist from 1.2.0 to 1.2.3.\n\nCommits\n\n6457d74 1.2.3\n38a4d1c even more aggressive checks for protocol pollution\n13c01a5 more failing proto pollution tests\nf34df07 1.2.2\n67d3722 cleanup\n63e7ed0 don't assign onto proto\n47acf72 console.dir -> console.log\n0efed03 failing test for protocol pollution\n29783cd 1.2.1\n6be5dae add test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-06T03:13:40Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-04-06T03:13:42Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": ".eslintrc"
+                },
+                {
+                    "path": "bin/clean-old-build-on-azure-storage.js"
+                },
+                {
+                    "path": "bin/copy-to-azure-storage.js"
+                },
+                {
+                    "path": "integration-test/integration-test-setup.js"
+                },
+                {
+                    "path": "integration-test/mock-server.js"
+                },
+                {
+                    "path": "integration-test/page-objects/search.js"
+                },
+                {
+                    "path": "integration-test/test/disable-pinboard.spec.js"
+                },
+                {
+                    "path": "integration-test/test/search-page.spec.js"
+                },
+                {
+                    "path": "nightwatch.js"
+                },
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "server.js"
+                },
+                {
+                    "path": "src/components/common/autosave-inputs/autosave-markdown-textarea-input.js"
+                },
+                {
+                    "path": "src/components/common/autosave-inputs/autosave-markdown-textarea-input.sass"
+                },
+                {
+                    "path": "src/components/common/autosave-inputs/autosave-textarea-input.js"
+                },
+                {
+                    "path": "src/components/pinboard-page/pinboard-info.js"
+                },
+                {
+                    "path": "src/components/pinboard-page/pinboard-info.sass"
+                },
+                {
+                    "path": "src/components/search-page/index.jsx"
+                },
+                {
+                    "path": "src/components/search-page/search-page.sass"
+                },
+                {
+                    "path": "src/styles/style.sass"
+                },
+                {
+                    "path": "test/components/common/autosave-inputs/autosave-markdown-textarea-input.spec.js"
+                },
+                {
+                    "path": "test/components/common/autosave-inputs/autosave-textarea-input.spec.js"
+                },
+                {
+                    "path": "test/components/search-page.spec.js"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "ea-open-source",
+                            "resourcePath": "/ea-open-source"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 6,
+        "createdAt": "2020-05-12T07:57:11Z",
+        "title": "Bump acorn from 7.1.0 to 7.1.1",
+        "bodyText": "Bumps acorn from 7.1.0 to 7.1.1.\n\nCommits\n\n6d19489 Mark release 7.1.1\n793c0e5 More rigorously check surrogate pairs in regexp validator\nb5c1787 Fix incorrect comment in regexp parser\n12ae8fe Parameterize dummy value and export isDummy\nfa3ad8c Further refine acorn-walk types\n1d50286 Fix some errors in walk types\n97801f0 Mark acorn-walk 7.1.1\ne9372c1 Further clean up walker types\nde6edeb Remove NarrowNode from walk.d.ts\n1d85e7c Fix: acorn-walk type work with acorn's\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-12T09:22:16Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-05-12T09:22:17Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

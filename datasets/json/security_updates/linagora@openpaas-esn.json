@@ -1,0 +1,133 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 80,
+        "createdAt": "2019-10-29T13:56:49Z",
+        "title": "Bump mongoose from 4.7.1 to 5.7.7",
+        "bodyText": "Bumps mongoose from 4.7.1 to 5.7.7.\n\nChangelog\nSourced from mongoose's changelog.\n\n5.7.7 / 2019-10-24\n\nfix(populate): make populate virtual consistently an empty array if local field is only empty arrays #8230\nfix(query): allow findOne(objectid) and find(objectid) #8268\n\n5.7.6 / 2019-10-21\n\nfix: upgrade mongodb driver -> 3.3.3 to fix issue with failing to connect to a replica set if one member is down #8209\nfix(document): fix TypeError when setting a single nested subdoc with timestamps #8251\nfix(cursor): fix issue with long-running eachAsync() cursor #8249 #8235\nfix(connection): ensure repeated close events from useUnifiedTopology don't disconnect Mongoose from replica set #8224\nfix(document): support calling Document constructor directly in Node.js #8237\nfix(populate): add document array subpaths to parent doc populated() when calling DocumentArray#push() #8247\nfix(options): add missing minlength and maxlength to SchemaStringOptions #8256\ndocs: add documentarraypath to API docs, including DocumentArrayPath#discriminator() #8164\ndocs(schematypes): add a section about the type property #8227\ndocs(api): fix Connection.close return param #8258 gosuhiman\ndocs: update link to broken image on home page #8253 krosenk729\n\n5.7.5 / 2019-10-14\n\nfix(query): delete top-level _bsontype property in queries to prevent silent empty queries #8222\nfix(update): handle subdocument pre('validate') errors in update validation #7187\nfix(subdocument): make subdocument#isModified use parent document's isModified #8223\ndocs(index): add favicon to home page #8226\ndocs: add schema options to API docs #8012\ndocs(middleware): add note about accessing the document being updated in pre('findOneAndUpdate') #8218\nrefactor: remove redundant code in ValidationError #8244 AbdelrahmanHafez\n\n5.7.4 / 2019-10-09\n\nfix(schema): handle required: null and required: undefined as required: false #8219\nfix(update): support updating array embedded discriminator props if discriminator key in $elemMatch #8063\nfix(populate): allow accessing populate virtual prop underneath array when virtual defined on top level #8198\nfix(model): support passing options to Model.remove() #8211\nfix(document): handle Document#set() merge option when setting underneath single nested schema #8201\nfix: use options constructor class for all schematypes #8012\n\n5.7.3 / 2019-09-30\n\nfix: make CoreMongooseArray#includes() handle fromIndex parameter #8203\nfix(update): cast right hand side of $pull as a query instead of an update for document arrays #8166\nfix(populate): handle virtual populate of an embedded discriminator nested path #8173\ndocs(validation): remove deprecated isAsync from validation docs in favor of emphasizing promises #8184\ndocs(documents): add overwriting section #8178\ndocs(promises): add note about queries being thenable #8110\nperf: avoid update validators going into Mixed types #8192 birdofpreyru\nrefactor: remove async as a prod dependency #8073\n\n5.7.2 / 2019-09-23\n ... (truncated)\n\n\n\nCommits\n\n28e8ac4 chore: release 5.7.7\nf4bd463 fix(populate): make populate virtual consistently an empty array if local fie...\nca4f52b test(populate): repro #8230\necd8242 docs(query): make note that filter param to find() can be an ObjectId re:...\nb03faf5 fix(query): allow findOne(objectid) and find(objectid)\nd7ceb89 test(query): repro #8268\n068e57a chore: now working on 5.7.7\n5656b4e chore: release 5.7.6\nfab4f5d test(schema): fix tests on node v4 and v5\n29c5f1a fix(options): add missing minlength and maxlength to SchemaStringOptions\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-27T14:24:35Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #81.",
+                    "createdAt": "2019-11-27T14:24:33Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 81,
+        "createdAt": "2019-11-27T14:24:31Z",
+        "title": "Bump mongoose from 5.6.9 to 5.7.12",
+        "bodyText": "Bumps mongoose from 5.6.9 to 5.7.12.\n\nChangelog\nSourced from mongoose's changelog.\n\n5.7.12 / 2019-11-19\n\nfix: avoid throwing error if calling push() on a doc array with no parent #8351 #8317 #8312 AbdelrahmanHafez\nfix(connection): only buffer for \"open\" events when calling connection helper while connecting #8319\nfix(connection): pull default database from connection string if specified #8355 #8354 zachazar\nfix(populate+discriminator): handle populating document whose discriminator value is different from discriminator model name #8324\nfix: add mongoose.isValidObjectId() function to test whether Mongoose can cast a value to an objectid #3823\nfix(model): support setting excludeIndexes as schema option for subdocs #8343\nfix: add SchemaMapOptions class for options to map schematype #8318\ndocs(query): remove duplicate omitUndefined options #8349 mdumandag\ndocs(schema): add Schema#paths docs to public API docs #8340\n\n5.7.11 / 2019-11-14\n\nfix: update mongodb driver -> 3.3.4 #8276\nfix(model): throw readable error when casting bulkWrite update without a 'filter' or 'update' #8332 #8331 AbdelrahmanHafez\nfix(connection): bubble up connected/disconnected events with unified topology #8338 #8337\nfix(model): delete $versionError after saving #8326 #8048 Fonger\ntest(model): add test for issue #8040 #8341 Fonger\n\n5.7.10 / 2019-11-11\n\nperf(cursor): remove unnecessary setTimeout() in eachAsync(), 4x speedup in basic benchmarks #8310\ndocs(README): re-order sections for better readability #8321 dandv\nchore: make npm test not hard-code file paths #8322 stieg\n\n5.7.9 / 2019-11-08\n\nfix(schema): support setting schema path to an instance of SchemaTypeOptions to fix integration with mongoose-i18n-localize #8297 #8292\nfix(populate): make retainNullValues set array element to null if foreign doc with that id was not found #8293\nfix(document): support getter setting virtual on manually populated doc when calling toJSON() #8295\nfix(model): allow objects with toBSON() to make it to save() #8299\n\n5.7.8 / 2019-11-04\n\nfix(document): allow manually populating path within document array #8273\nfix(populate): update top-level populated() when updating document array with populated subpaths #8265\nfix(cursor): throw error when using aggregation cursor as async iterator #8280\nfix(schema): retain _id: false in schema after nesting in another schema #8274\nfix(document): make Document class an event emitter to support defining documents without models in node #8272\ndocs: document return types for .discriminator() #8287\ndocs(connection): add note about exporting schemas, not models, in multi connection paradigm #8275\ndocs: clarify that transforms defined in toObject() options are applied to subdocs #8260\n\n5.7.7 / 2019-10-24\n\nfix(populate): make populate virtual consistently an empty array if local field is only empty arrays #8230\nfix(query): allow findOne(objectid) and find(objectid) #8268\n\n5.7.6 / 2019-10-21\n ... (truncated)\n\n\n\nCommits\n\n33412d9 chore: release 5.7.12\nb946225 Merge pull request #8351 from AbdelrahmanHafez/gh-8317\n63c2f1e Remove filter test\n4599877 Revert making map return vanilla JS Array\n9509b47 style: fix lint\n757579d fix(connection): only buffer for \"open\" events when calling connection helper...\nff3d36f fix(populate+discriminator): handle populating document whose discriminator v...\na32d9a8 test(populate): repro #8324\nba38d1d Add test to fiter\nba2c353 Make DocumentArray#map return a regular JS array\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-28T11:25:46Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like mongoose is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2019-11-28T11:25:44Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

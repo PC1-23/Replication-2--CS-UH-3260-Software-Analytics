@@ -1,0 +1,553 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 340,
+        "createdAt": "2019-10-30T14:14:49Z",
+        "title": "chore(deps-dev): bump eslint from 2.13.1 to 6.6.0",
+        "bodyText": "Bumps eslint from 2.13.1 to 6.6.0.\n\nRelease notes\nSourced from eslint's releases.\n\nv6.6.0\n\n39dfe08 Update: false positives in function-call-argument-newline (fixes #12123) (#12280) (Scott O'Hara)\n4d84210 Update: improve report location for no-trailing-spaces (fixes #12315) (#12477) (Milos Djermanovic)\nc6a7745 Update: no-trailing-spaces false negatives after comments (fixes #12479) (#12480) (Milos Djermanovic)\n0bffe95 Fix: no-misleading-character-class crash on invalid regex (fixes #12169) (#12347) (Milos Djermanovic)\nc6a9a3b Update: Add enforceForIndexOf option to use-isnan (fixes #12207) (#12379) (Milos Djermanovic)\n364877b Update: measure plugin loading time and output in debug message (#12395) (Victor Homyakov)\n1744fab Fix: operator-assignment removes and duplicates comments (#12485) (Milos Djermanovic)\n52ca11a Fix: operator-assignment invalid autofix with adjacent tokens (#12483) (Milos Djermanovic)\n0f6d0dc Fix: CLIEngine#addPlugin reset lastConfigArrays (fixes #12425) (#12468) (Toru Nagashima)\n923a8cb Chore: Fix lint failure in JSDoc comment (#12489) (Brandon Mills)\naac3be4 Update: Add ignored prop regex no-param-reassign (#11275) (Luke Bennett)\ne5382d6 Chore: Remove unused parameter in dot-location (#12464) (Milos Djermanovic)\n49faefb Fix: no-obj-calls false positive (fixes #12437) (#12467) (Toru Nagashima)\nb3dbd96 Fix: problematic installation issue (fixes #11018) (#12309) (Toru Nagashima)\ncd7c29b Sponsors: Sync README with website (ESLint Jenkins)\n8233873 Docs: Add note about Node.js requiring SSL support (fixes #11413) (#12475) (Nicholas C. Zakas)\n89e8aaf Fix: improve report location for no-tabs (#12471) (Milos Djermanovic)\n7dffe48 Update: Enable function string option in comma-dangle (fixes #12058) (#12462) (YeonJuan)\ne15e1f9 Docs: fix doc for no-unneeded-ternary rule (fixes #12098) (#12410) (Sam Rae)\nb1dc58f Sponsors: Sync README with website (ESLint Jenkins)\n61749c9 Chore: Provide debug log for parser errors (#12474) (Brad Zacher)\n7c8bbe0 Update: enforceForOrderingRelations no-unsafe-negation (fixes #12163) (#12414) (Sam Rae)\n349ed67 Update: improve report location for no-mixed-operators (#12328) (Chiawen Chen)\na102eaa Fix: prefer-numeric-literals invalid autofix with adjacent tokens (#12387) (Milos Djermanovic)\n6e7c18d Update: enforceForNewInMemberExpressions no-extra-parens (fixes #12428) (#12436) (Milos Djermanovic)\n51fbbd7 Fix: array-bracket-newline consistent error with comments (fixes #12416) (#12441) (Milos Djermanovic)\ne657d4c Fix: report full dot location in dot-location (#12452) (Milos Djermanovic)\n2d6e345 Update: make isSpaceBetweenTokens() ignore newline in comments (#12407) (YeonJuan)\n84f71de Update: remove default overrides in keyword-spacing (fixes #12369) (#12411) (YeonJuan)\n18a0b0e Update: improve report location for no-space-in-parens (#12364) (Chiawen Chen)\nd61c8a5 Update: improve report location for no-multi-spaces (#12329) (Chiawen Chen)\n561093f Upgrade: bump inquirer to ^7.0.0 (#12440) (Joe Graham)\nfb633b2 Chore: Add a script for testing with more control (#12444) (Eric Wang)\n012ec51 Sponsors: Sync README with website (ESLint Jenkins)\n874fe16 New: pass cwd from cli engine (#12389) (Eric Wang)\nb962775 Update: no-self-assign should detect member expression with this (#12279) (Tibor Blenessy)\n02977f2 Docs: Clarify eslint:recommended semver policy (#12429) (Kevin Partington)\n97045ae Docs: Fixes object type for rules in \"Use a Plugin\" (#12409) (Daisy Develops)\n24ca088 Docs: Fix typo in v6 migration guide (#12412) (Benjamim Sonntag)\nb094008 Chore: update version parameter name (#12402) (Toru Nagashima)\ne5637ba Chore: enable jsdoc/require-description (#12365) (Kai Cataldo)\nd31f337 Sponsors: Sync README with website (ESLint Jenkins)\n7ffb22f Chore: Clean up inline directive parsing (#12375) (Jordan Eldredge)\n84467c0 Docs: fix wrong max-depth example (fixes #11991) (#12358) (Gabriel R Sezefredo)\n3642342 Docs: Fix minor formatting/grammar errors (#12371) (cherryblossom000)\nc47fa0d Docs: Fix missing word in sentence (#12361) (Dan Boulet)\n8108f49 Chore: enable additional eslint-plugin-jsdoc rules (#12336) (Kai Cataldo)\nb718d2e Chore: update issue template with --eslint-fix flag (#12352) (James George)\n20ba14d Sponsors: Sync README with website (ESLint Jenkins)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv6.6.0 - October 25, 2019\n\n39dfe08 Update: false positives in function-call-argument-newline (fixes #12123) (#12280) (Scott O'Hara)\n4d84210 Update: improve report location for no-trailing-spaces (fixes #12315) (#12477) (Milos Djermanovic)\nc6a7745 Update: no-trailing-spaces false negatives after comments (fixes #12479) (#12480) (Milos Djermanovic)\n0bffe95 Fix: no-misleading-character-class crash on invalid regex (fixes #12169) (#12347) (Milos Djermanovic)\nc6a9a3b Update: Add enforceForIndexOf option to use-isnan (fixes #12207) (#12379) (Milos Djermanovic)\n364877b Update: measure plugin loading time and output in debug message (#12395) (Victor Homyakov)\n1744fab Fix: operator-assignment removes and duplicates comments (#12485) (Milos Djermanovic)\n52ca11a Fix: operator-assignment invalid autofix with adjacent tokens (#12483) (Milos Djermanovic)\n0f6d0dc Fix: CLIEngine#addPlugin reset lastConfigArrays (fixes #12425) (#12468) (Toru Nagashima)\n923a8cb Chore: Fix lint failure in JSDoc comment (#12489) (Brandon Mills)\naac3be4 Update: Add ignored prop regex no-param-reassign (#11275) (Luke Bennett)\ne5382d6 Chore: Remove unused parameter in dot-location (#12464) (Milos Djermanovic)\n49faefb Fix: no-obj-calls false positive (fixes #12437) (#12467) (Toru Nagashima)\nb3dbd96 Fix: problematic installation issue (fixes #11018) (#12309) (Toru Nagashima)\ncd7c29b Sponsors: Sync README with website (ESLint Jenkins)\n8233873 Docs: Add note about Node.js requiring SSL support (fixes #11413) (#12475) (Nicholas C. Zakas)\n89e8aaf Fix: improve report location for no-tabs (#12471) (Milos Djermanovic)\n7dffe48 Update: Enable function string option in comma-dangle (fixes #12058) (#12462) (YeonJuan)\ne15e1f9 Docs: fix doc for no-unneeded-ternary rule (fixes #12098) (#12410) (Sam Rae)\nb1dc58f Sponsors: Sync README with website (ESLint Jenkins)\n61749c9 Chore: Provide debug log for parser errors (#12474) (Brad Zacher)\n7c8bbe0 Update: enforceForOrderingRelations no-unsafe-negation (fixes #12163) (#12414) (Sam Rae)\n349ed67 Update: improve report location for no-mixed-operators (#12328) (Chiawen Chen)\na102eaa Fix: prefer-numeric-literals invalid autofix with adjacent tokens (#12387) (Milos Djermanovic)\n6e7c18d Update: enforceForNewInMemberExpressions no-extra-parens (fixes #12428) (#12436) (Milos Djermanovic)\n51fbbd7 Fix: array-bracket-newline consistent error with comments (fixes #12416) (#12441) (Milos Djermanovic)\ne657d4c Fix: report full dot location in dot-location (#12452) (Milos Djermanovic)\n2d6e345 Update: make isSpaceBetweenTokens() ignore newline in comments (#12407) (YeonJuan)\n84f71de Update: remove default overrides in keyword-spacing (fixes #12369) (#12411) (YeonJuan)\n18a0b0e Update: improve report location for no-space-in-parens (#12364) (Chiawen Chen)\nd61c8a5 Update: improve report location for no-multi-spaces (#12329) (Chiawen Chen)\n561093f Upgrade: bump inquirer to ^7.0.0 (#12440) (Joe Graham)\nfb633b2 Chore: Add a script for testing with more control (#12444) (Eric Wang)\n012ec51 Sponsors: Sync README with website (ESLint Jenkins)\n874fe16 New: pass cwd from cli engine (#12389) (Eric Wang)\nb962775 Update: no-self-assign should detect member expression with this (#12279) (Tibor Blenessy)\n02977f2 Docs: Clarify eslint:recommended semver policy (#12429) (Kevin Partington)\n97045ae Docs: Fixes object type for rules in \"Use a Plugin\" (#12409) (Daisy Develops)\n24ca088 Docs: Fix typo in v6 migration guide (#12412) (Benjamim Sonntag)\nb094008 Chore: update version parameter name (#12402) (Toru Nagashima)\ne5637ba Chore: enable jsdoc/require-description (#12365) (Kai Cataldo)\nd31f337 Sponsors: Sync README with website (ESLint Jenkins)\n7ffb22f Chore: Clean up inline directive parsing (#12375) (Jordan Eldredge)\n84467c0 Docs: fix wrong max-depth example (fixes #11991) (#12358) (Gabriel R Sezefredo)\n3642342 Docs: Fix minor formatting/grammar errors (#12371) (cherryblossom000)\nc47fa0d Docs: Fix missing word in sentence (#12361) (Dan Boulet)\n8108f49 Chore: enable additional eslint-plugin-jsdoc rules (#12336) (Kai Cataldo)\nb718d2e Chore: update issue template with --eslint-fix flag (#12352) (James George)\n\n ... (truncated)\n\n\n\nCommits\n\n879c373 6.6.0\nc8ba30a Build: changelog update for 6.6.0\n39dfe08 Update: false positives in function-call-argument-newline (fixes #12123) (#12...\n4d84210 Update: improve report location for no-trailing-spaces (fixes #12315) (#12477)\nc6a7745 Update: no-trailing-spaces false negatives after comments (fixes #12479) (#12...\n0bffe95 Fix: no-misleading-character-class crash on invalid regex (fixes #12169) (#12...\nc6a9a3b Update: Add enforceForIndexOf option to use-isnan (fixes #12207) (#12379)\n364877b Update: measure plugin loading time and output in debug message (#12395)\n1744fab Fix: operator-assignment removes and duplicates comments (#12485)\n52ca11a Fix: operator-assignment invalid autofix with adjacent tokens (#12483)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by eslintbot, a new releaser for eslint since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-02T09:00:59Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #359.",
+                    "createdAt": "2019-12-02T09:00:58Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 341,
+        "createdAt": "2019-10-30T14:14:53Z",
+        "title": "chore(deps-dev): bump ws from 1.1.5 to 7.2.0",
+        "bodyText": "Bumps ws from 1.1.5 to 7.2.0.\n\nRelease notes\nSourced from ws's releases.\n\n7.2.0\nFeatures\n\nAdded ability to specify the readableObjectMode option when using\nWebSocket.createWebSocketStream() (#1647).\n\n7.1.2\nBug fixes\n\nFixed a bug that caused compress jobs to never be marked as complete\n(#1618).\n\n7.1.1\nBug fixes\n\nAn error is now thrown if the WebSocket server constructor is used\nincorrectly (36412662).\n\n7.1.0\nFeatures\n\nAdded utility to wrap a WebSocket in a Duplex stream (#1589).\n\nBug fixes\n\nReverted \"[minor] Remove unneeded if statement\" (dbacf582, #1591).\n\n7.0.1\nBug fixes\n\nAdded ability to disable sending the SNI extension (#1587).\n\n7.0.0\nBreaking changes\n\nDropped support for Node.js 6 (1e6999bb).\nDropped support for url.Url instances in the WebSocket constructor\n(692d7b47).\nThe behavior of WebSocket#{p{i,o}ng,send}() has changed when the\nreadyState attribute is not OPEN (#1532)\n\nIf the readyState attribute is CONNECTING, an exception is thrown.\nIf the readyState attribute is CLOSING or CLOSED\n\nThe bufferedAmount attribute is increased by the length of the data\nargument in bytes.\nIf provided, the callback function is called with an error.\nNo exception is thrown even if the callback function is not provided.\n\n\n\n\n\n6.2.1\nBug fixes\n ... (truncated)\n\n\n\nCommits\n\n65f7800 [dist] 7.2.0\n54e3011 [doc] Fix Travis CI URL\na6c4238 [example] Close the WebSocket connection on logout\n2b7d84d [minor] Add ability to specify the readableObjectMode option (#1647)\n96d8c8f [test] Increase timeout for failing tests on Windows\n08c6c8b [fix] Ensure that concat() never returns uninitialized data (#1600)\n5b7315f [perf] Use TypedArray#set() instead of Buffer#copy()\n74bac8e [dist] 7.1.2\n3a695e8 [fix] Ensure _compress() callback is always called (#1618)\nfa99173 [doc] Fix nits\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-11T13:00:51Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #404.",
+                    "createdAt": "2020-04-11T13:00:50Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "avwo",
+                            "resourcePath": "/avwo"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 342,
+        "createdAt": "2019-10-30T14:14:58Z",
+        "title": "chore(deps-dev): bump bootstrap from 3.3.5 to 3.4.1",
+        "bodyText": "Bumps bootstrap from 3.3.5 to 3.4.1.\n\nRelease notes\nSourced from bootstrap's releases.\n\nv3.4.1\n\nSecurity: Fixed an XSS vulnerability (CVE-2019-8331) in our tooltip and popover plugins by implementing a new HTML sanitizer\nHandle bad selectors (#) in data-target for Dropdowns\nClarified tooltip selector documentation\nAdded support for NuGet contentFiles\n\nv3.4.0\n\nNew: Added a .row-no-gutters class.\nNew: Added docs searching via Algolia.\nFixed: Resolved an XSS issue in Alert, Carousel, Collapse, Dropdown, Modal, and Tab components. See https://snyk.io/vuln/npm:bootstrap:20160627 for details.\nFixed: Added padding to .navbar-fixed-* on modal open\nFixed: Removed the double border on <abbr> elements.\nRemoved Gist creation in web-based Customizer since anonymous gists were disabled long ago by GitHub.\nRemoved drag and drop support from Customizer since it didn't work anymore.\nAdded a dropdown to the docs nav for newer and previous versions.\nUpdate the docs to use a new baseurl, /docs/3.4/, to version the v3.x documentation like we do with v4.\nReorganized the v3 docs CSS to use Less.\nSwitched to BrowserStack for tests.\nUpdated links to always use https and fix broken URLs.\nReplaced ZeroClipboard with clipboard.js\n\nv3.3.7\nRelease announcement blog post: https://blog.getbootstrap.com/2016/07/25/bootstrap-3-3-7-released/\nJavaScript\n\n#19192 Fix keyboard navigation for toggle buttons (checkbox, radio, single toggle) following a mouse click\n#19659: Clear tooltip's $element to prevent leaking memory\n#20019: Avoid calling jQuery('#') since it's a syntax error in jQuery 3\n#20259: Backport jQuery-related JS unit test fixes from v4\n#20278: button.js: Set disabled property in addition to disabled attribute, for jQuery 3 compatibility\n#20313: Avoid using $.offset() on SVGs since it gives incorrect results in jQuery 3\n#20338: Update jQuery version check and jQuery dependency version range to allow jQuery 3\n\nCSS\nNo significant changes.\nAccessibility\n\n#19704: Add aria-label and callout about labeling pagination components\n\nDocs\n\n#19263 Bump html5shiv to v3.7.3\n#19273 Port v4 browser support table format to v3\n#19893: Update jQuery to v1.12.4\nNumerous Wall of Browser Bugs updates\n\nv3.3.6\nCSS\n\n#16492: Use @input-border-radius variables on input groups.\n#16529: Un-style the caret on <select>s in IE10+.\n\n ... (truncated)\n\n\n\nCommits\n\n68b0d23 Dist\n2ccfa57 handle # selector for dropdown\na43077d Bump version to 3.4.1.\nd821de2 Backport sanitize docs from v4.\n5cd9ef4 Add wdm gem for Windows.\nd6b8501 ES5 fixes.\n2c8abb9 Add sanitize for tooltips and popovers html content.\nd4129df Bump year.\n0d64d6a less/modals.less: Add missing semicolon.\n48c5d7b Use https.\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by xhmikosr, a new releaser for bootstrap since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-01T09:17:13Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-05-01T09:17:15Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 343,
+        "createdAt": "2019-10-30T14:15:01Z",
+        "title": "chore(deps-dev): bump jquery from 3.3.1 to 3.4.1",
+        "bodyText": "Bumps jquery from 3.3.1 to 3.4.1.\n\nCommits\n\n75f7e96 3.4.1\n7dddb19 Core: Make isAttached work with iOS 10.0-10.2\n6c1e7db Event: Prevent leverageNative from registering duplicate dummy handlers\n24d71ac Event: Fix handling of multiple async focus events\nb4fadc9 Build: Test on Node.js 12, stop testing on Node.js 6 & 11\n0d4af52 Build: Fix unresolved jQuery reference in finalPropName\n22caea8 Build: Updating the 3.4-stable version to 3.4.1-pre\n59ea765 Release: update AUTHORS.txt\n7c1ef15 Release: update version to 3.4.0-pre\nd940bc0 Build: Update Sizzle from 2.3.3 to 2.3.4\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-20T13:50:09Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #409.",
+                    "createdAt": "2020-04-20T13:50:08Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "avwo",
+                            "resourcePath": "/avwo"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 359,
+        "createdAt": "2019-12-02T09:00:56Z",
+        "title": "chore(deps-dev): bump eslint from 2.13.1 to 4.18.2",
+        "bodyText": "Bumps eslint from 2.13.1 to 4.18.2.\n\nRelease notes\nSourced from eslint's releases.\n\nv4.18.2\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n4f898c7 Build: Fix JSDoc syntax errors (#9813) (Matija Marohnić)\n13bcf3c Fix: Removing curly quotes in no-eq-null report message (#9852) (Kevin Partington)\nb96fb31 Docs: configuration hierarchy for CLIEngine options (fixes #9526) (#9855) (PiIsFour)\n8ccbdda Docs: Clarify that -c configs merge with .eslintrc.* (fixes #9535) (#9847) (Kevin Partington)\n978574f Docs: Fix examples for no-useless-escape (#9853) (Toru Kobayashi)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv4.18.2 - March 2, 2018\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1 - February 20, 2018\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0 - February 16, 2018\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0 - February 2, 2018\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0 - January 19, 2018\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n\n ... (truncated)\n\n\n\nCommits\n\n22ff6f3 4.18.2\n817b84b Build: changelog update for 4.18.2\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020)\n33177cd Chore: make library files non-executable (#10021)\n558ccba Chore: refactor directive comment processing (#10007)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by eslint, a new releaser for eslint since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-01T09:17:13Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-05-01T09:17:15Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "avwo",
+                            "resourcePath": "/avwo"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 404,
+        "createdAt": "2020-04-11T13:00:48Z",
+        "title": "build(deps-dev): bump ws from 1.1.5 to 3.3.1",
+        "bodyText": "Bumps ws from 1.1.5 to 3.3.1.\n\nRelease notes\nSourced from ws's releases.\n\n3.3.1\nBug fixes\n\nFixed a DoS vulnerability (c4fe466).\n\nA specially crafted value of the Sec-WebSocket-Extensions header that\nused Object.prototype property names as extension or parameter names\ncould be used to make a ws server crash.\nconst WebSocket = require('ws');\nconst net = require('net');\nconst wss = new WebSocket.Server({ port: 3000 }, function () {\nconst payload = 'constructor';  // or ',;constructor'\nconst request = [\n'GET / HTTP/1.1',\n'Connection: Upgrade',\n'Sec-WebSocket-Key: test',\n'Sec-WebSocket-Version: 8',\nSec-WebSocket-Extensions: ${payload},\n'Upgrade: websocket',\n'\\r\\n'\n].join('\\r\\n');\nconst socket = net.connect(3000, function () {\nsocket.resume();\nsocket.write(request);\n});\n});\nThe vulnerability has been privately reported by Nick Starke and\nRyan Knell of Sonatype Security Research and promptly fixed. Please\nupdate now!\n3.3.0\nFeatures\n\nAdded ecdhCurve option (#1228).\n\n3.2.0\nFeatures\n\nAdded ability to specify the compression level (#1199).\nAdded ability to limit the number of concurrent calls to zlib (#1204).\n\n3.1.0\nFeatures\n ... (truncated)\n\n\n\nCommits\n\n70eb3b2 [dist] 3.3.1\nc4fe466 [security] Fix DoS vulnerability\n56f8062 [dist] 3.3.0\n72751d3 [test] Skip family option test if IPv6 is not supported\ne5772a3 chore(package): update nyc to version 11.3.0 (#1230)\ndb729ef [doc] Add documentation for the ecdhCurve option\nd0741fa [feature] Add ecdhCurve option (#1228)\n9303db3 [ci] Test on node 9\n48b0496 [ci] Do not test on node 4.1.0, use 4.2.0 instead\nd6934af [test] Fix error validation on node 9\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-01T09:17:14Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-05-01T09:17:16Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 409,
+        "createdAt": "2020-04-20T13:50:07Z",
+        "title": "build(deps-dev): bump jquery from 3.3.1 to 3.4.0",
+        "bodyText": "Bumps jquery from 3.3.1 to 3.4.0.\n\nCommits\n\nb7fc909 3.4.0\n59ea765 Release: update AUTHORS.txt\n7c1ef15 Release: update version to 3.4.0-pre\nd940bc0 Build: Update Sizzle from 2.3.3 to 2.3.4\n9b9fca4 Update README.md\na2a73db Tests: Make Android Browser 4.0-4.3 dimensions tests green\n4455f8d Tests: Make Android Browser 4.0-4.3 AJAX tests green\n0050403 Core: Preserve CSP nonce on scripts with src attribute in DOM manipulation\nfe5f04d Event: Prevent leverageNative from double-firing focusin\n753d591 Core: Prevent Object.prototype pollution for $.extend( true, ... )\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-30T13:20:46Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #415.",
+                    "createdAt": "2020-04-30T13:20:45Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "avwo",
+                            "resourcePath": "/avwo"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 415,
+        "createdAt": "2020-04-30T13:20:44Z",
+        "title": "build(deps-dev): bump jquery from 3.3.1 to 3.5.0",
+        "bodyText": "Bumps jquery from 3.3.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-01T09:17:15Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-05-01T09:17:16Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

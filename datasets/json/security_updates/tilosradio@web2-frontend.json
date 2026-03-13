@@ -1,0 +1,233 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 35,
+        "createdAt": "2019-11-02T06:47:12Z",
+        "title": "Bump bower from 1.5.4 to 1.8.8",
+        "bodyText": "Bumps bower from 1.5.4 to 1.8.8.\n\nRelease notes\nSourced from bower's releases.\n\nv1.8.8\nFix security issue connected to extracting .tar.gz archives\nThis bug allows to write arbitrary file on filesystem when Bower extracts malicious package\nNeedlessly to say, please upgrade\nv1.8.7\nFixes side effect of fix from v1.8.6 that caused improper permissions for extracted folders\nbower/bower#2532\nv1.8.6\nFix Zip Slip Vulnerability of decompress-zip package: https://snyk.io/research/zip-slip-vulnerability\nNote: v1.8.5 has been unpublished because of missing files\nv1.8.4\n\nFixes release 1.8.3 by publishing with npm@3 instead of npm@5 (to include lib/node_modules)\n\nv1.8.3\n\n451c60e Do not store resolutions if --save is not used, fixes #2344 (#2508)\n50ee729 Allow to disable shorthand resolver (#2507)\nbb17839 Allow shallow cloning when source is a ssh protocol (#2506)\n5a6ae54 Add support for Arrays in Environment Variable replacement (#2411)\n74af42c Only replace last @ after (if any) last / with # (#2395)\n💯Make tests work on Windows / Linux / OSX on node versions 0.10 / 0.12 / 4 / 6 / 8 / 9\n💅Format source code with prettier\n\nv1.8.2\nMigrate registry url from http://bower.herokuapp.com to https://registry.bower.io\nIt is so we leverage CDN and offload Heroku instance reducing costs.\nv1.8.0\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n ... (truncated)\n\n\n\nChangelog\nSourced from bower's changelog.\n\nChangelog\nNewer releases\nPlease see: https://github.com/bower/bower/releases\n1.8.0 - 2016-11-07\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n1.7.9 - 2016-04-05\n\nShow warnings for invalid bower.json fields\nUpdate bower-json\n\nLess strict validation on package name (allow spaces, slashes, and \"@\")\n\n\n\n1.7.8 - 2016-04-04\n\nDon't ask for git credentials in non-interactive session, fixes #956 #1009\nPrevent swallowing exceptions with programmatic api, fixes #2187\nUpdate graceful-fs to 4.x in all dependences, fixes nodejs/node#5213\nResolve pluggable resolvers using cwd and fallback to global modules, fixes #1919\nUpgrade handlebars to 4.0.5, closes #2195\nReplace all % chatacters in defined scripts, instead of only first one, fixes #2174\nUpdate opn package to fix issues with \"bower open\" command on Windows\nUpdate bower-config\n\nDo not interpolate environment variables in script hooks, fixes bower/config#47\n\n\nUpdate bower-json\n\nValidate package name more strictly and allow only latin letters, dots, dashes and underscores\n\n\nAdd support for \"save\" and \"save-exact\" in .bowerrc, #2161\n\n1.7.7 - 2016-01-27\nRevert locations of all files while still packaging node_modules.\nIt's because people are depending on internals of bower, like\nbower/lib/renderers/StandardRenderer. We want to preserve this\n ... (truncated)\n\n\n\nCommits\n\n67741b4 Bump to 1.8.8\n45c6bfa Fix .tar.gz extract vulnerability\n4f68fc7 Update decompress-zip and bump\n206046b Bump to 1.8.6\n43894f5 Bump to 1.8.5\n6390815 Update decompress-zip\ne8b94ec Mention parcel\n51feb8f Fix release script\n1c15dea Bump to 1.8.4\n2aa1f27 Update publish script\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 36,
+        "createdAt": "2019-11-20T15:52:57Z",
+        "title": "Bump angular from 1.5.11 to 1.7.9",
+        "bodyText": "Bumps angular from 1.5.11 to 1.7.9.\n\nChangelog\nSourced from angular's changelog.\n\n1.7.9 pollution-eradication (2019-11-19)\nBug Fixes\n\nangular.merge: do not merge proto property\n(726f49)\n(Thanks to the Snyk Security Research Team for identifyng this issue.)\nngStyle: correctly remove old style when new style value is invalid\n(5edd25,\n#16860,\n#16868)\n\n\n1.7.8 enthusiastic-oblation (2019-03-11)\nBug Fixes\n\nrequired: correctly validate required on non-input element surrounded by ngIf\n(a4c7bd,\n#16830,\n#16836)\n\n\n1.7.7 kingly-exiting (2019-02-04)\nBug Fixes\n\nngRequired: set error correctly when inside ngRepeat and false by default\n(5ad4f5,\n#16814,\n#16820)\n\n\n1.7.6 gravity-manipulation (2019-01-17)\nBug Fixes\n\n$compile: fix ng-prop-* with undefined values\n(772440,\n#16797,\n#16798)\ncompile: properly handle false value for boolean attrs with jQuery\n(27486b,\n#16778,\n#16779)\nngRepeat:\n\nfix reference to last collection value remaining across linkages\n(cf919a)\nfix trackBy function being invoked with incorrect scope\n(d4d103,\n\n\n\n ... (truncated)\n\n\n\nCommits\n\nd257c45 docs: release notes for 1.7.9\n1b1684c docs($compile): fix typos and incorrect example\n726f49d fix(angular.merge): do not merge proto property\n8a187f1 chore(saucelabs): switch to latest version of desktop Safari\nd97e6f1 chore(saucelabs): upgrade SauceConnect to 4.5.4\n26e893a docs(guide/migration): fix typo (misceallenous --> miscellaneous)\n5edd253 fix(ngStyle): correctly remove old style when new style value is invalid\n019dded chore(*): update jQuery from 3.2.1 to 3.4.0\n0007be1 chore(*): make yarn.lock & GitHub templates identical between master & v1.7.x\n863528f docs(DEVELOPERS): remove git revert misleading information\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by petebacondarwin, a new releaser for angular since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-06-18T14:34:44Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #40.",
+                    "createdAt": "2020-06-18T14:34:44Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 37,
+        "createdAt": "2019-12-13T16:02:01Z",
+        "title": "Bump npm from 3.8.6 to 6.13.4",
+        "bodyText": "Bumps npm from 3.8.6 to 6.13.4.\n\nRelease notes\nSourced from npm's releases.\n\nv6.13.4\n6.13.4 (2019-12-11)\nBUGFIXES\n\n320ac9aee npm/bin-links#12 npm/gentle-fs#7 Do not remove global bin/man links inappropriately (@​isaacs)\n\nDEPENDENCIES\n\n52fd21061 gentle-fs@2.3.0 (@​isaacs)\nd06f5c0b0 bin-links@1.1.6 (@​isaacs)\n\nv6.13.3\n6.13.3 (2019-12-09)\nDEPENDENCIES\n\n19ce061a2 bin-links@1.1.5 Properly normalize, sanitize, and verify bin entries in package.json.\n59c836aae npm-packlist@1.4.7\nfb4ecd7d2 pacote@9.5.11\n\n5f33040     #476     npm/pacote#22     npm/pacote#14 fix: Do not     drop perms in git when not root (isaacs,     @​darcyclarke)\n6f229f7     sanitize and normalize package bin field     (isaacs)\n\n\n1743cb339 read-package-json@2.1.1\n\nv6.13.2\n6.13.2 (2019-12-03)\nBUG FIXES\n\n4429645b3 #546 fix docs target typo (@​richardlau)\n867642942 #142 fix(packageRelativePath): fix 'where' for file deps (@​larsgw)\nd480f2c17 #527 Revert \"windows: Add preliminary WSL support for npm and npx\" (@​craigloewen-msft)\ne4b97962e #504 remove unnecessary package.json read when reading shrinkwrap (@​Lighting-Jack)\n1c65d26ac #501 fix(fund): open url for string shorthand (@​ruyadorno)\nae7afe565 #263 Don't log error message if git tagging is disabled (@​woppa684)\n4c1b16f6a #182 Warn the user that it is uninstalling npm-install (@​Hoidberg)\n\nv6.13.1\n6.13.1 (2019-11-18)\nBUG FIXES\n\n938d6124d #472 fix(fund): support funding string shorthand (@​ruyadorno)\nb49c5535b #471 should not publish tap-snapshot folder (@​ruyadorno)\n3471d5200 #253 Add preliminary WSL support for npm and npx (@​infinnie)\n3ef295f23 #486 print quick audit report for human output (@​isaacs)\n\nTESTING\n\ndbbf977ac #278 added workflow to trigger and run benchmarks (@​mikemimik)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from npm's changelog.\n\n6.13.4 (2019-12-11)\nBUGFIXES\n\n320ac9aee\nnpm/bin-links#12\nnpm/gentle-fs#7\nDo not remove global bin/man links inappropriately\n(@​isaacs)\n\nDEPENDENCIES\n\n52fd21061\ngentle-fs@2.3.0\n(@​isaacs)\nd06f5c0b0\nbin-links@1.1.6\n(@​isaacs)\n\n6.13.3 (2019-12-09)\nDEPENDENCIES\n\n19ce061a2\nbin-links@1.1.5 Properly normalize, sanitize, and verify bin entries\nin package.json.\n59c836aae\nnpm-packlist@1.4.7\nfb4ecd7d2\npacote@9.5.11\n\n5f33040\n#476\nnpm/pacote#22\nnpm/pacote#14 fix: Do not\ndrop perms in git when not root (isaacs,\n@​darcyclarke)\n6f229f7\nsanitize and normalize package bin field\n(isaacs)\n\n\n1743cb339\nread-package-json@2.1.1\n\n6.13.2 (2019-12-03)\nBUG FIXES\n\n4429645b3\n#546\nfix docs target typo\n\n ... (truncated)\n\n\n\nCommits\n\nfd29398 6.13.4\nf2aca36 docs: changelog for 6.13.4\n320ac9a Do not remove global bin/man links inappropriately\nd06f5c0 bin-links@1.1.6\n52fd210 gentle-fs@2.3.0\n45482c2 6.13.3\n118bc96 docs: changelog for 6.13.3\n1743cb3 read-package-json@2.1.1\nfb4ecd7 pacote@9.5.11\n59c836a npm-packlist@1.4.7\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-26T22:51:43Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like npm is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-05-26T22:51:42Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 38,
+        "createdAt": "2020-02-05T11:49:42Z",
+        "title": "Bump pouchdb from 5.3.2 to 7.1.1",
+        "bodyText": "Bumps pouchdb from 5.3.2 to 7.1.1.\n\nRelease notes\nSourced from pouchdb's releases.\n\n7.1.1\nwe have another PouchDB release. The main improvements in this release are bug fixes and dependency updates.\nFor a full changelog from 7.0 to 7.1.0, please see the releases page or view the latest commits.\nGet in touch\nAs always, we welcome feedback from the community and would love to hear what you think of this release as well as PouchDB's future direction. Please don't hesitate to file issues or get in touch. And of course, a big thanks to all of our new and existing contributors!\nIf you wondering where is 7.1.0, I had a slight publishing issue so the easiest was to bump it up to 7.1.1 to do a fresh deploy.\n7.0.0\nAs promised back in January it is time to drop WebSQL from our default builds. This not only lets us focus our development efforts on a single engine but along with the other changes explained below reduces the default PouchDB package size from 148KB to 122KB, thats 17.5% smaller!\nRemoved WebSQL\n#6943 - The WebSQL adapter is still available to download and use, it will no longer be available as part of a default PouchDB build and will eventually be moved to the pouchdb-community repo. If you need to migrate your users from WebSQL to IndexeDB then there is some advice available in our previous release post.\nRemoved Promise Polyfill\n#6945 - Including our own Promise polyfill means larger bundles when most apps already include their own polyfill if they need it. So if you support browsers which do not support Promises natively you will need to include a polyfill yourself. We use promise-polyfill and have found it to work great.\nSwitch to fetch\n#6944 - This is another API that may need polyfilled if you use PouchDB and support IE, we use whatwg-fetch. Switching to fetch has allowed us to expose the ability to intercept the requests PouchDB makes for more flexibility, such as:\nvar db = new PouchDB('http://example.com/dbname', {\n  fetch: function (url, opts) {\n    opts.headers.set('X-Some-Special-Header', 'foo');\n    return PouchDB.fetch(url, opts);\n  }\n});\nThat will add a X-Some-Special-Header to every HTTP request PouchDB makes.\nDeterministic Revisions\n#4642 - We now match CouchDB default behaviour and use the documents contents to determine its revision, this means automated conflict resolution handlers are less likely to generate extra conflicts.\nMore Deprecations\n\n#6946 - Remove debug dep\n#7134 - Remove IndexedDB storage option\n#6944 - Remove deprecated skipSetup\n\nFixes\n\n#7040 - Use fixed-length array in idb/indexeddb allDocs\n\n ... (truncated)\n\n\n\nCommits\n\na379318 build 7.1.1\n0f66082 (7799) - release post for 7.1.1\n3ea28a7 (7799) - release post for 7.1\n4af8be5 (#7798) - chore: pin node-fetch to 2.4.1\nbb2b23f (#7790) - matchSelector function object error\n5517474 (#7786) - fix(package): update levelup to version 4.0.2\n9e044ff (#7794) - update node on travis to version 10\nad860cb (#7745) fix: handle corrupt rev tree\n07b11ad (#7773) - chore(package): update tape to version 4.10.2\n2916cbd (#7769) - chore(package): update uglify-js to version 3.5.14\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by garrensmith, a new releaser for pouchdb since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 39,
+        "createdAt": "2020-02-05T11:49:46Z",
+        "title": "Bump bootstrap-sass from 3.3.7 to 3.4.1",
+        "bodyText": "Bumps bootstrap-sass from 3.3.7 to 3.4.1.\n\nRelease notes\nSourced from bootstrap-sass's releases.\n\nv3.4.1\n\nSecurity: Fixed an XSS vulnerability (CVE-2019-8331) in our tooltip and popover plugins by implementing a new HTML sanitizer\nHandle bad selectors (#) in data-target for Dropdowns\nClarified tooltip selector documentation\nAdded support for NuGet contentFiles\n\nv3.4.0\n\nNew: Added a .row-no-gutters class.\nNew: Added docs searching via Algolia.\nFixed: Resolved an XSS issue in Alert, Carousel, Collapse, Dropdown, Modal, and Tab components. See https://snyk.io/vuln/npm:bootstrap:20160627 for details.\nFixed: Added padding to .navbar-fixed-* on modal open\nFixed: Removed the double border on  elements.\nRemoved Gist creation in web-based Customizer since anonymous gists were disabled long ago by GitHub.\nRemoved drag and drop support from Customizer since it didn’t work anymore.\n\nFramework version: Bootstrap v3.4.0\nSee the upstream blog post for a detailed overview.\n\n\n\nChangelog\nSourced from bootstrap-sass's changelog.\n\nChangelog\n3.4.0\n\nBootstrap rubygem now depends on SassC instead of Sass.\nCompass no longer supported.\n\n\n\n\nCommits\n\nb34765d Rakefile: require 'bundler/gem_tasks'\n143aa6a Bump bootstrap-sass to 3.4.1\n69157ce rake convert[v3.4.1]\nbb7dbf8 v3.4.0\n3c126b3 Revert relative imports change\ndcdef9b Test Rails app: Depend on sassc-rails\ncd1542b rake convert[v3.4.0]\n07b9b64 less_conversion.rb: Update stylelint comment removal\n6634d0a Remove compass support\n489b6f2 lotus -> hanami\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

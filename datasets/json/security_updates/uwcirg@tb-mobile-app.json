@@ -1,0 +1,355 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 159,
+        "createdAt": "2019-10-07T20:01:35Z",
+        "title": "Bump merge from 1.2.0 to 1.2.1",
+        "bodyText": "Bumps merge from 1.2.0 to 1.2.1.\n\nCommits\n\nb31e67f link broken\n6ad6035 Fix prototype pollution\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-10-08T15:42:39Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like merge is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2019-10-08T15:42:37Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 160,
+        "createdAt": "2019-10-07T20:01:37Z",
+        "title": "Bump mixin-deep from 1.3.1 to 1.3.2",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-10-08T15:42:44Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like mixin-deep is no longer updatable, so this is no longer needed.",
+                    "createdAt": "2019-10-08T15:42:43Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 161,
+        "createdAt": "2019-10-07T20:01:40Z",
+        "title": "Bump handlebars from 4.0.12 to 4.4.2",
+        "bodyText": "Bumps handlebars from 4.0.12 to 4.4.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.4.2 - October 2nd, 2019\n\nchore: fix grunt-saucelabs dependency - b7eada0\n\nCommits\nv4.4.1 - October 2nd, 2019\n\n#1562 - Error message for syntax error missing location in 4.2.1+\n\nCommits\nv4.4.0 - September 29th, 2019\n\nAdded support for iterable objects in {{#each}} helper (#1557) - cf7545e\n\nCommits\nv4.3.4 - September 28th, 2019\n\nfix: harden \"propertyIsEnumerable\"-check - ff4d827\n\nCompatibility notes:\n\nNo incompatibilities are known.\n\nCommits\nv4.3.3 - September 27th, 2019\n\nfix test case for browsers that do not support defineGetter - 8742bde\n\nCommits\nv4.3.2 - September 26th, 2019\n\nUse Object.prototype.propertyIsEnumerable to check for constructors - 213c0bb, #1563\n\nCompatibility notes:\n\nThere are no breaking changes\n\nCommits\nv4.3.1 - September 25th, 2019\nFixes:\n\ndo not break on precompiled templates from Handlebars >=4.0.0 <4.3.0 - 1266838, #1561\nEnsure allowCallsToHelperMissing runtime option is optional in typings - 93444c5, 64ecb9e, #1560\n\nCommits\n ... (truncated)\n\n\n\nCommits\n\nb793350 v4.4.2\n26d0f7a Update release notes\nb7eada0 chore: fix grunt-saucelabs dependency\nb8e769f v4.4.1\n9cb3165 Update release notes\nc53f340 chore: use @knappi/grunt-saucelabs instead of github-dependency\n059b330 v4.4.0\n8f6047c Update release notes\ncf7545e Added support for iterable objects in {{#each}} helper (#1557)\nc958cc8 v4.3.4\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-10-08T15:42:39Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like handlebars is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2019-10-08T15:42:38Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 162,
+        "createdAt": "2019-10-07T20:01:41Z",
+        "title": "Bump lodash.template from 4.4.0 to 4.5.0",
+        "bodyText": "Bumps lodash.template from 4.4.0 to 4.5.0.\n\nCommits\n\nab73503 Bump to v4.5.0.\na4f7d4c Rebuild lodash and docs.\ncca5ac6 Fix npm-test by removing the call to test-docs.\n9f7f9fc Adjust heading order. [ci skip]\n6e2fb92 Remove unused baseArity.\n4f702e2 Specify utf8 encoding.\nb188f90 Add fp tests for iteratee shorthands.\n7b93dc9 Ensure clone methods clone expando properties of boolean, number, & string ob...\n664d66a Make string tests more consistent.\nd9dc0e6 Add _.invertBy tests.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-10-08T15:42:38Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like lodash.template is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2019-10-08T15:42:37Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "kylegoodwin",
+                            "resourcePath": "/kylegoodwin"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 163,
+        "createdAt": "2019-11-05T21:31:16Z",
+        "title": "Bump mongoose from 5.4.13 to 5.7.5 in /messaging-api",
+        "bodyText": "Bumps mongoose from 5.4.13 to 5.7.5.\n\nChangelog\nSourced from mongoose's changelog.\n\n5.7.5 / 2019-10-14\n\nfix(query): delete top-level _bsontype property in queries to prevent silent empty queries #8222\nfix(update): handle subdocument pre('validate') errors in update validation #7187\nfix(subdocument): make subdocument#isModified use parent document's isModified #8223\ndocs(index): add favicon to home page #8226\ndocs: add schema options to API docs #8012\ndocs(middleware): add note about accessing the document being updated in pre('findOneAndUpdate') #8218\nrefactor: remove redundant code in ValidationError #8244 AbdelrahmanHafez\n\n5.7.4 / 2019-10-09\n\nfix(schema): handle required: null and required: undefined as required: false #8219\nfix(update): support updating array embedded discriminator props if discriminator key in $elemMatch #8063\nfix(populate): allow accessing populate virtual prop underneath array when virtual defined on top level #8198\nfix(model): support passing options to Model.remove() #8211\nfix(document): handle Document#set() merge option when setting underneath single nested schema #8201\nfix: use options constructor class for all schematypes #8012\n\n5.7.3 / 2019-09-30\n\nfix: make CoreMongooseArray#includes() handle fromIndex parameter #8203\nfix(update): cast right hand side of $pull as a query instead of an update for document arrays #8166\nfix(populate): handle virtual populate of an embedded discriminator nested path #8173\ndocs(validation): remove deprecated isAsync from validation docs in favor of emphasizing promises #8184\ndocs(documents): add overwriting section #8178\ndocs(promises): add note about queries being thenable #8110\nperf: avoid update validators going into Mixed types #8192 birdofpreyru\nrefactor: remove async as a prod dependency #8073\n\n5.7.2 / 2019-09-23\n\nfix(mongoose): support mongoose.set('autoIndex', false) #8158\nfix(discriminator): support tiedValue parameter for embedded discriminators analagous to top-level discriminators #8164\nfix(query): handle toConstructor() with entries-style sort syntax #8159\nfix(populate): avoid converting mixed paths into arrays if populating an object path under Mixed #8157\nfix: use $wrapCallback when using promises for mongoose-async-hooks\nfix: handle queries with setter that converts value to Number instance #8150\ndocs: add mongoosejs-cli to readme #8142\ndocs: fix example typo for Schema.prototype.plugin() #8175 anaethoss\n\n5.7.1 / 2019-09-13\n\nfix(query): fix TypeError when calling findOneAndUpdate() with runValidators #8151 fernandolguevara\nfix(document): throw strict mode error if setting an immutable path with strict mode: false #8149\nfix(mongoose): support passing options object to Mongoose constructor #8144\nfix(model): make syncIndexes() handle changes in index key order #8135\nfix(error): export StrictModeError as a static property of MongooseError #8148 ouyuran\ndocs(connection+mongoose): add useUnifiedTopology option to connect() and openUri() docs #8146\n\n ... (truncated)\n\n\n\nCommits\n\n40a879b chore: release 5.7.5\n159457d chore: add vpn black friday as sponsor\ne6285ea Merge pull request #8244 from AbdelrahmanHafez/master\nd9163f5 fix: correct order for declaration\ncec9dda Minor refactor to ValidationError\n13ae085 docs(index): add favicon to home page\n96ce0eb style: fix lint\n973b1e0 docs: add schema options to API docs\ncdfb507 chore: add useUnifiedTopology for tests re: #8212\n936ddfb fix(update): handle subdocument pre('validate') errors in update validation\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T18:35:38Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T18:35:40Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "messaging-api/package-lock.json"
+                },
+                {
+                    "path": "messaging-api/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 167,
+        "createdAt": "2020-03-13T22:43:21Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

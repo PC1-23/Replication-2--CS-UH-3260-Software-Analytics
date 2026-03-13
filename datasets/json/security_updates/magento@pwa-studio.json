@@ -1,0 +1,882 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1434,
+        "createdAt": "2019-07-12T09:01:43Z",
+        "title": "Bump lodash from 4.17.11 to 4.17.14 in /pwa-devdocs",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.14.\n\nCommits\n\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-15T14:51:33Z",
+        "mergedBy": {
+            "login": "sirugh",
+            "resourcePath": "/sirugh"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "magento-cicd2",
+                        "resourcePath": "/magento-cicd2"
+                    },
+                    "bodyText": "Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our Contributor License Agreement before we can accept your contribution.",
+                    "createdAt": "2019-07-12T09:01:46Z"
+                },
+                {
+                    "author": {
+                        "login": "vercel",
+                        "resourcePath": "/apps/vercel"
+                    },
+                    "bodyText": "This pull request is automatically deployed with Now.\nTo access deployments, click Details below or on the icon next to each push.\nLatest deployment for this branch: https://venia-git-dependabot-npmandyarnpwa-devdocslodash-41714.magento-research1.now.sh",
+                    "createdAt": "2019-07-12T09:01:49Z"
+                },
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" in your PR.\n  \n    \n\n      🚫\n      A version label is required. A maintainer must add one.\n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      We are currently working on automating the PR metadata checks. Until that time, you may see failures related to labels/description/linked issues/etc even if you have fixed the problem. Failures will persist until the next push (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against 36fc5f1",
+                    "createdAt": "2019-07-12T09:08:14Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "pwa-devdocs/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1436,
+        "createdAt": "2019-07-12T22:24:18Z",
+        "title": "Bump lodash from 4.17.11 to 4.17.14 in /docker",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.14.\n\nCommits\n\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-15T14:51:10Z",
+        "mergedBy": {
+            "login": "sirugh",
+            "resourcePath": "/sirugh"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "magento-cicd2",
+                        "resourcePath": "/magento-cicd2"
+                    },
+                    "bodyText": "Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our Contributor License Agreement before we can accept your contribution.",
+                    "createdAt": "2019-07-12T22:24:20Z"
+                },
+                {
+                    "author": {
+                        "login": "vercel",
+                        "resourcePath": "/apps/vercel"
+                    },
+                    "bodyText": "This pull request is automatically deployed with Now.\nTo access deployments, click Details below or on the icon next to each push.\nLatest deployment for this branch: https://venia-git-dependabot-npmandyarndockerlodash-41714.magento-research1.now.sh",
+                    "createdAt": "2019-07-12T22:24:24Z"
+                },
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" in your PR.\n  \n    \n\n      🚫\n      A version label is required. A maintainer must add one.\n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      We are currently working on automating the PR metadata checks. Until that time, you may see failures related to labels/description/linked issues/etc even if you have fixed the problem. Failures will persist until the next push (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against 1a6248e",
+                    "createdAt": "2019-07-12T22:30:51Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "docker/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MilestonedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "UnlabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1640,
+        "createdAt": "2019-09-06T20:25:07Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.2",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.2.\n\nCommits\n\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\n230a4e2 1.4.1\n08158db 🐛 fix getStaticValue security issue\n587cca2 🐛 fix getStringIfConstant to handle literals correctly\nc119e83 🐛 fix getStaticValue to handle bigint correctly\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-09-09T20:37:46Z",
+        "mergedBy": {
+            "login": "dpatil-magento",
+            "resourcePath": "/dpatil-magento"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" in your PR.\n  \n    \n\n      🚫\n      A version label is required. A maintainer must add one.\n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      \nAccess a deployed version of this PR here. Make sure to wait for the \"pwa-pull-request-deploy\" job to complete.\n  \n    \n\n      📖\n      DangerCI Failures related to missing labels/description/linked issues/etc will persist until the next push or next nightly build run (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against 4b333ec",
+                    "createdAt": "2019-09-06T20:33:50Z"
+                },
+                {
+                    "author": {
+                        "login": "supernova-at",
+                        "resourcePath": "/supernova-at"
+                    },
+                    "bodyText": "Verification Steps:\n\n Ensure yarn lint succeeds",
+                    "createdAt": "2019-09-09T15:24:53Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "UnlabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1896,
+        "createdAt": "2019-10-15T20:55:24Z",
+        "title": "Bump csv-parse from 4.3.4 to 4.4.6",
+        "bodyText": "Bumps csv-parse from 4.3.4 to 4.4.6.\n\nChangelog\nSourced from csv-parse's changelog.\n\nVersion 4.4.6\n\nsecurity: remove regexp vulnerable to DOS in cast option, npm report 69742\n\nVersion 4.4.5\n\nts: add buffer as allowed type for input, fix #248\n\nVersion 4.4.4\n\npackage: latest dependencies\nbom: detection when buffer smaller than bom\npackage: remove deprecated @types/should dependency\npackage: update file path\n\nVersion 4.4.3\n\npackage: fix files declaration\n\nVersion 4.4.2\n\nbom: parsing for BOM character #239\nts: add sync definition\npackage: replace npm ignore with file field\n\nVersion 4.4.1\nFix:\n\ncolumns: allows returning an array of string, undefined, null or false\n\nVersion 4.4.0\nNew features:\n\noptions: new bom option\n\n\n\n\nCommits\n\nfe3fe58 Bump to version 4.4.6\nb9d3594 security: remove regexp vulnerable to DOS in cast option, npm report 69742\n76d96e1 Bump to version 4.4.5\nfecf171 ts: add buffer as allowed type for input, fix #248\n9c53199 fix: add buffer as allowed type for input\n53ff6e7 Bump to version 4.4.4\n7693582 package: latest dependencies\n620125e fix: Detecting BOM when data is not enough\nc28279e package: update file path\n30c11a2 Bump to version 4.4.3\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-10-17T20:58:52Z",
+        "mergedBy": {
+            "login": "dpatil-magento",
+            "resourcePath": "/dpatil-magento"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" or including the associated JIRA ID in your PR.\n  \n    \n\n      🚫\n      A version label is required. A maintainer must add one.\n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      \nAccess a deployed version of this PR here. Make sure to wait for the \"pwa-pull-request-deploy\" job to complete.\n  \n    \n\n      📖\n      DangerCI Failures related to missing labels/description/linked issues/etc will persist until the next push or next nightly build run (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against 16b5190",
+                    "createdAt": "2019-10-15T20:59:57Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "packages/upward-spec/package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "UnlabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2048,
+        "createdAt": "2019-12-29T22:46:23Z",
+        "title": "Bump handlebars from 4.1.2 to 4.5.3",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-02T17:28:54Z",
+        "mergedBy": {
+            "login": "jimbo",
+            "resourcePath": "/jimbo"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" or \"closes JIRA-<issue_number>\" in your PR.\n  \n    \n\n      🚫\n      A version label is required. A maintainer must add one.\n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      \nAccess a deployed version of this PR here. Make sure to wait for the \"pwa-pull-request-deploy\" job to complete.\n  \n    \n\n      📖\n      DangerCI Failures related to missing labels/description/linked issues/etc will persist until the next push or next nightly build run (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against c843579",
+                    "createdAt": "2019-12-29T22:50:59Z"
+                },
+                {
+                    "author": {
+                        "login": "dpatil-magento",
+                        "resourcePath": "/dpatil-magento"
+                    },
+                    "bodyText": "Fix it in develop branch and cherry pick to release/5.0 ?",
+                    "createdAt": "2020-01-02T16:07:18Z"
+                },
+                {
+                    "author": {
+                        "login": "sirugh",
+                        "resourcePath": "/sirugh"
+                    },
+                    "bodyText": "Fix it in develop branch and cherry pick to release/5.0 ?\n\nThat seems reasonable. Or we could do a fast follow 5.0.1 🤷‍♂",
+                    "createdAt": "2020-01-02T16:08:45Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2251,
+        "createdAt": "2020-03-13T23:48:03Z",
+        "title": "Bump acorn from 6.3.0 to 6.4.1 in /pwa-devdocs",
+        "bodyText": "Bumps acorn from 6.3.0 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\ndf0cf1a Mark version 6.4.0\n5303412 Also export Parser via Parser.acorn\nefe273e give token types and etc to plugins\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-17T14:56:10Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" or \"closes JIRA-<issue_number>\" in your PR.\n  \n    \n\n      🚫\n      A version label is required. A maintainer must add one.\n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      \nAccess a deployed version of this PR here. Make sure to wait for the \"pwa-pull-request-deploy\" job to complete.\n  \n    \n\n      📖\n      DangerCI Failures related to missing labels/description/linked issues/etc will persist until the next push or next nightly build run (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against 6656983",
+                    "createdAt": "2020-03-13T23:56:16Z"
+                },
+                {
+                    "author": {
+                        "login": "dpatil-magento",
+                        "resourcePath": "/dpatil-magento"
+                    },
+                    "bodyText": "Also fix related packages with same dependency? https://github.com/magento/pwa-studio/network/alerts under packages/pwa-buildpack/package-lock.json and packages/pwa-devdocs/package-lock.json",
+                    "createdAt": "2020-03-16T16:24:04Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like acorn is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-03-17T14:56:08Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "pwa-devdocs/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "UnlabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2312,
+        "createdAt": "2020-04-05T02:05:03Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-06T18:02:24Z",
+        "mergedBy": {
+            "login": "dpatil-magento",
+            "resourcePath": "/dpatil-magento"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" or \"closes JIRA-<issue_number>\" in your PR.\n  \n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      \nAccess a deployed version of this PR here. Make sure to wait for the \"pwa-pull-request-deploy\" job to complete.\n  \n    \n\n      📖\n      DangerCI Failures related to missing labels/description/linked issues/etc will persist until the next push or next nightly build run (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against a616bdd",
+                    "createdAt": "2020-04-05T02:15:43Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "UnlabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2370,
+        "createdAt": "2020-04-30T15:24:37Z",
+        "title": "Bump jquery from 3.4.1 to 3.5.0 in /pwa-devdocs",
+        "bodyText": "Bumps jquery from 3.4.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-30T17:57:12Z",
+        "mergedBy": {
+            "login": "dpatil-magento",
+            "resourcePath": "/dpatil-magento"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "PWAStudioBot",
+                        "resourcePath": "/PWAStudioBot"
+                    },
+                    "bodyText": "Fails\n    \n  \n  \n      🚫\n      Missing \"Description\" section. Please add it back, with detail.\n    \n\n      🚫\n      Missing \"Verification Steps\" section. Please add it back, with detail.\n    \n\n      🚫\n      \nNo linked issue found. Please link a relevant open issue by adding the text \"closes #<issue_number>\" or \"closes JIRA-<issue_number>\" in your PR.\n  \n    \n\n      🚫\n      A version label is required. A maintainer must add one.\n    \n  \n\n\n  \n    \n      \n      Messages\n    \n  \n  \n      📖\n      \nAccess a deployed version of this PR here. Make sure to wait for the \"pwa-pull-request-deploy\" job to complete.\n  \n    \n\n      📖\n      DangerCI Failures related to missing labels/description/linked issues/etc will persist until the next push or next nightly build run (assuming they are fixed).\n    \n  \n\nIf your PR is missing information, check against the original template here. At a minimum you must have the section headers from the template and provide some information in each section.\n\n  Generated by 🚫 dangerJS against af81f8e",
+                    "createdAt": "2020-04-30T15:37:37Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "pwa-devdocs/package.json"
+                },
+                {
+                    "path": "pwa-devdocs/yarn.lock"
+                }
+            ]
+        }
+    }
+]

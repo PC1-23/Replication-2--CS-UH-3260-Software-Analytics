@@ -1,0 +1,1151 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1029,
+        "createdAt": "2019-11-06T05:46:25Z",
+        "title": "Bump loofah from 2.3.0 to 2.3.1",
+        "bodyText": "Bumps loofah from 2.3.0 to 2.3.1.\n\nRelease notes\nSourced from loofah's releases.\n\n2.3.1 / 2019-10-22\nSecurity\nAddress CVE-2019-15587: Unsanitized JavaScript may occur in sanitized output when a crafted SVG element is republished.\nThis CVE's public notice is at flavorjones/loofah#171\n\n\n\nChangelog\nSourced from loofah's changelog.\n\n2.3.1 / 2019-10-22\nSecurity\nAddress CVE-2019-15587: Unsanitized JavaScript may occur in sanitized output when a crafted SVG element is republished.\nThis CVE's public notice is at flavorjones/loofah#171\n\n\n\nCommits\n\n83df303 version bump to v2.3.1\ne323a77 Merge pull request #172 from flavorjones/171-xss-vulnerability\n1d81f91 update CHANGELOG\n0c6617a mitigate XSS vulnerability in SVG animate attributes\na5bd819 rufo formatting\n1bdf276 formatting in README\n1908dc2 update CHANGELOG with release date\nbcbd7b3 update dev gemspec\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-06T18:53:17Z",
+        "mergedBy": {
+            "login": "nemani",
+            "resourcePath": "/nemani"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1041,
+        "createdAt": "2019-11-15T22:02:28Z",
+        "title": "Bump rack-cors from 1.0.2 to 1.0.5",
+        "bodyText": "Bumps rack-cors from 1.0.2 to 1.0.5.\n\nChangelog\nSourced from rack-cors's changelog.\n\n1.0.5 - 2019-11-14\nChanged\n\nUpdate Gem spec to require rack >= 1.6.0\n\n1.0.4 - 2019-11-13\nSecurity\n\nEscape and resolve path before evaluating resource rules (thanks to Colby Morgan)\n\n1.0.3 - 2019-03-24\nChanged\n\nDon't send 'Content-Type' header with pre-flight requests\nAllow ruby array for  vary header config\n\n\n\n\nCommits\n\nb704fda Up rack requirement\nbaa02d2 Updating Gems to hopefully get rid of alerts in GH\na5e8546 Reduce default max_age to a more sensible value\ne4d4fc3 Unescape and resolve paths before resource checks\n145a5df [CI] Test against Ruby 2.6\nf77f89f Version 1.0.3\nddcf819 Clean up gemspec\n5fed623 Update rack gem\n1137201 Update Rails4 example\nc62c484 Remove unnecessary :require option from Gemfile example\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-15T22:26:19Z",
+        "mergedBy": {
+            "login": "bkDJ",
+            "resourcePath": "/bkDJ"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "nemani",
+                        "resourcePath": "/nemani"
+                    },
+                    "bodyText": "@skbly7 @bkDJ  @jyotishp this might be something related to cors issue we have on aws\n1.0.4 - 2019-11-13\nSecurity\n\nEscape and resolve path before evaluating resource rules (thanks to Colby Morgan)\n\n1.0.3 - 2019-03-24\nChanged\n\nDon't send 'Content-Type' header with pre-flight requests\nAllow ruby array for vary header config",
+                    "createdAt": "2019-11-15T22:14:16Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1047,
+        "createdAt": "2019-12-03T04:23:52Z",
+        "title": "Bump chartkick from 3.2.1 to 3.3.0",
+        "bodyText": "Bumps chartkick from 3.2.1 to 3.3.0.\n\nChangelog\nSourced from chartkick's changelog.\n\n3.3.0 (2019-11-09)\n\nUpdated Chartkick.js to 3.2.0\nRolled back Chart.js to 2.8.0 due to legend change\n\n3.2.2 (2019-10-27)\n\nUpdated Chartkick.js to 3.1.3\nUpdated Chart.js to 2.9.1\n\n\n\n\nCommits\n\nadcfdcf Version bump to 3.3.0 [skip ci]\n424059e Updated readme for Chartkick.js updates\nb810936 Updated Chartkick.js to 3.2.0\n2ce4902 Rolled back Chart.js to 2.8.0 due to legend change\n0ca7653 Updated docs [skip ci]\n9b0ee56 Updated Chart.js to 2.9.2\n737bd64 Version bump to 3.2.2 [skip ci]\n76fb107 Updated Chartkick.js to 3.1.3\nd79189e Updated Chartkick.js to 3.1.2 and Chart.js to 2.9.1\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-12T00:03:06Z",
+        "mergedBy": {
+            "login": "nemani",
+            "resourcePath": "/nemani"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1048,
+        "createdAt": "2019-12-06T09:05:40Z",
+        "title": "Bump puma from 3.12.0 to 3.12.2",
+        "bodyText": "Bumps puma from 3.12.0 to 3.12.2.\n\nRelease notes\nSourced from puma's releases.\n\nv3.12.1\n\n\n\nChangelog\nSourced from puma's changelog.\n\n4.3.1 and 3.12.2 / 2019-12-05\n\nSecurity\n\nFix: a poorly-behaved client could use keepalive requests to monopolize Puma's reactor and create a denial of service attack. CVE-2019-16770.\n\n\n\n4.3.0 / 2019-11-07\n\n\nFeatures\n\nStrip whitespace at end of HTTP headers (#2010)\nOptimize HTTP parser for JRuby (#2012)\nAdd SSL support for the control app and cli (#2046, #2052)\n\n\n\nBugfixes\n\nFix Errno::EINVAL when SSL is enabled and browser rejects cert (#1564)\nFix pumactl defaulting puma to development if an environment was not specified (#2035)\nFix closing file stream when reading pid from pidfile (#2048)\nFix a typo in configuration option --extra_runtime_dependencies (#2050)\n\n\n\n4.2.1 / 2019-10-07\n\n3 bugfixes\n\nFix socket activation of systemd (pre-existing) unix binder files (#1842, #1988)\nDeal with multiple calls to bind correctly (#1986, #1994, #2006)\nAccepts symbols for verify_mode (#1222)\n\n\n\n4.2.0 / 2019-09-23\n\n6 features\n\nPumactl has a new -e environment option and reads config/puma/<environment>.rb config files (#1885)\nSemicolons are now allowed in URL paths (MRI only), useful for Angular or Redmine (#1934)\nAllow extra dependencies to be defined when using prune_bundler (#1105)\nPuma now reports the correct port when binding to port 0, also reports other listeners when binding to localhost (#1786)\nSending SIGINFO to any Puma worker now prints currently active threads and their backtraces (#1320)\nPuma threads all now have their name set on Ruby 2.3+ (#1968)\n\n\n4 bugfixes\n\nFix some misbehavior with phased restart and externally SIGTERMed workers (#1908, #1952)\nFix socket closing on error (#1941)\nRemoved unnecessary SIGINT trap for JRuby that caused some race conditions (#1961)\nFix socket files being left around after process stopped (#1970)\n\n\nAbsolutely thousands of lines of test improvements and fixes thanks to @​MSP-Greg\n\n4.1.1 / 2019-09-05\n\n3 bugfixes\n\nRevert our attempt to not dup STDOUT/STDERR (#1946)\nFix socket close on error (#1941)\nFix workers not shutting down correctly (#1908)\n\n\n\n4.1.0 / 2019-08-08\n ... (truncated)\n\n\n\nCommits\n\nbb29fc7 3.12.2\n058df12 4.3.1 and 4.2.1 release notes\n06053e6 Merge pull request from GHSA-7xx3-m584-x994\n461c9e9 Docs files\n7e2c88d v3.12.1\n36964ec Merge pull request #1700 from schneems/schneems/fix-puma-rack-handler-config\nc24c0c8 Rack handler should use provided default host\ne5d566e Merge pull request #1682 from MSP-Greg/update-travis-ruby\ncecc44a Merge pull request #1701 from schneems/schneems/m\nce57cfb Allow running individual tests via the m gem.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-12T00:03:25Z",
+        "mergedBy": {
+            "login": "nemani",
+            "resourcePath": "/nemani"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1049,
+        "createdAt": "2019-12-16T22:16:04Z",
+        "title": "Bump excon from 0.62.0 to 0.71.0",
+        "bodyText": "Bumps excon from 0.62.0 to 0.71.0.\n\nChangelog\nSourced from excon's changelog.\n\n0.71.0 2019-12-12\nfix for leftover data with interrupted persistent connections\n0.70.0 2019-12-02\nUpdate bundled certificates\n0.69.1 2019-11-21\nFix mistake in proxy connection error handling\n0.69.0 2019-11-21\nRaise better proxy connection errors\n0.68.0 2019-10-25\nUpdated bundled certs\n0.67.0 2019-09-24\nProperly redact user/pass info from proxy credentials\nUpdate bundled certs\n0.66.0 2019-08-06\nAdd remote_ip to datum, enabling usage in middleware\nredirect follower now raises after following too many redirects (default 10)\nfixed stub clearing in tests to avoid race conditions\n0.65.0 2019-07-22\nfix yardoc formatting\nfix creating Proc without a block\nreduce/refine gem file contents\nupdate bundled certs\nreadd bundled certs to gem file contents\n0.64.0 2019-04-15\n ... (truncated)\n\n\n\nCommits\n\n1149d44 v0.71.0\nccb57d7 fix for leftover data with interrupted persistent connections\nf8de8cf v0.70.0\n93f4a21 v0.69.1\ne89bbb7 Merge pull request #709 from jasquat/fix_response_status_check\n5647437 fixed response status check when making a request with a valid proxy is set\nf769176 v0.69.0\n20c0748 define ProxyConnectionError\nf44106a raise on failed proxy connect\nd7ed5fe be thorough in unsubscribing to notifications in instrumentation tests\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-07T13:24:13Z",
+        "mergedBy": {
+            "login": "nemani",
+            "resourcePath": "/nemani"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1050,
+        "createdAt": "2019-12-19T13:00:14Z",
+        "title": "Bump rack from 2.0.7 to 2.0.8",
+        "bodyText": "Bumps rack from 2.0.7 to 2.0.8.\n\nChangelog\nSourced from rack's changelog.\n\nChangelog\nAll notable changes to this project will be documented in this file. For info on how to format all future additions to this file please reference Keep A Changelog.\nUnreleased\nNote: There are many unreleased changes in Rack (master is around 300 commits ahead of 2-0-stable), and below is not an exhaustive list. If you would like to help out and document some of the unreleased changes, PRs are welcome.\nAdded\nChanged\n\nUse Time#httpdate format for Expires, as proposed by RFC 7231. (@​nanaya)\nMake Utils.status_code raise an error when the status symbol is invalid instead of 500.\nRename Request::SCHEME_WHITELIST to Request::ALLOWED_SCHEMES.\nMake Multipart::Parser.get_filename accept files with + in their name.\nAdd Falcon to the default handler fallbacks. (@​ioquatix)\nUpdate codebase to avoid string mutations in preparation for frozen_string_literals. (@​pat)\nChange MockRequest#env_for to rely on the input optionally responding to #size instead of #length. (@​janko)\nRename Rack::File -> Rack::Files and add deprecation notice. (@​postmodern).\n\nRemoved\nDocumentation\n\nUpdate broken example in Session::Abstract::ID documentation. (tonytonyjan)\nAdd Padrino to the list of frameworks implmenting Rack. (@​wikimatze)\nRemove Mongrel from the suggested server options in the help output. (@​tricknotes)\nReplace HISTORY.md and NEWS.md with CHANGELOG.md. (@​twitnithegirl)\nBackfill CHANGELOG.md from 2.0.1 to 2.0.7 releases. (@​drenmi)\n\n\n\n\nCommits\n\ne7ee459 Bumping version\nf1a79b2 Introduce a new base class to avoid breaking when upgrading\n5b1cab6 Add a version prefix to the private id to make easier to migrate old values\n1e96e0f Fallback to the public id when reading the session in the pool adapter\n3ba123d Also drop the session with the public id when destroying sessions\n6a04bbf Fallback to the legacy id when the new id is not found\ndc45a06 Add the private id\n73a5f79 revert conditionals to master\n4e32262 remove NullSession\n1c7e3b2 remove || raise and get closer to master\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-07T13:23:59Z",
+        "mergedBy": {
+            "login": "nemani",
+            "resourcePath": "/nemani"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "nemani",
+                            "resourcePath": "/nemani"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1147,
+        "createdAt": "2020-02-18T16:16:21Z",
+        "title": "Bump webpack-dev-server from 3.0.0 to 3.1.11",
+        "bodyText": "Bumps webpack-dev-server from 3.0.0 to 3.1.11.\n\nRelease notes\nSourced from webpack-dev-server's releases.\n\nv3.1.11\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\nv3.1.10\n2018-10-23\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\nv3.1.9\nNo release notes provided.\nv3.1.8\n2018-09-06\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\nv3.1.7\n2018-08-29\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\nv3.1.6\n2018-08-26\nBug Fixes\n ... (truncated)\n\n\n\nChangelog\nSourced from webpack-dev-server's changelog.\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\n\n3.1.10 (2018-10-23)\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\n\n3.1.9 (2018-09-24)\n\n3.1.8 (2018-09-06)\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\n\n3.1.7 (2018-08-29)\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\n ... (truncated)\n\n\n\nCommits\n\nff2874f chore(release): 3.1.11\nb3217ca fix: check origin header for websocket connection (#1603)\n68dd49a fix: add url for compatibility with webpack@5 (#1598) (#1599)\nfadae5d fix(Server): mime type for wasm in contentBase directory (#1575) (#1580)\n7a3a257 fix(package): update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563)\n1fe82de ci(travis): Node 11 (on OS X) crashes, use 10 for now (#1588)\n55398b5 fix(bin/options): correct check for color support (options.color) (#1555)\n927a2b3 fix(Server): correct node version checks (#1543)\nfa96a76 chore(PULL_REQUEST_TEMPLATE): allow features (#1539)\nfe3219f chore(release): 3.1.10\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by evilebottnawi, a new releaser for webpack-dev-server since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-02-24T13:29:42Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit fa38f5a and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 81.9% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-02-18T16:23:01Z"
+                },
+                {
+                    "author": {
+                        "login": "nemani",
+                        "resourcePath": "/nemani"
+                    },
+                    "bodyText": "@alkeshrails @piotrekpasciak should we merge this in?",
+                    "createdAt": "2020-02-24T12:11:30Z"
+                },
+                {
+                    "author": {
+                        "login": "piotrekpasciak",
+                        "resourcePath": "/piotrekpasciak"
+                    },
+                    "bodyText": "@nemaniarjun Yes, but person who merges it needs to test the PR both locally and staging after the deploy. Please take a look on browser console when testing.",
+                    "createdAt": "2020-02-24T13:02:14Z"
+                },
+                {
+                    "author": {
+                        "login": "nemani",
+                        "resourcePath": "/nemani"
+                    },
+                    "bodyText": "Looks like its not working as expected locally. Probably due to bad / incompatible webpack config.\nSee: webpack/webpack-dev-server#2029\nClosing this for now to be taken up with the webpack config refactor in #1102",
+                    "createdAt": "2020-02-24T13:29:39Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-02-24T13:29:44Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1167,
+        "createdAt": "2020-02-25T15:37:47Z",
+        "title": "Bump nokogiri from 1.10.4 to 1.10.8",
+        "bodyText": "Bumps nokogiri from 1.10.4 to 1.10.8.\n\nRelease notes\nSourced from nokogiri's releases.\n\n1.10.8 / 2020-02-10\nSecurity\n[MRI] Pulled in upstream patch from libxml that addresses CVE-2020-7595. Full details are available in #1992. Note that this patch is not yet (as of 2020-02-10) in an upstream release of libxml.\n1.10.7 / 2019-12-03\nBug\n\n[MRI] Ensure the patch applied in v1.10.6 works with GNU patch. #1954\n\n1.10.6 / 2019-12-03\nBug\n\n[MRI] Fix FreeBSD installation of vendored libxml2. [#1941, #1953] (Thanks, @​nurse!)\n\n1.10.5 / 2019-10-31\nDependencies\n\n[MRI] vendored libxml2 is updated from 2.9.9 to 2.9.10\n[MRI] vendored libxslt is updated from 1.1.33 to 1.1.34\n\n\n\n\nChangelog\nSourced from nokogiri's changelog.\n\n1.10.8 / 2020-02-10\nSecurity\n[MRI] Pulled in upstream patch from libxml that addresses CVE-2020-7595. Full details are available in #1992. Note that this patch is not yet (as of 2020-02-10) in an upstream release of libxml.\n1.10.7 / 2019-12-03\nFixed\n\n[MRI] Ensure the patch applied in v1.10.6 works with GNU patch. [#1954]\n\n1.10.6 / 2019-12-03\nFixed\n\n[MRI] Fix FreeBSD installation of vendored libxml2. [#1941, #1953] (Thanks, @​nurse!)\n\n1.10.5 / 2019-10-31\nSecurity\n[MRI] Vendored libxslt upgraded to v1.1.34 which addresses three CVEs for libxslt:\n\nCVE-2019-13117\nCVE-2019-13118\nCVE-2019-18197\nCVE-2019-19956\n\nMore details are available at #1943.\nDependencies\n\n[MRI] vendored libxml2 is updated from 2.9.9 to 2.9.10\n[MRI] vendored libxslt is updated from 1.1.33 to 1.1.34\n\n\n\n\nCommits\n\n6ce10d1 version bump to v1.10.8\n2320f5b update CHANGELOG for v1.10.8\n4a77fdb remove patches from the hoe Manifest\n570b6cb update to use rake-compiler ~1.1.0\n2cdb68e backport libxml2 patch for CVE-2020-7595\ne6b3229 version bump to v1.10.7\n4f9d443 update CHANGELOG\n80e67ef Fix the patch from #1953 to work with both git and patch\n7cf1b85 Fix typo in generated metadata\nd76180d add gem metadata\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-02-25T22:07:49Z",
+        "mergedBy": {
+            "login": "piotrekpasciak",
+            "resourcePath": "/piotrekpasciak"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit e54bc98 and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 58.2% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-02-25T15:45:32Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1184,
+        "createdAt": "2020-02-29T00:27:02Z",
+        "title": "Bump puma from 3.12.2 to 3.12.3",
+        "bodyText": "Bumps puma from 3.12.2 to 3.12.3.\n\nChangelog\nSourced from puma's changelog.\n\n4.3.2 and 3.12.3 / 2020-02-27\n\nSecurity\n\nFix: Prevent HTTP Response splitting via CR/LF in header values. CVE-2020-5247.\n\n\n\n\n\n\nCommits\n\n2ff978f 3.12.3\n3a2b918 Test backport\n37928cb 4.3.2 and 3.12.3 release notes\n1b17e85 Merge pull request from GHSA-84j7-475p-hp8v\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-04T12:54:15Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #1197.",
+                    "createdAt": "2020-03-04T12:54:14Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1197,
+        "createdAt": "2020-03-04T12:54:12Z",
+        "title": "Bump puma from 3.12.2 to 3.12.4",
+        "bodyText": "Bumps puma from 3.12.2 to 3.12.4.\n\nChangelog\nSourced from puma's changelog.\n\n4.3.3 and 3.12.4 / 2020-02-28\n\nBugfixes\n\nFix: Fixes a problem where we weren't splitting headers correctly on newlines (#2132)\n\n\nSecurity\n\nFix: Prevent HTTP Response splitting via CR in early hints. CVE-2020-5249.\n\n\n\n4.3.2 and 3.12.3 / 2020-02-27 (YANKED)\n\nSecurity\n\nFix: Prevent HTTP Response splitting via CR/LF in header values. CVE-2020-5247.\n\n\n\n\n\n\nCommits\n\nf809e6b Add missing server_run\n87fc7d7 3.12.4\ne79a5b2 HTTP Injection - fix bug + 1 more vector (#2136)\n2ff978f 3.12.3\n3a2b918 Test backport\n37928cb 4.3.2 and 3.12.3 release notes\n1b17e85 Merge pull request from GHSA-84j7-475p-hp8v\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-04T13:16:20Z",
+        "mergedBy": {
+            "login": "piotrekpasciak",
+            "resourcePath": "/piotrekpasciak"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit 8a377a1 and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 83.3% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-03-04T13:02:00Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1244,
+        "createdAt": "2020-03-17T16:33:57Z",
+        "title": "Bump bootstrap from 4.2.1 to 4.3.1",
+        "bodyText": "Bumps bootstrap from 4.2.1 to 4.3.1.\n\nChangelog\nSourced from bootstrap's changelog.\n\nChangelog\nThe changelog is tracked here but also in the Releases section of the GitHub project.\nThe changelog only includes changes specific to the RubyGem.\nThe Bootstrap framework changes can be found in the Releases section of twbs/bootstrap.\nRelease announcement posts on the official Bootstrap blog contain summaries of the most noteworthy changes made in each release of Bootstrap.\n\n\n\nCommits\n\ncbbed2d Bump bootstrap to 4.3.1\na63d04c rake update[v4.3.1]\nabf9232 Updater: Exclude tools/sanitizer.js from bootstrap_js_files\n0a29879 Bump to v4.3.0\nc406232 rake update[v4.3.0]\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-17T21:24:05Z",
+        "mergedBy": {
+            "login": "piotrekpasciak",
+            "resourcePath": "/piotrekpasciak"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit cc0958a and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 83.8% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-04-17T21:08:25Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile"
+                },
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1400,
+        "createdAt": "2020-04-30T16:18:24Z",
+        "title": "Bump jquery from 3.4.1 to 3.5.0",
+        "bodyText": "Bumps jquery from 3.4.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-14T17:23:50Z",
+        "mergedBy": {
+            "login": "piotrekpasciak",
+            "resourcePath": "/piotrekpasciak"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit d334240 and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 83.7% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-04-30T16:26:29Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1442,
+        "createdAt": "2020-05-07T21:30:09Z",
+        "title": "Bump doorkeeper from 5.0.2 to 5.0.3",
+        "bodyText": "Bumps doorkeeper from 5.0.2 to 5.0.3.\n\nRelease notes\nSourced from doorkeeper's releases.\n\nv5.0.3\n\n#1371 Backport: add #as_json method and attributes serialization restriction for Application model.\nFixes information disclosure vulnerability (CVE-2020-10187).\n\n\n\n\nChangelog\nSourced from doorkeeper's changelog.\n\n5.0.3\n\n#1371 Backport: add #as_json method and attributes serialization restriction for Application model.\nFixes information disclosure vulnerability (CVE-2020-10187).\n\n\n\n\nCommits\n\n7e1fed0 Release 5.0.3\ne6fe9cb Merge pull request from GHSA-j7vx-8mqj-cqp9\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-09T02:42:49Z",
+        "mergedBy": {
+            "login": "skbly7",
+            "resourcePath": "/skbly7"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit 9be90aa and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 83.3% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-05-07T21:38:12Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile"
+                },
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1500,
+        "createdAt": "2020-05-22T16:09:25Z",
+        "title": "Bump puma from 4.3.3 to 4.3.5",
+        "bodyText": "Bumps puma from 4.3.3 to 4.3.5.\n\nChangelog\nSourced from puma's changelog.\n\n4.3.4/4.3.5 and 3.12.5/3.12.6 / 2020-05-22\nEach patchlevel release contains a separate security fix. We recommend simply upgrading to 4.3.5/3.12.6.\n\nSecurity\n\nFix: Fixed two separate HTTP smuggling vulnerabilities that used the Transfer-Encoding header. CVE-2020-11076 and CVE-2020-11077.\n\n\n\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-22T19:39:30Z",
+        "mergedBy": {
+            "login": "piotrekpasciak",
+            "resourcePath": "/piotrekpasciak"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit 1cf8169 and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 83.3% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-05-22T16:18:23Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile"
+                },
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "DeployedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1508,
+        "createdAt": "2020-05-28T23:16:19Z",
+        "title": "Bump kaminari from 1.1.1 to 1.2.1",
+        "bodyText": "Bumps kaminari from 1.1.1 to 1.2.1.\n\nRelease notes\nSourced from kaminari's releases.\n\nv1.2.0\nDeprecations:\n\nDeprecated current_per_page in favor of limit_value\n\nEnhancements:\n\nAdded #url_to_next_page and #url_to_prev_page helper methods: 38e95a2\nExtracted url helper methods and packed them in Kaminari::Helpers::UrlHelper: ff38bee\nImproved performance of total_count for grouped queries by explicitly giving SQL select clause #979 [@MmKolodziej]\nAdded LIMIT to total_count query when max_pages presents #981 [@rymai]\n\nBug Fixes:\n\nFixed a bug where the kaminari-mongoid gem was not loaded properly: kaminari/kaminari-mongoid#9 [@DenniJensen]\nFixed a bug where the #total_count method incorrectly calculates the total count: #932 [@tumayun]\nFixed a bug where empty? breaks subsequent last_page? in without_count mode #1009 [@montdidier]\nFixed kwargs warnings on Ruby 2.7 #1010 [@connorshea]\n\n\n\n\nChangelog\nSourced from kaminari's changelog.\n\n1.2.1\nSecurity Fixes:\n\nAdded original_script_name parameter to the ignore list: #1020 [@viseztrance]\nSee CVE-2020-11082 for full details.\n\nBug Fixes:\n\nFixed a couple of grouped total_count regressions by reverting #979\n\n1.2.0\nDeprecations:\n\nDeprecated current_per_page in favor of limit_value\n\nEnhancements:\n\nAdded #url_to_next_page and #url_to_prev_page helper methods: 38e95a2\nExtracted url helper methods and packed them in Kaminari::Helpers::UrlHelper: ff38bee\nImproved performance of total_count for grouped queries by explicitly giving SQL select clause #979 [@MmKolodziej]\nAdded LIMIT to total_count query when max_pages presents #981 [@rymai]\n\nBug Fixes:\n\nFixed a bug where the kaminari-mongoid gem was not loaded properly: kaminari/kaminari-mongoid#9 [@DenniJensen]\nFixed a bug where the #total_count method incorrectly calculates the total count: #932 [@tumayun]\nFixed a bug where empty? breaks subsequent last_page? in without_count mode #1009 [@montdidier]\nFixed kwargs warnings on Ruby 2.7 #1010 [@connorshea]\n\n\n\n\nCommits\n\nab8b111 Version 1.2.1\n674aeec Merge pull request #1020 from viseztrance/fix/add-entry-to-blacklist\n8dd52a1 Blacklist \"original_script_name\" get param\n04d86ed Revert \"Merge pull request #979 from MmKolodziej/better_total_count_for_group...\n7347292 kaminari supports Ruby 2.8 (or 3.0 or whatever comes next) and Rails 6.1\na2f262e Actually, let's call it 1.2.0\nf901ad4 Version 1.1.2\nc3114fa Changes for version 1.1.2\nb21c1da using has to be called from the toplevel in Ruby 2.0\n795b2b7 Let this plugin internal method be super private within this file\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-06-06T09:03:18Z",
+        "mergedBy": {
+            "login": "skbly7",
+            "resourcePath": "/skbly7"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit d81fbab and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (50% is the threshold).\nThis pull request will bring the total coverage in the repository to 84.5% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2020-06-02T07:33:54Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    }
+]

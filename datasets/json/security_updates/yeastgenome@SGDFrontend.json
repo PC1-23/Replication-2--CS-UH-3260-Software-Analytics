@@ -1,0 +1,606 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "felixgondwe",
+                            "resourcePath": "/felixgondwe"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 250,
+        "createdAt": "2019-10-21T15:42:09Z",
+        "title": "Bump axios from 0.16.2 to 0.19.0",
+        "bodyText": "Bumps axios from 0.16.2 to 0.19.0.\n\nRelease notes\nSourced from axios's releases.\n\nv0.19.0\nFixes and Functionality:\n\nUnzip response body only for statuses != 204 (#1129) - drawski\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\nMakes Axios error generic to use AxiosResponse (#1738) - Suman Lama\nFixing Mocha tests by locking follow-redirects version to 1.5.10 (#1993) - grumblerchester\nAllow uppercase methods in typings. (#1781) - Ken Powers\nFixing .eslintrc without extension (#1789) - Manoel\nConsistent coding style (#1787) - Ali Servet Donmez\nFixing building url with hash mark (#1771) - Anatoly Ryabov\nThis commit fix building url with hash map (fragment identifier) when parameters are present: they must not be added after #, because client cut everything after #\nPreserve HTTP method when following redirect (#1758) - Rikki Gibson\nAdd getUri signature to TypeScript definition. (#1736) - Alexander Trauzzi\nAdding isAxiosError flag to errors thrown by axios (#1419) - Ayush Gupta\nFix failing SauceLabs tests by updating configuration - Emily Morehouse\n\nDocumentation:\n\nAdd information about auth parameter to README (#2166) - xlaguna\nAdd DELETE to list of methods that allow data as a config option (#2169) - Daniela Borges Matos de Carvalho\nUpdate ECOSYSTEM.md - Add Axios Endpoints (#2176) - Renan\nAdd r2curl in ECOSYSTEM (#2141) - 유용우 / CX\nUpdate README.md - Add instructions for installing with yarn (#2036) - Victor Hermes\nFixing spacing for README.md (#2066) - Josh McCarty\nUpdate README.md. - Change .then to .finally in example code (#2090) - Omar Cai\nClarify what values responseType can have in Node (#2121) - Tyler Breisacher\ndocs(ECOSYSTEM): add axios-api-versioning (#2020) - Weffe\nIt seems that responseType: 'blob' doesn't actually work in Node (when I tried using it, response.data was a string, not a Blob, since Node doesn't have Blobs), so this clarifies that this option should only be used in the browser\nAdd issue templates - Emily Morehouse\nUpdate README.md. - Add Querystring library note (#1896) - Dmitriy Eroshenko\nAdd react-hooks-axios to Libraries section of ECOSYSTEM.md (#1925) - Cody Chan\nClarify in README that default timeout is 0 (no timeout) (#1750) - Ben Standefer\n\nv0.19.0-beta.1\nNOTE: This is a beta version of this release. There may be functionality that is broken in\ncertain browsers, though we suspect that builds are hanging and not erroring. See\nhttps://saucelabs.com/u/axios for the most up-to-date information.\nNew Functionality:\n\nAdd getUri method (#1712)\nAdd support for no_proxy env variable (#1693)\nAdd toJSON to decorated Axios errors to faciliate serialization (#1625)\nAdd second then on axios call (#1623)\nTypings: allow custom return types\nAdd option to specify character set in responses (with http adapter)\n\nFixes:\n ... (truncated)\n\n\n\nChangelog\nSourced from axios's changelog.\n\n0.19.0 (May 30, 2019)\nFixes and Functionality:\n\nUnzip response body only for statuses != 204 (#1129) - drawski\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\nMakes Axios error generic to use AxiosResponse (#1738) - Suman Lama\nFixing Mocha tests by locking follow-redirects version to 1.5.10 (#1993) - grumblerchester\nAllow uppercase methods in typings. (#1781) - Ken Powers\nFixing building url with hash mark (#1771) - Anatoly Ryabov\nThis commit fix building url with hash map (fragment identifier) when parameters are present: they must not be added after #, because client cut everything after #\nPreserve HTTP method when following redirect (#1758) - Rikki Gibson\nAdd getUri signature to TypeScript definition. (#1736) - Alexander Trauzzi\nAdding isAxiosError flag to errors thrown by axios (#1419) - Ayush Gupta\n\nInternal:\n\nFixing .eslintrc without extension (#1789) - Manoel\nFix failing SauceLabs tests by updating configuration - Emily Morehouse\nAdd issue templates - Emily Morehouse\n\nDocumentation:\n\nConsistent coding style in README (#1787) - Ali Servet Donmez\nAdd information about auth parameter to README (#2166) - xlaguna\nAdd DELETE to list of methods that allow data as a config option (#2169) - Daniela Borges Matos de Carvalho\nUpdate ECOSYSTEM.md - Add Axios Endpoints (#2176) - Renan\nAdd r2curl in ECOSYSTEM (#2141) - 유용우 / CX\nUpdate README.md - Add instructions for installing with yarn (#2036) - Victor Hermes\nFixing spacing for README.md (#2066) - Josh McCarty\nUpdate README.md. - Change .then to .finally in example code (#2090) - Omar Cai\nClarify what values responseType can have in Node (#2121) - Tyler Breisacher\ndocs(ECOSYSTEM): add axios-api-versioning (#2020) - Weffe\nIt seems that responseType: 'blob' doesn't actually work in Node (when I tried using it, response.data was a string, not a Blob, since Node doesn't have Blobs), so this clarifies that this option should only be used in the browser\nUpdate README.md. - Add Querystring library note (#1896) - Dmitriy Eroshenko\nAdd react-hooks-axios to Libraries section of ECOSYSTEM.md (#1925) - Cody Chan\nClarify in README that default timeout is 0 (no timeout) (#1750) - Ben Standefer\n\n0.19.0-beta.1 (Aug 9, 2018)\nNOTE: This is a beta version of this release. There may be functionality that is broken in\ncertain browsers, though we suspect that builds are hanging and not erroring. See\nhttps://saucelabs.com/u/axios for the most up-to-date information.\nNew Functionality:\n\nAdd getUri method (#1712)\nAdd support for no_proxy env variable (#1693)\nAdd toJSON to decorated Axios errors to faciliate serialization (#1625)\nAdd second then on axios call (#1623)\n\n ... (truncated)\n\n\n\nCommits\n\n8d0b92b Releasing 0.19.0\n3f7451c Update Changelog for release (0.19.0)\nf28ff93 Add information about auth parameter to README (#2166)\n5250e6e Add DELETE to list of methods that allow data as a config option (#2169)\n6b0ccd1 Update ECOSYSTEM.md - Add Axios Endpoints (#2176)\n299e827 Add r2curl in ECOSYSTEM (#2141)\nfd0c959 Unzip response body only for statuses != 204 (#1129)\n92d2313 Update README.md - Add instructions for installing with yarn (#2036)\nddcc2e4 Fixing spacing for README.md (#2066)\n48c43d5 Update README.md. - Change .then to .finally in example code (#2090)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by emilyemorehouse, a new releaser for axios since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-05T20:34:26Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-05T20:34:28Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "felixgondwe",
+                            "resourcePath": "/felixgondwe"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 254,
+        "createdAt": "2019-10-30T19:21:30Z",
+        "title": "Bump ffi from 1.9.10 to 1.11.1",
+        "bodyText": "Bumps ffi from 1.9.10 to 1.11.1.\n\nChangelog\nSourced from ffi's changelog.\n\n1.11.1 / 2019-05-20\nChanged:\n\nRaise required ruby version to >=2.0. #699, #700\nFix a possible linker error on ruby < 2.3 on Linux.\n\n1.11.0 / 2019-05-17\nThis version was yanked on 2019-05-20 to fix an install issue on ruby-1.9.3. #700\nAdded:\n\nAdd ability to disable or force use of system libffi. #669\nUse like gem inst ffi -- --enable-system-libffi .\nAdd ability to call FFI callbacks from outside of FFI call frame. #584\nAdd proper documentation to FFI::Generator and ::Task\nAdd gemspec metadata. #696, #698\n\nChanged:\n\nFix stdcall on Win32. #649, #669\nFix load paths for FFI::Generator::Task\nFix FFI::Pointer#read_string(0) to return a binary String. #692\nFix benchmark suite so that it runs on ruby-2.x\nMove FFI::Platform::CPU from C to Ruby. #663\nMove FFI::StructByReference to Ruby. #681\nMove FFI::DataConverter to Ruby (#661)\nVarious cleanups and improvements of specs and benchmarks\n\nRemoved:\n\nRemove ruby-1.8 and 1.9 compatibility code. #683\nRemove unused spec files. #684\n\n1.10.0 / 2019-01-06\nAdded:\n\nAdd /opt/local/lib/ to ffi's fallback library search path. #638\nAdd binary gem support for ruby-2.6 on Windows\nAdd FreeBSD on AArch64 and ARM support. #644\nAdd FFI::LastError.winapi_error on Windows native or Cygwin. #633\n\nChanged:\n\nUpdate to rake-compiler-dock-0.7.0\nUse 64-bit inodes on FreeBSD >= 12. #644\nSwitch time_t and suseconds_t types to long on FreeBSD. #627\nMake register_t long_long on 64-bit FreeBSD. #644\nFix Pointer#write_array_of_type #637\n\n ... (truncated)\n\n\n\nCommits\n\n3d8c91c Update CHANGELOG for ffi-1.11.1\n2a3d9d6 Bump VERSION to 1.11.1\n19d5776 Add some missing items to CHANGELOG for ffi-1.11.0\n08b9b78 Raise ruby version requirement to >=2.0\ne76c43b Fix build on ruby-2.0 on Linux\n9b4a9e4 Add version 1.11.0 to CHANGELOG\n36f1bb5 Bump VERSION to 1.11.0\n29c07a9 Pass options from rake task to the FFI::Generator\n7efdd2e Include the name of the template file instead of just rake\nbc99b7e Add proper documentation to FFI::Generator and ::Task\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-05T20:34:06Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-05T20:34:08Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "felixgondwe",
+                            "resourcePath": "/felixgondwe"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 255,
+        "createdAt": "2019-10-30T19:21:32Z",
+        "title": "Bump urllib3 from 1.12 to 1.24.2",
+        "bodyText": "Bumps urllib3 from 1.12 to 1.24.2.\n\nChangelog\nSourced from urllib3's changelog.\n\n1.24.2 (2019-04-17)\n\n\nDon't load system certificates by default when any other ca_certs, ca_certs_dir or\nssl_context parameters are specified.\n\n\nRemove Authorization header regardless of case when redirecting to cross-site. (Issue #1510)\n\n\nAdd support for IPv6 addresses in subjectAltName section of certificates. (Issue #1269)\n\n\n1.24.1 (2018-11-02)\n\n\nRemove quadratic behavior within GzipDecoder.decompress() (Issue #1467)\n\n\nRestored functionality of ciphers parameter for create_urllib3_context(). (Issue #1462)\n\n\n1.24 (2018-10-16)\n\n\nAllow key_server_hostname to be specified when initializing a PoolManager to allow custom SNI to be overridden. (Pull #1449)\n\n\nTest against Python 3.7 on AppVeyor. (Pull #1453)\n\n\nEarly-out ipv6 checks when running on App Engine. (Pull #1450)\n\n\nChange ambiguous description of backoff_factor (Pull #1436)\n\n\nAdd ability to handle multiple Content-Encodings (Issue #1441 and Pull #1442)\n\n\nSkip DNS names that can't be idna-decoded when using pyOpenSSL (Issue #1405).\n\n\nAdd a server_hostname parameter to HTTPSConnection which allows for\noverriding the SNI hostname sent in the handshake. (Pull #1397)\n\n\nDrop support for EOL Python 2.6 (Pull #1429 and Pull #1430)\n\n\nFixed bug where responses with header Content-Type: message/* erroneously\nraised HeaderParsingError, resulting in a warning being logged. (Pull #1439)\n\n\nMove urllib3 to src/urllib3 (Pull #1409)\n\n\n1.23 (2018-06-04)\n\nAllow providing a list of headers to strip from requests when redirecting\nto a different host. Defaults to the Authorization header. Different\n\n ... (truncated)\n\n\n\nCommits\n\n1efadf4 Release 1.24.2 (#1564)\na6ec68a Merging new release version: 1.24.1\n0cedb3b Restore context.set_ciphers() to create_urllib3_context() (#1463)\n0aeba3b Use bytearray to accumulate bytes from gzip (#1468)\nf8d1c78 Uninstall oclint to ensure gcc can be brew upgraded (#1464)\ncd7cfa6 Resolve pytest pluggy version conflict (#1457)\nb548abc Update changelog for 1.24 release\nef0c745 Merging new release version: 1.24\na0964d9 Add missing key_server_hostname variable (#1449)\n34d8298 Test against Python 3.7 on AppVeyor (#1453)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-05T20:33:55Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-05T20:33:56Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "felixgondwe",
+                            "resourcePath": "/felixgondwe"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 256,
+        "createdAt": "2019-10-30T19:21:32Z",
+        "title": "Bump requests from 2.3.0 to 2.20.0",
+        "bodyText": "Bumps requests from 2.3.0 to 2.20.0.\n\nChangelog\nSourced from requests's changelog.\n\n2.20.0 (2018-10-18)\nBugfixes\n\nContent-Type header parsing is now case-insensitive (e.g.\ncharset=utf8 v Charset=utf8).\nFixed exception leak where certain redirect urls would raise\nuncaught urllib3 exceptions.\nRequests removes Authorization header from requests redirected\nfrom https to http on the same hostname. (CVE-2018-18074)\nshould_bypass_proxies now handles URIs without hostnames (e.g.\nfiles).\n\nDependencies\n\nRequests now supports urllib3 v1.24.\n\nDeprecations\n\nRequests has officially stopped support for Python 2.6.\n\n2.19.1 (2018-06-14)\nBugfixes\n\nFixed issue where status_codes.py's init function failed trying\nto append to a __doc__ value of None.\n\n2.19.0 (2018-06-12)\nImprovements\n\nWarn user about possible slowdown when using cryptography version\n< 1.3.4\nCheck for invalid host in proxy URL, before forwarding request to\nadapter.\nFragments are now properly maintained across redirects. (RFC7231\n7.1.2)\nRemoved use of cgi module to expedite library load time.\nAdded support for SHA-256 and SHA-512 digest auth algorithms.\nMinor performance improvement to Request.content.\nMigrate to using collections.abc for 3.7 compatibility.\n\nBugfixes\n\nParsing empty Link headers with parse_header_links() no longer\nreturn one bogus entry.\n\n ... (truncated)\n\n\n\nCommits\n\nbd84045 v2.20.0\n7fd9267 remove final remnants from 2.6\n6ae8a21 Add myself to AUTHORS\n89ab030 Use comprehensions whenever possible\n2c6a842 Merge pull request #4827 from webmaven/patch-1\n30be889 CVE URLs update: www sub-subdomain no longer valid\na6cd380 Merge pull request #4765 from requests/encapsulate_urllib3_exc\nbbdbcc8 wrap url parsing exceptions from urllib3's PoolManager\nff0c325 Merge pull request #4805 from jdufresne/https\nb0ad249 Prefer https:// for URLs throughout project\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-05T20:33:46Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-05T20:33:48Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "felixgondwe",
+                            "resourcePath": "/felixgondwe"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 257,
+        "createdAt": "2019-10-30T19:22:45Z",
+        "title": "Bump bootstrap from 3.3.7 to 3.4.1",
+        "bodyText": "Bumps bootstrap from 3.3.7 to 3.4.1.\n\nRelease notes\nSourced from bootstrap's releases.\n\nv3.4.1\n\nSecurity: Fixed an XSS vulnerability (CVE-2019-8331) in our tooltip and popover plugins by implementing a new HTML sanitizer\nHandle bad selectors (#) in data-target for Dropdowns\nClarified tooltip selector documentation\nAdded support for NuGet contentFiles\n\nv3.4.0\n\nNew: Added a .row-no-gutters class.\nNew: Added docs searching via Algolia.\nFixed: Resolved an XSS issue in Alert, Carousel, Collapse, Dropdown, Modal, and Tab components. See https://snyk.io/vuln/npm:bootstrap:20160627 for details.\nFixed: Added padding to .navbar-fixed-* on modal open\nFixed: Removed the double border on <abbr> elements.\nRemoved Gist creation in web-based Customizer since anonymous gists were disabled long ago by GitHub.\nRemoved drag and drop support from Customizer since it didn't work anymore.\nAdded a dropdown to the docs nav for newer and previous versions.\nUpdate the docs to use a new baseurl, /docs/3.4/, to version the v3.x documentation like we do with v4.\nReorganized the v3 docs CSS to use Less.\nSwitched to BrowserStack for tests.\nUpdated links to always use https and fix broken URLs.\nReplaced ZeroClipboard with clipboard.js\n\n\n\n\nCommits\n\n68b0d23 Dist\n2ccfa57 handle # selector for dropdown\na43077d Bump version to 3.4.1.\nd821de2 Backport sanitize docs from v4.\n5cd9ef4 Add wdm gem for Windows.\nd6b8501 ES5 fixes.\n2c8abb9 Add sanitize for tooltips and popovers html content.\nd4129df Bump year.\n0d64d6a less/modals.less: Add missing semicolon.\n48c5d7b Use https.\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by xhmikosr, a new releaser for bootstrap since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-05T20:33:34Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-05T20:33:36Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 267,
+        "createdAt": "2019-12-20T23:14:26Z",
+        "title": "Bump waitress from 0.8.10 to 1.4.0",
+        "bodyText": "Bumps waitress from 0.8.10 to 1.4.0.\n\nRelease notes\nSourced from waitress's releases.\n\nv1.4.0\nNo release notes provided.\nv1.3.1\nNo release notes provided.\nv1.3.0\nNo release notes provided.\nv1.3.0b0\nNo release notes provided.\nv1.2.1\nNo release notes provided.\nv1.2.0\nNo release notes provided.\nv1.1.0\nhttps://pypi.org/project/waitress/1.1.0/\nv1.0.2\nNo release notes provided.\nv1.0.1\nNo release notes provided.\nv1.0.0\nNo release notes provided.\nv1.0a2\nNo release notes provided.\nv1.0a1\nNo release notes provided.\nv0.9.0\nNo release notes provided.\nv0.9.0b1\nNo release notes provided.\n0.9.0b0\nNo release notes provided.\n0.8.11b0\nNo release notes provided.\n\n\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.0 (2019-12-20)\nBugfixes\n\n- Waitress used to slam the door shut on HTTP pipelined requests without\n  setting the ``Connection: close`` header as appropriate in the response. This\n  is of course not very friendly. Waitress now explicitly sets the header when\n  responding with an internally generated error such as 400 Bad Request or 500\n  Internal Server Error to notify the remote client that it will be closing the\n  connection after the response is sent.\n\n- Waitress no longer allows any spaces to exist between the header field-name\n  and the colon. While waitress did not strip the space and thereby was not\n  vulnerable to any potential header field-name confusion, it should have sent\n  back a 400 Bad Request. See [Pylons/waitress#273](https://github-redirect.dependabot.com/Pylons/waitress/issues/273)\n\nSecurity Fixes\n\n\n\nWaitress implemented a \"MAY\" part of the RFC7230\n(https://tools.ietf.org/html/rfc7230#section-3.5) which states:\nAlthough the line terminator for the start-line and header fields is\nthe sequence CRLF, a recipient MAY recognize a single LF as a line\nterminator and ignore any preceding CR.\n\nUnfortunately if a front-end server does not parse header fields with an LF\nthe same way as it does those with a CRLF it can lead to the front-end and\nthe back-end server parsing the same HTTP message in two different ways. This\ncan lead to a potential for HTTP request smuggling/splitting whereby Waitress\nmay see two requests while the front-end server only sees a single HTTP\nmessage.\nFor more information I can highly recommend the blog post by ZeddYu Lu\nhttps://blog.zeddyu.info/2019/12/08/HTTP-Smuggling-en/\n\n\nWaitress used to treat LF the same as CRLF in Transfer-Encoding: chunked\nrequests, while the maintainer doesn't believe this could lead to a security\nissue, this is no longer supported and all chunks are now validated to be\nproperly framed with CRLF as required by RFC7230.\n\n\nWaitress now validates that the Transfer-Encoding header contains only\ntransfer codes that it is able to decode. At the moment that includes the\nonly valid header value being chunked.\nThat means that if the following header is sent:\nTransfer-Encoding: gzip, chunked\n\n\n ... (truncated)\n\n\n\nCommits\n\nf11093a Merge pull request from GHSA-g2xc-35jw-c63p\ne586be8 Version 1.4.0\nd1f283b Update CHANGES.txt and HISTORY.txt as appropriate\n60f92b8 Allow end of chunk parser to be resumeable\n8ecd8dc Improve validation of Transfer-Encoding\n575994c Upon receiving invalid Content-Length bail\n804e313 Disallow BWS in header field-names\nfb08ecf Properly enforce max_request_header_size\n8eba394 Remove support for non CRLF line endings\n7ff1e6b Make sure all errors have a code/reason\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-26T16:40:28Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #268.",
+                    "createdAt": "2019-12-26T16:40:27Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 268,
+        "createdAt": "2019-12-26T16:40:25Z",
+        "title": "Bump waitress from 0.8.10 to 1.4.1",
+        "bodyText": "Bumps waitress from 0.8.10 to 1.4.1.\n\nRelease notes\nSourced from waitress's releases.\n\nv1.4.1\nNo release notes provided.\nv1.4.0\nNo release notes provided.\nv1.3.1\nNo release notes provided.\nv1.3.0\nNo release notes provided.\nv1.3.0b0\nNo release notes provided.\nv1.2.1\nNo release notes provided.\nv1.2.0\nNo release notes provided.\nv1.1.0\nhttps://pypi.org/project/waitress/1.1.0/\nv1.0.2\nNo release notes provided.\nv1.0.1\nNo release notes provided.\nv1.0.0\nNo release notes provided.\nv1.0a2\nNo release notes provided.\nv1.0a1\nNo release notes provided.\nv0.9.0\nNo release notes provided.\nv0.9.0b1\nNo release notes provided.\n0.9.0b0\nNo release notes provided.\n0.8.11b0\nNo release notes provided.\n ... (truncated)\n\n\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.1 (2019-12-24)\nSecurity Fixes\n\n- Waitress did not properly validate that the HTTP headers it received were\n  properly formed, thereby potentially allowing a front-end server to treat a\n  request different from Waitress. This could lead to HTTP request\n  smuggling/splitting.\n\n  Please see the security advisory for more information:\n  https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4\n\n1.4.0 (2019-12-20)\n------------------\n\nBugfixes\n~~~~~~~~\n\n- Waitress used to slam the door shut on HTTP pipelined requests without\n  setting the ``Connection: close`` header as appropriate in the response. This\n  is of course not very friendly. Waitress now explicitly sets the header when\n  responding with an internally generated error such as 400 Bad Request or 500\n  Internal Server Error to notify the remote client that it will be closing the\n  connection after the response is sent.\n\n- Waitress no longer allows any spaces to exist between the header field-name\n  and the colon. While waitress did not strip the space and thereby was not\n  vulnerable to any potential header field-name confusion, it should have sent\n  back a 400 Bad Request. See [Pylons/waitress#273](https://github-redirect.dependabot.com/Pylons/waitress/issues/273)\n\nSecurity Fixes\n\n\n\nWaitress implemented a \"MAY\" part of the RFC7230\n(https://tools.ietf.org/html/rfc7230#section-3.5) which states:\nAlthough the line terminator for the start-line and header fields is\nthe sequence CRLF, a recipient MAY recognize a single LF as a line\nterminator and ignore any preceding CR.\n\nUnfortunately if a front-end server does not parse header fields with an LF\nthe same way as it does those with a CRLF it can lead to the front-end and\nthe back-end server parsing the same HTTP message in two different ways. This\ncan lead to a potential for HTTP request smuggling/splitting whereby Waitress\nmay see two requests while the front-end server only sees a single HTTP\nmessage.\nFor more information I can highly recommend the blog post by ZeddYu Lu\n\n\n ... (truncated)\n\n\n\nCommits\n\ncd83598 Prep v1.4.1\n11d9e13 Merge pull request from GHSA-m5ff-3wj3-8ph4\na046a76 Add links to advisories for previous security issues\n3c58e39 Bump version number\nde3324d Add documentation for security issue\n3bcd690 Define VCHAR/OBS_TEXT once\n2e46f24 Validate HTTP header-field more completely\n2a11d68 Add file with RFC7230 definitions/ABNF -> regex\nf11093a Merge pull request from GHSA-g2xc-35jw-c63p\ne586be8 Version 1.4.0\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-01-06T18:51:10Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #269.",
+                    "createdAt": "2020-01-06T18:51:09Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 269,
+        "createdAt": "2020-01-06T18:51:07Z",
+        "title": "Bump waitress from 0.8.10 to 1.4.2",
+        "bodyText": "Bumps waitress from 0.8.10 to 1.4.2.\n\nRelease notes\nSourced from waitress's releases.\n\nv1.4.2\nNo release notes provided.\nv1.4.1\nNo release notes provided.\nv1.4.0\nNo release notes provided.\nv1.3.1\nNo release notes provided.\nv1.3.0\nNo release notes provided.\nv1.3.0b0\nNo release notes provided.\nv1.2.1\nNo release notes provided.\nv1.2.0\nNo release notes provided.\nv1.1.0\nhttps://pypi.org/project/waitress/1.1.0/\nv1.0.2\nNo release notes provided.\nv1.0.1\nNo release notes provided.\nv1.0.0\nNo release notes provided.\nv1.0a2\nNo release notes provided.\nv1.0a1\nNo release notes provided.\nv0.9.0\nNo release notes provided.\nv0.9.0b1\nNo release notes provided.\n0.9.0b0\nNo release notes provided.\n ... (truncated)\n\n\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.2 (2020-01-02)\nSecurity Fixes\n\n- This is a follow-up to the fix introduced in 1.4.1 to tighten up the way\n  Waitress strips whitespace from header values. This makes sure Waitress won't\n  accidentally treat non-printable characters as whitespace and lead to a\n  potental HTTP request smuggling/splitting security issue.\n\n  Thanks to ZeddYu Lu for the extra test cases.\n\n  Please see the security advisory for more information:\n  https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4\n\n  CVE-ID: CVE-2019-16789\n\nBugfixes\n~~~~~~~~\n\n- Updated the regex used to validate header-field content to match the errata\n  that was published for RFC7230.\n\n  See: https://www.rfc-editor.org/errata_search.php?rfc=7230&eid=4189\n\n\n1.4.1 (2019-12-24)\n------------------\n\nSecurity Fixes\n\n\n\nWaitress did not properly validate that the HTTP headers it received were\nproperly formed, thereby potentially allowing a front-end server to treat a\nrequest different from Waitress. This could lead to HTTP request\nsmuggling/splitting.\nPlease see the security advisory for more information:\nGHSA-m5ff-3wj3-8ph4\nCVE-ID: CVE-2019-16789\n\n\n1.4.0 (2019-12-20)\nBugfixes\n\n- Waitress used to slam the door shut on HTTP pipelined requests without\n</tr></table> ... (truncated)\n\n\n\n\nCommits\n\n8af9adb Prep for 1.4.2\n634d991 Merge pull request #277 from Pylons/invalid-whitespace-cont\n3a54e29 Add CHANGES and bump version to 1.4.2\n0bf98da Update RFC7230 regex with errata for header field-content\nddb65b4 Remove accidental stripping of non-printable characters\ncd83598 Prep v1.4.1\n11d9e13 Merge pull request from GHSA-m5ff-3wj3-8ph4\na046a76 Add links to advisories for previous security issues\n3c58e39 Bump version number\nde3324d Add documentation for security issue\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-06-30T23:32:07Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #313.",
+                    "createdAt": "2020-06-30T23:32:06Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 278,
+        "createdAt": "2020-02-29T05:32:09Z",
+        "title": "Bump rake from 10.4.2 to 13.0.1",
+        "bodyText": "Bumps rake from 10.4.2 to 13.0.1.\n\nChangelog\nSourced from rake's changelog.\n\n=== 13.0.1\n==== Bug fixes\n\nFixed bug: Reenabled task raises previous exception on second invokation\nPull Request #271 by thorsteneckel\nFix an incorrectly resolved arg pattern\nPull Request #327 by mjbellantoni\n\n=== 13.0.0\n==== Enhancements\n\nFollows recent changes on keyword arguments in ruby 2.7.\nPull Request #326 by nobu\nMake PackageTask be able to omit parent directory while packing files\nPull Request #310 by tonytonyjan\nAdd order only dependency\nPull Request #269 by take-cheeze\n\n==== Compatibility changes\n\nDrop old ruby versions(< 2.2)\n\n=== 12.3.3\n==== Bug fixes\n\nUse the application's name in error message if a task is not found.\nPull Request #303 by tmatilai\n\n==== Enhancements:\n\nUse File.open explicitly.\n\n=== 12.3.2\n==== Bug fixes\n\nFixed test fails caused by 2.6 warnings.\nPull Request #297 by hsbt\n\n==== Enhancements:\n\nRdoc improvements.\nPull Request #293 by colby-swandale\nImprove multitask performance.\nPull Request #273 by jsm\nAdd alias prereqs.\nPull Request #268 by take-cheeze\n\n ... (truncated)\n\n\n\nCommits\n\nc8251e2 Bump version to 13.0.1\n8edd860 Fixed build failure of the latest GitHub Actions\nb6e2a66 Merge pull request #271 from thorsteneckel/bugfix-reenable_invocation_exception\n985abff Merge pull request #327 from mjbellantoni/mjb-order-only-arg-fix\n4a90acb Merge pull request #329 from jeremyevans/skip-taint-test-on-2.7\n4dc6282 Skip a taint test on Ruby 2.7\na08b697 Merge pull request #328 from orien/gem-metadata\nc3953d4 Add project metadata to the gemspec\n46a8f7c Update comments to reflect the current state\n00aacdc Fix an incorrectly resolved arg pattern\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    }
+]

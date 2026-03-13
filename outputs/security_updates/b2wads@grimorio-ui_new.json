@@ -1,0 +1,91 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Mikeofic",
+                            "resourcePath": "/Mikeofic"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 209,
+        "createdAt": "2021-09-30T16:11:50Z",
+        "title": "chore(deps): bump chart.js from 2.7.3 to 2.9.4",
+        "bodyText": "Bumps chart.js from 2.7.3 to 2.9.4.\n\nRelease notes\nSourced from chart.js's releases.\n\nv2.9.4\nThis is the last release of v2 and focused on fixing bugs identified in the v2.9.3 release.\nBugs Fixed\n\n#7404 - Preserve prototypes when cloning. Thanks @​iddings\n#7587 - Fix docs for external moment.js. Thanks @​mojoaxel\n#7853 - Fix box recursion when dimensions are NaN. Thanks @​alessandroasm\n#7883 - Fix call stack exception when computing label sizes. Thanks @​silentmatt\n#7918 - Prevent global prototype pollution via the merge helper\n#7920 - Use Object.create(null) as merge target, to prevent prototype pollution\n\nv2.9.3\nBug Fixes\n\n#6698 Fix undefined variable\n#6719 Don't make legend empty when fill is false\n\nThanks to the maintainers and collaborators for their help to improve and test Chart.js (@​kurkle, @​benmccann, and @​etimberg).\nv2.9.2\nBug Fixes\n\n#6641 IE11 & Edge compatible style injection\n#6655 Backwards compatible default fill for radar charts\n#6660 Improve clipping of line charts when border widths are large\n#6661 When a legend item is clicked, make sure the correct item is hidden\n#6663 Refresh package-lock file to pick up new dependency\n\nPerformance\n\n#6671 Stop unnecessary line calculations\n\nDocumentation\n\n#6643 Combine performance documentation sections\n\nThanks to the maintainers and collaborators for their help to improve and test Chart.js (@​nagix, @​kurkle, @​benmccann, @​etimberg and @​simonbrunel).\nv2.9.1\nBug Fixes\n\n#6603 Fix deprecation warnings for horizontal bar charts\n#6608 Fix zoom plugin by no longer clipping scale.getDecimalForPixel to the chart area\n#6617 Non numeric Y axes did not work\n\nDocumentation\n\n#6613 Add link to performance documentation\n\n\n\n... (truncated)\n\n\nCommits\n\n9bd4cf8 Release v2.9.4\n1d92605 Use Object.create(null) as merge target (#7920)\ndff7140 When objects are merged together, the target prototype can be polluted. (#7918)\nd919188 Bump verison number to v2.9.4\n42ed589 Fix Maximum call stack size exception in computeLabelSizes (#7883)\n063b7dc [2.9] FitBoxes recursion when dimensions are NaN (#7853)\n2493cb5 Use node v12.18.2 on Travis CI (#7864)\n679ec4a docs: fix rollup external moment (#7587)\n484f0d1 Preserve object prototypes when cloning (#7404)\n2df6986 Look for any branch starting with release (#7087) (#7089)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2023-05-29T17:39:29Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "qlty-cloud-legacy",
+                        "resourcePath": "/apps/qlty-cloud-legacy"
+                    },
+                    "bodyText": "Code Climate has analyzed commit 6d5051b and detected 0 issues on this pull request.\nView more on Code Climate.",
+                    "createdAt": "2022-01-07T16:49:53Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2023-05-29T17:39:31Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

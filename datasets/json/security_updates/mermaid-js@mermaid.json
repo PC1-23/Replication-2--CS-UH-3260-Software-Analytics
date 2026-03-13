@@ -1,0 +1,663 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 851,
+        "createdAt": "2019-06-04T19:01:25Z",
+        "title": "Bump sshpk from 1.13.1 to 1.16.1",
+        "bodyText": "Bumps sshpk from 1.13.1 to 1.16.1.\n\nRelease notes\nSourced from sshpk's releases.\n\nv1.16.1\n\nFixes for #60 (correctly encoding certificates with expiry dates >=2050), #62 (accepting PKCS#8 EC private keys with missing public key parts)\n\nv1.16.0\n\nAdd support for SPKI fingerprints, PuTTY PPK format (public-key only for now), PKCS#8 PBKDF2 encrypted private keys\nFix for #48\n\nv1.15.2\n\nNew API for accessing x509 extensions in certificates\nFixes for #52, #50\n\nv1.14.1\n\nRemove all remaining usage of jodid25519 (abandoned dep)\nAdd support for DNSSEC key format\nAdd support for Ed25519 keys in PEM format (according to draft-curdle-pkix)\nFixes for X.509 encoding issues (asn.1 NULLs in RSA certs, cert string type mangling)\nPerformance issues parsing long SSH public keys\n\n\n\n\nCommits\n\n1aece0d joyent/node-sshpk#60 certs should generate GeneralizedTime values for dates >...\n684dbe6 joyent/node-sshpk#62 handle pkcs8 ECDSA keys with missing public parts\n574ff21 joyent/node-sshpk#18 support for PKCS8 encrypted private keys\nf647cf2 joyent/node-sshpk#27 Add support for PuTTY PPK format\n44aec4a joyent/node-sshpk#59 want support for SPKI fingerprint format\n385ff11 joyent/node-sshpk#48 wish: add support for x509 certificates in text form\nc7a6c68 joyent/node-sshpk#58 des-ede3-cbc encrypted keys broken\n2ab4f2a joyent/node-sshpk#56 md5 fingerprints not quite right\n026ef47 joyent/node-sshpk#53 stop using optional deps to fix webpack\n53e23fe joyent/node-sshpk#50 Support PKCS#5 AES-256-CBC encrypted private keys\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-06-04T19:04:01Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 767\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 54.833%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 764:\n0.0%\n\n\nCovered Lines:\n2102\n\n\nRelevant Lines:\n3803\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-06-04T19:04:07Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 875,
+        "createdAt": "2019-07-13T07:04:22Z",
+        "title": "Bump lodash from 4.17.11 to 4.17.13",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.13.\n\nCommits\n\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\n29e2584 Fix style:test lint nits.\n8f4d3eb Update deps.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-13T07:58:58Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 813\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.156%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 811:\n0.0%\n\n\nCovered Lines:\n2365\n\n\nRelevant Lines:\n4410\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-07-13T07:07:27Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 877,
+        "createdAt": "2019-07-13T08:00:38Z",
+        "title": "Bump lodash.mergewith from 4.6.1 to 4.6.2",
+        "bodyText": "Bumps lodash.mergewith from 4.6.1 to 4.6.2.\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-13T13:45:27Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 819\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.156%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 817:\n0.0%\n\n\nCovered Lines:\n2365\n\n\nRelevant Lines:\n4410\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-07-13T08:04:42Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 879,
+        "createdAt": "2019-07-14T13:49:56Z",
+        "title": "chore(deps): bump js-yaml from 3.12.0 to 3.13.1",
+        "bodyText": "Bumps js-yaml from 3.12.0 to 3.13.1.\n\nChangelog\nSourced from js-yaml's changelog.\n\n3.13.1 / 2019-04-05\n\nFix possible code execution in (already unsafe) .load(), #480.\n\n3.13.0 / 2019-03-20\n\nSecurity fix: safeLoad() can hang when arrays with nested refs\nused as key. Now throws exception for nested arrays. #475.\n\n3.12.2 / 2019-02-26\n\nFix noArrayIndent option for root level, #468.\n\n3.12.1 / 2019-01-05\n\nAdded noArrayIndent option, #432.\n\n\n\n\nCommits\n\n665aadd 3.13.1 released\nda8ecf2 Browser files rebuild\nb2f9e88 Merge pull request #480 from nodeca/toString\ne18afbf Fix possible code execution in (already unsafe) load()\n9d4ce5e 3.13.0 released\nf64c673 Browser files rebuild\na567ef3 Restrict data types for object keys\n59b6e76 Fix test name\ne4267fc 3.12.2 released\n7231a49 Browser files rebuild\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-14T15:49:00Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 827\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.172%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 825:\n0.0%\n\n\nCovered Lines:\n2381\n\n\nRelevant Lines:\n4433\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-07-14T13:52:30Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 880,
+        "createdAt": "2019-07-14T13:50:08Z",
+        "title": "chore(deps): bump fstream from 1.0.11 to 1.0.12",
+        "bodyText": "Bumps fstream from 1.0.11 to 1.0.12.\n\nCommits\n\n4235459 1.0.12\n6a77d2f Clobber a Link if it's in the way of a File\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-14T15:48:16Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 829\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.172%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 825:\n0.0%\n\n\nCovered Lines:\n2381\n\n\nRelevant Lines:\n4433\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-07-14T13:54:00Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 881,
+        "createdAt": "2019-07-14T13:50:14Z",
+        "title": "chore(deps): bump atob from 2.0.3 to 2.1.2",
+        "bodyText": "Bumps atob from 2.0.3 to 2.1.2.\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-14T15:47:57Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 831\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.172%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 825:\n0.0%\n\n\nCovered Lines:\n2381\n\n\nRelevant Lines:\n4433\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-07-14T13:55:06Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 912,
+        "createdAt": "2019-08-26T18:25:35Z",
+        "title": "chore(deps): bump eslint-utils from 1.3.1 to 1.4.2",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.2.\n\nCommits\n\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\n230a4e2 1.4.1\n08158db 🐛 fix getStaticValue security issue\n587cca2 🐛 fix getStringIfConstant to handle literals correctly\nc119e83 🐛 fix getStaticValue to handle bigint correctly\n531b16f 🔖 1.4.0\n276303d ⚒ upgrade rollup\ncb518c7 🐛 fix hasSideEffect false negative\naac472e 🐛 fix isParenthesized had false positive on ImportExpression (fixes #1)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-29T15:16:29Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 896\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.385%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 895:\n0.0%\n\n\nCovered Lines:\n2426\n\n\nRelevant Lines:\n4500\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-08-26T18:28:18Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 917,
+        "createdAt": "2019-08-29T02:30:09Z",
+        "title": "chore(deps): bump mixin-deep from 1.3.1 to 1.3.2",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-29T15:16:44Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 915\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.429%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 913:\n0.0%\n\n\nCovered Lines:\n2428\n\n\nRelevant Lines:\n4500\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-08-29T02:32:58Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 929,
+        "createdAt": "2019-09-11T19:52:02Z",
+        "title": "chore(deps): bump eslint-utils from 1.3.1 to 1.4.2",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.2.\n\nCommits\n\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\n230a4e2 1.4.1\n08158db 🐛 fix getStaticValue security issue\n587cca2 🐛 fix getStringIfConstant to handle literals correctly\nc119e83 🐛 fix getStaticValue to handle bigint correctly\n531b16f 🔖 1.4.0\n276303d ⚒ upgrade rollup\ncb518c7 🐛 fix hasSideEffect false negative\naac472e 🐛 fix isParenthesized had false positive on ImportExpression (fixes #1)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-09-18T16:08:09Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Pull Request Test Coverage Report for Build 949\n\n0 of 0   changed or added relevant lines in 0 files are covered.\nNo unchanged relevant lines lost coverage.\nOverall coverage remained the same at 53.342%\n\n\n\n\n\nTotals\n\n\n\n\n\nChange from base Build 947:\n0.0%\n\n\nCovered Lines:\n2629\n\n\nRelevant Lines:\n4876\n\n\n\n\n💛  - Coveralls",
+                    "createdAt": "2019-09-11T19:58:21Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1307,
+        "createdAt": "2020-03-13T23:07:19Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-30T17:07:23Z",
+        "mergedBy": {
+            "login": "knsv",
+            "resourcePath": "/knsv"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

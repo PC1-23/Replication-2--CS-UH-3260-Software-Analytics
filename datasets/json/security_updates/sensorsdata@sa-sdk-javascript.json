@@ -1,0 +1,171 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 30,
+        "createdAt": "2019-10-29T03:32:44Z",
+        "title": "Bump lodash from 4.17.11 to 4.17.15 in /demo/angular",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-10-29T03:39:02Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like lodash is no longer a dependency, so this is no longer needed.",
+                    "createdAt": "2019-10-29T03:39:01Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "demo/angular/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 33,
+        "createdAt": "2020-03-31T20:01:25Z",
+        "title": "Bump next from 8.1.0 to 9.3.3 in /demo/nextjs",
+        "bodyText": "Bumps next from 8.1.0 to 9.3.3.\n\nRelease notes\nSourced from next's releases.\n\nv9.3.3\nPatches\n\nRevert \"Fix assignment of props in WithApollo.getInitialProps \" (#11384): #11236\nAdd support for comments in tsconfig.json: e7ea27645deacb77fb3f69a830adfadbf70f4b6a\nDocs: Replace micro-cors with cors middleware: #11395\nAdd support for comments in tsconfig.json: #11392\nFixed typo: libraray -> library: #11435\nMinor change in README.md: #11434\nFix with-aphrodite readme typo: #11436\nUpdate api-rest-example to SSG: #11362\nChange mdx options description: #11409\nUpdate .gitignore: #11421\nUpdate emotion dependencies in with-emotion-11: #11414\nFix #11396: #11397\nFix type ignore: #11479\nTypos fixed: overriden --> overridden and innaccurate -->inacc…: #11454\nFix small punctuation issue: #11439\n\nCredits\nHuge thanks to @bgoerdt, @herrstucki, @MichelleLucero, @liulanz, @sdhani, @JazibJafri, @ElForastero, @moeyashi, @Andarist, @comxd, @chislee0708, and @PullJosh for helping!\nv9.3.3-canary.0\nPatches\n\nRevert \"Fix assignment of props in WithApollo.getInitialProps \" (#11384): #11236\nAdd support for comments in tsconfig.json: e7ea27645deacb77fb3f69a830adfadbf70f4b6a\nDocs: Replace micro-cors with cors middleware: #11395\nAdd support for comments in tsconfig.json: #11392\nFixed typo: libraray -> library: #11435\nMinor change in README.md: #11434\nFix with-aphrodite readme typo: #11436\nUpdate api-rest-example to SSG: #11362\nChange mdx options description: #11409\nUpdate .gitignore: #11421\nUpdate emotion dependencies in with-emotion-11: #11414\nFix #11396: #11397\nFix type ignore: #11479\nTypos fixed: overriden --> overridden and innaccurate -->inacc…: #11454\nFix small punctuation issue: #11439\nMerge branch &#39;canary&#39; of github.com:zeit/next.js into canary: dd098ca5f6bf9bd94f7d71950560a6ad649f8b97\n\nCredits\nHuge thanks to @bgoerdt, @herrstucki, @MichelleLucero, @liulanz, @sdhani, @JazibJafri, @ElForastero, @moeyashi, @Andarist, @comxd, @chislee0708, and @PullJosh for helping!\nv9.3.2\nThis upgrade is completely backwards compatible and recommended for all users on versions below 9.3.2. For future security related communications of our OSS projects, please join this mailing list.\n ... (truncated)\n\n\n\nCommits\n\nb5d8660 v9.3.3\nac223e2 v9.3.3-canary.0\ndd098ca Merge branch 'canary' of github.com:zeit/next.js into canary\ne4bf0d4 Fix small punctuation issue (#11439)\na553768 Typos fixed: overriden --> overridden and innaccurate -->inacc… (#11454)\nd3d0b93 Fix type ignore (#11479)\n6f27e21 Fix #11396 (#11397)\nfc94605 Update emotion dependencies in with-emotion-11 (#11414)\n41764b2 Update .gitignore (#11421)\n8d63330 Change mdx options description (#11409)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-12T08:58:01Z",
+        "mergedBy": {
+            "login": "riyue",
+            "resourcePath": "/riyue"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "demo/nextjs/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 34,
+        "createdAt": "2020-05-06T07:43:45Z",
+        "title": "Bump next from 8.1.0 to 9.3.6 in /demo/nextjs",
+        "bodyText": "Bumps next from 8.1.0 to 9.3.6.\n\nRelease notes\nSourced from next's releases.\n\nv9.3.6\nPatches\n\nAdd initial process.env stubbing for new env support: #11893\nEnable \"paths\" support by default: #11970\nExperimental: React Refresh Support: #12008\nAdd module.hot.invalidate() to webpack HMR: #12038\nDocs(auth): add with-iron-session to the alternatives list: #11903\nDocs(Link): precise how prefetch works: #11792\nFix: Update shallow routing docs: #11894\nFix NEXT_PUBLIC env values not being inlined: #11896\nCorrect Global and Local CSS Loading Order in Dev: #11901\nEnsure module not found error is shown with jsconfig paths: #11889\nUpgrade terser-webpack-plugin for Webpack 5: #11922\nAdd initial configuration changes for webpack 5: #11917\nUpdated shallow docs: #11925\nImproved steps for examples/cms-prismic: #11935\nAdd warning about manually installing PostCSS plugins: #11966\nAllow disabling runtime JS in production for certain pages: #11949\nDocs: improve wording on some pages according to alex.js: #11973\nSerialize JSON Warnings Before Event: #11976\nUpdate HMR Client Runtime: #11977\nAdd Missing Hook for MainTemplate: #11984\nStrongly Type Usage of Client Pages Loader: #11985\nAdd API route to default CNA template: #11981\nWith-iron-session: fix link to next-iron-session: #11974\nFix On Demand Types in Hot Reloader: #11987\nRefactor(next-client-pages-loader): allow toggling router HMR: #11989\nCreate React Refresh Utils: #12006\nExamples/with-react-helmet: upgrade react-helmet to v6.0.0: #12000\nResolve TypeScript Extension in Correct Order: #12014\nStabilize HMR tests on CI: #12029\nFast Refresh: Test Syntax Error Recovery: #12032\nAdd Heroku to list of cache examples: #12037\n[Examples] Update draft-js to v0.11.5 and add editorKey prop i…: #12011\nBug: error when using transition property in tailwindcss + emo…: #12027\nUpdate next/head docs to clarify duplicate tags.: #12033\nAdd documentation on next build output.: #12034\nAdd note about polyfilling CSS Grid for IE11.: #12035\nFix typo in next/amp docs: #12040\nFix linting: 6188c79b228934bb4fa322a81054684b16b9b850\nFix with mobx: #11907\nUpdate to only apply experimental process.env stub in developm…: #12055\n(examples) Fix link in with-passport example README: #12056\n[Fast Refresh] Module re-execution tests from Metro: #12059\nRename ZEIT to Vercel: #12075\nUpdate year on license files: 9f1e7132f43304b5c9334fec92c72692455731e7\nAdd additional check for segments in destination but not source: #12067\nMake sure to not show _error without 404 warning in some cases: #12061\nFix postcss.config.js warnings: #12070\n\n ... (truncated)\n\n\n\nCommits\n\ne6424fe v9.3.6\nbcd9b77 v9.3.6-canary.16\n5936cbb Update built-in-css-support.md (#12268)\n9482bfb Downgrade node-notifier to fix Azure tests (#12261)\ne40f8ff v9.3.6-canary.15\n5268669 Add namedRegex and routeKeys to routes manifest (#12250)\naf33ebc Fix ncc'd version of terser not being used by terser webpack plugin (#12252)\nf080931 v9.3.6-canary.14\n937884b Fix CSS Identifier Cleaning (#12239)\n04f3d94 v9.3.6-canary.13\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-06T08:13:31Z",
+        "mergedBy": {
+            "login": "riyue",
+            "resourcePath": "/riyue"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "demo/nextjs/package.json"
+                }
+            ]
+        }
+    }
+]

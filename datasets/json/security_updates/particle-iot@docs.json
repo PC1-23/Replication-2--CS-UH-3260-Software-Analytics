@@ -1,0 +1,215 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1038,
+        "createdAt": "2019-11-02T03:49:09Z",
+        "title": "Bump handlebars from 3.0.3 to 4.1.2",
+        "bodyText": "Bumps handlebars from 3.0.3 to 4.1.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.1.2 - April 13th, 2019\nChore/Test:\n\n#1515 - Port over linting and test for typings (@​zimmi88)\nchore: add missing typescript dependency, add package-lock.json - 594f1e3\ntest: remove safari from saucelabs - 871accc\n\nBugfixes:\n\nfix: prevent RCE through the \"lookup\"-helper - cd38583\n\nCompatibility notes:\nAccess to the constructor of a class thought {{lookup obj \"constructor\" }} is now prohibited. This closes\na leak that only half closed in versions 4.0.13 and 4.1.0, but it is a slight incompatibility.\nThis kind of access is not the intended use of Handlebars and leads to the vulnerability described\nin #1495. We will not increase the major version, because such use is not intended or documented,\nand because of the potential impact of the issue (we fear that most people won't use a new major version\nand the issue may not be resolved on many systems).\nCommits\nv4.1.1 - March 16th, 2019\nBugfixes:\n\nfix: add \"runtime.d.ts\" to allow \"require('handlebars/runtime')\" in TypeScript - 5cedd62\n\nRefactorings:\n\nreplace \"async\" with \"neo-async\" - 048f2ce\nuse \"substring\"-function instead of \"substr\" - 445ae12\n\nCompatibility notes:\n\nThis is a bugfix release. There are no breaking change and no new features.\n\nCommits\nv4.1.0 - February 7th, 2019\nNew Features\n\nimport TypeScript typings - 27ac1ee\n\nSecurity fixes:\n\ndisallow access to the constructor in templates to prevent RCE - 42841c4, #1495\n\nHousekeeping\n\nchore: fix components/handlebars package.json and auto-update on release - bacd473\nchore: Use node 10 to build handlebars - 78dd89c\nchore/doc: Add more release docs - 6b87c21\n\n ... (truncated)\n\n\n\nCommits\n\n10b5fcf v4.1.2\ndd0144c Update release notes\n594f1e3 chore: add missing typescript dependency, add package-lock.json\n871accc test: remove safari from saucelabs\ncd38583 fix: prevent RCE through the \"lookup\"-helper\nc454d94 Merge pull request #1515 from zimmi88/4.x-typings-lint\n9cfb5dd Merge pull request #1516 from phil-davis/revert-double-release-notes\nbe44246 Remove triplicate of v4.0.12 release notes\n002561b Revert \"Update release notes\"\n3fb6687 Port over linting and test for typings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by knappi, a new releaser for handlebars since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-01-07T20:11:30Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #1060.",
+                    "createdAt": "2020-01-07T20:11:29Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "npm-shrinkwrap.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1060,
+        "createdAt": "2020-01-07T20:11:26Z",
+        "title": "Bump handlebars from 3.0.3 to 4.3.0",
+        "bodyText": "Bumps handlebars from 3.0.3 to 4.3.0.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.3.0 - September 24th, 2019\nFixes:\n\nSecurity: Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nFeatures:\n\nAdd new runtime option allowCallsToHelperMissing to allow calling blockHelperMissing and helperMissing.\n\nBreaking changes:\nCompatibility notes:\n\n\nCompiler revision increased - 06b7224\n\nThis means that template compiled with versions prior to 4.3.0 will not work with runtimes >= 4.3.0\nThe increase was done because the \"helperMissing\" and \"blockHelperMissing\" are now moved from the helpers\nto the internal \"container.hooks\" object, so old templates will not be able to call them anymore. We suggest\nthat you always recompile your templates with the latest compiler in your build pipelines.\n\n\n\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nCalling \"helperMissing\" and \"blockHelperMissing\" directly from a template (like in {{blockHelperMissing}} was\nnever intended and was part of the exploits that have been revealed early in 2019\n(see https://github-redirect.dependabot.com/wycats/handlebars.js/issues/1495). It is also part of a new exploit that\nis not captured by the earlier fix. In order to harden Handlebars against such exploits, calling thos helpers\nis now not possible anymore. Overriding those helpers is still possible.\nIf you really need this behavior, you can set the runtime option allowCallsToHelperMissing to true and the\ncalls will again be possible\n\n\n\nBoth bullet points imly that Handlebars is not 100% percent compatible to 4.2.0, despite the minor version bump.\nWe consider it more important to resolve a major security issue than to maintain 100% compatibility.\nCommits\nv4.2.1 - September 20th, 2019\nBugfixes:\n\nThe \"browser\" property in the package.json has been updated to use the common-js builds instead of the minified UMD - c55a7be, #1553\n\nCompatibility notes:\n\nNo compatibility issues should arise\n\nCommits\nv4.2.0 - September 3rd, 2019\nChore/Test:\n\nUse custom grunt-saucelab with current sauce-connect proxy - f119497\nAdd framework for various integration tests - f9cce4d\n\n ... (truncated)\n\n\n\nCommits\n\na89081d v4.3.0\nbba6560 Update release notes\n06b7224 adjust compiler revision\n2078c72 Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly\nfff3e40 v4.2.1\n35bcd44 Update release notes\n00b4f2f Fix some small typos.\ne47b5ec integration-tests for various webpack-scenarios\nc55a7be fix: use cjs for browser fields\n164c7ce v4.2.0\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by knappi, a new releaser for handlebars since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-07T20:28:17Z",
+        "mergedBy": {
+            "login": "rickkas7",
+            "resourcePath": "/rickkas7"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "npm-shrinkwrap.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1063,
+        "createdAt": "2020-01-07T21:40:34Z",
+        "title": "Bump handlebars from 3.0.3 to 4.3.0",
+        "bodyText": "Bumps handlebars from 3.0.3 to 4.3.0.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.3.0 - September 24th, 2019\nFixes:\n\nSecurity: Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nFeatures:\n\nAdd new runtime option allowCallsToHelperMissing to allow calling blockHelperMissing and helperMissing.\n\nBreaking changes:\nCompatibility notes:\n\n\nCompiler revision increased - 06b7224\n\nThis means that template compiled with versions prior to 4.3.0 will not work with runtimes >= 4.3.0\nThe increase was done because the \"helperMissing\" and \"blockHelperMissing\" are now moved from the helpers\nto the internal \"container.hooks\" object, so old templates will not be able to call them anymore. We suggest\nthat you always recompile your templates with the latest compiler in your build pipelines.\n\n\n\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nCalling \"helperMissing\" and \"blockHelperMissing\" directly from a template (like in {{blockHelperMissing}} was\nnever intended and was part of the exploits that have been revealed early in 2019\n(see https://github-redirect.dependabot.com/wycats/handlebars.js/issues/1495). It is also part of a new exploit that\nis not captured by the earlier fix. In order to harden Handlebars against such exploits, calling thos helpers\nis now not possible anymore. Overriding those helpers is still possible.\nIf you really need this behavior, you can set the runtime option allowCallsToHelperMissing to true and the\ncalls will again be possible\n\n\n\nBoth bullet points imly that Handlebars is not 100% percent compatible to 4.2.0, despite the minor version bump.\nWe consider it more important to resolve a major security issue than to maintain 100% compatibility.\nCommits\nv4.2.1 - September 20th, 2019\nBugfixes:\n\nThe \"browser\" property in the package.json has been updated to use the common-js builds instead of the minified UMD - c55a7be, #1553\n\nCompatibility notes:\n\nNo compatibility issues should arise\n\nCommits\nv4.2.0 - September 3rd, 2019\nChore/Test:\n\nUse custom grunt-saucelab with current sauce-connect proxy - f119497\nAdd framework for various integration tests - f9cce4d\n\n ... (truncated)\n\n\n\nCommits\n\na89081d v4.3.0\nbba6560 Update release notes\n06b7224 adjust compiler revision\n2078c72 Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly\nfff3e40 v4.2.1\n35bcd44 Update release notes\n00b4f2f Fix some small typos.\ne47b5ec integration-tests for various webpack-scenarios\nc55a7be fix: use cjs for browser fields\n164c7ce v4.2.0\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by knappi, a new releaser for handlebars since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2021-03-09T18:48:46Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #1149.",
+                    "createdAt": "2021-03-09T18:48:46Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "npm-shrinkwrap.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

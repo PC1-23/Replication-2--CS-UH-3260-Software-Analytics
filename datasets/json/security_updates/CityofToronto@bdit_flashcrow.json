@@ -1,0 +1,55 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 248,
+        "createdAt": "2019-11-22T13:49:07Z",
+        "title": "Bump apache-airflow from 1.10.5 to 1.10.6",
+        "bodyText": "Bumps apache-airflow from 1.10.5 to 1.10.6.\n\nRelease notes\nSourced from apache-airflow's releases.\n\nAirflow 1.10.6rc1, 2019-10-18\nNew Features\n\n[AIRFLOW-4908] Implement BigQuery Hooks/Operators for update_dataset, patch_dataset and get_dataset (#5546)\n[AIRFLOW-4741] Optionally report task errors to Sentry (#5407)\n[AIRFLOW-4939] Add default_task_retries config (#5570)\n[AIRFLOW-5508] Add config setting to limit which StatsD metrics are emitted (#6130)\n[AIRFLOW-4222] Add cli autocomplete for bash & zsh (#5789)\n[AIRFLOW-3871] Operators template fields can now render fields inside objects (#4743)\n\nImprovements\n\n[AIRFLOW-5127] Gzip support for CassandraToGoogleCloudStorageOperator (#5738)\n[AIRFLOW-5125] Add gzip support for AdlsToGoogleCloudStorageOperator (#5737)\n[AIRFLOW-5124] Add gzip support for S3ToGoogleCloudStorageOperator (#5736)\n[AIRFLOW-5653] Log AirflowSkipException in task instance log to make it clearer why tasks might be skipped (#6330)\n[AIRFLOW-5343] Remove legacy SQLAlchmey pessimistic pool disconnect handling (#6034)\n[AIRFLOW-5561] Relax httplib2 version required for gcp extra (#6194)\n[AIRFLOW-5657] Update the upper bound for dill dependency (#6334)\n[AIRFLOW-5292] Allow ECSOperator to tag tasks (#5891)\n[AIRFLOW-4939] Simplify Code for Default Task Retries (#6233)\n[AIRFLOW-5126] Read aws_session_token in extra_config of the aws hook (#6303)\n[AIRFLOW-5636] Allow adding or overriding existing Operator Links (#6302)\n[AIRFLOW-4965] Handle quote exceptions in GCP AI operators (v1.10) (#6304)\n[AIRFLOW-3783] Speed up Redshift to S3 UNload with HEADERs (#6309)\n[AIRFLOW-3388] Add support to Array Jobs for AWS Batch Operator (#6153)\n[AIRFLOW-4574] add option to provide private_key in SSHHook (#6104) (#6163)\n[AIRFLOW-5530] Fix typo in AWS SQS sensors (#6012)\n[AIRFLOW-5445] Reduce the required resources for the Kubernetes's sidecar (#6062)\n[AIRFLOW-5443] Use alpine image in Kubernetes's sidecar (#6059)\n[AIRFLOW-5344] Add --proxy-user parameter to SparkSubmitOperator (#5948)\n[AIRFLOW-3888] HA for Hive metastore connection (#4708)\n[AIRFLOW-5269] Reuse session in Scheduler Job from health endpoint (#5873)\n[AIRFLOW-5153] Option to force delete non-empty BQ datasets (#5768)\n[AIRFLOW-4443] Document LatestOnly behavior for external trigger (#5214)\n[AIRFLOW-2891] Make DockerOperator container_name be templateable (#5696)\n[AIRFLOW-2891] allow configurable docker_operator container name (#5689)\n[AIRFLOW-4285] Update task dependency context definition and usage (#5079)\n[AIRFLOW-5142] Fixed flaky Cassandra test (#5758)\n[AIRFLOW-5218] Less polling of AWS Batch job status (#5825)\n[AIRFLOW-4956] Fix LocalTaskJob heartbeat log spamming (#5589)\n[AIRFLOW-3160] Load latest_dagruns asynchronously on home page (#5339)\n[AIRFLOW-5560] Allow no confirmation on reset dags in airflow backfill command (#6195)\n[AIRFLOW-5280] conn: Remove aws_default's default region name (#5879)\n[AIRFLOW-5528] end_of_log_mark should not be a log record (#6159)\n[AIRFLOW-5526] Update docs configuration due to migration of GCP docs (#6154)\n[AIRFLOW-4835] Refactor operator render_template (#5461)\n\nBug Fixes\n\n[AIRFLOW-5459] Use a dynamic tmp location in Dataflow operator (#6078)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from apache-airflow's changelog.\n\nAirflow 1.10.6, 2019-10-28\nNew Features\n\"\"\"\"\"\"\"\"\"\"\"\"\n\n[AIRFLOW-4908] Implement BigQuery Hooks/Operators for update_dataset, patch_dataset and get_dataset (#5546)\n[AIRFLOW-4741] Optionally report task errors to Sentry (#5407)\n[AIRFLOW-4939] Add default_task_retries config (#5570)\n[AIRFLOW-5508] Add config setting to limit which StatsD metrics are emitted (#6130)\n[AIRFLOW-4222] Add cli autocomplete for bash & zsh (#5789)\n[AIRFLOW-3871] Operators template fields can now render fields inside objects (#4743)\n\nImprovements\n\"\"\"\"\"\"\"\"\"\"\"\"\n\n[AIRFLOW-5127] Gzip support for CassandraToGoogleCloudStorageOperator (#5738)\n[AIRFLOW-5125] Add gzip support for AdlsToGoogleCloudStorageOperator (#5737)\n[AIRFLOW-5124] Add gzip support for S3ToGoogleCloudStorageOperator (#5736)\n[AIRFLOW-5653] Log AirflowSkipException in task instance log to make it clearer why tasks might be skipped (#6330)\n[AIRFLOW-5343] Remove legacy SQLAlchmey pessimistic pool disconnect handling (#6034)\n[AIRFLOW-5561] Relax httplib2 version required for gcp extra (#6194)\n[AIRFLOW-5657] Update the upper bound for dill dependency (#6334)\n[AIRFLOW-5292] Allow ECSOperator to tag tasks (#5891)\n[AIRFLOW-4939] Simplify Code for Default Task Retries (#6233)\n[AIRFLOW-5126] Read aws_session_token in extra_config of the aws hook (#6303)\n[AIRFLOW-5636] Allow adding or overriding existing Operator Links (#6302)\n[AIRFLOW-4965] Handle quote exceptions in GCP AI operators (v1.10) (#6304)\n[AIRFLOW-3783] Speed up Redshift to S3 UNload with HEADERs (#6309)\n[AIRFLOW-3388] Add support to Array Jobs for AWS Batch Operator (#6153)\n[AIRFLOW-4574] add option to provide private_key in SSHHook (#6104) (#6163)\n[AIRFLOW-5530] Fix typo in AWS SQS sensors (#6012)\n[AIRFLOW-5445] Reduce the required resources for the Kubernetes's sidecar (#6062)\n[AIRFLOW-5443] Use alpine image in Kubernetes's sidecar (#6059)\n[AIRFLOW-5344] Add --proxy-user parameter to SparkSubmitOperator (#5948)\n[AIRFLOW-3888] HA for Hive metastore connection (#4708)\n[AIRFLOW-5269] Reuse session in Scheduler Job from health endpoint (#5873)\n[AIRFLOW-5153] Option to force delete non-empty BQ datasets (#5768)\n[AIRFLOW-4443] Document LatestOnly behavior for external trigger (#5214)\n[AIRFLOW-2891] Make DockerOperator container_name be templateable (#5696)\n[AIRFLOW-2891] allow configurable docker_operator container name (#5689)\n[AIRFLOW-4285] Update task dependency context definition and usage (#5079)\n[AIRFLOW-5142] Fixed flaky Cassandra test (#5758)\n[AIRFLOW-5218] Less polling of AWS Batch job status (#5825)\n[AIRFLOW-4956] Fix LocalTaskJob heartbeat log spamming (#5589)\n[AIRFLOW-3160] Load latest_dagruns asynchronously on home page (#5339)\n[AIRFLOW-5560] Allow no confirmation on reset dags in airflow backfill command (#6195)\n[AIRFLOW-5280] conn: Remove aws_default's default region name (#5879)\n[AIRFLOW-5528] end_of_log_mark should not be a log record (#6159)\n[AIRFLOW-5526] Update docs configuration due to migration of GCP docs (#6154)\n[AIRFLOW-4835] Refactor operator render_template (#5461)\n\n ... (truncated)\n\n\n\nCommits\n\n73bf718 [AIRFLOW-XXX] Update date in changelog\n143b431 [AIRFLOW-5750] Licence check is done also for non-executable .sh (#6425)\n544f2b3 [AIRFLOW-5754] Improved RAT checking (#6429)\n7904669 [AIRFLOW-5755] Fixed most problems with py27\nd601752 [AIRFLOW-5748] Remove python auto-detection (#6423)\n71e2041 [AIRFLOW-5746] Fix problems with static checks (#6420)\n7a6adad [AIRFLOW-5746] move FakeDateTime into the only place it is used (#6416)\ne30fb85 [AIRFLOW-5745] Breeze complete has now licence (#6415)\n9497151 [AIRFLOW-XXX] Update version to 1.10.6\n61e9180 [AIRFLOW-XXX] Changelog for 1.10.6 (rc1) (#6356)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-25T17:10:35Z",
+        "mergedBy": {
+            "login": "candu",
+            "resourcePath": "/candu"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    }
+]

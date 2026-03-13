@@ -1,0 +1,329 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 269,
+        "createdAt": "2019-11-06T17:58:41Z",
+        "title": "Bump debug from 2.2.0 to 2.6.9",
+        "bodyText": "Bumps debug from 2.2.0 to 2.6.9.\n\nRelease notes\nSourced from debug's releases.\n\n2.6.9\nPatches\n\nRemove ReDoS regexp in %o formatter: #504\n\nCredits\nHuge thanks to @​zhuangya for their help!\nrelease 2.6.7\nNo release notes provided.\nrelease 2.6.6\nNo release notes provided.\nrelease 2.6.5\nNo release notes provided.\nrelease 2.6.4\nNo release notes provided.\nrelease 2.6.3\nNo release notes provided.\nrelease 2.6.2\nNo release notes provided.\nrelease 2.6.1\nNo release notes provided.\nrelease 2.6.0\nNo release notes provided.\nrelease 2.5.2\nNo release notes provided.\nrelease 2.5.1\nNo release notes provided.\nrelease 2.4.5\nNo release notes provided.\nrelease 2.4.4\nNo release notes provided.\nrelease 2.4.3\nNo release notes provided.\nrelease 2.4.2\nNo release notes provided.\n ... (truncated)\n\n\n\nChangelog\nSourced from debug's changelog.\n\n2.6.9 / 2017-09-22\n\nremove ReDoS regexp in %o formatter (#504)\n\n2.6.8 / 2017-05-18\n\nFix: Check for undefined on browser globals (#462, @​marbemac)\n\n2.6.7 / 2017-05-16\n\nFix: Update ms to 2.0.0 to fix regular expression denial of service vulnerability (#458, @​hubdotcom)\nFix: Inline extend function in node implementation (#452, @​dougwilson)\nDocs: Fix typo (#455, @​msasad)\n\n2.6.5 / 2017-04-27\n\nFix: null reference check on window.documentElement.style.WebkitAppearance (#447, @​thebigredgeek)\nMisc: clean up browser reference checks (#447, @​thebigredgeek)\nMisc: add npm-debug.log to .gitignore (@​thebigredgeek)\n\n2.6.4 / 2017-04-20\n\nFix: bug that would occure if process.env.DEBUG is a non-string value. (#444, @​LucianBuzzo)\nChore: ignore bower.json in npm installations. (#437, @​joaovieira)\nMisc: update \"ms\" to v0.7.3 (@​tootallnate)\n\n2.6.3 / 2017-03-13\n\nFix: Electron reference to process.env.DEBUG (#431, @​paulcbetts)\nDocs: Changelog fix (@​thebigredgeek)\n\n2.6.2 / 2017-03-10\n\nFix: DEBUG_MAX_ARRAY_LENGTH (#420, @​slavaGanzin)\nDocs: Add backers and sponsors from Open Collective (#422, @​piamancini)\nDocs: Add Slackin invite badge (@​tootallnate)\n\n2.6.1 / 2017-02-10\n\nFix: Module's export default syntax fix for IE8 Expected identifier error\nFix: Whitelist DEBUG_FD for values 1 and 2 only (#415, @​pi0)\n\n ... (truncated)\n\n\n\nCommits\n\n13abeae Release 2.6.9\nf53962e remove ReDoS regexp in %o formatter (#504)\n52e1f21 Release 2.6.8\n2482e08 Check for undefined on browser globals (#462)\n6bb07f7 release 2.6.7\n15850cb Fix Regular Expression Denial of Service (ReDoS)\n4a6c85c update \"debug\" to v1.0.0 (#454)\nb68dbf8 Fix typo (#455)\n1351d2f Inline extend function in node implementation (#452)\nc211947 update version for component\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-08T11:33:13Z",
+        "mergedBy": {
+            "login": "Waiviogit",
+            "resourcePath": "/Waiviogit"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "docs/CONTRIBUTING.md"
+                },
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "src/client/components/Navigation/TopNavigation.js"
+                },
+                {
+                    "path": "webpack/configUtils.js"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Waiviogit",
+                            "resourcePath": "/Waiviogit"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 270,
+        "createdAt": "2019-11-06T17:58:45Z",
+        "title": "Bump webpack-dev-server from 3.1.4 to 3.1.11",
+        "bodyText": "Bumps webpack-dev-server from 3.1.4 to 3.1.11.\n\nRelease notes\nSourced from webpack-dev-server's releases.\n\nv3.1.11\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\nv3.1.10\n2018-10-23\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\nv3.1.9\nNo release notes provided.\nv3.1.8\n2018-09-06\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\nv3.1.7\n2018-08-29\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\nv3.1.6\n2018-08-26\nBug Fixes\n ... (truncated)\n\n\n\nChangelog\nSourced from webpack-dev-server's changelog.\n\n3.1.11 (2018-12-21)\nBug Fixes\n\nbin/options: correct check for color support (options.color) (#1555) (55398b5)\npackage: update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563) (7a3a257)\nServer: correct node version checks (#1543) (927a2b3)\nServer: mime type for wasm in contentBase directory (#1575) (#1580) (fadae5d)\nadd url for compatibility with webpack@5 (#1598) (#1599) (68dd49a)\ncheck origin header for websocket connection (#1603) (b3217ca)\n\n\n3.1.10 (2018-10-23)\nBug Fixes\n\noptions: add writeToDisk option to schema (#1520) (d2f4902)\npackage: update sockjs-client v1.1.5...1.3.0 (url-parse vulnerability) (#1537) (e719959)\nServer: set tls.DEFAULT_ECDH_CURVE to 'auto' (#1531) (c12def3)\n\n\n3.1.9 (2018-09-24)\n\n3.1.8 (2018-09-06)\nBug Fixes\n\npackage: yargs security vulnerability (dependencies) (#1492) (8fb67c9)\nutils/createLogger: ensure quiet always takes precedence (options.quiet) (#1486) (7a6ca47)\n\n\n3.1.7 (2018-08-29)\nBug Fixes\n\nServer: don't use spdy on node >= v10.0.0 (#1451) (8ab9eb6)\n\n ... (truncated)\n\n\n\nCommits\n\nff2874f chore(release): 3.1.11\nb3217ca fix: check origin header for websocket connection (#1603)\n68dd49a fix: add url for compatibility with webpack@5 (#1598) (#1599)\nfadae5d fix(Server): mime type for wasm in contentBase directory (#1575) (#1580)\n7a3a257 fix(package): update spdy v3.4.1...4.0.0 (assertion error) (#1491) (#1563)\n1fe82de ci(travis): Node 11 (on OS X) crashes, use 10 for now (#1588)\n55398b5 fix(bin/options): correct check for color support (options.color) (#1555)\n927a2b3 fix(Server): correct node version checks (#1543)\nfa96a76 chore(PULL_REQUEST_TEMPLATE): allow features (#1539)\nfe3219f chore(release): 3.1.10\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by evilebottnawi, a new releaser for webpack-dev-server since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-08T11:39:55Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-08T11:39:56Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Waiviogit",
+                            "resourcePath": "/Waiviogit"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 271,
+        "createdAt": "2019-11-06T17:58:47Z",
+        "title": "Bump webpack-bundle-analyzer from 2.11.1 to 3.3.2",
+        "bodyText": "Bumps webpack-bundle-analyzer from 2.11.1 to 3.3.2.\n\nRelease notes\nSourced from webpack-bundle-analyzer's releases.\n\nFirst test with Lerna monorepo\nth0r/webpack-bundle-analyzer#98\n\n\n\nChangelog\nSourced from webpack-bundle-analyzer's changelog.\n\n3.3.2\n\nBug Fix\n\nFix regression with escaping internal assets (#264, fixes #263)\n\n\n\n3.3.1\n\n\nImprovements\n\nUse relative links for serving internal assets (#261, fixes #254)\nProperly escape embedded JS/JSON (#262)\n\n\n\nBug Fix\n\nFix showing help message on -h flag (#260, fixes #239)\n\n\n\n3.3.0\n\n\nNew Feature\n\nShow/hide chunks using context menu (#246, @​bregenspan)\n\n\n\nInternal\n\nUpdated dev dependencies\n\n\n\n3.2.0\n\nImprovements\n\nAdd support for .mjs output files (#252, @​jlopezxs)\n\n\n\n3.1.0\n\nBug Fix\n\nProperly determine the size of the modules containing special characters (#223, @​hulkish)\nUpdate acorn to v6 (#248, @​realityking)\n\n\n\n3.0.4\n\nBug Fix\n\nMake webpack's done hook wait until analyzer writes report or stat file (#247, @​mareolan)\n\n\n\n3.0.3\n\nBug Fix\n\nDisable viewer websocket connection when report is generated in static mode (#215, @​sebastianhaeni)\n\n\n\n3.0.2\n\n\nImprovements\n\nDrop @babel/runtime dependency (#209, @​realityking)\nProperly specify minimal Node.js version in .babelrc (#209, @​realityking)\n\n\n\nBug Fix\n\n\n ... (truncated)\n\n\n\nCommits\n\n345c3f5 v3.3.2\na615815 Merge pull request #264 from webpack-contrib/fix-escape-regression\n20f2b4c Fix regression with escaping internal assets\n9836649 v3.3.1\nd1db526 Remove outdated item from troubleshooting section\nca34279 Merge pull request #261 from webpack-contrib/relative-links-to-assets\n99818f9 Fix changelog\n21722d2 Add changelog entry\ned99c32 Use relative links for serving internal assets\n3ce1b8c Merge pull request #262 from webpack-contrib/proper-js-escape\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-08T11:40:07Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-08T11:40:09Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

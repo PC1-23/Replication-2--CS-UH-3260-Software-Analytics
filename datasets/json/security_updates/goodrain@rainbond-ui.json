@@ -1,0 +1,65 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "barnettZQG",
+                            "resourcePath": "/barnettZQG"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 261,
+        "createdAt": "2019-11-01T13:44:44Z",
+        "title": "Bump axios from 0.17.1 to 0.19.0",
+        "bodyText": "Bumps axios from 0.17.1 to 0.19.0.\n\nRelease notes\nSourced from axios's releases.\n\nv0.19.0\nFixes and Functionality:\n\nUnzip response body only for statuses != 204 (#1129) - drawski\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\nMakes Axios error generic to use AxiosResponse (#1738) - Suman Lama\nFixing Mocha tests by locking follow-redirects version to 1.5.10 (#1993) - grumblerchester\nAllow uppercase methods in typings. (#1781) - Ken Powers\nFixing .eslintrc without extension (#1789) - Manoel\nConsistent coding style (#1787) - Ali Servet Donmez\nFixing building url with hash mark (#1771) - Anatoly Ryabov\nThis commit fix building url with hash map (fragment identifier) when parameters are present: they must not be added after #, because client cut everything after #\nPreserve HTTP method when following redirect (#1758) - Rikki Gibson\nAdd getUri signature to TypeScript definition. (#1736) - Alexander Trauzzi\nAdding isAxiosError flag to errors thrown by axios (#1419) - Ayush Gupta\nFix failing SauceLabs tests by updating configuration - Emily Morehouse\n\nDocumentation:\n\nAdd information about auth parameter to README (#2166) - xlaguna\nAdd DELETE to list of methods that allow data as a config option (#2169) - Daniela Borges Matos de Carvalho\nUpdate ECOSYSTEM.md - Add Axios Endpoints (#2176) - Renan\nAdd r2curl in ECOSYSTEM (#2141) - 유용우 / CX\nUpdate README.md - Add instructions for installing with yarn (#2036) - Victor Hermes\nFixing spacing for README.md (#2066) - Josh McCarty\nUpdate README.md. - Change .then to .finally in example code (#2090) - Omar Cai\nClarify what values responseType can have in Node (#2121) - Tyler Breisacher\ndocs(ECOSYSTEM): add axios-api-versioning (#2020) - Weffe\nIt seems that responseType: 'blob' doesn't actually work in Node (when I tried using it, response.data was a string, not a Blob, since Node doesn't have Blobs), so this clarifies that this option should only be used in the browser\nAdd issue templates - Emily Morehouse\nUpdate README.md. - Add Querystring library note (#1896) - Dmitriy Eroshenko\nAdd react-hooks-axios to Libraries section of ECOSYSTEM.md (#1925) - Cody Chan\nClarify in README that default timeout is 0 (no timeout) (#1750) - Ben Standefer\n\nv0.19.0-beta.1\nNOTE: This is a beta version of this release. There may be functionality that is broken in\ncertain browsers, though we suspect that builds are hanging and not erroring. See\nhttps://saucelabs.com/u/axios for the most up-to-date information.\nNew Functionality:\n\nAdd getUri method (#1712)\nAdd support for no_proxy env variable (#1693)\nAdd toJSON to decorated Axios errors to faciliate serialization (#1625)\nAdd second then on axios call (#1623)\nTypings: allow custom return types\nAdd option to specify character set in responses (with http adapter)\n\nFixes:\n ... (truncated)\n\n\n\nChangelog\nSourced from axios's changelog.\n\n0.19.0 (May 30, 2019)\nFixes and Functionality:\n\nUnzip response body only for statuses != 204 (#1129) - drawski\nDestroy stream on exceeding maxContentLength (fixes #1098) (#1485) - Gadzhi Gadzhiev\nMakes Axios error generic to use AxiosResponse (#1738) - Suman Lama\nFixing Mocha tests by locking follow-redirects version to 1.5.10 (#1993) - grumblerchester\nAllow uppercase methods in typings. (#1781) - Ken Powers\nFixing building url with hash mark (#1771) - Anatoly Ryabov\nThis commit fix building url with hash map (fragment identifier) when parameters are present: they must not be added after #, because client cut everything after #\nPreserve HTTP method when following redirect (#1758) - Rikki Gibson\nAdd getUri signature to TypeScript definition. (#1736) - Alexander Trauzzi\nAdding isAxiosError flag to errors thrown by axios (#1419) - Ayush Gupta\n\nInternal:\n\nFixing .eslintrc without extension (#1789) - Manoel\nFix failing SauceLabs tests by updating configuration - Emily Morehouse\nAdd issue templates - Emily Morehouse\n\nDocumentation:\n\nConsistent coding style in README (#1787) - Ali Servet Donmez\nAdd information about auth parameter to README (#2166) - xlaguna\nAdd DELETE to list of methods that allow data as a config option (#2169) - Daniela Borges Matos de Carvalho\nUpdate ECOSYSTEM.md - Add Axios Endpoints (#2176) - Renan\nAdd r2curl in ECOSYSTEM (#2141) - 유용우 / CX\nUpdate README.md - Add instructions for installing with yarn (#2036) - Victor Hermes\nFixing spacing for README.md (#2066) - Josh McCarty\nUpdate README.md. - Change .then to .finally in example code (#2090) - Omar Cai\nClarify what values responseType can have in Node (#2121) - Tyler Breisacher\ndocs(ECOSYSTEM): add axios-api-versioning (#2020) - Weffe\nIt seems that responseType: 'blob' doesn't actually work in Node (when I tried using it, response.data was a string, not a Blob, since Node doesn't have Blobs), so this clarifies that this option should only be used in the browser\nUpdate README.md. - Add Querystring library note (#1896) - Dmitriy Eroshenko\nAdd react-hooks-axios to Libraries section of ECOSYSTEM.md (#1925) - Cody Chan\nClarify in README that default timeout is 0 (no timeout) (#1750) - Ben Standefer\n\n0.19.0-beta.1 (Aug 9, 2018)\nNOTE: This is a beta version of this release. There may be functionality that is broken in\ncertain browsers, though we suspect that builds are hanging and not erroring. See\nhttps://saucelabs.com/u/axios for the most up-to-date information.\nNew Functionality:\n\nAdd getUri method (#1712)\nAdd support for no_proxy env variable (#1693)\nAdd toJSON to decorated Axios errors to faciliate serialization (#1625)\nAdd second then on axios call (#1623)\n\n ... (truncated)\n\n\n\nCommits\n\n8d0b92b Releasing 0.19.0\n3f7451c Update Changelog for release (0.19.0)\nf28ff93 Add information about auth parameter to README (#2166)\n5250e6e Add DELETE to list of methods that allow data as a config option (#2169)\n6b0ccd1 Update ECOSYSTEM.md - Add Axios Endpoints (#2176)\n299e827 Add r2curl in ECOSYSTEM (#2141)\nfd0c959 Unzip response body only for statuses != 204 (#1129)\n92d2313 Update README.md - Add instructions for installing with yarn (#2036)\nddcc2e4 Fixing spacing for README.md (#2066)\n48c43d5 Update README.md. - Change .then to .finally in example code (#2090)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by emilyemorehouse, a new releaser for axios since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-06T12:02:44Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-06T12:02:45Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

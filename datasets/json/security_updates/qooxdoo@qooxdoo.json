@@ -1,0 +1,120 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 9937,
+        "createdAt": "2020-04-24T11:02:09Z",
+        "title": "Bump clean-css from 2.2.23 to 4.2.3 in /component/standalone/website",
+        "bodyText": "Bumps clean-css from 2.2.23 to 4.2.3.\n\nChangelog\nSourced from clean-css's changelog.\n\n4.2.3 / 2020-01-28\n\nFixed issue #1106 - regression in handling RGBA/HSLA colors.\n\n4.2.2 / 2020-01-25\n\nFixed error when property block has no value.\nFixed issue #1077 - local fonts with color in name.\nFixed issue #1082 - correctly convert colors if alpha >= 1.\nFixed issue #1085 - prevent unquoting of grid elements.\n\n4.2.1 / 2018-08-07\n\nFixes giving breakWith option via a string.\n\n4.2.0 / 2018-08-02\n\nAdds process method for compatibility with optimize-css-assets-webpack-plugin.\nFixed issue #861 - new transition property optimizer.\nFixed issue #895 - ignoring specific styles.\nFixed issue #947 - selector based filtering.\nFixed issue #964 - adds configurable line breaks.\nFixed issue #986 - level 2 optimizations and CSS 4 colors.\nFixed issue #1000 - carriage return handling in tokenizer.\nFixed issue #1038 - font-variation-settings quoting.\nFixes ReDOS vulnerabilities in validator code.\n\n4.1.11 / 2018-03-06\n\nBackports fixes to ReDOS vulnerabilities in validator code.\n\n4.1.10 / 2018-03-05\n\nFixed issue #988 - edge case in dropping default animation-duration.\nFixed issue #989 - edge case in removing unused at rules.\nFixed issue #1001 - corrupted tokenizer state.\nFixed issue #1006 - edge case in handling invalid source maps.\nFixed issue #1008 - edge case in breaking up font shorthand.\n\n4.1.9 / 2017-09-19\n\nFixed issue #971 - edge case in removing unused at rules.\n\n ... (truncated)\n\n\n\nCommits\n\nd0ad142 Version 4.2.3.\nf47397c Fixes #1106 - regression in handling RGBA and HSLA colors.\na75f942 Bumps web interface to version 4.2.2.\n58d80f8 Version 4.2.2.\ne79454c Adds missing changelog entries.\ne1410e4 fix(colors): convert rgba/hsla to rgb/hsl if opacity is >= 1 (#1083)\n9b1ed5b Prevent unquoting on grid elements (#1085)\n31379cd Fix local fonts with colors in name (#1077)\nda25f4f Prevent error if property block has no value (level 0) (#1061)\nb01dd75 Bumps web interface to version 4.2.1.\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by jakub.pawlowicz, a new releaser for clean-css since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-28T13:47:53Z",
+        "mergedBy": {
+            "login": "hkollmann",
+            "resourcePath": "/hkollmann"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "component/standalone/website/package.json"
+                }
+            ]
+        }
+    }
+]

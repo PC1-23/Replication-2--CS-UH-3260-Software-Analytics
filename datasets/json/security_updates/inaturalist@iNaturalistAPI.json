@@ -1,0 +1,113 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 190,
+        "createdAt": "2020-02-29T15:33:03Z",
+        "title": "Bump rake from 12.3.2 to 13.0.1",
+        "bodyText": "Bumps rake from 12.3.2 to 13.0.1.\n\nChangelog\nSourced from rake's changelog.\n\n=== 13.0.1\n==== Bug fixes\n\nFixed bug: Reenabled task raises previous exception on second invokation\nPull Request #271 by thorsteneckel\nFix an incorrectly resolved arg pattern\nPull Request #327 by mjbellantoni\n\n=== 13.0.0\n==== Enhancements\n\nFollows recent changes on keyword arguments in ruby 2.7.\nPull Request #326 by nobu\nMake PackageTask be able to omit parent directory while packing files\nPull Request #310 by tonytonyjan\nAdd order only dependency\nPull Request #269 by take-cheeze\n\n==== Compatibility changes\n\nDrop old ruby versions(< 2.2)\n\n=== 12.3.3\n==== Bug fixes\n\nUse the application's name in error message if a task is not found.\nPull Request #303 by tmatilai\n\n==== Enhancements:\n\nUse File.open explicitly.\n\n\n\n\nCommits\n\nc8251e2 Bump version to 13.0.1\n8edd860 Fixed build failure of the latest GitHub Actions\nb6e2a66 Merge pull request #271 from thorsteneckel/bugfix-reenable_invocation_exception\n985abff Merge pull request #327 from mjbellantoni/mjb-order-only-arg-fix\n4a90acb Merge pull request #329 from jeremyevans/skip-taint-test-on-2.7\n4dc6282 Skip a taint test on Ruby 2.7\na08b697 Merge pull request #328 from orien/gem-metadata\nc3953d4 Add project metadata to the gemspec\n46a8f7c Update comments to reflect the current state\n00aacdc Fix an incorrectly resolved arg pattern\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T16:27:52Z",
+        "mergedBy": {
+            "login": "pleary",
+            "resourcePath": "/pleary"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 192,
+        "createdAt": "2020-03-13T20:52:43Z",
+        "title": "Bump acorn from 6.0.2 to 6.4.1",
+        "bodyText": "Bumps acorn from 6.0.2 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\ndf0cf1a Mark version 6.4.0\n5303412 Also export Parser via Parser.acorn\nefe273e give token types and etc to plugins\nac6decb Mark version 6.3.0\n7e9817d Allow sourceType: module even with ecmaVersion < 6\ne2b8cc0 Fix broken parsing of new expressions when allowReserved==\"never\"\n1555c52 Update acorn.d.ts\n77c20fa Mark version 6.2.1\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-18T16:28:05Z",
+        "mergedBy": {
+            "login": "pleary",
+            "resourcePath": "/pleary"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    }
+]

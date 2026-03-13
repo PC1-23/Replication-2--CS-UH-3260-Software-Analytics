@@ -1,0 +1,193 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 1798,
+        "createdAt": "2019-10-22T01:58:34Z",
+        "title": "Bump knex from 0.19.0 to 0.19.5",
+        "bodyText": "Bumps knex from 0.19.0 to 0.19.5.\n\nChangelog\nSourced from knex's changelog.\n\n0.19.5 - 06 October, 2019\nNew features:\n\nCLI: Migrations up/down commands - filename parameter #3416\nOracle: Support stored procedures #3449\n\nBug fixes:\n\nMSSQL: Escape column ids correctly in all cases (reported by Snyk Security Research Team) #3382\nSQLite: Fix handling of multiline SQL in SQLite3 schema #3411\nFix concurrent child transactions failing #2213 #3440\n\nTypings:\n\nAdd missing Migrator.list typing #3460\nFix Typescript type inference for to better support wildcard (*) calls #3444\nMake options argument optional in timeout #3442\n\nTest / internal changes:\n\nEnable linting in CI #3450\n\n0.19.4 - 09 September, 2019\nNew features:\n\nAdd undefined columns to undefined binding(s) error #3425\n\nTypings:\n\nAdd specific to SeederConfig type #3429\nFix some issues with QueryBuilder types #3427\n\n0.19.3 - 25 August, 2019\nBug fixes:\n\nFix migrations for native enums to use table schema #3307\n\nNew features:\n\nAdd ability to manually define schema for native enums #3307\nAdd SSL/TLS support for Postgres connection string #3410\nCLI: new command that lists all migrations with status #3390\n\nTypings:\n\nInclude schemaName in EnumOptions #3415\nAllow ColumnBuilder.defaultTo() to be null #3407\n\n ... (truncated)\n\n\n\nCommits\n\n48d8c7e Prepare 0.19.5 release\ne112a21 Remove unneeded logging\n78a7e9a fix CLI tests fails caused by PR #3416 (#3466)\n988fb24 Fix MSSQL escaping (#3382)\n516b074 Enable linting in CI (#3450)\nc1d2027 Fix handling of multiline SQL in SQLite3 schema (#3411)\n53d8649 Update test to accommodate for increased precision in PG 12 (#3465)\n7fabae9 Migrations up/down commands: filename parameter (#3416)\nfb095cb Add missing Migrator.list typing (#3460)\nb744564 Fix Typescript type inference for  to better support wildcard (*) calls #3444...\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-10-22T02:20:58Z",
+        "mergedBy": {
+            "login": "jesstelford",
+            "resourcePath": "/jesstelford"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "changeset-bot",
+                        "resourcePath": "/apps/changeset-bot"
+                    },
+                    "bodyText": "💥  No Changeset\nLatest commit: c54a28b\nMerging this PR will not cause any packages to be released. If these changes should not cause updates to packages in this repo, this is fine 🙂\nIf these changes should be published to npm, you need to add a changeset.\nClick here to learn what changesets are, and how to add one.\nClick here if you're a maintainer who wants to add a changeset to this PR",
+                    "createdAt": "2019-10-22T01:58:37Z"
+                },
+                {
+                    "author": {
+                        "login": "jesstelford",
+                        "resourcePath": "/jesstelford"
+                    },
+                    "bodyText": "NOTE: No changeset is required here as it's a dependency bump within the patch range, meaning anyone installing @keystone-alpha/adapter-knex today will automatically get the latest version.\nThis change only affects local development.",
+                    "createdAt": "2019-10-22T02:22:29Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "packages/adapter-knex/package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "timleslie",
+                            "resourcePath": "/timleslie"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2306,
+        "createdAt": "2020-01-30T21:29:03Z",
+        "title": "Bump tinymce from 5.1.3 to 5.1.4",
+        "bodyText": "Bumps tinymce from 5.1.3 to 5.1.4.\n\nChangelog\nSourced from tinymce's changelog.\n\nVersion 5.1.6 (2020-01-28)\nFixed readonly mode not blocking all clicked links #TINY-4572\nFixed legacy font sizes being calculated inconsistently for the FontSize query command value #TINY-4555\nFixed changing a tables row from Header to Body incorrectly moving the row to the bottom of the table #TINY-4593\nFixed the context menu not showing in certain cases with hybrid devices #TINY-4569\nFixed the context menu opening in the wrong location when the target is the editor body #TINY-4568\nFixed the image plugin not respecting the automatic_uploads setting when uploading local images #TINY-4287\nFixed security issue related to parsing HTML comments and CDATA #TINY-4544\nVersion 5.1.5 (2019-12-19)\nFixed the UI not working with hybrid devices that accept both touch and mouse events #TNY-4521\nFixed the charmap dialog initially focusing the first tab of the dialog instead of the search input field #TINY-4342\nFixed an exception being raised when inserting content if the caret was directly before or after a contenteditable=\"false\" element #TINY-4528\nFixed a bug with pasting image URLs when paste as text is enabled #TINY-4523\nVersion 5.1.4 (2019-12-11)\nFixed dialog contents disappearing when clicking a checkbox for right-to-left languages #TINY-4518\nFixed the legacyoutput plugin registering legacy formats after editior initialization, causing legacy content to be stripped on the initial load #TINY-4447\nFixed search and replace not cycling through results when searching using special characters #TINY-4506\nFixed the visualchars plugin converting HTML-like text to DOM elements in certain cases #TINY-4507\nFixed an issue with the paste plugin not sanitizing content in some cases #TINY-4510\nFixed HTML comments incorrectly being parsed in certain cases #TINY-4511\nVersion 5.1.3 (2019-12-04)\nFixed sticky toolbar not undocking when fullscreen mode is activated #TINY-4390\nFixed the \"Current Window\" target not applying when updating links using the link dialog #TINY-4063\nFixed disabled menu items not highlighting when focused #TINY-4339\nFixed touch events passing through dialog collection items to the content underneath on Android devices #TINY-4431\nFixed keyboard navigation of the Help dialog's Keyboard Navigation tab #TINY-4391\nFixed search and replace dialog disappearing when finding offscreen matches on iOS devices #TINY-4350\nFixed performance issues where sticky toolbar was jumping while scrolling on slower browsers #TINY-4475\nVersion 5.1.2 (2019-11-19)\nFixed desktop touch devices using mobile configuration overrides #TINY-4345\nFixed unable to disable the new scrolling toolbar feature #TINY-4345\nFixed touch events passing through any pop-up items to the content underneath on Android devices #TINY-4367\nFixed the table selector handles throwing JavaScript exceptions for non-table selections #TINY-4338\nFixed cut operations not removing selected content on Android devices when the paste plugin is enabled #TINY-4362\nFixed inline toolbar not constrained to the window width by default #TINY-4314\nFixed context toolbar split button chevrons pointing right when they should be pointing down #TINY-4257\nFixed unable to access the dialog footer in tabbed dialogs on small screens #TINY-4360\nFixed mobile table selectors were hard to select with touch by increasing the size #TINY-4366\nFixed mobile table selectors moving when moving outside the editor #TINY-4366\nFixed inline toolbars collapsing when using sliding toolbars #TINY-4389\nFixed block textpatterns not treating NBSPs as spaces #TINY-4378\nFixed backspace not merging blocks when the last element in the preceding block was a contenteditable=\"false\" element #TINY-4235\nFixed toolbar buttons that only contain text labels overlapping on mobile devices #TINY-4395\nFixed quickbars quickimage picker not working on mobile #TINY-4377\nFixed fullscreen not resizing in an iOS WKWebView component #TINY-4413\nVersion 5.1.1 (2019-10-28)\nFixed font formats containing spaces being wrapped in &quot; entities instead of single quotes #TINY-4275\nFixed alert and confirm dialogs losing focus when clicked #TINY-4248\nFixed clicking outside a modal dialog focusing on the document body #TINY-4249\nFixed the context toolbar not hiding when scrolled out of view #TINY-4265\n ... (truncated)\n\n\n\nCommits\n\n7fcdd14 Added version 5.1.4 release.\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-02-23T23:25:38Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "changeset-bot",
+                        "resourcePath": "/apps/changeset-bot"
+                    },
+                    "bodyText": "💥  No Changeset\nLatest commit: fced870\nMerging this PR will not cause any packages to be released. If these changes should not cause updates to packages in this repo, this is fine 🙂\nIf these changes should be published to npm, you need to add a changeset.\nClick here to learn what changesets are, and how to add one.\nClick here if you're a maintainer who wants to add a changeset to this PR",
+                    "createdAt": "2020-01-30T21:29:06Z"
+                },
+                {
+                    "author": {
+                        "login": "timleslie",
+                        "resourcePath": "/timleslie"
+                    },
+                    "bodyText": "Thanks for the heads up, friendly bot, but this is now out of date and would have needed a changeset added.",
+                    "createdAt": "2020-02-23T23:25:38Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-02-23T23:25:40Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "packages/fields-wysiwyg-tinymce/package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

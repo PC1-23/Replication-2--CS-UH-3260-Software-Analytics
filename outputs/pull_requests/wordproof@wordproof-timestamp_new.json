@@ -1,0 +1,923 @@
+[
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/1",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/1/checks",
+        "number": 1,
+        "author": {
+            "login": "chantalcoolsma",
+            "resourcePath": "/chantalcoolsma",
+            "url": "https://github.com/chantalcoolsma"
+        },
+        "authorAssociation": "NONE",
+        "title": "Textdomain changes",
+        "bodyText": "Added some changes for the textdomain to make it translatable on translate.wordpress.org.\nNeeds testing.",
+        "labels": {
+            "nodes": []
+        },
+        "createdAt": "2019-07-13T06:06:04Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2020-10-08T12:47:40Z",
+        "publishedAt": "2019-07-13T06:06:04Z",
+        "mergeable": "CONFLICTING",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/6",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/6/checks",
+        "number": 6,
+        "author": {
+            "login": "haruharuharuby",
+            "resourcePath": "/haruharuharuby",
+            "url": "https://github.com/haruharuharuby"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "add custom domain UI and timestamp with custom domain for static site generator",
+        "bodyText": "Description\nThis PR adds a feature that user timestamp their post with custom domain.\nRelated topic on wordpress forum.\nhttps://wordpress.org/support/topic/setting-custom-domainor-name-alternative-hostname/\nType of change\n\n[-] Bug fix (non-breaking change which fixes an issue)\n New feature (non-breaking change which adds functionality)\n[-] Breaking change (fix or feature that would cause existing functionality to not work as expected)\n[-] This change requires a documentation update\n\nHow Has This Been Tested?\nPlease describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration\n\n Testing static site generator. (I used Shifter )\n\nChecklist:\n\n My code follows the style guidelines of this project\n I have performed a self-review of my own code\n[-] I have commented my code, particularly in hard-to-understand areas\n[-] I have made corresponding changes to the documentation\n[-] My changes generate no new warnings\n[-] I have added tests that prove my fix is effective or that my feature works\n[-] New and existing unit tests pass locally with my changes\n[-] Any dependent changes have been merged and published in downstream modules",
+        "labels": {
+            "nodes": []
+        },
+        "createdAt": "2019-09-28T13:25:47Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2020-10-08T12:48:15Z",
+        "publishedAt": "2019-09-28T13:25:47Z",
+        "mergeable": "CONFLICTING",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/7",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/7/checks",
+        "number": 7,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump eslint-utils from 1.3.1 to 1.4.3 in /wordproof-timestamp",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.3.\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2019-10-28T15:50:08Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2019-10-28T16:19:29Z",
+        "publishedAt": "2019-10-28T15:50:08Z",
+        "mergeable": "MERGEABLE",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/8",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/8/checks",
+        "number": 8,
+        "author": {
+            "login": "haruharuharuby",
+            "resourcePath": "/haruharuharuby",
+            "url": "https://github.com/haruharuharuby"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "[Automate timestamp] add callback url from request",
+        "bodyText": "Some static site generator often has different URL during user editing their post.\nAutomation feature of WordProof needs callback URL and  this URL needs to register at first.\nThis PR is to be able to receive callback from WordProof Server even though editing URL is different to publishing one.\n\"Alteration\"\n\nAdd callback URL to request to the WordProof server.",
+        "labels": {
+            "nodes": []
+        },
+        "createdAt": "2019-11-15T00:58:56Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2020-10-08T12:47:57Z",
+        "publishedAt": "2019-11-15T00:58:56Z",
+        "mergeable": "CONFLICTING",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/9",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/9/checks",
+        "number": 9,
+        "author": {
+            "login": "haruharuharuby",
+            "resourcePath": "/haruharuharuby",
+            "url": "https://github.com/haruharuharuby"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Adding continuous delivery of GitHub actions",
+        "bodyText": "This PR is that adding CI feature of wordproof.\nFeature:\n\nAutomatic version update: plugin version automatically update with tag which is pushed.\nCreating Plugin Archive: wordproof-timestamp.zip is automatically created on github releases\nChange build process by tag\n-- when tag has prefix 'dev_',  process builds archive by 'yarn dev' script\n-- when tag has expression of versioning (e.x 2.3.3), process builds archive by 'yarn build'",
+        "labels": {
+            "nodes": []
+        },
+        "createdAt": "2019-12-08T02:00:58Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2019-12-09T10:35:06Z",
+        "publishedAt": "2019-12-08T02:00:58Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/10",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/10/checks",
+        "number": 10,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump acorn from 6.4.0 to 6.4.1 in /wordproof-timestamp",
+        "bodyText": "Bumps acorn from 6.4.0 to 6.4.1.\n\nCommits\n\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-03-14T07:37:07Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2020-10-08T15:11:43Z",
+        "publishedAt": "2020-03-14T07:37:07Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/11",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/11/checks",
+        "number": 11,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump lodash from 4.17.15 to 4.17.19 in /wordproof-timestamp",
+        "bodyText": "Bumps lodash from 4.17.15 to 4.17.19.\n\nRelease notes\nSourced from lodash's releases.\n\n4.17.16\n\n\n\nCommits\n\nd7fbc52 Bump to v4.17.19\n2e1c0f2 Add npm-package\n1b6c282 Bump to v4.17.18\na370ac8 Bump to v4.17.17\n1144918 Rebuild lodash and docs\n3a3b0fd Bump to v4.17.16\nc84fe82 fix(zipObjectDeep): prototype pollution (#4759)\ne7b28ea Sanitize sourceURL so it cannot affect evaled code (#4518)\n0cec225 Fix lodash.isEqual for circular references (#4320) (#4515)\n94c3a81 Document matches* shorthands for over* methods (#4510) (#4514)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mathias, a new releaser for lodash since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-07-18T12:22:52Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2020-10-28T07:42:28Z",
+        "publishedAt": "2020-07-18T12:22:52Z",
+        "mergeable": "CONFLICTING",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/12",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/12/checks",
+        "number": 12,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump elliptic from 6.5.2 to 6.5.3 in /wordproof-timestamp",
+        "bodyText": "Bumps elliptic from 6.5.2 to 6.5.3.\n\nCommits\n\n8647803 6.5.3\n856fe4d signature: prevent malleability and overflows\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-07-31T23:17:39Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2020-10-28T07:43:38Z",
+        "publishedAt": "2020-07-31T23:17:39Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/13",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/13/checks",
+        "number": 13,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump node-sass from 4.13.0 to 4.13.1 in /wordproof-timestamp",
+        "bodyText": "Bumps node-sass from 4.13.0 to 4.13.1.\n\nRelease notes\nSourced from node-sass's releases.\n\nv4.13.1\nCommunity\n\nFix render example syntax (@ZoranPandovski , #2787)\nFix sourceMap option inconsistencies (@saper , #2394)\nFix possible crash in customer importer (@xzyfer, #2816)\n\nSupported Environments\n\n\n\nOS\nArchitecture\nNode\n\n\n\n\nWindows\nx86 & x64\n0.10, 0.12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13\n\n\nOSX\nx64\n0.10, 0.12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13\n\n\nLinux*\nx86 & x64\n0.10, 0.12, 1, 2, 3, 4, 5, 6, 7, 8**, 9**, 10**^, 11**^, 12**^, 13**^\n\n\nAlpine Linux\nx64\n6, 8, 10, 11, 12, 13\n\n\nFreeBSD\ni386 amd64\n8, 10, 12, 13\n\n\n\n*Linux support refers to Ubuntu, Debian, and CentOS 5+\n** Not available on CentOS 5\n^ Only available on x64\n\n\n\nChangelog\nSourced from node-sass's changelog.\n\nv4.13.1\nhttps://github.com/sass/node-sass/releases/tag/v4.13.1\n\n\n\nCommits\n\n01db051 4.13.1\n338fd7a Merge pull request from GHSA-f6rp-gv58-9cw3\nc6f2e5a doc: README example fix (#2787)\nfbc9ff5 Merge pull request #2754 from saper/no-map-if-not-requested\n8498f70 Fix #2394: sourceMap option should have consistent behaviour\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-09-04T12:30:56Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2020-10-28T07:43:26Z",
+        "publishedAt": "2020-09-04T12:30:56Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/18",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/18/checks",
+        "number": 18,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump acorn from 6.4.0 to 6.4.2 in /wordproof-timestamp",
+        "bodyText": "Bumps acorn from 6.4.0 to 6.4.2.\n\nCommits\n\nf6b83ed Mark version 6.4.2\nf51895b Fix potentially-exponential regular expression in use-strict-scanning\n9a2e9b6 Mark version 6.4.1\n90a9548 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-10-08T15:11:41Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2020-10-28T07:43:48Z",
+        "publishedAt": "2020-10-08T15:11:41Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/19",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/19/checks",
+        "number": 19,
+        "author": {
+            "login": "StephanMeijer",
+            "resourcePath": "/StephanMeijer",
+            "url": "https://github.com/StephanMeijer"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Some documentation on Telos",
+        "bodyText": "Source: wordproof/timestamp-standard#4",
+        "labels": {
+            "nodes": []
+        },
+        "createdAt": "2020-10-08T17:02:20Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2020-10-09T09:33:39Z",
+        "publishedAt": "2020-10-08T17:02:20Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/22",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/22/checks",
+        "number": 22,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump lodash from 4.17.15 to 4.17.20 in /wordproof-timestamp",
+        "bodyText": "Bumps lodash from 4.17.15 to 4.17.20.\n\nCommits\n\nded9bc6 Bump to v4.17.20.\n63150ef Documentation fixes.\n00f0f62 test.js: Remove trailing comma.\n846e434 Temporarily use a custom fork of lodash-cli.\n5d046f3 Re-enable Travis tests on 4.17 branch.\naa816b3 Remove /npm-package.\nd7fbc52 Bump to v4.17.19\n2e1c0f2 Add npm-package\n1b6c282 Bump to v4.17.18\na370ac8 Bump to v4.17.17\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by bnjmnt4n, a new releaser for lodash since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-10-28T07:42:26Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2020-10-28T07:43:13Z",
+        "publishedAt": "2020-10-28T07:42:26Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/23",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/23/checks",
+        "number": 23,
+        "author": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Merge branch 'master' into development",
+        "bodyText": "",
+        "labels": {
+            "nodes": []
+        },
+        "createdAt": "2020-10-28T07:51:21Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2020-10-28T07:51:27Z",
+        "publishedAt": "2020-10-28T07:51:21Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/26",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/26/checks",
+        "number": 26,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump ini from 1.3.5 to 1.3.8 in /wordproof-timestamp",
+        "bodyText": "Bumps ini from 1.3.5 to 1.3.8.\n\nCommits\n\na2c5da8 1.3.8\naf5c6bb Do not use Object.create(null)\n8b648a1 don't test where our devdeps don't even work\nc74c8af 1.3.7\n024b8b5 update deps, add linting\n032fbaf Use Object.create(null) to avoid default object property hazards\n2da9039 1.3.6\ncfea636 better git push script, before publish instead of after\n56d2805 do not allow invalid hazardous string as section name\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by isaacs, a new releaser for ini since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-12-11T22:42:45Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2022-06-17T09:42:39Z",
+        "publishedAt": "2020-12-11T22:42:45Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/27",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/27/checks",
+        "number": 27,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump dot-prop from 4.2.0 to 4.2.1 in /wordproof-timestamp",
+        "bodyText": "Bumps dot-prop from 4.2.0 to 4.2.1.\n\nRelease notes\nSourced from dot-prop's releases.\n\nv4.2.1\n\nBackport sindresorhus/dot-prop@3039c8c to the v4.x release line.\n\n\n\n\nCommits\n\nc914124 feat: patch 4.2.0 with fixes for CVE-2020-8116\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2020-12-24T22:20:06Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2020-12-24T22:23:14Z",
+        "publishedAt": "2020-12-24T22:20:06Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/28",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/28/checks",
+        "number": 28,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump axios from 0.19.0 to 0.21.1 in /wordproof-timestamp",
+        "bodyText": "Bumps axios from 0.19.0 to 0.21.1.\n\nRelease notes\nSourced from axios's releases.\n\nv0.21.1\n0.21.1 (December 21, 2020)\nFixes and Functionality:\n\nHotfix: Prevent SSRF (#3410)\nProtocol not parsed when setting proxy config from env vars (#3070)\nUpdating axios in types to be lower case (#2797)\nAdding a type guard for AxiosError (#2949)\n\nInternal and Tests:\n\nRemove the skipping of the socket http test (#3364)\nUse different socket for Win32 test (#3375)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nDaniel Lopretto timemachine3030@users.noreply.github.com\nJason Kwok JasonHK@users.noreply.github.com\nJay jasonsaayman@gmail.com\nJonathan Foster jonathan@jonathanfoster.io\nRemco Haszing remcohaszing@gmail.com\nXianming Zhong chinesedfan@qq.com\n\nv0.21.0\n0.21.0 (October 23, 2020)\nFixes and Functionality:\n\nFixing requestHeaders.Authorization (#3287)\nFixing node types (#3237)\nFixing axios.delete ignores config.data (#3282)\nRevert \"Fixing overwrite Blob/File type as Content-Type in browser. (#1773)\" (#3289)\nFixing an issue that type 'null' and 'undefined' is not assignable to validateStatus when typescript strict option is enabled (#3200)\n\nInternal and Tests:\n\nLock travis to not use node v15 (#3361)\n\nDocumentation:\n\nFixing simple typo, existant -> existent (#3252)\nFixing typos (#3309)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nAllan Cruz 57270969+Allanbcruz@users.noreply.github.com\nGeorge Cheng Gerhut@GMail.com\nJay jasonsaayman@gmail.com\nKevin Kirsche Kev.Kirsche+GitHub@gmail.com\n\n\n\n... (truncated)\n\n\nChangelog\nSourced from axios's changelog.\n\n0.21.1 (December 21, 2020)\nFixes and Functionality:\n\nHotfix: Prevent SSRF (#3410)\nProtocol not parsed when setting proxy config from env vars (#3070)\nUpdating axios in types to be lower case (#2797)\nAdding a type guard for AxiosError (#2949)\n\nInternal and Tests:\n\nRemove the skipping of the socket http test (#3364)\nUse different socket for Win32 test (#3375)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nDaniel Lopretto timemachine3030@users.noreply.github.com\nJason Kwok JasonHK@users.noreply.github.com\nJay jasonsaayman@gmail.com\nJonathan Foster jonathan@jonathanfoster.io\nRemco Haszing remcohaszing@gmail.com\nXianming Zhong chinesedfan@qq.com\n\n0.21.0 (October 23, 2020)\nFixes and Functionality:\n\nFixing requestHeaders.Authorization (#3287)\nFixing node types (#3237)\nFixing axios.delete ignores config.data (#3282)\nRevert \"Fixing overwrite Blob/File type as Content-Type in browser. (#1773)\" (#3289)\nFixing an issue that type 'null' and 'undefined' is not assignable to validateStatus when typescript strict option is enabled (#3200)\n\nInternal and Tests:\n\nLock travis to not use node v15 (#3361)\n\nDocumentation:\n\nFixing simple typo, existant -> existent (#3252)\nFixing typos (#3309)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nAllan Cruz 57270969+Allanbcruz@users.noreply.github.com\nGeorge Cheng Gerhut@GMail.com\nJay jasonsaayman@gmail.com\nKevin Kirsche Kev.Kirsche+GitHub@gmail.com\nRemco Haszing remcohaszing@gmail.com\nTaemin Shin cprayer13@gmail.com\n\n\n\n... (truncated)\n\n\nCommits\n\na64050a Releasing 0.21.1\nd57cd97 Updating changelog for 0.21.1 release\n8b0f373 Use different socket for Win32 test (#3375)\ne426910 Protocol not parsed when setting proxy config from env vars (#3070)\nc7329fe Hotfix: Prevent SSRF (#3410)\nf472e5d Adding a type guard for AxiosError (#2949)\n7688255 Remove the skipping of the socket http test (#3364)\n820fe6e Updating axios in types to be lower case (#2797)\n94ca24b Releasing 0.21.0\n2130a0c Updating changelog for 0.21.0 release\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2021-01-05T15:26:58Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2022-06-17T09:42:40Z",
+        "publishedAt": "2021-01-05T15:26:58Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/37",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/37/checks",
+        "number": 37,
+        "author": {
+            "login": "dnwjn",
+            "resourcePath": "/dnwjn",
+            "url": "https://github.com/dnwjn"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Changed saveTimestamp() to return instead of exit",
+        "bodyText": "Hi all,\nThe saveTimestamp() method in TimestampController.php was echoing and exiting at the end of the method, but this method is also used in Cron jobs.\nOn some of our clients' WordPress website we have WordProof implemented and on every post save a call is made to WordProof through a Cron job. The problem is that when the queue is run (wp cron event run --due-now) and it contains multiple items, it will stop the execution after a WordProof item is processed, because of the exit; at the end of the method.\nThis PR changes that functionality and returns the result instead of exiting. I also modified other methods that call this method, so this should not break any other functionality.\nHope this is helpful and according to your standards! If you have any questions or doubts, don't hesitate to let me know.",
+        "labels": {
+            "nodes": []
+        },
+        "createdAt": "2021-03-04T13:20:56Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2021-03-04T14:26:50Z",
+        "publishedAt": "2021-03-04T13:20:56Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/40",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/40/checks",
+        "number": 40,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump striptags from 3.1.1 to 3.2.0",
+        "bodyText": "Bumps striptags from 3.1.1 to 3.2.0.\n\nRelease notes\nSourced from striptags's releases.\n\nv3.2.0\nThis release fixes a potential type confusion vulnerability when passing in a non-string argument to the function.\n\n\n\nCommits\n\nf252a6b Merge pull request from GHSA-qxg5-2qff-p49r\n2719515 fix: throw TypeError if 'html' is non-string argument\n27a5dd9 Update README.md example output\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2021-06-18T20:39:32Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2021-07-16T11:38:26Z",
+        "publishedAt": "2021-06-18T20:39:32Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/43",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/43/checks",
+        "number": 43,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump node-sass from 4.14.1 to 7.0.0",
+        "bodyText": "Bumps node-sass from 4.14.1 to 7.0.0.\n\nRelease notes\nSourced from node-sass's releases.\n\nv7.0.0\nBreaking changes\n\nDrop support for Node 15 (@​nschonni)\nSet rejectUnauthorized to true by default (@​scott-ut, #3149)\n\nFeatures\n\nAdd support for Node 17 (@​nschonni)\n\nDependencies\n\nBump eslint from 7.32.0 to 8.0.0 (@​nschonni, #3191)\nBump fs-extra from 0.30.0 to 10.0.0 (@​nschonni, #3102)\nBump npmlog from 4.1.2 to 5.0.0 (@​nschonni, #3156)\nBump chalk from 1.1.3 to 4.1.2 (@​nschonni, #3161)\n\nCommunity\n\nRemove double word \"support\" from documentation (@​pzrq, #3159)\n\nMisc\n\nBump various GitHub Actions dependencies (@​nschonni)\n\nSupported Environments\n\n\n\nOS\nArchitecture\nNode\n\n\n\n\nWindows\nx86 & x64\n12, 14, 16, 17\n\n\nOSX\nx64\n12, 14, 16, 17\n\n\nLinux*\nx64\n12, 14, 16, 17\n\n\nAlpine Linux\nx64\n12, 14, 16, 17\n\n\nFreeBSD\ni386 amd64\n12, 14\n\n\n\n*Linux support refers to major distributions like Ubuntu, and Debian\nv6.0.1\nDependencies\n\nRemove mkdirp (@​jimmywarting, #3108)\nBump meow to 9.0.0 (@​ykolbin, #3125)\nBump mocha to 9.0.1 (@​xzyfer, #3134)\n\nMisc\n\nUse default Apline version from docker-node (@​nschonni, #3121)\n\nSupported Environments\n\n\n... (truncated)\n\n\nCommits\n\n918dcb3 Lint fix\n0a21792 Set rejectUnauthorized to true by default (#3149)\ne80d4af chore: Drop EOL Node 15 (#3122)\nd753397 feat: Add Node 17 support (#3195)\ndcf2e75 build(deps-dev): bump eslint from 7.32.0 to 8.0.0\nbfa1a3c build(deps): bump actions/setup-node from 2.4.0 to 2.4.1\n80d6c00 chore: Windows x86 on GitHub Actions (#3041)\n566dc27 build(deps-dev): bump fs-extra from 0.30.0 to 10.0.0 (#3102)\n7bb5157 build(deps): bump npmlog from 4.1.2 to 5.0.0 (#3156)\n2efb38f build(deps): bump chalk from 1.1.3 to 4.1.2 (#3161)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-02-11T00:23:34Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2022-05-03T05:48:50Z",
+        "publishedAt": "2022-02-11T00:23:34Z",
+        "mergeable": "CONFLICTING",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/44",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/44/checks",
+        "number": 44,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump follow-redirects from 1.13.1 to 1.14.8",
+        "bodyText": "Bumps follow-redirects from 1.13.1 to 1.14.8.\n\nCommits\n\n3d81dc3 Release version 1.14.8 of the npm package.\n62e546a Drop confidential headers across schemes.\n2ede36d Release version 1.14.7 of the npm package.\n8b347cb Drop Cookie header across domains.\n6f5029a Release version 1.14.6 of the npm package.\naf706be Ignore null headers.\nd01ab7a Release version 1.14.5 of the npm package.\n40052ea Make compatible with Node 17.\n86f7572 Fix: clear internal timer on request abort to avoid leakage\n2e1eaf0 Keep Authorization header on subdomain redirects.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-02-14T02:55:48Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2022-03-06T13:55:42Z",
+        "publishedAt": "2022-02-14T02:55:48Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/45",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/45/checks",
+        "number": 45,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump follow-redirects from 1.13.1 to 1.14.9",
+        "bodyText": "Bumps follow-redirects from 1.13.1 to 1.14.9.\n\nCommits\n\n13136e9 Release version 1.14.9 of the npm package.\n2ec9b0b Keep headers when upgrading from HTTP to HTTPS.\n5fc74dd Reduce nesting.\n3d81dc3 Release version 1.14.8 of the npm package.\n62e546a Drop confidential headers across schemes.\n2ede36d Release version 1.14.7 of the npm package.\n8b347cb Drop Cookie header across domains.\n6f5029a Release version 1.14.6 of the npm package.\naf706be Ignore null headers.\nd01ab7a Release version 1.14.5 of the npm package.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-03-06T13:55:39Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2022-03-06T14:03:55Z",
+        "publishedAt": "2022-03-06T13:55:39Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/46",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/46/checks",
+        "number": 46,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump axios from 0.21.1 to 0.21.2",
+        "bodyText": "Bumps axios from 0.21.1 to 0.21.2.\n\nRelease notes\nSourced from axios's releases.\n\nv0.21.2\n0.21.2 (September 4, 2021)\nFixes and Functionality:\n\nUpdating axios requests to be delayed by pre-emptive promise creation (#2702)\nAdding \"synchronous\" and \"runWhen\" options to interceptors api (#2702)\nUpdating of transformResponse (#3377)\nAdding ability to omit User-Agent header (#3703)\nAdding multiple JSON improvements (#3688, #3763)\nFixing quadratic runtime and extra memory usage when setting a maxContentLength (#3738)\nAdding parseInt to config.timeout (#3781)\nAdding custom return type support to interceptor (#3783)\nAdding security fix for ReDoS vulnerability (#3980)\n\nInternal and Tests:\n\nUpdating build dev dependancies (#3401)\nFixing builds running on Travis CI (#3538)\nUpdating follow rediect version (#3694, #3771)\nUpdating karma sauce launcher to fix failing sauce tests (#3712, #3717)\nUpdating content-type header for application/json to not contain charset field, according do RFC 8259 (#2154)\nFixing tests by bumping karma-sauce-launcher version (#3813)\nChanging testing process from Travis CI to GitHub Actions (#3938)\n\nDocumentation:\n\nUpdating documentation around the use of AUTH_TOKEN with multiple domain endpoints (#3539)\nRemove duplication of item in changelog (#3523)\nFixing gramatical errors (#2642)\nFixing spelling error (#3567)\nMoving gitpod metion (#2637)\nAdding new axios documentation website link (#3681, #3707)\nUpdating documentation around dispatching requests (#3772)\nAdding documentation for the type guard isAxiosError (#3767)\nAdding explanation of cancel token (#3803)\nUpdating CI status badge (#3953)\nFixing errors with JSON documentation (#3936)\nFixing README typo under Request Config (#3825)\nAdding axios-multi-api to the ecosystem file (#3817)\nAdding SECURITY.md to properly disclose security vulnerabilities (#3981)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nSasha Korotkov\nDaniel Lopretto\nMike Bishop\nDmitriy Mozgovoy\nMark\nPhilipe Gouveia Paixão\n\n\n\n... (truncated)\n\n\nChangelog\nSourced from axios's changelog.\n\n0.21.2 (September 4, 2021)\nFixes and Functionality:\n\nUpdating axios requests to be delayed by pre-emptive promise creation (#2702)\nAdding \"synchronous\" and \"runWhen\" options to interceptors api (#2702)\nUpdating of transformResponse (#3377)\nAdding ability to omit User-Agent header (#3703)\nAdding multiple JSON improvements (#3688, #3763)\nFixing quadratic runtime and extra memory usage when setting a maxContentLength (#3738)\nAdding parseInt to config.timeout (#3781)\nAdding custom return type support to interceptor (#3783)\nAdding security fix for ReDoS vulnerability (#3980)\n\nInternal and Tests:\n\nUpdating build dev dependancies (#3401)\nFixing builds running on Travis CI (#3538)\nUpdating follow rediect version (#3694, #3771)\nUpdating karma sauce launcher to fix failing sauce tests (#3712, #3717)\nUpdating content-type header for application/json to not contain charset field, according do RFC 8259 (#2154)\nFixing tests by bumping karma-sauce-launcher version (#3813)\nChanging testing process from Travis CI to GitHub Actions (#3938)\n\nDocumentation:\n\nUpdating documentation around the use of AUTH_TOKEN with multiple domain endpoints (#3539)\nRemove duplication of item in changelog (#3523)\nFixing gramatical errors (#2642)\nFixing spelling error (#3567)\nMoving gitpod metion (#2637)\nAdding new axios documentation website link (#3681, #3707)\nUpdating documentation around dispatching requests (#3772)\nAdding documentation for the type guard isAxiosError (#3767)\nAdding explanation of cancel token (#3803)\nUpdating CI status badge (#3953)\nFixing errors with JSON documentation (#3936)\nFixing README typo under Request Config (#3825)\nAdding axios-multi-api to the ecosystem file (#3817)\nAdding SECURITY.md to properly disclose security vulnerabilities (#3981)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nJay\nSasha Korotkov\nDaniel Lopretto\nMike Bishop\nDmitriy Mozgovoy\nMark\nPhilipe Gouveia Paixão\n\n\n\n... (truncated)\n\n\nCommits\n\nc0c8761 [Updating] changelog to include links to issues and contributors\n619bb46 [Releasing] v0.21.2\n82c9455 Create SECURITY.md (#3981)\n5b45711 Security fix for ReDoS (#3980)\n5bc9ea2 Update ECOSYSTEM.md (#3817)\ne72813a Fixing README.md  (#3818)\ne10a027 Fix README typo under Request Config (#3825)\ne091491 Update README.md (#3936)\nb42fbad Removed un-needed bracket\n520c8dc Updating CI status badge (#3953)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by jasonsaayman, a new releaser for axios since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-03-06T14:04:32Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2022-03-06T14:06:12Z",
+        "publishedAt": "2022-03-06T14:04:32Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/47",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/47/checks",
+        "number": 47,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump path-parse from 1.0.6 to 1.0.7",
+        "bodyText": "Bumps path-parse from 1.0.6 to 1.0.7.\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-03-06T18:13:46Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2022-05-03T05:48:49Z",
+        "publishedAt": "2022-03-06T18:13:46Z",
+        "mergeable": "CONFLICTING",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/48",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/48/checks",
+        "number": 48,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump axios from 0.21.1 to 0.21.2",
+        "bodyText": "Bumps axios from 0.21.1 to 0.21.2.\n\nRelease notes\nSourced from axios's releases.\n\nv0.21.2\n0.21.2 (September 4, 2021)\nFixes and Functionality:\n\nUpdating axios requests to be delayed by pre-emptive promise creation (#2702)\nAdding \"synchronous\" and \"runWhen\" options to interceptors api (#2702)\nUpdating of transformResponse (#3377)\nAdding ability to omit User-Agent header (#3703)\nAdding multiple JSON improvements (#3688, #3763)\nFixing quadratic runtime and extra memory usage when setting a maxContentLength (#3738)\nAdding parseInt to config.timeout (#3781)\nAdding custom return type support to interceptor (#3783)\nAdding security fix for ReDoS vulnerability (#3980)\n\nInternal and Tests:\n\nUpdating build dev dependancies (#3401)\nFixing builds running on Travis CI (#3538)\nUpdating follow rediect version (#3694, #3771)\nUpdating karma sauce launcher to fix failing sauce tests (#3712, #3717)\nUpdating content-type header for application/json to not contain charset field, according do RFC 8259 (#2154)\nFixing tests by bumping karma-sauce-launcher version (#3813)\nChanging testing process from Travis CI to GitHub Actions (#3938)\n\nDocumentation:\n\nUpdating documentation around the use of AUTH_TOKEN with multiple domain endpoints (#3539)\nRemove duplication of item in changelog (#3523)\nFixing gramatical errors (#2642)\nFixing spelling error (#3567)\nMoving gitpod metion (#2637)\nAdding new axios documentation website link (#3681, #3707)\nUpdating documentation around dispatching requests (#3772)\nAdding documentation for the type guard isAxiosError (#3767)\nAdding explanation of cancel token (#3803)\nUpdating CI status badge (#3953)\nFixing errors with JSON documentation (#3936)\nFixing README typo under Request Config (#3825)\nAdding axios-multi-api to the ecosystem file (#3817)\nAdding SECURITY.md to properly disclose security vulnerabilities (#3981)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nSasha Korotkov\nDaniel Lopretto\nMike Bishop\nDmitriy Mozgovoy\nMark\nPhilipe Gouveia Paixão\n\n\n\n... (truncated)\n\n\nChangelog\nSourced from axios's changelog.\n\n0.21.2 (September 4, 2021)\nFixes and Functionality:\n\nUpdating axios requests to be delayed by pre-emptive promise creation (#2702)\nAdding \"synchronous\" and \"runWhen\" options to interceptors api (#2702)\nUpdating of transformResponse (#3377)\nAdding ability to omit User-Agent header (#3703)\nAdding multiple JSON improvements (#3688, #3763)\nFixing quadratic runtime and extra memory usage when setting a maxContentLength (#3738)\nAdding parseInt to config.timeout (#3781)\nAdding custom return type support to interceptor (#3783)\nAdding security fix for ReDoS vulnerability (#3980)\n\nInternal and Tests:\n\nUpdating build dev dependancies (#3401)\nFixing builds running on Travis CI (#3538)\nUpdating follow rediect version (#3694, #3771)\nUpdating karma sauce launcher to fix failing sauce tests (#3712, #3717)\nUpdating content-type header for application/json to not contain charset field, according do RFC 8259 (#2154)\nFixing tests by bumping karma-sauce-launcher version (#3813)\nChanging testing process from Travis CI to GitHub Actions (#3938)\n\nDocumentation:\n\nUpdating documentation around the use of AUTH_TOKEN with multiple domain endpoints (#3539)\nRemove duplication of item in changelog (#3523)\nFixing gramatical errors (#2642)\nFixing spelling error (#3567)\nMoving gitpod metion (#2637)\nAdding new axios documentation website link (#3681, #3707)\nUpdating documentation around dispatching requests (#3772)\nAdding documentation for the type guard isAxiosError (#3767)\nAdding explanation of cancel token (#3803)\nUpdating CI status badge (#3953)\nFixing errors with JSON documentation (#3936)\nFixing README typo under Request Config (#3825)\nAdding axios-multi-api to the ecosystem file (#3817)\nAdding SECURITY.md to properly disclose security vulnerabilities (#3981)\n\nHuge thanks to everyone who contributed to this release via code (authors listed below) or via reviews and triaging on GitHub:\n\nJay\nSasha Korotkov\nDaniel Lopretto\nMike Bishop\nDmitriy Mozgovoy\nMark\nPhilipe Gouveia Paixão\n\n\n\n... (truncated)\n\n\nCommits\n\nc0c8761 [Updating] changelog to include links to issues and contributors\n619bb46 [Releasing] v0.21.2\n82c9455 Create SECURITY.md (#3981)\n5b45711 Security fix for ReDoS (#3980)\n5bc9ea2 Update ECOSYSTEM.md (#3817)\ne72813a Fixing README.md  (#3818)\ne10a027 Fix README typo under Request Config (#3825)\ne091491 Update README.md (#3936)\nb42fbad Removed un-needed bracket\n520c8dc Updating CI status badge (#3953)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by jasonsaayman, a new releaser for axios since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-03-06T18:13:47Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2022-05-03T05:48:50Z",
+        "publishedAt": "2022-03-06T18:13:47Z",
+        "mergeable": "CONFLICTING",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/49",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/49/checks",
+        "number": 49,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump minimist from 1.2.5 to 1.2.6",
+        "bodyText": "Bumps minimist from 1.2.5 to 1.2.6.\n\nCommits\n\n7efb22a 1.2.6\nef88b93 security notice for additional prototype pollution issue\nc2b9819 isConstructorOrProto adapted from PR\nbc8ecee test from prototype pollution PR\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-03-29T10:08:33Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2022-06-27T10:59:32Z",
+        "publishedAt": "2022-03-29T10:08:33Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/50",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/50/checks",
+        "number": 50,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump node-forge from 1.2.1 to 1.3.1",
+        "bodyText": "Bumps node-forge from 1.2.1 to 1.3.1.\n\nChangelog\nSourced from node-forge's changelog.\n\n1.3.1 - 2022-03-29\nFixes\n\nRFC 3447 and RFC 8017 allow for optional DigestAlgorithm NULL parameters\nfor sha* algorithms and require NULL paramters for md2 and md5\nalgorithms.\n\n1.3.0 - 2022-03-17\nSecurity\n\nThree RSA PKCS#1 v1.5 signature verification issues were reported by Moosa\nYahyazadeh (moosa-yahyazadeh@uiowa.edu).\nHIGH: Leniency in checking digestAlgorithm structure can lead to\nsignature forgery.\n\nThe code is lenient in checking the digest algorithm structure. This can\nallow a crafted structure that steals padding bytes and uses unchecked\nportion of the PKCS#1 encoded message to forge a signature when a low\npublic exponent is being used. For more information, please see\n\"Bleichenbacher's RSA signature forgery based on implementation\nerror\"\nby Hal Finney.\nCVE ID: CVE-2022-24771\nGHSA ID: GHSA-cfm4-qjh2-4765\n\n\nHIGH: Failing to check tailing garbage bytes can lead to signature\nforgery.\n\nThe code does not check for tailing garbage bytes after decoding a\nDigestInfo ASN.1 structure. This can allow padding bytes to be removed\nand garbage data added to forge a signature when a low public exponent is\nbeing used.  For more information, please see \"Bleichenbacher's RSA\nsignature forgery based on implementation\nerror\"\nby Hal Finney.\nCVE ID: CVE-2022-24772\nGHSA ID: GHSA-x4jg-mjrx-434g\n\n\nMEDIUM: Leniency in checking type octet.\n\nDigestInfo is not properly checked for proper ASN.1 structure. This can\nlead to successful verification with signatures that contain invalid\nstructures but a valid digest.\nCVE ID: CVE-2022-24773\nGHSA ID: GHSA-2r2c-g63r-vccr\n\n\n\nFixed\n\n[asn1] Add fallback to pretty print invalid UTF8 data.\n[asn1] fromDer is now more strict and will default to ensuring all input\nbytes are parsed or throw an error. A new option parseAllBytes can disable\nthis behavior.\n\nNOTE: The previous behavior is being changed since it can lead to\nsecurity issues with crafted inputs. It is possible that code doing custom\nDER parsing may need to adapt to this new behavior and optional flag.\n\n\n[rsa] Add and use a validator to check for proper structure of parsed ASN.1\n\n\n\n... (truncated)\n\n\nCommits\n\na0a4a42 Release 1.3.1.\na33830f Update changelog.\n740954d Allow optional DigestAlgorithm parameters.\n56f4316 Allow DigestInfo.DigestAlgorith.parameters to be optional\ncbf0bd5 Start 1.3.1-0.\n6c5b901 Release 1.3.0.\n0f3972a Update changelog.\ndc77b39 Fix error checking.\nbb822c0 Add advisory links.\nd4395fe Update changelog.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-05-03T05:48:38Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2022-06-27T11:00:18Z",
+        "publishedAt": "2022-05-03T05:48:38Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/51",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/51/checks",
+        "number": 51,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump async from 2.6.3 to 2.6.4",
+        "bodyText": "Bumps async from 2.6.3 to 2.6.4.\n\nChangelog\nSourced from async's changelog.\n\nv2.6.4\n\nFix potential prototype pollution exploit (#1828)\n\n\n\n\nCommits\n\nc6bdaca Version 2.6.4\n8870da9 Update built files\n4df6754 update changelog\n8f7f903 Fix prototype pollution vulnerability (#1828)\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by hargasinski, a new releaser for async since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-05-03T05:48:40Z",
+        "closed": true,
+        "state": "MERGED",
+        "closedAt": "2022-06-27T10:59:58Z",
+        "publishedAt": "2022-05-03T05:48:40Z",
+        "mergeable": "UNKNOWN",
+        "mergedBy": {
+            "login": "marijnbent",
+            "resourcePath": "/marijnbent",
+            "url": "https://github.com/marijnbent"
+        }
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/53",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/53/checks",
+        "number": 53,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump terser from 5.12.0 to 5.14.2",
+        "bodyText": "Bumps terser from 5.12.0 to 5.14.2.\n\nChangelog\nSourced from terser's changelog.\n\nv5.14.2\n\nSecurity fix for RegExps that should not be evaluated (regexp DDOS)\nSource maps improvements (#1211)\nPerformance improvements in long property access evaluation (#1213)\n\nv5.14.1\n\nkeep_numbers option added to TypeScript defs (#1208)\nFixed parsing of nested template strings (#1204)\n\nv5.14.0\n\nSwitched to @​jridgewell/source-map for sourcemap generation (#1190, #1181)\nFixed source maps with non-terminated segments (#1106)\nEnabled typescript types to be imported from the package (#1194)\nExtra DOM props have been added (#1191)\nDelete the AST while generating code, as a means to save RAM\n\nv5.13.1\n\nRemoved self-assignments (varname=varname) (closes #1081)\nSeparated inlining code (for inlining things into references, or removing IIFEs)\nAllow multiple identifiers with the same name in var destructuring (eg var { a, a } = x) (#1176)\n\nv5.13.0\n\nAll calls to eval() were removed (#1171, #1184)\nsource-map was updated to 0.8.0-beta.0 (#1164)\nNavigatorUAData was added to domprops to avoid property mangling (#1166)\n\nv5.12.1\n\nFixed an issue with function definitions inside blocks (#1155)\nFixed parens of new in some situations (closes #1159)\n\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-07-21T03:28:10Z",
+        "closed": false,
+        "state": "OPEN",
+        "closedAt": null,
+        "publishedAt": "2022-07-21T03:28:10Z",
+        "mergeable": "MERGEABLE",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/57",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/57/checks",
+        "number": 57,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump loader-utils from 1.4.0 to 1.4.1",
+        "bodyText": "Bumps loader-utils from 1.4.0 to 1.4.1.\n\nRelease notes\nSourced from loader-utils's releases.\n\nv1.4.1\n1.4.1 (2022-11-07)\nBug Fixes\n\nsecurity problem (#220) (4504e34)\n\n\n\n\nChangelog\nSourced from loader-utils's changelog.\n\n1.4.1 (2022-11-07)\nBug Fixes\n\nsecurity problem (#220) (4504e34)\n\n\n\n\n\nCommits\n\n8f082b3 chore(release): 1.4.1\n4504e34 fix: security problem (#220)\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-11-09T01:32:47Z",
+        "closed": true,
+        "state": "CLOSED",
+        "closedAt": "2022-11-17T04:48:31Z",
+        "publishedAt": "2022-11-09T01:32:47Z",
+        "mergeable": "MERGEABLE",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/58",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/58/checks",
+        "number": 58,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump loader-utils from 1.4.0 to 1.4.2",
+        "bodyText": "Bumps loader-utils from 1.4.0 to 1.4.2.\n\nRelease notes\nSourced from loader-utils's releases.\n\nv1.4.2\n1.4.2 (2022-11-11)\nBug Fixes\n\nReDoS problem (#226) (17cbf8f)\n\nv1.4.1\n1.4.1 (2022-11-07)\nBug Fixes\n\nsecurity problem (#220) (4504e34)\n\n\n\n\nChangelog\nSourced from loader-utils's changelog.\n\n1.4.2 (2022-11-11)\nBug Fixes\n\nReDoS problem (#226) (17cbf8f)\n\n1.4.1 (2022-11-07)\nBug Fixes\n\nsecurity problem (#220) (4504e34)\n\n\n\n\n\nCommits\n\n331ad50 chore(release): 1.4.2\n17cbf8f fix: ReDoS problem (#226)\n8f082b3 chore(release): 1.4.1\n4504e34 fix: security problem (#220)\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2022-11-17T04:48:28Z",
+        "closed": false,
+        "state": "OPEN",
+        "closedAt": null,
+        "publishedAt": "2022-11-17T04:48:28Z",
+        "mergeable": "MERGEABLE",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/59",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/59/checks",
+        "number": 59,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump json5 from 1.0.1 to 1.0.2",
+        "bodyText": "Bumps json5 from 1.0.1 to 1.0.2.\n\nRelease notes\nSourced from json5's releases.\n\nv1.0.2\n\nFix: Properties with the name __proto__ are added to objects and arrays. (#199) This also fixes a prototype pollution vulnerability reported by Jonathan Gregson! (#295). This has been backported to v1. (#298)\n\n\n\n\nChangelog\nSourced from json5's changelog.\n\nUnreleased [code, diff]\nv2.2.3 [code, diff]\n\nFix: json5@2.2.3 is now the 'latest' release according to npm instead of\nv1.0.2. (#299)\n\nv2.2.2 [code, diff]\n\nFix: Properties with the name __proto__ are added to objects and arrays.\n(#199) This also fixes a prototype pollution vulnerability reported by\nJonathan Gregson! (#295).\n\nv2.2.1 [code, diff]\n\nFix: Removed dependence on minimist to patch CVE-2021-44906. (#266)\n\nv2.2.0 [code, diff]\n\nNew: Accurate and documented TypeScript declarations are now included. There\nis no need to install @types/json5. (#236, #244)\n\nv2.1.3 [code, diff]\n\nFix: An out of memory bug when parsing numbers has been fixed. (#228,\n#229)\n\nv2.1.2 [code, diff]\n\n\n... (truncated)\n\n\nCommits\n\na62db1e 1.0.2\ne0c23fe docs: update CHANGELOG for v1.0.2\n62a6540 fix: add proto to objects and arrays\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2023-01-07T05:49:45Z",
+        "closed": false,
+        "state": "OPEN",
+        "closedAt": null,
+        "publishedAt": "2023-01-07T05:49:45Z",
+        "mergeable": "MERGEABLE",
+        "mergedBy": null
+    },
+    {
+        "resourcePath": "/wordproof/wordproof-timestamp/pull/60",
+        "checksResourcePath": "/wordproof/wordproof-timestamp/pull/60/checks",
+        "number": 60,
+        "author": {
+            "login": "dependabot",
+            "resourcePath": "/apps/dependabot",
+            "url": "https://github.com/apps/dependabot"
+        },
+        "authorAssociation": "CONTRIBUTOR",
+        "title": "Bump webpack from 5.70.0 to 5.76.1",
+        "bodyText": "Bumps webpack from 5.70.0 to 5.76.1.\n\nRelease notes\nSourced from webpack's releases.\n\nv5.76.1\nFixed\n\nAdded assert/strict built-in to NodeTargetPlugin\n\nRevert\n\nImprove performance of hashRegExp lookup by @​ryanwilsonperkin in webpack/webpack#16759\n\nv5.76.0\nBugfixes\n\nAvoid cross-realm object access by @​Jack-Works in webpack/webpack#16500\nImprove hash performance via conditional initialization by @​lvivski in webpack/webpack#16491\nSerialize generatedCode info to fix bug in asset module cache restoration by @​ryanwilsonperkin in webpack/webpack#16703\nImprove performance of hashRegExp lookup by @​ryanwilsonperkin in webpack/webpack#16759\n\nFeatures\n\nadd target to LoaderContext type by @​askoufis in webpack/webpack#16781\n\nSecurity\n\nCVE-2022-37603 fixed by @​akhilgkrishnan in webpack/webpack#16446\n\nRepo Changes\n\nFix HTML5 logo in README by @​jakebailey in webpack/webpack#16614\nReplace TypeScript logo in README by @​jakebailey in webpack/webpack#16613\nUpdate actions/cache dependencies by @​piwysocki in webpack/webpack#16493\n\nNew Contributors\n\n@​Jack-Works made their first contribution in webpack/webpack#16500\n@​lvivski made their first contribution in webpack/webpack#16491\n@​jakebailey made their first contribution in webpack/webpack#16614\n@​akhilgkrishnan made their first contribution in webpack/webpack#16446\n@​ryanwilsonperkin made their first contribution in webpack/webpack#16703\n@​piwysocki made their first contribution in webpack/webpack#16493\n@​askoufis made their first contribution in webpack/webpack#16781\n\nFull Changelog: webpack/webpack@v5.75.0...v5.76.0\nv5.75.0\nBugfixes\n\nexperiments.* normalize to false when opt-out\navoid NaN%\nshow the correct error when using a conflicting chunk name in code\nHMR code tests existance of window before trying to access it\nfix eval-nosources-* actually exclude sources\nfix race condition where no module is returned from processing module\nfix position of standalong semicolon in runtime code\n\nFeatures\n\nadd support for @import to extenal CSS when using experimental CSS in node\n\n\n\n... (truncated)\n\n\nCommits\n\n21be52b Merge pull request #16804 from webpack/chore-patch-release\n1cce945 chore(release): 5.76.1\ne76ad9e Merge pull request #16803 from ryanwilsonperkin/revert-16759-real-content-has...\n52b1b0e Revert \"Improve performance of hashRegExp lookup\"\nc989143 Merge pull request #16766 from piranna/patch-1\n710eaf4 Merge pull request #16789 from dmichon-msft/contenthash-hashsalt\n5d64468 Merge pull request #16792 from webpack/update-version\n67af5ec chore(release): 5.76.0\n97b1718 Merge pull request #16781 from askoufis/loader-context-target-type\nb84efe6 Merge pull request #16759 from ryanwilsonperkin/real-content-hash-regex-perf\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by evilebottnawi, a new releaser for webpack since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "labels": {
+            "nodes": [
+                {
+                    "name": "dependencies",
+                    "description": "Pull requests that update a dependency file"
+                }
+            ]
+        },
+        "createdAt": "2023-03-14T22:52:38Z",
+        "closed": false,
+        "state": "OPEN",
+        "closedAt": null,
+        "publishedAt": "2023-03-14T22:52:38Z",
+        "mergeable": "MERGEABLE",
+        "mergedBy": null
+    }
+]

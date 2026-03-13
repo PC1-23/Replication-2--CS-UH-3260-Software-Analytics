@@ -1,0 +1,126 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 405,
+        "createdAt": "2019-10-29T13:49:21Z",
+        "title": "Bump superagent from 1.8.3 to 5.0.2",
+        "bodyText": "Bumps superagent from 1.8.3 to 5.0.2.\n\nRelease notes\nSourced from superagent's releases.\n\nv5.0.2\n\nfix: fixed browser require for webpack (closes #1474)  ccc7f56\n\nvisionmedia/superagent@v5.0.1...v5.0.2\nv5.0.1\n\nfix: fixed http2 issue for older versions of node (closes #1474)  5b86fd3\ndocs: fixed space  f7e2ae5\ndocs: added superagent-declare (closes #1333)  32fb630\ndocs: fixed docs (closes #1451)  70df462\n\nvisionmedia/superagent@v5.0.0...v5.0.1\nv5.0.0\n\nfix: removed core-js, fixed docs with async/await + then/catch usage  f0bcdc0\nMerge pull request #1473 from ladjs/master  2fd631a\ndocs: removed line regarding 8.8.1 being required  d22ebd7\nfeat: modern rewrite and refactoring  47f1d28\nMerge pull request #1468 from bajtos/fix/formdata-error  076e55a\nFix handling of FormData errors  e6ffbde\nHistory formatting  0f0949f\nMerge pull request #1377 from eromano/master-2  f3ac20c\nMaintenance status #1450  ad4c96f\nclear timeout 100 percent  e6630ec\nchange after review  03e5efa\nadd upload timeout  650b521\n\nvisionmedia/superagent@v4.1.0...v5.0.0\nIP overrides\n\n.connect() IP/DNS override option (Kornel)\n.trustLocalhost() option for allowing broken HTTPS on localhost\n.abort() used with promises rejects the promise.\n\nv4 = ES6 natively\nBreaking changes\n\nNode.js v4 has reached it's end of life, so we no longer support it. It's v6+ or later. We recommend Node.js 10.\nWe now use ES6 in the browser code, too.\n\nIf you're using Browserify or Webpack to package code for Internet Explorer, you will also have to use Babel.\nThe pre-built node_modules/superagent.js is still ES5-compatible.\n\n\n.end(…) returns undefined instead of the request. If you need the request object after calling .end() (and you probably don't), save it in a variable and call request.end(…). Consider not using .end() at all, and migrating to promises by calling .then() instead.\nIn Node, responses with unknown MIME type are buffered by default. To get old behavior, if you use custom unbuffered parsers, add .buffer(false) to requests or set superagent.buffer[yourMimeType] = false.\nInvalid uses of .pipe() throw.\n\nMinor changes\n\nThrow if req.abort().end() is called\n\n ... (truncated)\n\n\n\nChangelog\nSourced from superagent's changelog.\n\nThis HISTORY log is deprecated\nPlease see GitHub releases page for the current changelog.\n4.1.0 (2018-12-26)\n\n.connect() IP/DNS override option (Kornel)\n.trustLocalhost() option for allowing broken HTTPS on localhost\n.abort() used with promises rejects the promise.\n\n4.0.0 (2018-11-17)\nBreaking changes\n\nNode.js v4 has reached it's end of life, so we no longer support it. It's v6+ or later. We recommend Node.js 10.\nWe now use ES6 in the browser code, too.\n\nIf you're using Browserify or Webpack to package code for Internet Explorer, you will also have to use Babel.\nThe pre-built node_modules/superagent.js is still ES5-compatible.\n\n\n.end(…) returns undefined instead of the request. If you need the request object after calling .end() (and you probably don't), save it in a variable and call request.end(…). Consider not using .end() at all, and migrating to promises by calling .then() instead.\nIn Node, responses with unknown MIME type are buffered by default. To get old behavior, if you use custom unbuffered parsers, add .buffer(false) to requests or set superagent.buffer[yourMimeType] = false.\nInvalid uses of .pipe() throw.\n\nMinor changes\n\nThrow if req.abort().end() is called\nThrow if using unsupported mix of send and field\nReject .end() promise on all error events (Kornel Lesiński)\nSet https.servername from the Host header (Kornel Lesiński)\nLeave backticks unencoded in query strings where possible (Ethan Resnick)\nUpdate node-mime to 2.x (Alexey Kucherenko)\nAllow default buffer settings based on response-type (shrey)\nresponse.buffered is more accurate.\n\n3.8.3 (2018-04-29)\n\nAdd flags for 201 & 422 responses (Nikhil Fadnis)\nEmit progress event while uploading Node Buffer via send method (Sergey Akhalkov)\nFixed setting correct cookies for redirects (Damien Clark)\nReplace .catch with ['catch'] for IE9 Support (Miguel Stevens)\n\n3.8.2 (2017-12-09)\n\nFixed handling of exceptions thrown from callbacks\nStricter matching of +json MIME types.\n\n3.8.1 (2017-11-08)\n\nClear authorization header on cross-domain redirect\n\n ... (truncated)\n\n\n\nCommits\n\ned3e235 v5.0.2\nccc7f56 fix: fixed browser require for webpack (closes #1474)\n1de219e v5.0.1\n5b86fd3 fix: fixed http2 issue for older versions of node (closes #1474)\nf7e2ae5 docs: fixed space\n32fb630 docs: added superagent-declare (closes #1333)\n70df462 docs: fixed docs (closes #1451)\n1618f8d v5.0.0\nf0bcdc0 fix: removed core-js, fixed docs with async/await + then/catch usage\n2fd631a Merge pull request #1473 from ladjs/master\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by niftylettuce, a new releaser for superagent since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-04T13:17:02Z",
+        "mergedBy": {
+            "login": "indeyets",
+            "resourcePath": "/indeyets"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "indeyets",
+                            "resourcePath": "/indeyets"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 420,
+        "createdAt": "2020-03-13T22:37:49Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-11T13:03:47Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-04-11T13:03:49Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

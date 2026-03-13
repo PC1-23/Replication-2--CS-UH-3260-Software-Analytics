@@ -1,0 +1,108 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2785,
+        "createdAt": "2019-10-29T14:14:10Z",
+        "title": "Bump bson from 1.0.4 to 1.0.9",
+        "bodyText": "Bumps bson from 1.0.4 to 1.0.9.\n\nChangelog\nSourced from bson's changelog.\n\n1.0.9 (2018-06-07)\nBug Fixes\n\nserializer: remove use of const (5feb12f)\n\n\n1.0.7 (2018-06-06)\nBug Fixes\n\nbinary: add type checking for buffer (26b05b5)\nbson: fix custom inspect property (080323b)\nreadme: clarify documentation about deserialize methods (20f764c)\nserialization: normalize function stringification (1320c10)\n\n\n1.0.6 (2018-03-12)\nFeatures\n\nserialization: support arbitrary sizes for the internal serialization buffer (abe97bc)\n\n\n1.0.5 (2018-02-26)\nBug Fixes\n\ndecimal128: add basic guard against REDOS attacks (bd61c45)\nobjectid: if pid is 1, use random value (e188ae6)\n\n\n\n\nCommits\n\n7656804 1.0.9\n5feb12f fix(serializer): remove use of const\ne3d83de chore(travis): reenable 0.12 builds to catch legacy errors for 1.x\n889799b 1.0.8\n295ef9a refactor(utils): use a more robust method for function stringifying\n508b5ef fix(utils): do not use ES6 in the 1.x branch\nbf4391c chore(browser): update browser build for 1.0.7\nb73100f 1.0.7\n553a42d chore(npm): commit package lock and update package.json\n99801ca chore(travis): update to test against LTS versions of node + 10.x\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mbroadst, a new releaser for bson since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-03T19:21:16Z",
+        "mergedBy": {
+            "login": "cryogen",
+            "resourcePath": "/cryogen"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2941,
+        "createdAt": "2020-03-13T21:00:41Z",
+        "title": "Bump acorn from 7.0.0 to 7.1.1",
+        "bodyText": "Bumps acorn from 7.0.0 to 7.1.1.\n\nCommits\n\n6d19489 Mark release 7.1.1\n793c0e5 More rigorously check surrogate pairs in regexp validator\nb5c1787 Fix incorrect comment in regexp parser\n12ae8fe Parameterize dummy value and export isDummy\nfa3ad8c Further refine acorn-walk types\n1d50286 Fix some errors in walk types\n97801f0 Mark acorn-walk 7.1.1\ne9372c1 Further clean up walker types\nde6edeb Remove NarrowNode from walk.d.ts\n1d85e7c Fix: acorn-walk type work with acorn's\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-07T08:17:27Z",
+        "mergedBy": {
+            "login": "cryogen",
+            "resourcePath": "/cryogen"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    }
+]
