@@ -1,0 +1,224 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 929,
+        "createdAt": "2019-11-01T20:43:49Z",
+        "title": "build(deps-dev): bump bower from 1.2.8 to 1.8.8 in /docs/3",
+        "bodyText": "Bumps bower from 1.2.8 to 1.8.8.\n\nRelease notes\nSourced from bower's releases.\n\nv1.8.8\nFix security issue connected to extracting .tar.gz archives\nThis bug allows to write arbitrary file on filesystem when Bower extracts malicious package\nNeedlessly to say, please upgrade\nv1.8.7\nFixes side effect of fix from v1.8.6 that caused improper permissions for extracted folders\nbower/bower#2532\nv1.8.6\nFix Zip Slip Vulnerability of decompress-zip package: https://snyk.io/research/zip-slip-vulnerability\nNote: v1.8.5 has been unpublished because of missing files\nv1.8.4\n\nFixes release 1.8.3 by publishing with npm@3 instead of npm@5 (to include lib/node_modules)\n\nv1.8.3\n\n451c60e Do not store resolutions if --save is not used, fixes #2344 (#2508)\n50ee729 Allow to disable shorthand resolver (#2507)\nbb17839 Allow shallow cloning when source is a ssh protocol (#2506)\n5a6ae54 Add support for Arrays in Environment Variable replacement (#2411)\n74af42c Only replace last @ after (if any) last / with # (#2395)\n💯Make tests work on Windows / Linux / OSX on node versions 0.10 / 0.12 / 4 / 6 / 8 / 9\n💅Format source code with prettier\n\nv1.8.2\nMigrate registry url from http://bower.herokuapp.com to https://registry.bower.io\nIt is so we leverage CDN and offload Heroku instance reducing costs.\nv1.8.0\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n ... (truncated)\n\n\n\nChangelog\nSourced from bower's changelog.\n\nChangelog\nNewer releases\nPlease see: https://github.com/bower/bower/releases\n1.8.0 - 2016-11-07\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n1.7.9 - 2016-04-05\n\nShow warnings for invalid bower.json fields\nUpdate bower-json\n\nLess strict validation on package name (allow spaces, slashes, and \"@\")\n\n\n\n1.7.8 - 2016-04-04\n\nDon't ask for git credentials in non-interactive session, fixes #956 #1009\nPrevent swallowing exceptions with programmatic api, fixes #2187\nUpdate graceful-fs to 4.x in all dependences, fixes nodejs/node#5213\nResolve pluggable resolvers using cwd and fallback to global modules, fixes #1919\nUpgrade handlebars to 4.0.5, closes #2195\nReplace all % chatacters in defined scripts, instead of only first one, fixes #2174\nUpdate opn package to fix issues with \"bower open\" command on Windows\nUpdate bower-config\n\nDo not interpolate environment variables in script hooks, fixes bower/config#47\n\n\nUpdate bower-json\n\nValidate package name more strictly and allow only latin letters, dots, dashes and underscores\n\n\nAdd support for \"save\" and \"save-exact\" in .bowerrc, #2161\n\n1.7.7 - 2016-01-27\nRevert locations of all files while still packaging node_modules.\nIt's because people are depending on internals of bower, like\nbower/lib/renderers/StandardRenderer. We want to preserve this\n ... (truncated)\n\n\n\nCommits\n\n67741b4 Bump to 1.8.8\n45c6bfa Fix .tar.gz extract vulnerability\n4f68fc7 Update decompress-zip and bump\n206046b Bump to 1.8.6\n43894f5 Bump to 1.8.5\n6390815 Update decompress-zip\ne8b94ec Mention parcel\n51feb8f Fix release script\n1c15dea Bump to 1.8.4\n2aa1f27 Update publish script\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-01T21:19:53Z",
+        "mergedBy": {
+            "login": "thomaspark",
+            "resourcePath": "/thomaspark"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "docs/3/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 930,
+        "createdAt": "2019-11-01T21:21:03Z",
+        "title": "build(deps): bump mixin-deep from 1.3.1 to 1.3.2",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-01T21:33:04Z",
+        "mergedBy": {
+            "login": "thomaspark",
+            "resourcePath": "/thomaspark"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 931,
+        "createdAt": "2019-11-01T21:21:08Z",
+        "title": "build(deps): bump lodash from 4.17.11 to 4.17.15",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-01T21:33:35Z",
+        "mergedBy": {
+            "login": "thomaspark",
+            "resourcePath": "/thomaspark"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 961,
+        "createdAt": "2020-04-30T06:20:11Z",
+        "title": "build(deps-dev): bump jquery from 3.4.1 to 3.5.0",
+        "bodyText": "Bumps jquery from 3.4.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-14T01:16:13Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like jquery is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-05-14T01:16:11Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,1385 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2346,
+        "createdAt": "2019-11-01T13:21:02Z",
+        "title": "Bump pillow from 5.4.1 to 6.2.0 in /geoportal",
+        "bodyText": "Bumps pillow from 5.4.1 to 6.2.0.\n\nRelease notes\nSourced from pillow's releases.\n\n6.2.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.2.0.html\n6.1.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.1.0.html\n6.0.0\nNo release notes provided.\n\n\n\nChangelog\nSourced from pillow's changelog.\n\n6.2.0 (2019-10-01)\n\n\nCatch buffer overruns #4104\n[radarhere]\n\n\nInitialize rows_per_strip when RowsPerStrip tag is missing #4034\n[cgohlke, radarhere]\n\n\nRaise error if TIFF dimension is a string #4103\n[radarhere]\n\n\nAdded decompression bomb checks #4102\n[radarhere]\n\n\nFix ImageGrab.grab DPI scaling on Windows 10 version 1607+ #4000\n[nulano, radarhere]\n\n\nCorrected negative seeks #4101\n[radarhere]\n\n\nAdded argument to capture all screens on Windows #3950\n[nulano, radarhere]\n\n\nUpdated warning to specify when Image.frombuffer defaults will change #4086\n[radarhere]\n\n\nChanged WindowsViewer format to PNG #4080\n[radarhere]\n\n\nUse TIFF orientation #4063\n[radarhere]\n\n\nRaise the same error if a truncated image is loaded a second time #3965\n[radarhere]\n\n\nLazily use ImageFileDirectory_v1 values from Exif #4031\n[radarhere]\n\n\nImproved HSV conversion #4004\n[radarhere]\n\n\nAdded text stroking #3978\n[radarhere, hugovk]\n\n\nNo more deprecated bdist_wininst .exe installers #4029\n[hugovk]\n\n\nDo not allow floodfill to extend into negative coordinates #4017\n[radarhere]\n\n\n ... (truncated)\n\n\n\nCommits\n\n8a30d13 Updated CHANGES.rst [ci skip]\n75602d1 6.2.0 version bump\n4756af9 Updated CHANGES.rst [ci skip]\ncc16025 Merge pull request #4104 from radarhere/overrun\nfb84701 Merge pull request #4034 from cgohlke/patch-1\nb9693a5 Merge pull request #4103 from radarhere/dimension\nf228d0c Merge pull request #4102 from radarhere/decompression\naaf2c42 Merge pull request #4000 from nulano/dpi_fix\nb36c1bc Merge pull request #4101 from radarhere/negative_seek\n9a977b9 Raise error if dimension is a string\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:03:39Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:03:40Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/upstream_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2353,
+        "createdAt": "2019-11-20T17:19:07Z",
+        "title": "Bump angular from 1.6.10 to 1.7.9 in /geoportal",
+        "bodyText": "Bumps angular from 1.6.10 to 1.7.9.\n\nChangelog\nSourced from angular's changelog.\n\n1.7.9 pollution-eradication (2019-11-19)\nBug Fixes\n\nangular.merge: do not merge proto property\n(726f49)\n(Thanks to the Snyk Security Research Team for identifyng this issue.)\nngStyle: correctly remove old style when new style value is invalid\n(5edd25,\n#16860,\n#16868)\n\n\n1.7.8 enthusiastic-oblation (2019-03-11)\nBug Fixes\n\nrequired: correctly validate required on non-input element surrounded by ngIf\n(a4c7bd,\n#16830,\n#16836)\n\n\n1.7.7 kingly-exiting (2019-02-04)\nBug Fixes\n\nngRequired: set error correctly when inside ngRepeat and false by default\n(5ad4f5,\n#16814,\n#16820)\n\n\n1.7.6 gravity-manipulation (2019-01-17)\nBug Fixes\n\n$compile: fix ng-prop-* with undefined values\n(772440,\n#16797,\n#16798)\ncompile: properly handle false value for boolean attrs with jQuery\n(27486b,\n#16778,\n#16779)\nngRepeat:\n\nfix reference to last collection value remaining across linkages\n(cf919a)\nfix trackBy function being invoked with incorrect scope\n(d4d103,\n\n\n\n ... (truncated)\n\n\n\nCommits\n\nd257c45 docs: release notes for 1.7.9\n1b1684c docs($compile): fix typos and incorrect example\n726f49d fix(angular.merge): do not merge proto property\n8a187f1 chore(saucelabs): switch to latest version of desktop Safari\nd97e6f1 chore(saucelabs): upgrade SauceConnect to 4.5.4\n26e893a docs(guide/migration): fix typo (misceallenous --> miscellaneous)\n5edd253 fix(ngStyle): correctly remove old style when new style value is invalid\n019dded chore(*): update jQuery from 3.2.1 to 3.4.0\n0007be1 chore(*): make yarn.lock & GitHub templates identical between master & v1.7.x\n863528f docs(DEVELOPERS): remove git revert misleading information\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by petebacondarwin, a new releaser for angular since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-23T09:13:19Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like angular is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-04-23T09:13:17Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2355,
+        "createdAt": "2019-12-04T12:37:38Z",
+        "title": "Bump urllib3 from 1.23 to 1.24.2 in /geoportal",
+        "bodyText": "Bumps urllib3 from 1.23 to 1.24.2.\n\nChangelog\nSourced from urllib3's changelog.\n\n1.24.2 (2019-04-17)\n\n\nDon't load system certificates by default when any other ca_certs, ca_certs_dir or\nssl_context parameters are specified.\n\n\nRemove Authorization header regardless of case when redirecting to cross-site. (Issue #1510)\n\n\nAdd support for IPv6 addresses in subjectAltName section of certificates. (Issue #1269)\n\n\n1.24.1 (2018-11-02)\n\n\nRemove quadratic behavior within GzipDecoder.decompress() (Issue #1467)\n\n\nRestored functionality of ciphers parameter for create_urllib3_context(). (Issue #1462)\n\n\n1.24 (2018-10-16)\n\n\nAllow key_server_hostname to be specified when initializing a PoolManager to allow custom SNI to be overridden. (Pull #1449)\n\n\nTest against Python 3.7 on AppVeyor. (Pull #1453)\n\n\nEarly-out ipv6 checks when running on App Engine. (Pull #1450)\n\n\nChange ambiguous description of backoff_factor (Pull #1436)\n\n\nAdd ability to handle multiple Content-Encodings (Issue #1441 and Pull #1442)\n\n\nSkip DNS names that can't be idna-decoded when using pyOpenSSL (Issue #1405).\n\n\nAdd a server_hostname parameter to HTTPSConnection which allows for\noverriding the SNI hostname sent in the handshake. (Pull #1397)\n\n\nDrop support for EOL Python 2.6 (Pull #1429 and Pull #1430)\n\n\nFixed bug where responses with header Content-Type: message/* erroneously\nraised HeaderParsingError, resulting in a warning being logged. (Pull #1439)\n\n\nMove urllib3 to src/urllib3 (Pull #1409)\n\n\n\n\n\nCommits\n\n1efadf4 Release 1.24.2 (#1564)\na6ec68a Merging new release version: 1.24.1\n0cedb3b Restore context.set_ciphers() to create_urllib3_context() (#1463)\n0aeba3b Use bytearray to accumulate bytes from gzip (#1468)\nf8d1c78 Uninstall oclint to ensure gcc can be brew upgraded (#1464)\ncd7cfa6 Resolve pytest pluggy version conflict (#1457)\nb548abc Update changelog for 1.24 release\nef0c745 Merging new release version: 1.24\na0964d9 Add missing key_server_hostname variable (#1449)\n34d8298 Test against Python 3.7 on AppVeyor (#1453)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:00:09Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:00:13Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/luxembourg_requirements.txt"
+                },
+                {
+                    "path": "geoportal/upstream_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2356,
+        "createdAt": "2019-12-04T12:37:39Z",
+        "title": "Bump pyyaml from 3.13 to 5.1 in /geoportal",
+        "bodyText": "Bumps pyyaml from 3.13 to 5.1.\n\nChangelog\nSourced from pyyaml's changelog.\n\n5.1 (2019-03-13)\n\nyaml/pyyaml#35 -- Some modernization of the test running\nyaml/pyyaml#42 -- Install tox in a virtualenv\nyaml/pyyaml#45 -- Allow colon in a plain scalar in a flow context\nyaml/pyyaml#48 -- Fix typos\nyaml/pyyaml#55 -- Improve RepresenterError creation\nyaml/pyyaml#59 -- Resolves #57, update readme issues link\nyaml/pyyaml#60 -- Document and test Python 3.6 support\nyaml/pyyaml#61 -- Use Travis CI built in pip cache support\nyaml/pyyaml#62 -- Remove tox workaround for Travis CI\nyaml/pyyaml#63 -- Adding support to Unicode characters over codepoint 0xffff\nyaml/pyyaml#75 -- add 3.12 changelog\nyaml/pyyaml#76 -- Fallback to Pure Python if Compilation fails\nyaml/pyyaml#84 -- Drop unsupported Python 3.3\nyaml/pyyaml#102 -- Include license file in the generated wheel package\nyaml/pyyaml#105 -- Removed Python 2.6 & 3.3 support\nyaml/pyyaml#111 -- Remove commented out Psyco code\nyaml/pyyaml#129 -- Remove call to ord in lib3 emitter code\nyaml/pyyaml#149 -- Test on Python 3.7-dev\nyaml/pyyaml#158 -- Support escaped slash in double quotes \"/\"\nyaml/pyyaml#175 -- Updated link to pypi in release announcement\nyaml/pyyaml#181 -- Import Hashable from collections.abc\nyaml/pyyaml#194 -- Reverting yaml/pyyaml#74\nyaml/pyyaml#195 -- Build libyaml on travis\nyaml/pyyaml#196 -- Force cython when building sdist\nyaml/pyyaml#254 -- Allow to turn off sorting keys in Dumper (2)\nyaml/pyyaml#256 -- Make default_flow_style=False\nyaml/pyyaml#257 -- Deprecate yaml.load and add FullLoader and UnsafeLoader classes\nyaml/pyyaml#261 -- Skip certain unicode tests when maxunicode not > 0xffff\nyaml/pyyaml#263 -- Windows Appveyor build\n\n\n\n\nCommits\n\ne471e86 Updates for 5.1 release\n9141e90 Windows Appveyor build\nd6cbff6 Skip certain unicode tests when maxunicode not > 0xffff\n69103ba Update .travis.yml to use libyaml 0.2.2\n91c9435 Squash/merge pull request #105 from nnadeau/patch-1\n507a464 Make default_flow_style=False\n07c88c6 Allow to turn off sorting keys in Dumper\n611ba39 Include license file in the generated wheel package\n857dff1 Apply FullLoader/UnsafeLoader changes to lib3\n0cedb2a Deprecate/warn usage of yaml.load(input)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T11:59:56Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T11:59:57Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/upstream_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2357,
+        "createdAt": "2019-12-04T12:37:46Z",
+        "title": "Bump jquery from 3.3.1 to 3.4.1 in /geoportal/geoportailv3_geoportal/admin",
+        "bodyText": "Bumps jquery from 3.3.1 to 3.4.1.\n\nCommits\n\n75f7e96 3.4.1\n7dddb19 Core: Make isAttached work with iOS 10.0-10.2\n6c1e7db Event: Prevent leverageNative from registering duplicate dummy handlers\n24d71ac Event: Fix handling of multiple async focus events\nb4fadc9 Build: Test on Node.js 12, stop testing on Node.js 6 & 11\n0d4af52 Build: Fix unresolved jQuery reference in finalPropName\n22caea8 Build: Updating the 3.4-stable version to 3.4.1-pre\n59ea765 Release: update AUTHORS.txt\n7c1ef15 Release: update version to 3.4.0-pre\nd940bc0 Build: Update Sizzle from 2.3.3 to 2.3.4\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-23T09:13:23Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like jquery is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-04-23T09:13:22Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/geoportailv3_geoportal/admin/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2358,
+        "createdAt": "2019-12-04T12:39:09Z",
+        "title": "Bump jquery from 3.3.1 to 3.4.1 in /geoportal",
+        "bodyText": "Bumps jquery from 3.3.1 to 3.4.1.\n\nCommits\n\n75f7e96 3.4.1\n7dddb19 Core: Make isAttached work with iOS 10.0-10.2\n6c1e7db Event: Prevent leverageNative from registering duplicate dummy handlers\n24d71ac Event: Fix handling of multiple async focus events\nb4fadc9 Build: Test on Node.js 12, stop testing on Node.js 6 & 11\n0d4af52 Build: Fix unresolved jQuery reference in finalPropName\n22caea8 Build: Updating the 3.4-stable version to 3.4.1-pre\n59ea765 Release: update AUTHORS.txt\n7c1ef15 Release: update version to 3.4.0-pre\nd940bc0 Build: Update Sizzle from 2.3.3 to 2.3.4\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-23T09:13:22Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like jquery is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-04-23T09:13:21Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2359,
+        "createdAt": "2019-12-04T12:40:05Z",
+        "title": "Bump webpack-dev-server from 3.1.4 to 3.9.0 in /geoportal",
+        "bodyText": "Bumps webpack-dev-server from 3.1.4 to 3.9.0.\n\nRelease notes\nSourced from webpack-dev-server's releases.\n\nv3.9.0\n3.9.0 (2019-10-22)\nBug Fixes\n\nadd hostname and port to bonjour name to prevent name collisions (#2276) (d8af2d9)\nadd extKeyUsage to self-signed cert (#2274) (a4dbc3b)\n\nFeatures\n\nadd multiple openPage support (#2266) (c9e9178)\n\nv3.8.2\n3.8.2 (2019-10-02)\nSecurity\n\nupdate selfsigned package\n\nv3.8.1\n3.8.1 (2019-09-16)\nBug Fixes\n\nadd null check for connection.headers (#2200) (7964997)\nfalse positive for an absolute path in the ContentBase option on windows (#2202) (68ecf78)\nadd status in quiet log level (#2235) (7e2224e)\nscriptHost in client (#2246) (00903f6)\n\nv3.8.0\n3.8.0 (2019-08-09)\nBug Fixes\n\nserver: fix setupExitSignals usage (#2181) (bbe410e)\nserver: set port before instantiating server (#2143) (cfbf229)\ncheck for name of HotModuleReplacementPlugin to avoid RangeError (#2146) (4579775)\nserver: check for external urls in array (#1980) (fa78347)\nserver: fix header check for socket server (#2077) (7f51859)\nserver: stricter headers security check (#2092) (078ddca)\n\nFeatures\n\nserver: add transportMode (#2116) (b5b9cb4)\nserver/client: made progress option available to API (#1961) (56274e4)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from webpack-dev-server's changelog.\n\n3.9.0 (2019-10-22)\nBug Fixes\n\nadd hostname and port to bonjour name to prevent name collisions (#2276) (d8af2d9)\nadd extKeyUsage to self-signed cert (#2274) (a4dbc3b)\n\nFeatures\n\nadd multiple openPage support (#2266) (c9e9178)\n\n3.8.2 (2019-10-02)\nSecurity\n\nupdate selfsigned package\n\n3.8.1 (2019-09-16)\nBug Fixes\n\nadd null check for connection.headers (#2200) (7964997)\nfalse positive for an absolute path in the ContentBase option on windows (#2202) (68ecf78)\nadd status in quiet log level (#2235) (7e2224e)\nscriptHost in client (#2246) (00903f6)\n\n3.8.0 (2019-08-09)\nBug Fixes\n\nserver: fix setupExitSignals usage (#2181) (bbe410e)\nserver: set port before instantiating server (#2143) (cfbf229)\ncheck for name of HotModuleReplacementPlugin to avoid RangeError (#2146) (4579775)\nserver: check for external urls in array (#1980) (fa78347)\nserver: fix header check for socket server (#2077) (7f51859)\nserver: stricter headers security check (#2092) (078ddca)\n\nFeatures\n\nserver: add transportMode (#2116) (b5b9cb4)\nserver: serverMode 'ws' option (#2082) (04483f4)\nserver/client: made progress option available to API (#1961) (56274e4)\n\nPotential Breaking changes\n ... (truncated)\n\n\n\nCommits\n\n4d99f6d chore(release): 3.9.0\n4abc8c3 chore(deps): update package-lock.json (#2289)\ne1d4d7f chore(deps): update all patch dependencies (master) (patch) (#2281)\na4dbc3b fix(server): Add extKeyUsage to self-signed cert (#2274)\nb0070f3 chore(deps): update all patch dependencies (#2275)\nd8af2d9 fix: add hostname and port to bonjour name to prevent name collisions (#2276)\n6d1f24f chore(deps): update all patch dependencies (master) (patch) (#2271)\nc9e9178 feat(options): add multiple openPage support (#2266)\n06e014b chore(deps): update all minor dependencies (#2252)\n98aa8e1 chore(cli): move webpack cli flags to dev server (#2270)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by evilebottnawi, a new releaser for webpack-dev-server since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:00:15Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:00:18Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2360,
+        "createdAt": "2019-12-04T12:41:26Z",
+        "title": "Bump bootstrap from 3.3.7 to 3.4.1 in /geoportal",
+        "bodyText": "Bumps bootstrap from 3.3.7 to 3.4.1.\n\nRelease notes\nSourced from bootstrap's releases.\n\nv3.4.1\n\nSecurity: Fixed an XSS vulnerability (CVE-2019-8331) in our tooltip and popover plugins by implementing a new HTML sanitizer\nHandle bad selectors (#) in data-target for Dropdowns\nClarified tooltip selector documentation\nAdded support for NuGet contentFiles\n\nv3.4.0\n\nNew: Added a .row-no-gutters class.\nNew: Added docs searching via Algolia.\nFixed: Resolved an XSS issue in Alert, Carousel, Collapse, Dropdown, Modal, and Tab components. See https://snyk.io/vuln/npm:bootstrap:20160627 for details.\nFixed: Added padding to .navbar-fixed-* on modal open\nFixed: Removed the double border on <abbr> elements.\nRemoved Gist creation in web-based Customizer since anonymous gists were disabled long ago by GitHub.\nRemoved drag and drop support from Customizer since it didn't work anymore.\nAdded a dropdown to the docs nav for newer and previous versions.\nUpdate the docs to use a new baseurl, /docs/3.4/, to version the v3.x documentation like we do with v4.\nReorganized the v3 docs CSS to use Less.\nSwitched to BrowserStack for tests.\nUpdated links to always use https and fix broken URLs.\nReplaced ZeroClipboard with clipboard.js\n\n\n\n\nCommits\n\n68b0d23 Dist\n2ccfa57 handle # selector for dropdown\na43077d Bump version to 3.4.1.\nd821de2 Backport sanitize docs from v4.\n5cd9ef4 Add wdm gem for Windows.\nd6b8501 ES5 fixes.\n2c8abb9 Add sanitize for tooltips and popovers html content.\nd4129df Bump year.\n0d64d6a less/modals.less: Add missing semicolon.\n48c5d7b Use https.\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by xhmikosr, a new releaser for bootstrap since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-23T09:13:24Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like bootstrap is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-04-23T09:13:23Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2370,
+        "createdAt": "2019-12-21T00:19:43Z",
+        "title": "Bump waitress from 1.2.1 to 1.4.0 in /geoportal",
+        "bodyText": "Bumps waitress from 1.2.1 to 1.4.0.\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.0 (2019-12-20)\nBugfixes\n\n- Waitress used to slam the door shut on HTTP pipelined requests without\n  setting the ``Connection: close`` header as appropriate in the response. This\n  is of course not very friendly. Waitress now explicitly sets the header when\n  responding with an internally generated error such as 400 Bad Request or 500\n  Internal Server Error to notify the remote client that it will be closing the\n  connection after the response is sent.\n\n- Waitress no longer allows any spaces to exist between the header field-name\n  and the colon. While waitress did not strip the space and thereby was not\n  vulnerable to any potential header field-name confusion, it should have sent\n  back a 400 Bad Request. See [Pylons/waitress#273](https://github-redirect.dependabot.com/Pylons/waitress/issues/273)\n\nSecurity Fixes\n\n\n\nWaitress implemented a \"MAY\" part of the RFC7230\n(https://tools.ietf.org/html/rfc7230#section-3.5) which states:\nAlthough the line terminator for the start-line and header fields is\nthe sequence CRLF, a recipient MAY recognize a single LF as a line\nterminator and ignore any preceding CR.\n\nUnfortunately if a front-end server does not parse header fields with an LF\nthe same way as it does those with a CRLF it can lead to the front-end and\nthe back-end server parsing the same HTTP message in two different ways. This\ncan lead to a potential for HTTP request smuggling/splitting whereby Waitress\nmay see two requests while the front-end server only sees a single HTTP\nmessage.\nFor more information I can highly recommend the blog post by ZeddYu Lu\nhttps://blog.zeddyu.info/2019/12/08/HTTP-Smuggling-en/\n\n\nWaitress used to treat LF the same as CRLF in Transfer-Encoding: chunked\nrequests, while the maintainer doesn't believe this could lead to a security\nissue, this is no longer supported and all chunks are now validated to be\nproperly framed with CRLF as required by RFC7230.\n\n\nWaitress now validates that the Transfer-Encoding header contains only\ntransfer codes that it is able to decode. At the moment that includes the\nonly valid header value being chunked.\nThat means that if the following header is sent:\nTransfer-Encoding: gzip, chunked\n\n\n ... (truncated)\n\n\n\nCommits\n\nf11093a Merge pull request from GHSA-g2xc-35jw-c63p\ne586be8 Version 1.4.0\nd1f283b Update CHANGES.txt and HISTORY.txt as appropriate\n60f92b8 Allow end of chunk parser to be resumeable\n8ecd8dc Improve validation of Transfer-Encoding\n575994c Upon receiving invalid Content-Length bail\n804e313 Disallow BWS in header field-names\nfb08ecf Properly enforce max_request_header_size\n8eba394 Remove support for non CRLF line endings\n7ff1e6b Make sure all errors have a code/reason\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-26T17:31:54Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #2374.",
+                    "createdAt": "2019-12-26T17:31:53Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/upstream_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2374,
+        "createdAt": "2019-12-26T17:31:51Z",
+        "title": "Bump waitress from 1.2.1 to 1.4.1 in /geoportal",
+        "bodyText": "Bumps waitress from 1.2.1 to 1.4.1.\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.1 (2019-12-24)\nSecurity Fixes\n\n- Waitress did not properly validate that the HTTP headers it received were\n  properly formed, thereby potentially allowing a front-end server to treat a\n  request different from Waitress. This could lead to HTTP request\n  smuggling/splitting.\n\n  Please see the security advisory for more information:\n  https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4\n\n1.4.0 (2019-12-20)\n------------------\n\nBugfixes\n~~~~~~~~\n\n- Waitress used to slam the door shut on HTTP pipelined requests without\n  setting the ``Connection: close`` header as appropriate in the response. This\n  is of course not very friendly. Waitress now explicitly sets the header when\n  responding with an internally generated error such as 400 Bad Request or 500\n  Internal Server Error to notify the remote client that it will be closing the\n  connection after the response is sent.\n\n- Waitress no longer allows any spaces to exist between the header field-name\n  and the colon. While waitress did not strip the space and thereby was not\n  vulnerable to any potential header field-name confusion, it should have sent\n  back a 400 Bad Request. See [Pylons/waitress#273](https://github-redirect.dependabot.com/Pylons/waitress/issues/273)\n\nSecurity Fixes\n\n\n\nWaitress implemented a \"MAY\" part of the RFC7230\n(https://tools.ietf.org/html/rfc7230#section-3.5) which states:\nAlthough the line terminator for the start-line and header fields is\nthe sequence CRLF, a recipient MAY recognize a single LF as a line\nterminator and ignore any preceding CR.\n\nUnfortunately if a front-end server does not parse header fields with an LF\nthe same way as it does those with a CRLF it can lead to the front-end and\nthe back-end server parsing the same HTTP message in two different ways. This\ncan lead to a potential for HTTP request smuggling/splitting whereby Waitress\nmay see two requests while the front-end server only sees a single HTTP\nmessage.\nFor more information I can highly recommend the blog post by ZeddYu Lu\n\n\n ... (truncated)\n\n\n\nCommits\n\ncd83598 Prep v1.4.1\n11d9e13 Merge pull request from GHSA-m5ff-3wj3-8ph4\na046a76 Add links to advisories for previous security issues\n3c58e39 Bump version number\nde3324d Add documentation for security issue\n3bcd690 Define VCHAR/OBS_TEXT once\n2e46f24 Validate HTTP header-field more completely\n2a11d68 Add file with RFC7230 definitions/ABNF -> regex\nf11093a Merge pull request from GHSA-g2xc-35jw-c63p\ne586be8 Version 1.4.0\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-01-06T19:44:55Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #2376.",
+                    "createdAt": "2020-01-06T19:44:54Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/upstream_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2376,
+        "createdAt": "2020-01-06T19:44:52Z",
+        "title": "Bump waitress from 1.2.1 to 1.4.2 in /geoportal",
+        "bodyText": "Bumps waitress from 1.2.1 to 1.4.2.\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.2 (2020-01-02)\nSecurity Fixes\n\n- This is a follow-up to the fix introduced in 1.4.1 to tighten up the way\n  Waitress strips whitespace from header values. This makes sure Waitress won't\n  accidentally treat non-printable characters as whitespace and lead to a\n  potental HTTP request smuggling/splitting security issue.\n\n  Thanks to ZeddYu Lu for the extra test cases.\n\n  Please see the security advisory for more information:\n  https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4\n\n  CVE-ID: CVE-2019-16789\n\nBugfixes\n~~~~~~~~\n\n- Updated the regex used to validate header-field content to match the errata\n  that was published for RFC7230.\n\n  See: https://www.rfc-editor.org/errata_search.php?rfc=7230&eid=4189\n\n\n1.4.1 (2019-12-24)\n------------------\n\nSecurity Fixes\n\n\n\nWaitress did not properly validate that the HTTP headers it received were\nproperly formed, thereby potentially allowing a front-end server to treat a\nrequest different from Waitress. This could lead to HTTP request\nsmuggling/splitting.\nPlease see the security advisory for more information:\nGHSA-m5ff-3wj3-8ph4\nCVE-ID: CVE-2019-16789\n\n\n1.4.0 (2019-12-20)\nBugfixes\n\n- Waitress used to slam the door shut on HTTP pipelined requests without\n</tr></table> ... (truncated)\n\n\n\n\nCommits\n\n8af9adb Prep for 1.4.2\n634d991 Merge pull request #277 from Pylons/invalid-whitespace-cont\n3a54e29 Add CHANGES and bump version to 1.4.2\n0bf98da Update RFC7230 regex with errata for header field-content\nddb65b4 Remove accidental stripping of non-printable characters\ncd83598 Prep v1.4.1\n11d9e13 Merge pull request from GHSA-m5ff-3wj3-8ph4\na046a76 Add links to advisories for previous security issues\n3c58e39 Bump version number\nde3324d Add documentation for security issue\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:00:21Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:00:22Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/upstream_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2415,
+        "createdAt": "2020-02-24T19:25:55Z",
+        "title": "Bump bleach from 2.1.4 to 3.1.1 in /geoportal",
+        "bodyText": "Bumps bleach from 2.1.4 to 3.1.1.\n\nChangelog\nSourced from bleach's changelog.\n\nVersion 3.1.1 (February 13th, 2020)\nSecurity fixes\n\n\nbleach.clean behavior parsing noscript tags did not match\nbrowser behavior.\nCalls to bleach.clean allowing noscript and one or more of\nthe raw text tags (title, textarea, script, style,\nnoembed, noframes, iframe, and xmp) were vulnerable\nto a mutation XSS.\nThis security issue was confirmed in Bleach versions v2.1.4, v3.0.2,\nand v3.1.0. Earlier versions are probably affected too.\nAnyone using Bleach <=v3.1.0 is highly encouraged to upgrade.\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1615315\n\n\nBackwards incompatible changes\nNone\nFeatures\nNone\nBug fixes\nNone\nBleach changes\nVersion 3.1.0 (January 9th, 2019)\nSecurity fixes\nNone\nBackwards incompatible changes\nNone\nFeatures\n\nAdd recognized_tags argument to the linkify Linker class. This\nfixes issues when linkifying on its own and having some tags get escaped.\n\n ... (truncated)\n\n\n\nCommits\n\n0d88dd8 Update for v3.1.1 release\n996cde7 fix bug 1615315\n2f210e0 Merge pull request #435 from willkg/3_1_0_release\nad910ce Update for 3.1.0 release\n948b745 Merge pull request #433 from willkg/357-doctest\n245c21c Fix doctest failures\ncabd665 Merge pull request #432 from willkg/431-charencoding\ncb156cb Fix parsing \"meta\" tag with encoding attribute\n93a060e Merge pull request #429 from willkg/422-amp\n8d7fd48 Convert & to & as a Characters token\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-24T17:21:47Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #2436.",
+                    "createdAt": "2020-03-24T17:21:46Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/luxembourg_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2436,
+        "createdAt": "2020-03-24T17:21:44Z",
+        "title": "Bump bleach from 2.1.4 to 3.1.2 in /geoportal",
+        "bodyText": "Bumps bleach from 2.1.4 to 3.1.2.\n\nChangelog\nSourced from bleach's changelog.\n\nVersion 3.1.2 (March 11th, 2020)\nSecurity fixes\n\n\nbleach.clean behavior parsing embedded MathML and SVG content\nwith RCDATA tags did not match browser behavior and could result in\na mutation XSS.\nCalls to bleach.clean with strip=False and math or\nsvg tags and one or more of the RCDATA tags script,\nnoscript, style, noframes, iframe, noembed, or\nxmp in the allowed tags whitelist were vulnerable to a mutation\nXSS.\nThis security issue was confirmed in Bleach version v3.1.1. Earlier\nversions are likely affected too.\nAnyone using Bleach <=v3.1.1 is encouraged to upgrade.\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1621692\n\n\nBackwards incompatible changes\nNone\nFeatures\nNone\nBug fixes\nNone\nVersion 3.1.1 (February 13th, 2020)\nSecurity fixes\n\n\nbleach.clean behavior parsing noscript tags did not match\nbrowser behavior.\nCalls to bleach.clean allowing noscript and one or more of\nthe raw text tags (title, textarea, script, style,\nnoembed, noframes, iframe, and xmp) were vulnerable\nto a mutation XSS.\nThis security issue was confirmed in Bleach versions v2.1.4, v3.0.2,\nand v3.1.0. Earlier versions are probably affected too.\n\n\n ... (truncated)\n\n\n\nCommits\n\n78a0672 Update for v3.1.2 release\n7b625ff add wheel to requirements-dev\ne4e9e21 fix bug 1621692\n0d88dd8 Update for v3.1.1 release\n996cde7 fix bug 1615315\n2f210e0 Merge pull request #435 from willkg/3_1_0_release\nad910ce Update for 3.1.0 release\n948b745 Merge pull request #433 from willkg/357-doctest\n245c21c Fix doctest failures\ncabd665 Merge pull request #432 from willkg/431-charencoding\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-31T05:00:05Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #2445.",
+                    "createdAt": "2020-03-31T05:00:04Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/luxembourg_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2445,
+        "createdAt": "2020-03-31T05:00:01Z",
+        "title": "Bump bleach from 2.1.4 to 3.1.4 in /geoportal",
+        "bodyText": "Bumps bleach from 2.1.4 to 3.1.4.\n\nChangelog\nSourced from bleach's changelog.\n\nVersion 3.1.4 (March 24th, 2020)\nSecurity fixes\n\n\nbleach.clean behavior parsing style attributes could result in a\nregular expression denial of service (ReDoS).\nCalls to bleach.clean with an allowed tag with an allowed\nstyle attribute were vulnerable to ReDoS. For example,\nbleach.clean(..., attributes={'a': ['style']}).\nThis issue was confirmed in Bleach versions v3.1.3, v3.1.2, v3.1.1,\nv3.1.0, v3.0.0, v2.1.4, and v2.1.3. Earlier versions used a similar\nregular expression and should be considered vulnerable too.\nAnyone using Bleach <=v3.1.3 is encouraged to upgrade.\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=1623633\n\n\nBackwards incompatible changes\n\nStyle attributes with dashes, or single or double quoted values are\ncleaned instead of passed through.\n\nFeatures\nNone\nBug fixes\nNone\nVersion 3.1.3 (March 17th, 2020)\nSecurity fixes\nNone\nBackwards incompatible changes\nNone\nFeatures\n\n\nAdd relative link to code of conduct. (#442)\n\n\nDrop deprecated 'setup.py test' support. (#507)\n\n\n ... (truncated)\n\n\n\nCommits\n\n6e74a50 Update for v3.1.4 release\nd6018f2 fix bug 1623633\nfc77027 Merge branch 'v3.1.0-branch'\ne4b1c50 Update for v3.1.3 release\n59cc502 Update for v3.1.2 release\n3f39d48 add wheel to requirements-dev\n175f677 fix bug 1621692\n78a0672 Update for v3.1.2 release\n7b625ff add wheel to requirements-dev\ne4e9e21 fix bug 1621692\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:00:39Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:00:41Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/luxembourg_requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2478,
+        "createdAt": "2020-04-23T12:08:35Z",
+        "title": "Bump jquery from 3.2.1 to 3.5.0 in /geoportal/jsapi",
+        "bodyText": "Bumps jquery from 3.2.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-07-22T14:06:56Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #2524.",
+                    "createdAt": "2020-07-22T14:06:55Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/jsapi/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2479,
+        "createdAt": "2020-04-23T12:08:39Z",
+        "title": "Bump eslint from 3.18.0 to 6.8.0 in /geoportal/jsapi",
+        "bodyText": "Bumps eslint from 3.18.0 to 6.8.0.\n\nRelease notes\nSourced from eslint's releases.\n\nv6.8.0\n\nc5c7086 Fix: ignore aligning single line in key-spacing (fixes #11414) (#12652) (YeonJuan)\n9986d9e Chore: add object option test cases in yield-star-spacing (#12679) (YeonJuan)\n1713d07 New: Add no-error-on-unmatched-pattern flag (fixes #10587) (#12377) (ncraley)\n5c25a26 Update: autofix bug in lines-between-class-members (fixes #12391) (#12632) (YeonJuan)\n4b3cc5c Chore: enable prefer-regex-literals in eslint codebase (#12268) (薛定谔的猫)\n05faebb Update: improve suggestion testing experience (#12602) (Brad Zacher)\n05f7dd5 Update: Add suggestions for no-unsafe-negation (fixes #12591) (#12609) (Milos Djermanovic)\nd3e43f1 Docs: Update no-multi-assign explanation (#12615) (Yuping Zuo)\n272e4db Fix: no-multiple-empty-lines: Adjust reported loc (#12594) (Tobias Bieniek)\na258039 Fix: no-restricted-imports schema allows multiple paths/patterns objects (#12639) (Milos Djermanovic)\n51f9620 Fix: improve report location for array-bracket-spacing (#12653) (Milos Djermanovic)\n45364af Fix: prefer-numeric-literals doesn't check types of literal arguments (#12655) (Milos Djermanovic)\ne3c570e Docs: Add example for expression option (#12694) (Arnaud Barré)\n6b774ef Docs: Add spacing in comments for no-console rule (#12696) (Nikki Nikkhoui)\n7171fca Chore: refactor regex in config comment parser (#12662) (Milos Djermanovic)\n1600648 Update: Allow $schema in config (#12612) (Yordis Prieto)\nacc0e47 Update: support .eslintrc.cjs (refs eslint/rfcs#43) (#12321) (Evan Plaice)\n49c1658 Chore: remove bundling of ESLint during release (#12676) (Kai Cataldo)\n257f3d6 Chore: complete to move to GitHub Actions (#12625) (Toru Nagashima)\nab912f0 Docs: 1tbs with allowSingleLine edge cases (refs #12284) (#12314) (Ari Kardasis)\ndd1c30e Sponsors: Sync README with website (ESLint Jenkins)\na230f84 Update: include node version in cache (#12582) (Eric Wang)\n8b65f17 Chore: remove references to parser demo (#12644) (Kai Cataldo)\ne9cef99 Docs: wrap {{}} in raw liquid tags to prevent interpolation (#12643) (Kai Cataldo)\ne707453 Docs: Fix configuration example in no-restricted-imports (fixes #11717) (#12638) (Milos Djermanovic)\n19194ce Chore: Add tests to cover default object options in comma-dangle (#12627) (YeonJuan)\n6e36d12 Update: do not recommend require-atomic-updates (refs #11899) (#12599) (Kai Cataldo)\n\nv6.7.2\n\nbc435a9 Fix: isSpaceBetweenTokens() recognizes spaces in JSXText (fixes #12614) (#12616) (Toru Nagashima)\n4928d51 Fix: don't ignore the entry directory (fixes #12604) (#12607) (Toru Nagashima)\nb41677a Docs: Clarify suggestion's data in Working with Rules (refs #12606) (#12617) (Milos Djermanovic)\nea16de4 Fix: Support tagged template literal generics in no-unexpected-multiline (#11698) (Brad Zacher)\nfa6415d Sponsors: Sync README with website (ESLint Jenkins)\ne1e158b Sponsors: Sync README with website (ESLint Jenkins)\n\nv6.7.1\n\ndd1e9f4 Fix: revert changes to key-spacing due to regression (#12598) (Kai Cataldo)\nc644b54 Docs: Update README team and sponsors (ESLint Jenkins)\n\nv6.7.0\n\n312a88f New: Add grouped-accessor-pairs rule (fixes #12277) (#12331) (Milos Djermanovic)\n5c68f5f Update: Add 'lexicalBindings' to no-implicit-globals and change messages (#11996) (Milos Djermanovic)\n6eaad96 New: Add suggestions API (#12384) (Will Douglas)\nb336fbe Fix: indent rule with JSX spread props (#12581) (Nathan Woltman)\n97c745d Update: Report assignment expression location in no-cond-assign (#12465) (Milos Djermanovic)\n0f01f3d Update: Check member expressions with this in operator-assignment (#12495) (Milos Djermanovic)\n62c7038 Fix: invalid token checking in computed-property-spacing (fixes #12198) (#12533) (YeonJuan)\n4f8a1ee Update: Add enforceForClassMembers option to no-useless-computed-key (#12110) (ark120202)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv6.8.0 - December 20, 2019\n\nc5c7086 Fix: ignore aligning single line in key-spacing (fixes #11414) (#12652) (YeonJuan)\n9986d9e Chore: add object option test cases in yield-star-spacing (#12679) (YeonJuan)\n1713d07 New: Add no-error-on-unmatched-pattern flag (fixes #10587) (#12377) (ncraley)\n5c25a26 Update: autofix bug in lines-between-class-members (fixes #12391) (#12632) (YeonJuan)\n4b3cc5c Chore: enable prefer-regex-literals in eslint codebase (#12268) (薛定谔的猫)\n05faebb Update: improve suggestion testing experience (#12602) (Brad Zacher)\n05f7dd5 Update: Add suggestions for no-unsafe-negation (fixes #12591) (#12609) (Milos Djermanovic)\nd3e43f1 Docs: Update no-multi-assign explanation (#12615) (Yuping Zuo)\n272e4db Fix: no-multiple-empty-lines: Adjust reported loc (#12594) (Tobias Bieniek)\na258039 Fix: no-restricted-imports schema allows multiple paths/patterns objects (#12639) (Milos Djermanovic)\n51f9620 Fix: improve report location for array-bracket-spacing (#12653) (Milos Djermanovic)\n45364af Fix: prefer-numeric-literals doesn't check types of literal arguments (#12655) (Milos Djermanovic)\ne3c570e Docs: Add example for expression option (#12694) (Arnaud Barré)\n6b774ef Docs: Add spacing in comments for no-console rule (#12696) (Nikki Nikkhoui)\n7171fca Chore: refactor regex in config comment parser (#12662) (Milos Djermanovic)\n1600648 Update: Allow $schema in config (#12612) (Yordis Prieto)\nacc0e47 Update: support .eslintrc.cjs (refs eslint/rfcs#43) (#12321) (Evan Plaice)\n49c1658 Chore: remove bundling of ESLint during release (#12676) (Kai Cataldo)\n257f3d6 Chore: complete to move to GitHub Actions (#12625) (Toru Nagashima)\nab912f0 Docs: 1tbs with allowSingleLine edge cases (refs #12284) (#12314) (Ari Kardasis)\ndd1c30e Sponsors: Sync README with website (ESLint Jenkins)\na230f84 Update: include node version in cache (#12582) (Eric Wang)\n8b65f17 Chore: remove references to parser demo (#12644) (Kai Cataldo)\ne9cef99 Docs: wrap {{}} in raw liquid tags to prevent interpolation (#12643) (Kai Cataldo)\ne707453 Docs: Fix configuration example in no-restricted-imports (fixes #11717) (#12638) (Milos Djermanovic)\n19194ce Chore: Add tests to cover default object options in comma-dangle (#12627) (YeonJuan)\n6e36d12 Update: do not recommend require-atomic-updates (refs #11899) (#12599) (Kai Cataldo)\n\nv6.7.2 - November 30, 2019\n\nbc435a9 Fix: isSpaceBetweenTokens() recognizes spaces in JSXText (fixes #12614) (#12616) (Toru Nagashima)\n4928d51 Fix: don't ignore the entry directory (fixes #12604) (#12607) (Toru Nagashima)\nb41677a Docs: Clarify suggestion's data in Working with Rules (refs #12606) (#12617) (Milos Djermanovic)\nea16de4 Fix: Support tagged template literal generics in no-unexpected-multiline (#11698) (Brad Zacher)\nfa6415d Sponsors: Sync README with website (ESLint Jenkins)\ne1e158b Sponsors: Sync README with website (ESLint Jenkins)\n\nv6.7.1 - November 24, 2019\n\ndd1e9f4 Fix: revert changes to key-spacing due to regression (#12598) (Kai Cataldo)\nc644b54 Docs: Update README team and sponsors (ESLint Jenkins)\n\nv6.7.0 - November 22, 2019\n\n312a88f New: Add grouped-accessor-pairs rule (fixes #12277) (#12331) (Milos Djermanovic)\n5c68f5f Update: Add 'lexicalBindings' to no-implicit-globals and change messages (#11996) (Milos Djermanovic)\n6eaad96 New: Add suggestions API (#12384) (Will Douglas)\nb336fbe Fix: indent rule with JSX spread props (#12581) (Nathan Woltman)\n\n ... (truncated)\n\n\n\nCommits\n\n9738f8c 6.8.0\nba59cbf Build: changelog update for 6.8.0\nc5c7086 Fix: ignore aligning single line in key-spacing (fixes #11414) (#12652)\n9986d9e Chore: add object option test cases in yield-star-spacing (#12679)\n1713d07 New: Add no-error-on-unmatched-pattern flag (fixes #10587) (#12377)\n5c25a26 Update: autofix bug in lines-between-class-members (fixes #12391) (#12632)\n4b3cc5c Chore: enable prefer-regex-literals in eslint codebase (#12268)\n05faebb Update: improve suggestion testing experience (#12602)\n05f7dd5 Update: Add suggestions for no-unsafe-negation (fixes #12591) (#12609)\nd3e43f1 Docs: Update no-multi-assign explanation (#12615)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by eslintbot, a new releaser for eslint since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:03:04Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:03:06Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/jsapi/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2480,
+        "createdAt": "2020-04-23T12:08:45Z",
+        "title": "Bump angular from 1.6.6 to 1.7.9 in /geoportal/jsapi",
+        "bodyText": "Bumps angular from 1.6.6 to 1.7.9.\n\nChangelog\nSourced from angular's changelog.\n\n1.7.9 pollution-eradication (2019-11-19)\nBug Fixes\n\nangular.merge: do not merge proto property\n(726f49)\n(Thanks to the Snyk Security Research Team for identifyng this issue.)\nngStyle: correctly remove old style when new style value is invalid\n(5edd25,\n#16860,\n#16868)\n\n\n1.7.8 enthusiastic-oblation (2019-03-11)\nBug Fixes\n\nrequired: correctly validate required on non-input element surrounded by ngIf\n(a4c7bd,\n#16830,\n#16836)\n\n\n1.7.7 kingly-exiting (2019-02-04)\nBug Fixes\n\nngRequired: set error correctly when inside ngRepeat and false by default\n(5ad4f5,\n#16814,\n#16820)\n\n\n1.7.6 gravity-manipulation (2019-01-17)\nBug Fixes\n\n$compile: fix ng-prop-* with undefined values\n(772440,\n#16797,\n#16798)\ncompile: properly handle false value for boolean attrs with jQuery\n(27486b,\n#16778,\n#16779)\nngRepeat:\n\nfix reference to last collection value remaining across linkages\n(cf919a)\nfix trackBy function being invoked with incorrect scope\n(d4d103,\n\n\n\n ... (truncated)\n\n\n\nCommits\n\nd257c45 docs: release notes for 1.7.9\n1b1684c docs($compile): fix typos and incorrect example\n726f49d fix(angular.merge): do not merge proto property\n8a187f1 chore(saucelabs): switch to latest version of desktop Safari\nd97e6f1 chore(saucelabs): upgrade SauceConnect to 4.5.4\n26e893a docs(guide/migration): fix typo (misceallenous --> miscellaneous)\n5edd253 fix(ngStyle): correctly remove old style when new style value is invalid\n019dded chore(*): update jQuery from 3.2.1 to 3.4.0\n0007be1 chore(*): make yarn.lock & GitHub templates identical between master & v1.7.x\n863528f docs(DEVELOPERS): remove git revert misleading information\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by petebacondarwin, a new releaser for angular since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-06-18T15:34:52Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #2511.",
+                    "createdAt": "2020-06-18T15:34:51Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/jsapi/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2481,
+        "createdAt": "2020-04-23T12:09:15Z",
+        "title": "Bump bootstrap from 3.3.7 to 3.4.1 in /geoportal/jsapi",
+        "bodyText": "Bumps bootstrap from 3.3.7 to 3.4.1.\n\nRelease notes\nSourced from bootstrap's releases.\n\nv3.4.1\n\nSecurity: Fixed an XSS vulnerability (CVE-2019-8331) in our tooltip and popover plugins by implementing a new HTML sanitizer\nHandle bad selectors (#) in data-target for Dropdowns\nClarified tooltip selector documentation\nAdded support for NuGet contentFiles\n\nv3.4.0\n\nNew: Added a .row-no-gutters class.\nNew: Added docs searching via Algolia.\nFixed: Resolved an XSS issue in Alert, Carousel, Collapse, Dropdown, Modal, and Tab components. See https://snyk.io/vuln/npm:bootstrap:20160627 for details.\nFixed: Added padding to .navbar-fixed-* on modal open\nFixed: Removed the double border on <abbr> elements.\nRemoved Gist creation in web-based Customizer since anonymous gists were disabled long ago by GitHub.\nRemoved drag and drop support from Customizer since it didn't work anymore.\nAdded a dropdown to the docs nav for newer and previous versions.\nUpdate the docs to use a new baseurl, /docs/3.4/, to version the v3.x documentation like we do with v4.\nReorganized the v3 docs CSS to use Less.\nSwitched to BrowserStack for tests.\nUpdated links to always use https and fix broken URLs.\nReplaced ZeroClipboard with clipboard.js\n\n\n\n\nCommits\n\n68b0d23 Dist\n2ccfa57 handle # selector for dropdown\na43077d Bump version to 3.4.1.\nd821de2 Backport sanitize docs from v4.\n5cd9ef4 Add wdm gem for Windows.\nd6b8501 ES5 fixes.\n2c8abb9 Add sanitize for tooltips and popovers html content.\nd4129df Bump year.\n0d64d6a less/modals.less: Add missing semicolon.\n48c5d7b Use https.\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by xhmikosr, a new releaser for bootstrap since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:03:36Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:03:37Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/jsapi/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2487,
+        "createdAt": "2020-04-30T09:42:29Z",
+        "title": "Bump jquery from 3.3.1 to 3.5.0 in /geoportal/geoportailv3_geoportal/admin",
+        "bodyText": "Bumps jquery from 3.3.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:03:02Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:03:05Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/geoportailv3_geoportal/admin/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "RemiDesgrange",
+                            "resourcePath": "/RemiDesgrange"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2488,
+        "createdAt": "2020-04-30T10:00:14Z",
+        "title": "Bump jquery from 3.3.1 to 3.5.0 in /geoportal",
+        "bodyText": "Bumps jquery from 3.3.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-10-16T12:03:00Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-10-16T12:03:02Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "geoportal/package.json"
+                }
+            ]
+        }
+    }
+]

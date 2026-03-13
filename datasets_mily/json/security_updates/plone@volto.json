@@ -1,0 +1,513 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 856,
+        "createdAt": "2019-09-12T09:42:13Z",
+        "title": "Bump eslint-utils from 1.4.0 to 1.4.2",
+        "bodyText": "Bumps eslint-utils from 1.4.0 to 1.4.2.\n\nCommits\n\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\n230a4e2 1.4.1\n08158db 🐛 fix getStaticValue security issue\n587cca2 🐛 fix getStringIfConstant to handle literals correctly\nc119e83 🐛 fix getStaticValue to handle bigint correctly\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-09-22T15:18:23Z",
+        "mergedBy": {
+            "login": "tisto",
+            "resourcePath": "/tisto"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "mister-roboto",
+                        "resourcePath": "/mister-roboto"
+                    },
+                    "bodyText": "@dependabot[bot] you need to sign the Plone Contributor Agreement in order to merge this pull request.\nLearn about the Plone Contributor Agreement: http://docs.plone.org/develop/coredev/docs/contributors_agreement_explained.html",
+                    "createdAt": "2019-09-12T09:42:18Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1040,
+        "createdAt": "2019-12-06T14:18:48Z",
+        "title": "Bump serialize-javascript from 1.5.0 to 2.1.1",
+        "bodyText": "Bumps serialize-javascript from 1.5.0 to 2.1.1.\n\nRelease notes\nSourced from serialize-javascript's releases.\n\nv2.1.0\n\nAdd ignoreFunction option (@​realdennis, #58)\n\nv2.0.0\n\nre-landed #54 with bump major version (see: #57)\n\nv1.9.1\n\nRevert #54 for breaking changes (see: https://github-redirect.dependabot.com/yahoo/serialize-javascript/issues/57)\nBump mocha from 5.2.0 to 6.2.0 (#56)\n\nv1.9.0\n\nsupport serialize undefined (@​nqdy666, #54)\nUpdate Node.js versions to tests\n\nv1.8.0\n\nEnhanced object literals don't have arrows (@​jowenjowen, #51)\n\nv1.7.0\n\nAdd support for serializing ES6 sets & maps (@​pimterry, #45)\n\nPlease note that serialization for ES6 Sets & Maps requires support for Array.from (not available in IE or Node < 0.12), or an Array.from polyfill.\nv1.6.1\n\nRemove arrow functions (@​eddyerburgh, #42)\n\nv1.6.0\n\nEnhanced object literals support (@​kwolfy, #39)\n\n\n\n\nCommits\n\n433fc9c 2.1.1\n16a68ab Merge pull request from GHSA-h9rv-jmmf-4pgx\n3bab6de Bump mocha from 6.2.1 to 6.2.2 (#60)\n7a6b13d Bump mocha from 6.2.0 to 6.2.1 (#59)\n40cf793 Migrate to nyc from istanbul\n31c98ad 2.1.0\n9b47a96 Feat. New option ignoreFunction according to issue#32 (#58)\nc65dd4a 2.0.0\n1879481 Revert \"Revert \"support serialize undefined (#54)\"\"\n9ee6b1c 1.9.1\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-11T09:31:49Z",
+        "mergedBy": {
+            "login": "tisto",
+            "resourcePath": "/tisto"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "mister-roboto",
+                        "resourcePath": "/mister-roboto"
+                    },
+                    "bodyText": "@dependabot[bot] you need to sign the Plone Contributor Agreement in order to merge this pull request.\nLearn about the Plone Contributor Agreement: http://docs.plone.org/develop/coredev/docs/contributors_agreement_explained.html",
+                    "createdAt": "2019-12-06T14:18:54Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1083,
+        "createdAt": "2019-12-27T23:49:31Z",
+        "title": "Bump handlebars from 4.1.2 to 4.3.0",
+        "bodyText": "Bumps handlebars from 4.1.2 to 4.3.0.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.3.0 - September 24th, 2019\nFixes:\n\nSecurity: Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nFeatures:\n\nAdd new runtime option allowCallsToHelperMissing to allow calling blockHelperMissing and helperMissing.\n\nBreaking changes:\nCompatibility notes:\n\n\nCompiler revision increased - 06b7224\n\nThis means that template compiled with versions prior to 4.3.0 will not work with runtimes >= 4.3.0\nThe increase was done because the \"helperMissing\" and \"blockHelperMissing\" are now moved from the helpers\nto the internal \"container.hooks\" object, so old templates will not be able to call them anymore. We suggest\nthat you always recompile your templates with the latest compiler in your build pipelines.\n\n\n\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nCalling \"helperMissing\" and \"blockHelperMissing\" directly from a template (like in {{blockHelperMissing}} was\nnever intended and was part of the exploits that have been revealed early in 2019\n(see https://github-redirect.dependabot.com/wycats/handlebars.js/issues/1495). It is also part of a new exploit that\nis not captured by the earlier fix. In order to harden Handlebars against such exploits, calling thos helpers\nis now not possible anymore. Overriding those helpers is still possible.\nIf you really need this behavior, you can set the runtime option allowCallsToHelperMissing to true and the\ncalls will again be possible\n\n\n\nBoth bullet points imly that Handlebars is not 100% percent compatible to 4.2.0, despite the minor version bump.\nWe consider it more important to resolve a major security issue than to maintain 100% compatibility.\nCommits\nv4.2.1 - September 20th, 2019\nBugfixes:\n\nThe \"browser\" property in the package.json has been updated to use the common-js builds instead of the minified UMD - c55a7be, #1553\n\nCompatibility notes:\n\nNo compatibility issues should arise\n\nCommits\nv4.2.0 - September 3rd, 2019\nChore/Test:\n\nUse custom grunt-saucelab with current sauce-connect proxy - f119497\nAdd framework for various integration tests - f9cce4d\n\n ... (truncated)\n\n\n\nCommits\n\na89081d v4.3.0\nbba6560 Update release notes\n06b7224 adjust compiler revision\n2078c72 Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly\nfff3e40 v4.2.1\n35bcd44 Update release notes\n00b4f2f Fix some small typos.\ne47b5ec integration-tests for various webpack-scenarios\nc55a7be fix: use cjs for browser fields\n164c7ce v4.2.0\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-28T08:05:16Z",
+        "mergedBy": {
+            "login": "tisto",
+            "resourcePath": "/tisto"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "mister-roboto",
+                        "resourcePath": "/mister-roboto"
+                    },
+                    "bodyText": "@dependabot[bot] you need to sign the Plone Contributor Agreement in order to merge this pull request.\nLearn about the Plone Contributor Agreement: http://docs.plone.org/develop/coredev/docs/contributors_agreement_explained.html",
+                    "createdAt": "2019-12-27T23:49:36Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "sneridagh",
+                            "resourcePath": "/sneridagh"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1119,
+        "createdAt": "2020-01-18T15:57:30Z",
+        "title": "Bump pyyaml from 3.10 to 5.1",
+        "bodyText": "Bumps pyyaml from 3.10 to 5.1.\n\nChangelog\nSourced from pyyaml's changelog.\n\n5.1 (2019-03-13)\n\nyaml/pyyaml#35 -- Some modernization of the test running\nyaml/pyyaml#42 -- Install tox in a virtualenv\nyaml/pyyaml#45 -- Allow colon in a plain scalar in a flow context\nyaml/pyyaml#48 -- Fix typos\nyaml/pyyaml#55 -- Improve RepresenterError creation\nyaml/pyyaml#59 -- Resolves #57, update readme issues link\nyaml/pyyaml#60 -- Document and test Python 3.6 support\nyaml/pyyaml#61 -- Use Travis CI built in pip cache support\nyaml/pyyaml#62 -- Remove tox workaround for Travis CI\nyaml/pyyaml#63 -- Adding support to Unicode characters over codepoint 0xffff\nyaml/pyyaml#75 -- add 3.12 changelog\nyaml/pyyaml#76 -- Fallback to Pure Python if Compilation fails\nyaml/pyyaml#84 -- Drop unsupported Python 3.3\nyaml/pyyaml#102 -- Include license file in the generated wheel package\nyaml/pyyaml#105 -- Removed Python 2.6 & 3.3 support\nyaml/pyyaml#111 -- Remove commented out Psyco code\nyaml/pyyaml#129 -- Remove call to ord in lib3 emitter code\nyaml/pyyaml#149 -- Test on Python 3.7-dev\nyaml/pyyaml#158 -- Support escaped slash in double quotes \"/\"\nyaml/pyyaml#175 -- Updated link to pypi in release announcement\nyaml/pyyaml#181 -- Import Hashable from collections.abc\nyaml/pyyaml#194 -- Reverting yaml/pyyaml#74\nyaml/pyyaml#195 -- Build libyaml on travis\nyaml/pyyaml#196 -- Force cython when building sdist\nyaml/pyyaml#254 -- Allow to turn off sorting keys in Dumper (2)\nyaml/pyyaml#256 -- Make default_flow_style=False\nyaml/pyyaml#257 -- Deprecate yaml.load and add FullLoader and UnsafeLoader classes\nyaml/pyyaml#261 -- Skip certain unicode tests when maxunicode not > 0xffff\nyaml/pyyaml#263 -- Windows Appveyor build\n\n3.13 (2018-07-05)\n\nResolved issues around PyYAML working in Python 3.7.\n\n3.12 (2016-08-28)\n\nWheel packages for Windows binaries.\nAdding an implicit resolver to a derived loader should not affect the base loader.\nUniform representation for OrderedDict? across different versions of Python.\nFixed comparison to None warning.\n\n3.11 (2014-03-26)\n\nSource and binary distributions are rebuilt against the latest\n\n ... (truncated)\n\n\n\nCommits\n\ne471e86 Updates for 5.1 release\n9141e90 Windows Appveyor build\nd6cbff6 Skip certain unicode tests when maxunicode not > 0xffff\n69103ba Update .travis.yml to use libyaml 0.2.2\n91c9435 Squash/merge pull request #105 from nnadeau/patch-1\n507a464 Make default_flow_style=False\n07c88c6 Allow to turn off sorting keys in Dumper\n611ba39 Include license file in the generated wheel package\n857dff1 Apply FullLoader/UnsafeLoader changes to lib3\n0cedb2a Deprecate/warn usage of yaml.load(input)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-01-18T17:36:10Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "mister-roboto",
+                        "resourcePath": "/mister-roboto"
+                    },
+                    "bodyText": "@dependabot[bot] you need to sign the Plone Contributor Agreement in order to merge this pull request.\nLearn about the Plone Contributor Agreement: http://docs.plone.org/develop/coredev/docs/contributors_agreement_explained.html",
+                    "createdAt": "2020-01-18T15:57:35Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-01-18T17:36:12Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements-docs.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1275,
+        "createdAt": "2020-03-14T01:11:21Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-15T07:47:18Z",
+        "mergedBy": {
+            "login": "tisto",
+            "resourcePath": "/tisto"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "mister-roboto",
+                        "resourcePath": "/mister-roboto"
+                    },
+                    "bodyText": "@dependabot[bot] you need to sign the Plone Contributor Agreement in order to merge this pull request.\nLearn about the Plone Contributor Agreement: http://docs.plone.org/develop/coredev/docs/contributors_agreement_explained.html",
+                    "createdAt": "2020-03-14T01:11:25Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1439,
+        "createdAt": "2020-04-30T01:26:50Z",
+        "title": "Bump jquery from 3.4.1 to 3.5.0",
+        "bodyText": "Bumps jquery from 3.4.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-04T08:15:26Z",
+        "mergedBy": {
+            "login": "tisto",
+            "resourcePath": "/tisto"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "mister-roboto",
+                        "resourcePath": "/mister-roboto"
+                    },
+                    "bodyText": "@dependabot[bot] you need to sign the Plone Contributor Agreement in order to merge this pull request.\nLearn about the Plone Contributor Agreement: http://docs.plone.org/develop/coredev/docs/contributors_agreement_explained.html",
+                    "createdAt": "2020-04-30T01:26:54Z"
+                },
+                {
+                    "author": {
+                        "login": "tisto",
+                        "resourcePath": "/tisto"
+                    },
+                    "bodyText": "@sneridagh we have a jquery dependency in Volto?!",
+                    "createdAt": "2020-04-30T05:25:12Z"
+                },
+                {
+                    "author": {
+                        "login": "sneridagh",
+                        "resourcePath": "/sneridagh"
+                    },
+                    "bodyText": "Not that I’m aware of... maybe a dep of a dep? ‘yarn why jquery’",
+                    "createdAt": "2020-04-30T06:21:05Z"
+                },
+                {
+                    "author": {
+                        "login": "sneridagh",
+                        "resourcePath": "/sneridagh"
+                    },
+                    "bodyText": "$ yarn why jquery\nyarn why v1.22.4\n[1/4] 🤔  Why do we have the module \"jquery\"...?\n[2/4] 🚚  Initialising dependency graph...\nwarning Resolution field \"browserslist@4.8.3\" is incompatible with requested version \"browserslist@4.1.1\"\n[3/4] 🔍  Finding dependency...\n[4/4] 🚡  Calculating file sizes...\n=> Found \"jquery@3.4.1\"\ninfo Reasons this module exists\n   - \"semantic-ui-less\" depends on it\n   - Hoisted from \"semantic-ui-less#jquery\"\ninfo Disk size without dependencies: \"1.69MB\"\ninfo Disk size with unique dependencies: \"1.69MB\"\ninfo Disk size with transitive dependencies: \"1.69MB\"\ninfo Number of shared dependencies: 0\n✨  Done in 0.92s.\n\nYes, of course, semantic-ui-less has it, but we are not using it, of course.",
+                    "createdAt": "2020-04-30T07:45:20Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,210 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Ovilia",
+                            "resourcePath": "/Ovilia"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 73,
+        "createdAt": "2019-10-31T07:54:20Z",
+        "title": "Bump marked from 0.3.12 to 0.3.18",
+        "bodyText": "Bumps marked from 0.3.12 to 0.3.18.\n\nRelease notes\nSourced from marked's releases.\n\nMinor fixes and updated docs\n\nSupported Markdown flavors: CommonMark 0.28 and GitHub Flavored Markdown 0.28\nUpdates to our CI pipeline; we're all green! #1098 with the caveat that there is a test that needs to get sorted (help us out #1092)\nStart ordered lists using the initial numbers from markdown lists (#1144)\nAdded GitHub Pages site for documentation https://marked.js.org/ (#1138)\n\nProcesses and tools\n\nThe elephant in the room: A security vulnerability was discovered and fixed. Please note, if something breaks due to these changes, it was not our intent, and please let us know by submitting a PR or issue to course correct (the nature of the zero-major release and having security as a number one priority) #1083\nThe other elephant in the room: We missed publishing a 0.3.16 release to GitHub; so, trying to make up for that a bit.\nUpdates to the project documentation and operations, you should check it out, just start with the README and you should be good.\nNew release PR template available #1076\nUpdates to default PR and Issue templates #1076\nLint checks + tests + continuous integration using Travis #1020\nUpdated testing output #1085 & #1087\n\nFix capturing parens\nFixes unintended breaking change from v0.3.14\nNew year, new home\n\nMarked has a new home under the MarkedJS org! Other advances soon to come.\nUpdated minifier.\nVarious parser fixes\n\n\n\n\nCommits\n\nc1e19a9 Merge pull request #1152 from 8fold/release-0.3.18\n98c9d14 Update home page\n5d5fa04 0.3.18\n6661fe5 Merge pull request #1148 from 8fold/styfle-admin\n5d3d70a Merge pull request #1144 from paulroub/OL_initial_numbers\n002c565 Merge pull request #1151 from wraith13/master\n2c20df9 Fix usage links in USING_ADVANCED.md\nf69a82f Remove redundant cast\nf886f40 Merge pull request #1147 from 8fold/update-badges\n78a0258 styfle to admin\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-07T02:38:34Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-05-07T02:38:36Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 74,
+        "createdAt": "2019-10-31T07:54:23Z",
+        "title": "Bump open from 0.0.5 to 6.0.0",
+        "bodyText": "Bumps open from 0.0.5 to 6.0.0.\n\nRelease notes\nSourced from open's releases.\n\nv6.0.0\nBreaking:\n\nRename the package from opn to open (See the readme for more info)  eca88d8\nMake the wait option false by default  da2d663\nRequire Node.js 8  5c525b5\n\nEnhancements:\n\nAdd support for Windows apps referenced by their WSL paths (#118)  b30220c\n\nsindresorhus/open@v5.5.0...v6.0.0\nv5.5.0\n\nUse system xdg-open in Electron apps on Linux (#108)  6d3f255\n\nsindresorhus/open@v5.4.0...v5.5.0\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by sindresorhus, a new releaser for open since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-18T05:15:52Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like open is no longer a dependency, so this is no longer needed.",
+                    "createdAt": "2019-12-18T05:15:50Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 75,
+        "createdAt": "2019-10-31T07:54:23Z",
+        "title": "Bump jquery from 3.2.1 to 3.4.0",
+        "bodyText": "Bumps jquery from 3.2.1 to 3.4.0.\n\nCommits\n\nb7fc909 3.4.0\n59ea765 Release: update AUTHORS.txt\n7c1ef15 Release: update version to 3.4.0-pre\nd940bc0 Build: Update Sizzle from 2.3.3 to 2.3.4\n9b9fca4 Update README.md\na2a73db Tests: Make Android Browser 4.0-4.3 dimensions tests green\n4455f8d Tests: Make Android Browser 4.0-4.3 AJAX tests green\n0050403 Core: Preserve CSP nonce on scripts with src attribute in DOM manipulation\nfe5f04d Event: Prevent leverageNative from double-firing focusin\n753d591 Core: Prevent Object.prototype pollution for $.extend( true, ... )\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-18T05:15:51Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like jquery is no longer a dependency, so this is no longer needed.",
+                    "createdAt": "2019-12-18T05:15:49Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

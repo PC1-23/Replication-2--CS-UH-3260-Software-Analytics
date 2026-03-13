@@ -1,0 +1,154 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "jamuhl",
+                            "resourcePath": "/jamuhl"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1028,
+        "createdAt": "2019-12-28T17:48:40Z",
+        "title": "Bump handlebars from 4.1.0 to 4.5.3 in /example/react-native",
+        "bodyText": "Bumps handlebars from 4.1.0 to 4.5.3.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.5.3 - November 18th, 2019\nBugfixes:\n\nfix: add \"no-prototype-builtins\" eslint-rule and fix all occurences - f7f05d7\nfix: add more properties required to be enumerable - 1988878\n\nChores / Build:\n\nfix: use !== 0 instead of != 0 - c02b05f\nadd chai and dirty-chai and sinon, for cleaner test-assertions and spies,\ndeprecate old assertion-methods  - 93e284e, 886ba86, 0817dad, 93516a0\n\nSecurity:\n\nThe properties __proto__, __defineGetter__, __defineSetter__ and __lookupGetter__\nhave been added to the list of \"properties that must be enumerable\".\nIf a property by that name is found and not enumerable on its parent,\nit will silently evaluate to undefined. This is done in both the compiled template and the \"lookup\"-helper.\nThis will prevent new Remote-Code-Execution exploits that have been\npublished recently.\n\nCompatibility notes:\n\nDue to the security-fixes. The semantics of the templates using\n__proto__, __defineGetter__, __defineSetter__ and __lookupGetter__ in the respect that those expression now return\nundefined rather than their actual value from the proto.\nThe semantics have not changed in cases where the properties are  enumerable, as in:\n\n{\n  __proto__: 'some string'\n}\n\nThe change may be breaking in that respect, but we still only\nincrease the patch-version, because the incompatible use-cases\nare not intended, undocumented and far less important than fixing\nRemote-Code-Execution exploits on existing systems.\n\nCommits\nv4.5.2 - November 13th, 2019\nBugfixes\n\nfix: use String(field) in lookup when checking for \"constructor\" - d541378\ntest: add fluent API for testing Handlebars - c2ac79c\n\nCompatibility notes:\n\nno incompatibility are to be expected\n\n ... (truncated)\n\n\n\nCommits\n\nc819c8b v4.5.3\n827c9d0 Update release notes\nf7f05d7 fix: add \"no-prototype-builtins\" eslint-rule and fix all occurences\n1988878 fix: add more properties required to be enumerable\n886ba86 test/chore: add chai/expect and sinon to \"runtime\"-environment\n0817dad test: add sinon as global variable to eslint in the specs\n93516a0 test: add sinon.js for spies, deprecate current assertions\n93e284e chore: add chai and dirty-chai for better test assertions\nc02b05f fix: use !== 0 instead of != 0\n8de121d v4.5.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-01-16T15:20:53Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 95.261% when pulling 56f5b42 on dependabot/npm_and_yarn/example/react-native/handlebars-4.5.3 into ab75903 on master.",
+                    "createdAt": "2019-12-28T17:49:29Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-01-16T15:20:55Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "example/react-native/yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1085,
+        "createdAt": "2020-04-14T14:52:26Z",
+        "title": "Bump react-dom from 16.3.2 to 16.13.0 in /example/v9.x.x/test-jest",
+        "bodyText": "Bumps react-dom from 16.3.2 to 16.13.0.\n\nRelease notes\nSourced from react-dom's releases.\n\n16.13.0 (February 26, 2020)\nReact\n\nWarn when a string ref is used in a manner that's not amenable to a future codemod (@lunaruan in #17864)\nDeprecate React.createFactory() (@trueadm in #17878)\n\nReact DOM\n\nWarn when changes in style may cause an unexpected collision (@sophiebits in #14181, #18002)\nWarn when a function component is updated during another component's render phase (@acdlite in #17099)\nDeprecate unstable_createPortal (@trueadm in #17880)\nFix onMouseEnter being fired on disabled buttons (@AlfredoGJ in #17675)\nCall shouldComponentUpdate twice when developing in StrictMode (@bvaughn in #17942)\nAdd version property to ReactDOM (@ealush in #15780)\nDon't call toString() of dangerouslySetInnerHTML (@sebmarkbage in #17773)\nShow component stacks in more warnings (@gaearon in #17922, #17586)\n\nConcurrent Mode (Experimental)\n\nWarn for problematic usages of ReactDOM.createRoot() (@trueadm in #17937)\nRemove ReactDOM.createRoot() callback params and added warnings on usage (@bvaughn in #17916)\nDon't group Idle/Offscreen work with other work (@sebmarkbage in #17456)\nAdjust SuspenseList CPU bound heuristic (@sebmarkbage in #17455)\nAdd missing event plugin priorities (@trueadm in #17914)\nFix isPending only being true when transitioning from inside an input event (@acdlite in #17382)\nFix React.memo components dropping updates when interrupted by a higher priority update (@acdlite in #18091)\nDon't warn when suspending at the wrong priority (@gaearon in #17971)\nFix a bug with rebasing updates (@acdlite and @sebmarkbage in #17560, #17510, #17483, #17480)\n\nArtifacts\n\nreact: https://unpkg.com/react@16.13.0/umd/\nreact-art: https://unpkg.com/react-art@16.13.0/umd/\nreact-dom: https://unpkg.com/react-dom@16.13.0/umd/\nreact-is: https://unpkg.com/react-is@16.13.0/umd/\nreact-test-renderer: https://unpkg.com/react-test-renderer@16.13.0/umd/\nscheduler: https://unpkg.com/scheduler@0.19.0/umd/\n\n16.12.0 (November 14, 2019)\nReact DOM\n\nFix passive effects (useEffect) not being fired in a multi-root app. (@acdlite in #17347)\n\nReact Is\n\nFix lazy and memo types considered elements instead of components (@bvaughn in #17278)\n\nArtifacts\n• react: https://unpkg.com/react@16.12.0/umd/\n ... (truncated)\n\n\n\nChangelog\nSourced from react-dom's changelog.\n\n16.13.0 (February 26, 2020)\nReact\n\nWarn when a string ref is used in a manner that's not amenable to a future codemod (@lunaruan in #17864)\nDeprecate React.createFactory() (@trueadm in #17878)\n\nReact DOM\n\nWarn when changes in style may cause an unexpected collision (@sophiebits in #14181, #18002)\nWarn when a function component is updated during another component's render phase (@acdlite in #17099)\nDeprecate unstable_createPortal (@trueadm in #17880)\nFix onMouseEnter being fired on disabled buttons (@AlfredoGJ in #17675)\nCall shouldComponentUpdate twice when developing in StrictMode (@bvaughn in #17942)\nAdd version property to ReactDOM (@ealush in #15780)\nDon't call toString() of dangerouslySetInnerHTML (@sebmarkbage in #17773)\nShow component stacks in more warnings (@gaearon in #17922, #17586)\n\nConcurrent Mode (Experimental)\n\nWarn for problematic usages of ReactDOM.createRoot() (@trueadm in #17937)\nRemove ReactDOM.createRoot() callback params and added warnings on usage (@bvaughn in #17916)\nDon't group Idle/Offscreen work with other work (@sebmarkbage in #17456)\nAdjust SuspenseList CPU bound heuristic (@sebmarkbage in #17455)\nAdd missing event plugin priorities (@trueadm in #17914)\nFix isPending only being true when transitioning from inside an input event (@acdlite in #17382)\nFix React.memo components dropping updates when interrupted by a higher priority update (@acdlite in #18091)\nDon't warn when suspending at the wrong priority (@gaearon in #17971)\nFix a bug with rebasing updates (@acdlite and @sebmarkbage in #17560, #17510, #17483, #17480)\n\n16.12.0 (November 14, 2019)\nReact DOM\n\nFix passive effects (useEffect) not being fired in a multi-root app. (@acdlite in #17347)\n\nReact Is\n\nFix lazy and memo types considered elements instead of components (@bvaughn in #17278)\n\n16.11.0 (October 22, 2019)\nReact DOM\n\nFix mouseenter handlers from firing twice inside nested React containers. @yuanoook in #16928\nRemove unstable_createRoot and unstable_createSyncRoot experimental APIs. (These are available in the Experimental channel as createRoot and createSyncRoot.) (@acdlite in #17088)\n\n16.10.2 (October 3, 2019)\nReact DOM\n ... (truncated)\n\n\n\nCommits\n\nc1c5499 update version numbers for 16.13 (#18143)\nf3ecd56 Fixed a spelling mistake in a comment. (#18119)\n60016c4 Export React as Named Exports instead of CommonJS (#18106)\nccab494 Move type DOMContainer to HostConfig (#18112)\n0934879 Codemod to import * as React from \"react\"; (#18102)\n2c4221c Change string refs in function component message (#18031)\n3f85d53 Further pre-requisite changes to plugin event system (#18083)\n1000f61 Add container to event listener signature (#18075)\n4912ba3 Add modern event system flag + rename legacy plugin module (#18073)\n1a6d817 [react-interactions] Ensure onBeforeBlur fires for hideInstance (#18064)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by threepointone, a new releaser for react-dom since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-14T20:02:22Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "coveralls",
+                        "resourcePath": "/coveralls"
+                    },
+                    "bodyText": "Coverage remained the same at 95.327% when pulling 9ae8fb1 on dependabot/npm_and_yarn/example/v9.x.x/test-jest/react-dom-16.13.0 into 800538b on master.",
+                    "createdAt": "2020-04-14T14:53:58Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like react-dom is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-04-14T20:02:20Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "example/v9.x.x/test-jest/package.json"
+                }
+            ]
+        }
+    }
+]

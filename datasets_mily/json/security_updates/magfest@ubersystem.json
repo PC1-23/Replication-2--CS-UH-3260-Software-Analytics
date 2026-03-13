@@ -1,0 +1,69 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 3570,
+        "createdAt": "2019-10-22T21:49:23Z",
+        "title": "Bump pillow from 5.2.0 to 6.2.0",
+        "bodyText": "Bumps pillow from 5.2.0 to 6.2.0.\n\nRelease notes\nSourced from pillow's releases.\n\n6.2.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.2.0.html\n6.1.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.1.0.html\n6.0.0\nNo release notes provided.\n5.4.1\nNo release notes provided.\n5.4.0\nNo release notes provided.\n5.3.0\nNo release notes provided.\n\n\n\nChangelog\nSourced from pillow's changelog.\n\n6.2.0 (2019-10-01)\n\n\nCatch buffer overruns #4104\n[radarhere]\n\n\nInitialize rows_per_strip when RowsPerStrip tag is missing #4034\n[cgohlke, radarhere]\n\n\nRaise error if TIFF dimension is a string #4103\n[radarhere]\n\n\nAdded decompression bomb checks #4102\n[radarhere]\n\n\nFix ImageGrab.grab DPI scaling on Windows 10 version 1607+ #4000\n[nulano, radarhere]\n\n\nCorrected negative seeks #4101\n[radarhere]\n\n\nAdded argument to capture all screens on Windows #3950\n[nulano, radarhere]\n\n\nUpdated warning to specify when Image.frombuffer defaults will change #4086\n[radarhere]\n\n\nChanged WindowsViewer format to PNG #4080\n[radarhere]\n\n\nUse TIFF orientation #4063\n[radarhere]\n\n\nRaise the same error if a truncated image is loaded a second time #3965\n[radarhere]\n\n\nLazily use ImageFileDirectory_v1 values from Exif #4031\n[radarhere]\n\n\nImproved HSV conversion #4004\n[radarhere]\n\n\nAdded text stroking #3978\n[radarhere, hugovk]\n\n\nNo more deprecated bdist_wininst .exe installers #4029\n[hugovk]\n\n\nDo not allow floodfill to extend into negative coordinates #4017\n[radarhere]\n\n\n ... (truncated)\n\n\n\nCommits\n\n8a30d13 Updated CHANGES.rst [ci skip]\n75602d1 6.2.0 version bump\n4756af9 Updated CHANGES.rst [ci skip]\ncc16025 Merge pull request #4104 from radarhere/overrun\nfb84701 Merge pull request #4034 from cgohlke/patch-1\nb9693a5 Merge pull request #4103 from radarhere/dimension\nf228d0c Merge pull request #4102 from radarhere/decompression\naaf2c42 Merge pull request #4000 from nulano/dpi_fix\nb36c1bc Merge pull request #4101 from radarhere/negative_seek\n9a977b9 Raise error if dimension is a string\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-10-23T00:35:39Z",
+        "mergedBy": {
+            "login": "kitsuta",
+            "resourcePath": "/kitsuta"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "kitsuta",
+                        "resourcePath": "/kitsuta"
+                    },
+                    "bodyText": "I'll test this in staging to make sure our QR codes still generate.",
+                    "createdAt": "2019-10-23T00:35:35Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    }
+]

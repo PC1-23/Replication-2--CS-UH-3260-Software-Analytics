@@ -1,0 +1,456 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 33,
+        "createdAt": "2019-10-21T15:23:26Z",
+        "title": "Bump django from 1.11.18 to 1.11.23",
+        "bodyText": "Bumps django from 1.11.18 to 1.11.23.\n\nCommits\n\n9748977 [1.11.x] Bumped version for 1.11.23 release.\n869b34e [1.11.x] Fixed CVE-2019-14235 -- Fixed potential memory exhaustion in django....\ned682a2 [1.11.x] Fixed CVE-2019-14234 -- Protected JSONField/HStoreField key and inde...\n52479ac [1.11.x] Fixed CVE-2019-14233 -- Prevented excessive HTMLParser recursion in ...\n42a66e9 [1.11.X] Fixed CVE-2019-14232 -- Adjusted regex to avoid backtracking issues ...\n693046e [1.11.x] Added stub release notes for security releases.\n6d054b5 [1.11.x] Added CVE-2019-12781 to the security release archive.\n7c849b9 [1.11.x] Post-release version bump.\n480380c [1.11.x] Bumped version for 1.11.22 release.\n32124fc [1.11.x] Fixed CVE-2019-12781 -- Made HttpRequest always trust SECURE_PROXY_S...\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-10-21T15:31:20Z",
+        "mergedBy": {
+            "login": "wlorenzetti",
+            "resourcePath": "/wlorenzetti"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 34,
+        "createdAt": "2019-10-21T15:42:20Z",
+        "title": "Bump djangorestframework from 3.6.3 to 3.9.1",
+        "bodyText": "Bumps djangorestframework from 3.6.3 to 3.9.1.\n\nRelease notes\nSourced from djangorestframework's releases.\n\nVersion 3.9.1\nChange Notes:\nhttps://www.django-rest-framework.org/community/release-notes/#39x-series\nVerision 3.9.0\nRelease announcement:\nhttps://www.django-rest-framework.org/community/3.9-announcement/\nChange Notes:\nhttps://www.django-rest-framework.org/community/release-notes/#39x-series\nVersion 3.8.2\nPoint release for 3.8.x series\n\nFix read_only + default unique_together validation. #5922\nauthtoken.views import coreapi from rest_framework.compat, not directly. #5921\nDocs: Add missing argument 'detail' to Route #5920\n\nVersion 3.8.1\n\n\nUse old url_name behavior in route decorators #5915\nFor list_route and detail_route maintain the old behavior of url_name,\nbasing it on the url_path instead of the function name.\n\n\nVersion 3.8\n\n\nRelease Announcement\n\n\n3.8.0 Milestone\n\n\nBreaking Change: Alter read_only plus default behaviour. #5886\nread_only fields will now always be excluded from writable fields.\nPreviously read_only fields with a default value would use the default for create and update operations.\nIn order to maintain the old behaviour you may need to pass the value of read_only fields when calling save() in\nthe view:\n  def perform_create(self, serializer):\n      serializer.save(owner=self.request.user)\n\nAlternatively you may override save() or create() or update() on the serialiser as appropriate.\n\n\nCorrect allow_null behaviour when required=False #5888\nWithout an explicit default, allow_null implies a default of null for outgoing serialisation. Previously such\nfields were being skipped when read-only or otherwise not required.\nPossible backwards compatibility break if you were relying on such fields being excluded from the outgoing\nrepresentation. In order to restore the old behaviour you can override data to exclude the field when None.\n\n\n ... (truncated)\n\n\n\nCommits\n\n453196e Version 3.9.1 (#6405)\n4bb9a3c Fix XSS caused by disabled autoescaping in the default DRF Browsable API view...\ne3bd4b9 Fix #1811: take limit_choices_to into account with FK (#6371)\n9c408b2 Remove reference to deprecated drf-openapi package (#6398)\ne0ae975 Fix a badly formatted title in docs (#6089)\nc052a86 compat: (py2) urlparse = urllib.parse (py3) (#6262)\na49d744 Fix OpenAPI links (#6382)\n0860ef9 Update quickstart to Django 2.0 routing syntax (#6385)\n587058e Allow run_validators() to handle non-dict types. (#6365)\n0cf18c4 Use Default Version in URLPathVersioning if 'version' Didn't Specified by Cli...\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-27T08:29:10Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like djangorestframework is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-03-27T08:29:09Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                },
+                {
+                    "path": "requirements_py3_with_versions.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 35,
+        "createdAt": "2019-10-21T15:42:20Z",
+        "title": "Bump urllib3 from 1.23 to 1.24.2",
+        "bodyText": "Bumps urllib3 from 1.23 to 1.24.2.\n\nChangelog\nSourced from urllib3's changelog.\n\n1.24.2 (2019-04-17)\n\n\nDon't load system certificates by default when any other ca_certs, ca_certs_dir or\nssl_context parameters are specified.\n\n\nRemove Authorization header regardless of case when redirecting to cross-site. (Issue #1510)\n\n\nAdd support for IPv6 addresses in subjectAltName section of certificates. (Issue #1269)\n\n\n1.24.1 (2018-11-02)\n\n\nRemove quadratic behavior within GzipDecoder.decompress() (Issue #1467)\n\n\nRestored functionality of ciphers parameter for create_urllib3_context(). (Issue #1462)\n\n\n1.24 (2018-10-16)\n\n\nAllow key_server_hostname to be specified when initializing a PoolManager to allow custom SNI to be overridden. (Pull #1449)\n\n\nTest against Python 3.7 on AppVeyor. (Pull #1453)\n\n\nEarly-out ipv6 checks when running on App Engine. (Pull #1450)\n\n\nChange ambiguous description of backoff_factor (Pull #1436)\n\n\nAdd ability to handle multiple Content-Encodings (Issue #1441 and Pull #1442)\n\n\nSkip DNS names that can't be idna-decoded when using pyOpenSSL (Issue #1405).\n\n\nAdd a server_hostname parameter to HTTPSConnection which allows for\noverriding the SNI hostname sent in the handshake. (Pull #1397)\n\n\nDrop support for EOL Python 2.6 (Pull #1429 and Pull #1430)\n\n\nFixed bug where responses with header Content-Type: message/* erroneously\nraised HeaderParsingError, resulting in a warning being logged. (Pull #1439)\n\n\nMove urllib3 to src/urllib3 (Pull #1409)\n\n\n\n\n\nCommits\n\n1efadf4 Release 1.24.2 (#1564)\na6ec68a Merging new release version: 1.24.1\n0cedb3b Restore context.set_ciphers() to create_urllib3_context() (#1463)\n0aeba3b Use bytearray to accumulate bytes from gzip (#1468)\nf8d1c78 Uninstall oclint to ensure gcc can be brew upgraded (#1464)\ncd7cfa6 Resolve pytest pluggy version conflict (#1457)\nb548abc Update changelog for 1.24 release\nef0c745 Merging new release version: 1.24\na0964d9 Add missing key_server_hostname variable (#1449)\n34d8298 Test against Python 3.7 on AppVeyor (#1453)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-15T10:21:55Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #37.",
+                    "createdAt": "2019-12-15T10:21:55Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 36,
+        "createdAt": "2019-10-22T20:48:17Z",
+        "title": "Bump pillow from 4.1.1 to 6.2.0",
+        "bodyText": "Bumps pillow from 4.1.1 to 6.2.0.\n\nRelease notes\nSourced from pillow's releases.\n\n6.2.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.2.0.html\n6.1.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.1.0.html\n6.0.0\nNo release notes provided.\n5.4.1\nNo release notes provided.\n5.4.0\nNo release notes provided.\n5.3.0\nNo release notes provided.\n5.2.0\nNo release notes provided.\n5.1.0\nNo release notes provided.\n5.0.0\nNo release notes provided.\n4.3.0\nNo release notes provided.\n4.2.1\nNo release notes provided.\n4.2.0\nNo release notes provided.\n\n\n\nChangelog\nSourced from pillow's changelog.\n\n6.2.0 (2019-10-01)\n\n\nCatch buffer overruns #4104\n[radarhere]\n\n\nInitialize rows_per_strip when RowsPerStrip tag is missing #4034\n[cgohlke, radarhere]\n\n\nRaise error if TIFF dimension is a string #4103\n[radarhere]\n\n\nAdded decompression bomb checks #4102\n[radarhere]\n\n\nFix ImageGrab.grab DPI scaling on Windows 10 version 1607+ #4000\n[nulano, radarhere]\n\n\nCorrected negative seeks #4101\n[radarhere]\n\n\nAdded argument to capture all screens on Windows #3950\n[nulano, radarhere]\n\n\nUpdated warning to specify when Image.frombuffer defaults will change #4086\n[radarhere]\n\n\nChanged WindowsViewer format to PNG #4080\n[radarhere]\n\n\nUse TIFF orientation #4063\n[radarhere]\n\n\nRaise the same error if a truncated image is loaded a second time #3965\n[radarhere]\n\n\nLazily use ImageFileDirectory_v1 values from Exif #4031\n[radarhere]\n\n\nImproved HSV conversion #4004\n[radarhere]\n\n\nAdded text stroking #3978\n[radarhere, hugovk]\n\n\nNo more deprecated bdist_wininst .exe installers #4029\n[hugovk]\n\n\nDo not allow floodfill to extend into negative coordinates #4017\n[radarhere]\n\n\n ... (truncated)\n\n\n\nCommits\n\n8a30d13 Updated CHANGES.rst [ci skip]\n75602d1 6.2.0 version bump\n4756af9 Updated CHANGES.rst [ci skip]\ncc16025 Merge pull request #4104 from radarhere/overrun\nfb84701 Merge pull request #4034 from cgohlke/patch-1\nb9693a5 Merge pull request #4103 from radarhere/dimension\nf228d0c Merge pull request #4102 from radarhere/decompression\naaf2c42 Merge pull request #4000 from nulano/dpi_fix\nb36c1bc Merge pull request #4101 from radarhere/negative_seek\n9a977b9 Raise error if dimension is a string\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-27T08:29:11Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like pillow is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-03-27T08:29:09Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements_py3_with_versions.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 37,
+        "createdAt": "2019-12-15T10:21:53Z",
+        "title": "Bump urllib3 from 1.25.3 to 1.25.7",
+        "bodyText": "Bumps urllib3 from 1.25.3 to 1.25.7.\n\nRelease notes\nSourced from urllib3's releases.\n\n1.25.6\nRelease: 1.25.6\n1.25.5\nRelease: 1.25.5\n1.25.4\nRelease: 1.25.4\n\n\n\nChangelog\nSourced from urllib3's changelog.\n\n1.25.7 (2019-11-11)\n\n\nPreserve chunked parameter on retries (Pull #1715, Pull #1734)\n\n\nAllow unset SERVER_SOFTWARE in App Engine (Pull #1704, Issue #1470)\n\n\nFix issue where URL fragment was sent within the request target. (Pull #1732)\n\n\nFix issue where an empty query section in a URL would fail to parse. (Pull #1732)\n\n\nRemove TLS 1.3 support in SecureTransport due to Apple removing support (Pull #1703)\n\n\n1.25.6 (2019-09-24)\n\nFix issue where tilde (~) characters were incorrectly\npercent-encoded in the path. (Pull #1692)\n\n1.25.5 (2019-09-19)\n\nAdd mitigation for BPO-37428 affecting Python <3.7.4 and OpenSSL 1.1.1+ which\ncaused certificate verification to be enabled when using cert_reqs=CERT_NONE.\n(Issue #1682)\n\n1.25.4 (2019-09-19)\n\n\nPropagate Retry-After header settings to subsequent retries. (Pull #1607)\n\n\nFix edge case where Retry-After header was still respected even when\nexplicitly opted out of. (Pull #1607)\n\n\nRemove dependency on rfc3986 for URL parsing.\n\n\nFix issue where URLs containing invalid characters within Url.auth would\nraise an exception instead of percent-encoding those characters.\n\n\nAdd support for HTTPResponse.auto_close = False which makes HTTP responses\nwork well with BufferedReaders and other io module features. (Pull #1652)\n\n\nPercent-encode invalid characters in URL for HTTPConnectionPool.request() (Pull #1673)\n\n\n\n\n\nCommits\n\n37ba61a Release 1.25.7 (#1745)\n109c70f Fix test_preserve_chunked_on_retry flakiness (#1743)\n01c7c71 Fix up typo: replace adddres with address (#1742)\n5dce4e0 Preserve chunked parameter on broken connections and redirects (#1734)\n188c03e Switch to SVG banner (#1740)\na724094 Add SVG logo (#1739)\nfa4bc48 Correct my name in the readme (#1736)\nc823dc9 Add Tidelift to documentation and urllib3 branding (#1735)\n6996da3 Remove extra notPyPy2 import to fix linter (#1733)\n29041a2 Fix flaky test_timeout\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-27T08:29:13Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like urllib3 is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-03-27T08:29:11Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements_py3_with_versions.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 45,
+        "createdAt": "2020-02-11T21:54:11Z",
+        "title": "Bump django from 2.2.9 to 2.2.10",
+        "bodyText": "Bumps django from 2.2.9 to 2.2.10.\n\nCommits\n\nb2c33a5 [2.2.x] Bumped version for 2.2.10 release.\nc67a368 [2.2.x] Fixed CVE-2020-7471 -- Properly escaped StringAgg(delimiter) parameter.\n96d6443 [2.2.x] Fixed timezones tests for PyYAML 5.3+.\n813b33e [2.2.x] Added CVE-2019-19844 to the security archive.\ne728612 [2.2.x] Post-release version bump.\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-03-31T06:41:31Z",
+        "mergedBy": {
+            "login": "wlorenzetti",
+            "resourcePath": "/wlorenzetti"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 80,
+        "createdAt": "2020-05-18T08:20:17Z",
+        "title": "Bump lodash from 3.10.1 to 4.17.15 in /g3w-admin/filemanager/static/RichFilemanager/scripts/jquery.contextmenu",
+        "bodyText": "Bumps lodash from 3.10.1 to 4.17.15.\n\nRelease notes\nSourced from lodash's releases.\n\n4.0.0\nlodash v4.0.0\n2015 was big year! Lodash became the most depended on npm package, passed 1 billion downloads, & its v3 release saw massive adoption!\nThe year was also one of collaboration, as discussions began on merging Lodash & Underscore. Much of Lodash v4 is proofing out the ideas from those discussions. Lodash v4 would not be possible without the collaboration & contributions of the Underscore core team. In the spirit of merging our teams have blended with several members contributing to both libraries.\nFor 2016 & lodash v4.0.0 we wanted to cut loose, push forward, & take things up a notch!\nModern only\nWith v4 we’re breaking free from old projects, old environments, & dropping old IE < 9 support!\n4 kB Core\nLodash’s kitchen-sink size will continue to grow as new methods & functionality are added. However, we now offer a 4 kB (gzipped) core build that’s compatible with Backbone v1.2.4 for folks who want Lodash without lugging around the kitchen sink.\nMore ES6\nWe’ve continued to embrace ES6 with methods like _.isSymbol, added support for cloning & comparing array buffers, maps, sets, & symbols, converting iterators to arrays, & iterable _(…).\nIn addition, we’ve published an es-build & pulled babel-plugin-lodash into core to make tree-shaking a breeze.\nMore Modular\nPop quiz! 📣\nWhat category path does the bindAll method belong to? Is it\nA) require('lodash/function/bindAll')\nB) require('lodash/utility/bindAll')\nC) require('lodash/util/bindAll')\nDon’t know? Well, with v4 it doesn’t matter because now module paths are as simple as\nvar bindAll = require('lodash/bindAll');\nWe’ve also reduced module complexity making it easier to create smaller bundles. This has helped Lodash adoption with libraries like Async & Redux!\n1st Class FP\nWith v3 we introduced lodash-fp. We learned a lot & with v4 we decided to pull it into core.\nNow you can get immutable, auto-curried, iteratee-first, data-last methods as simply as\nvar _ = require('lodash/fp');\nvar object = { 'a': 1 };\n</tr></table> ... (truncated)\n\n\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-07-20T18:52:55Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #129.",
+                    "createdAt": "2020-07-20T18:52:54Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "g3w-admin/filemanager/static/RichFilemanager/scripts/jquery.contextmenu/package.json"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "PullRequestReview"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 2450,
+        "createdAt": "2019-12-26T18:33:09Z",
+        "title": "chore(deps-dev): bump handlebars from 4.0.14 to 4.3.0",
+        "bodyText": "Bumps handlebars from 4.0.14 to 4.3.0.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.3.0 - September 24th, 2019\nFixes:\n\nSecurity: Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nFeatures:\n\nAdd new runtime option allowCallsToHelperMissing to allow calling blockHelperMissing and helperMissing.\n\nBreaking changes:\nCompatibility notes:\n\n\nCompiler revision increased - 06b7224\n\nThis means that template compiled with versions prior to 4.3.0 will not work with runtimes >= 4.3.0\nThe increase was done because the \"helperMissing\" and \"blockHelperMissing\" are now moved from the helpers\nto the internal \"container.hooks\" object, so old templates will not be able to call them anymore. We suggest\nthat you always recompile your templates with the latest compiler in your build pipelines.\n\n\n\nDisallow calling \"helperMissing\" and \"blockHelperMissing\" directly - 2078c72\n\nCalling \"helperMissing\" and \"blockHelperMissing\" directly from a template (like in {{blockHelperMissing}} was\nnever intended and was part of the exploits that have been revealed early in 2019\n(see https://github-redirect.dependabot.com/wycats/handlebars.js/issues/1495). It is also part of a new exploit that\nis not captured by the earlier fix. In order to harden Handlebars against such exploits, calling thos helpers\nis now not possible anymore. Overriding those helpers is still possible.\nIf you really need this behavior, you can set the runtime option allowCallsToHelperMissing to true and the\ncalls will again be possible\n\n\n\nBoth bullet points imly that Handlebars is not 100% percent compatible to 4.2.0, despite the minor version bump.\nWe consider it more important to resolve a major security issue than to maintain 100% compatibility.\nCommits\nv4.2.1 - September 20th, 2019\nBugfixes:\n\nThe \"browser\" property in the package.json has been updated to use the common-js builds instead of the minified UMD - c55a7be, #1553\n\nCompatibility notes:\n\nNo compatibility issues should arise\n\nCommits\nv4.2.0 - September 3rd, 2019\nChore/Test:\n\nUse custom grunt-saucelab with current sauce-connect proxy - f119497\nAdd framework for various integration tests - f9cce4d\n\n ... (truncated)\n\n\n\nCommits\n\na89081d v4.3.0\nbba6560 Update release notes\n06b7224 adjust compiler revision\n2078c72 Disallow calling \"helperMissing\" and \"blockHelperMissing\" directly\nfff3e40 v4.2.1\n35bcd44 Update release notes\n00b4f2f Fix some small typos.\ne47b5ec integration-tests for various webpack-scenarios\nc55a7be fix: use cjs for browser fields\n164c7ce v4.2.0\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-26T18:46:29Z",
+        "mergedBy": {
+            "login": "ValGeorgiev",
+            "resourcePath": "/ValGeorgiev"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

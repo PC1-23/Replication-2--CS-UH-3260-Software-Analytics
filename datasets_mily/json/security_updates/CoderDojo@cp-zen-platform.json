@@ -1,0 +1,337 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1376,
+        "createdAt": "2019-11-02T02:23:24Z",
+        "title": "Bump bower from 1.4.1 to 1.8.8",
+        "bodyText": "Bumps bower from 1.4.1 to 1.8.8.\n\nRelease notes\nSourced from bower's releases.\n\nv1.8.8\nFix security issue connected to extracting .tar.gz archives\nThis bug allows to write arbitrary file on filesystem when Bower extracts malicious package\nNeedlessly to say, please upgrade\nv1.8.7\nFixes side effect of fix from v1.8.6 that caused improper permissions for extracted folders\nbower/bower#2532\nv1.8.6\nFix Zip Slip Vulnerability of decompress-zip package: https://snyk.io/research/zip-slip-vulnerability\nNote: v1.8.5 has been unpublished because of missing files\nv1.8.4\n\nFixes release 1.8.3 by publishing with npm@3 instead of npm@5 (to include lib/node_modules)\n\nv1.8.3\n\n451c60e Do not store resolutions if --save is not used, fixes #2344 (#2508)\n50ee729 Allow to disable shorthand resolver (#2507)\nbb17839 Allow shallow cloning when source is a ssh protocol (#2506)\n5a6ae54 Add support for Arrays in Environment Variable replacement (#2411)\n74af42c Only replace last @ after (if any) last / with # (#2395)\n💯Make tests work on Windows / Linux / OSX on node versions 0.10 / 0.12 / 4 / 6 / 8 / 9\n💅Format source code with prettier\n\nv1.8.2\nMigrate registry url from http://bower.herokuapp.com to https://registry.bower.io\nIt is so we leverage CDN and offload Heroku instance reducing costs.\nv1.8.0\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n ... (truncated)\n\n\n\nChangelog\nSourced from bower's changelog.\n\nChangelog\nNewer releases\nPlease see: https://github.com/bower/bower/releases\n1.8.0 - 2016-11-07\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n1.7.9 - 2016-04-05\n\nShow warnings for invalid bower.json fields\nUpdate bower-json\n\nLess strict validation on package name (allow spaces, slashes, and \"@\")\n\n\n\n1.7.8 - 2016-04-04\n\nDon't ask for git credentials in non-interactive session, fixes #956 #1009\nPrevent swallowing exceptions with programmatic api, fixes #2187\nUpdate graceful-fs to 4.x in all dependences, fixes nodejs/node#5213\nResolve pluggable resolvers using cwd and fallback to global modules, fixes #1919\nUpgrade handlebars to 4.0.5, closes #2195\nReplace all % chatacters in defined scripts, instead of only first one, fixes #2174\nUpdate opn package to fix issues with \"bower open\" command on Windows\nUpdate bower-config\n\nDo not interpolate environment variables in script hooks, fixes bower/config#47\n\n\nUpdate bower-json\n\nValidate package name more strictly and allow only latin letters, dots, dashes and underscores\n\n\nAdd support for \"save\" and \"save-exact\" in .bowerrc, #2161\n\n1.7.7 - 2016-01-27\nRevert locations of all files while still packaging node_modules.\nIt's because people are depending on internals of bower, like\nbower/lib/renderers/StandardRenderer. We want to preserve this\n ... (truncated)\n\n\n\nCommits\n\n67741b4 Bump to 1.8.8\n45c6bfa Fix .tar.gz extract vulnerability\n4f68fc7 Update decompress-zip and bump\n206046b Bump to 1.8.6\n43894f5 Bump to 1.8.5\n6390815 Update decompress-zip\ne8b94ec Mention parcel\n51feb8f Fix release script\n1c15dea Bump to 1.8.4\n2aa1f27 Update publish script\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1377,
+        "createdAt": "2019-11-04T17:37:19Z",
+        "title": "Bump lodash from 4.17.10 to 4.17.13",
+        "bodyText": "Bumps lodash from 4.17.10 to 4.17.13.\n\nCommits\n\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\n29e2584 Fix style:test lint nits.\n8f4d3eb Update deps.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-07-16T18:21:39Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #1417.",
+                    "createdAt": "2020-07-16T18:21:38Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1378,
+        "createdAt": "2019-11-04T17:37:20Z",
+        "title": "Bump seneca from 0.7.2 to 3.9.0",
+        "bodyText": "Bumps seneca from 0.7.2 to 3.9.0.\n\nRelease notes\nSourced from seneca's releases.\n\nv3.7.0\n\nrole:seneca,cmd:ping responds with instance and process metrics.\nFixed memory leak in history: senecajs/seneca#680\nUtility modules available via Seneca.util: Eraro, Jsonic, Nid, Patrun\nmeta.custom is now preserved properly over entire action pathway including transpo\n\nv3.6.0\n\ntranslate method simplifies translating message patterns\nMessage metadata has custom sub-object that propogates with message\n\nv3.5.0\n\nBetter format for fatal error messages\nPasses npm audit\nFixed double sub call\n\nv3.3.0\n3.3.0 2017-02-07\n\nAction callback can omit Error parameter (hapi style): http://senecajs.org/api/#method-add\nMinor updates for consistency with new API docs: http://senecajs.org/api\nUpdated use-plugin to 0.3.2.\nPlugin options are now consistent with global options after plugin load.\n\n3.2.1\nMissing module in package.json, see #561\nv3.2.0\nSummary\nThis release corrects timeout regressions in the Gate Executor which ultimately led to memory leaks. Provisional support for .inward() and .outward() api methods has been added. These will be documented at a later date.\nCHANGELOG\nThe Change Log below can be found in /CHANGES.md.\n\nAdded .inward() api method.\nAdded .outward() api method.\nMade logging safely stringify input.\nFixed memory leak / timeout bug in gate-executor.\n\nPlease visit http://senecajs.org/ for more information on support and how to contribute.\nv3.1.0\nSummary\nThis release corrects log filter regressions and issues where some types of match failed even though they should succeed. Additional minor improvements have been made too.\nCHANGELOG\nThe Change Log below can be found in /CHANGES.md.\n\nCorrect issue with log handlers not working via command line\nExtracted out log handling into seneca-log-filters for ease of reuse in custom loggers\n\n ... (truncated)\n\n\n\nChangelog\nSourced from seneca's changelog.\n\n3.9.0 2019-05-06\n\nAdded custom$ and fixed$ directives to seneca.add - see test/custom.test.js:custom-add - allows fixed message arguments and meta custom values on individual messages.\n\n3.8.4 2019-03-03\n\nSeneca.translate can include/exclude message properties.\nAdded log event so that plugins can capture log entries directly.\n\n3.8.3 2019-02-25\n\nSeneca.fail throws Seneca Errors, whereas Seneca.error creates them.\nSeneca.error can create plugin scoped errors.\n\n3.8.2 2019-02-17\n\nAllow plugin names that are file paths, and allow . in plugin names and tags.\nPlugins with seneca prefixes (seneca- or seneca@/) win - thus joi and seneca-joi in particular, are no longer confused.\n\n3.8.1 2019-02-10\n\nFix action annotations - seneca-joi now works again.\n\n3.8.0 2019-01-13\n\nPlugin Seneca instance has init convenience method for initialization action.\nPlugins can define local error codes with errors property.\nUpdated fail method throws Seneca Eraro exceptions directly and supports plugin-local codes.\nOption to ensure plugins load only once, and to ignore plugins.\n\n3.7.0 2018-07-18\n\nrole:seneca,cmd:ping responds with instance and process metrics.\nFixed memory leak in history: senecajs/seneca#680 .\nUtility modules available via Seneca.util: Eraro, Jsonic, Nid, Patrun.\nmeta.custom is now preserved properly over entire action pathway including transports.\n\n3.6.0 2018-05-28\n\ntranslate method simplifies translating message patterns.\nMessage metadata has custom sub-object that propogates with message.\n\n ... (truncated)\n\n\n\nCommits\n\n98af153 v3.9.0\n2713167 removed semver as not used\nb0565ba option debug.print.env default false turns off ENV printing in crash report\nf505dc6 fixed$ and custom$\nf43ee38 npm audit fix\n07b8566 fixed$ and custom$ directives; updated deps; custom.test.js\n9ff0b92 v3.8.4\n486376b travis\nadca2ac using @seneca/hapi in trsvis\n0143b41 fix travis\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1379,
+        "createdAt": "2019-11-04T17:37:22Z",
+        "title": "Bump eslint from 4.7.1 to 4.18.2",
+        "bodyText": "Bumps eslint from 4.7.1 to 4.18.2.\n\nRelease notes\nSourced from eslint's releases.\n\nv4.18.2\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n4f898c7 Build: Fix JSDoc syntax errors (#9813) (Matija Marohnić)\n13bcf3c Fix: Removing curly quotes in no-eq-null report message (#9852) (Kevin Partington)\nb96fb31 Docs: configuration hierarchy for CLIEngine options (fixes #9526) (#9855) (PiIsFour)\n8ccbdda Docs: Clarify that -c configs merge with .eslintrc.* (fixes #9535) (#9847) (Kevin Partington)\n978574f Docs: Fix examples for no-useless-escape (#9853) (Toru Kobayashi)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv4.18.2 - March 2, 2018\n\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022) (Mathieu Seiler)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030) (Teddy Katz)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028) (Teddy Katz)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019) (Jamie Davis)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020) (Teddy Katz)\n33177cd Chore: make library files non-executable (#10021) (Teddy Katz)\n558ccba Chore: refactor directive comment processing (#10007) (Teddy Katz)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010) (Teddy Katz)\na1c3759 Chore: refactor populating configs with defaults in linter (#10006) (Teddy Katz)\naea07dc Fix: Make max-len ignoreStrings ignore JSXText (fixes #9954) (#9985) (Rachael Sim)\n\nv4.18.1 - February 20, 2018\n\nf417506 Fix: ensure no-await-in-loop reports the correct node (fixes #9992) (#9993) (Teddy Katz)\n3e99363 Docs: Fixed typo in key-spacing rule doc (#9987) (Jaid)\n7c2cd70 Docs: deprecate experimentalObjectRestSpread (#9986) (Toru Nagashima)\n\nv4.18.0 - February 16, 2018\n\n70f22f3 Chore: Apply memoization to config creation within glob utils (#9944) (Kenton Jacobsen)\n0e4ae22 Update: fix indent bug with binary operators/ignoredNodes (fixes #9882) (#9951) (Teddy Katz)\n47ac478 Update: add named imports and exports for object-curly-newline (#9876) (Nicholas Chua)\ne8efdd0 Fix: support Rest/Spread Properties (fixes #9885) (#9943) (Toru Nagashima)\nf012b8c Fix: support Async iteration (fixes #9891) (#9957) (Toru Nagashima)\n74fa253 Docs: Clarify no-mixed-operators options (fixes #9962) (#9964) (Ivan Hayes)\n426868f Docs: clean up key-spacing docs (fixes #9900) (#9963) (Abid Uzair)\n4a6f22e Update: support eslint-disable-* block comments (fixes #8781) (#9745) (Erin)\n777283b Docs: Propose fix typo for function (#9965) (John Eismeier)\nbf3d494 Docs: Fix typo in max-len ignorePattern example. (#9956) (Tim Martin)\nd64fbb4 Docs: fix typo in prefer-destructuring.md example (#9930) (Vse Mozhet Byt)\nf8d343f Chore: Fix default issue template (#9946) (Kai Cataldo)\n\nv4.17.0 - February 2, 2018\n\n1da1ada Update: Add \"multiline\" type to padding-line-between-statements (#8668) (Matthew Bennett)\nbb213dc Chore: Use messageIds in some of the core rules (#9648) (Jed Fox)\n1aa1970 Docs: remove outdated rule naming convention (#9925) (Teddy Katz)\n3afaff6 Docs: Add prefer-destructuring variable reassignment example (#9873) (LePirlouit)\nd20f6b4 Fix: Typo in error message when running npm (#9866) (Maciej Kasprzyk)\n51ec6a7 Docs: Use GitHub Multiple PR/Issue templates (#9911) (Kai Cataldo)\ndc80487 Update: space-unary-ops uses astUtils.canTokensBeAdjacent (fixes #9907) (#9906) (Kevin Partington)\n084351b Docs: Fix the messageId example (fixes #9889) (#9892) (Jed Fox)\n9cbb487 Docs: Mention the globals key in the no-undef docs (#9867) (Dan Dascalescu)\n\nv4.16.0 - January 19, 2018\n\ne26a25f Update: allow continue instead of if wrap in guard-for-in (fixes #7567) (#9796) (Michael Ficarra)\naf043eb Update: Add NewExpression support to comma-style (#9591) (Frazer McLean)\n\n ... (truncated)\n\n\n\nCommits\n\n22ff6f3 4.18.2\n817b84b Build: changelog update for 4.18.2\n6b71fd0 Fix: table@4.0.2, because 4.0.3 needs \"ajv\": \"^6.0.1\" (#10022)\n3c697de Chore: fix incorrect comment about linter.verify return value (#10030)\n9df8653 Chore: refactor parser-loading out of linter.verify (#10028)\nf6901d0 Fix: remove catastrophic backtracking vulnerability (fixes #10002) (#10019)\ne4f52ce Chore: Simplify dataflow in linter.verify (#10020)\n33177cd Chore: make library files non-executable (#10021)\n558ccba Chore: refactor directive comment processing (#10007)\n18e15d9 Chore: avoid useless catch clauses that just rethrow errors (#10010)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1380,
+        "createdAt": "2019-11-04T17:37:22Z",
+        "title": "Bump mixin-deep from 1.3.1 to 1.3.2",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1381,
+        "createdAt": "2019-11-04T17:37:27Z",
+        "title": "Bump sshpk from 1.13.1 to 1.16.1",
+        "bodyText": "Bumps sshpk from 1.13.1 to 1.16.1.\n\nRelease notes\nSourced from sshpk's releases.\n\nv1.16.1\n\nFixes for #60 (correctly encoding certificates with expiry dates >=2050), #62 (accepting PKCS#8 EC private keys with missing public key parts)\n\nv1.16.0\n\nAdd support for SPKI fingerprints, PuTTY PPK format (public-key only for now), PKCS#8 PBKDF2 encrypted private keys\nFix for #48\n\nv1.15.2\n\nNew API for accessing x509 extensions in certificates\nFixes for #52, #50\n\nv1.14.1\n\nRemove all remaining usage of jodid25519 (abandoned dep)\nAdd support for DNSSEC key format\nAdd support for Ed25519 keys in PEM format (according to draft-curdle-pkix)\nFixes for X.509 encoding issues (asn.1 NULLs in RSA certs, cert string type mangling)\nPerformance issues parsing long SSH public keys\n\n\n\n\nCommits\n\n1aece0d joyent/node-sshpk#60 certs should generate GeneralizedTime values for dates >...\n684dbe6 joyent/node-sshpk#62 handle pkcs8 ECDSA keys with missing public parts\n574ff21 joyent/node-sshpk#18 support for PKCS8 encrypted private keys\nf647cf2 joyent/node-sshpk#27 Add support for PuTTY PPK format\n44aec4a joyent/node-sshpk#59 want support for SPKI fingerprint format\n385ff11 joyent/node-sshpk#48 wish: add support for x509 certificates in text form\nc7a6c68 joyent/node-sshpk#58 des-ede3-cbc encrypted keys broken\n2ab4f2a joyent/node-sshpk#56 md5 fingerprints not quite right\n026ef47 joyent/node-sshpk#53 stop using optional deps to fix webpack\n53e23fe joyent/node-sshpk#50 Support PKCS#5 AES-256-CBC encrypted private keys\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1400,
+        "createdAt": "2020-04-16T11:35:59Z",
+        "title": "Bump https-proxy-agent from 2.2.1 to 2.2.4",
+        "bodyText": "Bumps https-proxy-agent from 2.2.1 to 2.2.4.\n\nRelease notes\nSourced from https-proxy-agent's releases.\n\n2.2.4\nPatches\n\nAdd .editorconfig file: a0d4a20458498fc31e5721471bd2b655e992d44b\nAdd .eslintrc.js file: eecea74a1db1c943eaa4f667a561fd47c33da897\nUse a net.Socket instead of a plain EventEmitter for replaying proxy errors: #83\nRemove unused stream module: 9fdcd47bd813e9979ee57920c69e2ee2e0683cd4\n\nCredits\nHuge thanks to @lpinca for helping!\n2.2.3\nPatches\n\nUpdate README with actual secureProxy behavior: #65\nUpdate proxy to v1.0.0: d0e3c18079119057b05582cb72d4fda21dfc2546\nRemove unreachable code: 46aad0988b471f042856436cf3192b0e09e36fe6\nTest on Node.js 10 and 12: 3535951e482ea52af4888938f59649ed92e81b2b\nFix compatibility with Node.js >= 10.0.0: #73\nUse an EventEmitter to replay failed proxy connect HTTP requests: #77\n\nCredits\nHuge thanks to @stoically, @lpinca, and @zkochan for helping!\n2.2.2\nPatches\n\nRemove package-lock.json: c881009b9873707f5c4a0e9c277dde588e1139c7\nIgnore test directory, History.md and .travis.yml when creating npm package. Fixes #42: #45\nUpdate agent-base to v4.2: #50\nAdd TypeScript type definitions: #66\nFeat(typescript): Allow input to be options or string: #68\nUpdate agent-base to v4.3: #69\n\nCredits\nHuge thanks to @marco-c, @tareqhs, @ianhowe76, and @BYK for helping!\n\n\n\nCommits\n\n4c4cce8 2.2.4\n9fdcd47 Remove unused stream module\n34ea884 Use a net.Socket instead of a plain EventEmitter for replaying proxy erro...\n4296770 Prettier\neecea74 Add .eslintrc.js file\na0d4a20 Add .editorconfig file\n0d8e8bf 2.2.3\n850b835 Revert \"Use Mocha 5 for Node 4 support\"\nf5f56fa Remove Node 4 from Travis\nbb837b9 Revert \"Remove Node 4 from Travis\"\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

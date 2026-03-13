@@ -1,0 +1,128 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 63,
+        "createdAt": "2020-04-10T18:46:47Z",
+        "title": "Bump auth0-js from 9.12.2 to 9.13.2",
+        "bodyText": "Bumps auth0-js from 9.12.2 to 9.13.2.\n\nRelease notes\nSourced from auth0-js's releases.\n\nv9.13.2\nFixed\n\nFixed a typo in the readme #1096 (nwtgck)\n\nSecurity\n\nFixed information disclosure through error object commit (stevehobbsdev)\nBump minimist from 1.2.0 to 1.2.5 #1098 (dependabot[bot])\nDependency updates for security advisories #1097 (stevehobbsdev)\n\nv9.13.1\nFixed\n\nAdd screen_hint to allowed parameters #1093 (tomaszn)\n\nSecurity\n\nUpdate idtoken-verifier dependency #1091 (lbalmaceda)\n\nv9.13.0\n\n[SDK-1405] Added support for new generic error codes and details #1084 (stevehobbsdev)\nFix unit tests by stubbing RSA verification #1085 (stevehobbsdev)\nUpdated JS docs for user_metadata #1088 (stevehobbsdev)\n\n\n\n\nChangelog\nSourced from auth0-js's changelog.\n\nv9.13.2 (2020-04-09)\nFull Changelog\nFixed\n\ndocs: Javascript -> JavaScript #1096 (nwtgck)\n\nSecurity\n\nFixed information disclosure through error object commit (stevehobbsdev)\nBump minimist from 1.2.0 to 1.2.5 #1098 (dependabot[bot])\nDependency updates for security advisories #1097 (stevehobbsdev)\n\nv9.13.1 (2020-04-01)\nFull Changelog\nFixed\n\nAdd screen_hint to allowed parameters #1093 (tomaszn)\n\nSecurity\n\nUpdate idtoken-verifier dependency #1091 (lbalmaceda)\n\nv9.13.0 (2020-03-27)\nFull Changelog\nAdded\n\n[SDK-1405] Added support for new generic error codes and details #1084 (stevehobbsdev)\nFix unit tests by stubbing RSA verification #1085 (stevehobbsdev)\nUpdated JS docs for user_metadata #1088 (stevehobbsdev)\n\n\n\n\nCommits\n\n7db6009 v9.13.2\n540c84a Release v9.13.2 (#1099)\n355ca74 Merge pull request from GHSA-prfq-f66g-43mp\n55b6ac8 Merge pull request #1098 from auth0/dependabot/npm_and_yarn/minimist-1.2.5\n5e2a474 Updated package resolution\n13c92e0 Bump minimist from 1.2.0 to 1.2.5\nda8a17f Dependency updates for security advisories (#1097)\n226681d Merge pull request #1096 from nwtgck/docs-js\nc28742e docs: Javascript -> JavaScript\n6a2995b Release v9.13.1 (#1094)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-24T03:56:01Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like auth0-js is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-04-24T03:55:59Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 65,
+        "createdAt": "2020-04-30T00:55:35Z",
+        "title": "Bump jquery from 3.4.1 to 3.5.0",
+        "bodyText": "Bumps jquery from 3.4.1 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-01T23:06:10Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like jquery is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2020-05-01T23:06:08Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

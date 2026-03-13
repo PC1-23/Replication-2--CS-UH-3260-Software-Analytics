@@ -1,0 +1,77 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 304,
+        "createdAt": "2019-10-14T15:45:49Z",
+        "title": "Bump ecstatic from 1.4.1 to 3.3.2",
+        "bodyText": "⚠️  Dependabot is rebasing this PR ⚠️\nIf you make any changes to it yourself then they will take precedence over the rebase.\n\nBumps ecstatic from 1.4.1 to 3.3.2.\n\nChangelog\nSourced from ecstatic's changelog.\n\n2019/05/03 Version 3.3.2\n\nBackport redirects bugfix\n\n2019/02/10 Version 3.3.1\n\nPublish via linux to hopefully fix #238\n\n2018/09/01 Version 3.3.0\n\nUpdated dependencies\nAdded support for brotli encoding in addition to existing gzip support\n\n2018/08/28 Version 3.2.2\n\nPatchfix for improved accuracy when checking to see if gzip responses are allowed\nUpdated tap and package-lock.json\n\n2018/07/06 Version 3.2.1\n\nUpdate package.json project description\nMove tools folder to scripts folder\nLinting now passes on windows if git converts newlines to CRLFs\nNo longer return a 416 when input range header has extra untrimmed whitespace\nRemove extra double quotes in ETAGs\n\n2018/02/03 Version 3.2.0\n\nAdd hidePermissions flag to hide file permissions from directory listings\n\n2017/12/16 Version 3.1.1\n\nRequires version of node-mime that patches regexp dos vulnerability\n\n2017/12/09 Version 3.1.0\n\nMinor tweaks/fixes to directory view\nAdd a mess of dotfiles to .npmignore\n\n2017/08/28 Version 3.0.0\n\nLint ./lib/ ./example and ./test  against airbnb modified to support node 4.x\nand a few quirky hard-to-fix idioms\nChange gzip behavior to default\nChange weak etags and weak etag comparisons to be on by default\nRemove support for 0.12.0\nRemove union examples and test harnesses (support should have been removed\nlong ago)\nFix icon styles in directory listing for small screens\nUpdate mime to ^v1.4.0 - This changes gzip responses to always have application/gzip as their content-type\n\n2017/06/06 Version 2.2.1\n\nFix version number in CHANGELOG.md\n\n2017/06/06 Version 2.2.0\n\nWill now properly serve gzip files when defaulting the extension\nWill fall back to serving non-gzip files if file with .gz extension is\nmissing the magic bytes\nUpdated he, url-join\n\n ... (truncated)\n\n\n\nCommits\n\n07131c2 Release 3.3.2\nd0e2bcf Ho hum\nb1ad801 Release 3.3.1\n7538ac5 Merge pull request #236 from 599316527/master\n779df42 Fix a spell error in README\n818744f Release 3.3.0\n871a3c4 Merge pull request #231 from jfhbrook/revert-230-revert-228-brotli-encoding\nc09621f Merge pull request #232 from thornjad/revert-230-revert-228-brotli-encoding\nb877d52 add gzip compression test files\nd11f0cd Revert \"Revert \"Add support for brotli encoding\"\"\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by jfhbrook, a new releaser for ecstatic since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 310,
+        "createdAt": "2020-04-16T12:49:58Z",
+        "title": "Bump https-proxy-agent from 2.2.1 to 3.0.1",
+        "bodyText": "Bumps https-proxy-agent from 2.2.1 to 3.0.1.\n\nRelease notes\nSourced from https-proxy-agent's releases.\n\n3.0.1\nPatches\n\nUpdate proxy to v1.0.1: 7ce932a48d8921ec5a3eaa1396b570b236e15814\nAdd GitHub Actions for Node CI: 67f71c6174342d33adac0b1f2e1d8b8c48c954ba\nDelete .travis.yml: 3b680bab19fa2c57ea184d5fbb092b142d3a573a\nReplace Travis CI status badge with workflow status badge: #80\nUse a net.Socket instead of a plain EventEmitter for replaying proxy errors: #83\nTest CI on \"push to master\" and \"pull request\": 11d4677c96dd9863f251eec9976d163ea541e57d\n\nCredits\nHuge thanks to @lpinca for helping!\n3.0.0\nThis release fixes the MitM vulnerability reported via HackerOne. It is a breaking change because Node 4, 5, and 7 are no longer tested in CI (note that Node 6 is still supported).\nMajor Changes\n\nRemove Node 5 and 7 from Travis: 590bc8bed1348de6543f8d34d482c7e12a0a21ae\nRemove Node 4 from Travis: 6c804a2c919b53d29030340da8b02fd8225fd258\n\nMinor Changes\n\nUpdate proxy to v1.0.0: d0e3c18079119057b05582cb72d4fda21dfc2546\nTest on Node.js 10 and 12: 3535951e482ea52af4888938f59649ed92e81b2b\nFix compatibility with Node.js >= 10.0.0: #73\nAdd .editorconfig file: 06ead2fe61f8123fbcc876f975fa2a0896d5c232\nAdd .eslintrc.js file: ae5357223f5f3b7e13a8f684715dc1e291fd4a7a\n\nPatches\n\nUpdate README with correct secureProxy behavior: #65\nRemove unreachable code: 46aad0988b471f042856436cf3192b0e09e36fe6\n[TypeScript] Allow port to be a string: #72\nUse an EventEmitter to replay failed proxy connect HTTP requests: #77\n\nCredits\nHuge thanks to @lpinca, @stoically, and @zkochan for helping!\n2.2.4\nPatches\n\nAdd .editorconfig file: a0d4a20458498fc31e5721471bd2b655e992d44b\nAdd .eslintrc.js file: eecea74a1db1c943eaa4f667a561fd47c33da897\nUse a net.Socket instead of a plain EventEmitter for replaying proxy errors: #83\nRemove unused stream module: 9fdcd47bd813e9979ee57920c69e2ee2e0683cd4\n\nCredits\n ... (truncated)\n\n\n\nCommits\n\nc562fb6 3.0.1\n11d4677 Test CI on \"push to master\" and \"pull request\"\n2ee9793 Remove unused stream module\n4c0d37e Use a net.Socket instead of a plain EventEmitter for replaying proxy erro...\n9d30891 Delete History.md file\n03879f5 Replace Travis CI status badge with workflow status badge (#80)\n0638f19 Remove \"with\" from build name\n3b680ba Delete .travis.yml\n67f71c6 Add GitHub Actions for Node CI\n7ce932a Update proxy to v1.0.1\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "yarn.lock"
+                }
+            ]
+        }
+    }
+]

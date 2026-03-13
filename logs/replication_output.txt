@@ -1,0 +1,154 @@
+
+========================================================================
+  REPLICATION STUDY — Mohayeji et al. (MSR 2023)
+  RQ1 & RQ2 Analysis
+========================================================================
+
+========================================================================
+  RQ1: How often do developers merge Dependabot security updates?
+========================================================================
+
+── Overall PR Statistics ──
+  Total PRs:        4416
+  Projects:         978
+  Open:             221 (5.00%)
+  Closed:           1804 (40.85%)
+  Merged:           2391
+  Non-open:         4195
+  Merge ratio:      57.00%
+
+  Projects with non-open PRs: 962
+
+── Table III: Distribution of Merge Ratios per Project Group ──
+  Group                 Count    Min    25%    Med    75%    Max    Avg    Std
+  --------------------------------------------------------------------
+  Very low [1,2]          441     0%     0%    50%   100%   100%    49%    47%
+  Low [3,4]               213     0%     0%    75%   100%   100%    59%    43%
+  High [5,10]             236     0%     0%    80%   100%   100%    57%    42%
+  Very high [11,67]        72     0%    26%    78%    94%   100%    61%    38%
+  Total                   962     0%     0%    67%   100%   100%    54%    44%
+
+── Mann-Whitney U Tests (Bonferroni corrected) ──
+     [1,2] vs [3,4]     p=0.025250  corrected_p=0.1515  Cannot reject H0
+     [1,2] vs [5,10]    p=0.100049  corrected_p=0.6003  Cannot reject H0
+     [1,2] vs [11,67]   p=0.328718  corrected_p=1.0000  Cannot reject H0
+     [3,4] vs [5,10]    p=0.620962  corrected_p=1.0000  Cannot reject H0
+     [3,4] vs [11,67]   p=0.544996  corrected_p=1.0000  Cannot reject H0
+    [5,10] vs [11,67]   p=0.975924  corrected_p=1.0000  Cannot reject H0
+
+── Spearman Correlation (merge ratio vs popularity) ──
+  Stars: ρ = 0.163205
+  Forks: ρ = 0.159600
+
+── RQ1 Comparison with Paper ──
+  Metric                                        Paper   Replicated  Match
+  ----------------------------------------------------------------------
+  Total PRs                                      4416         4416    YES
+  Projects                                        978          978    YES
+  Non-open PRs                                   4195         4195    YES
+  Merged PRs                                     2391         2391    YES
+  Merge ratio (overall)                           57%          57%    YES
+  Spearman (stars)                               0.16         0.16    YES
+  Spearman (forks)                               0.16         0.16    YES
+  MW-U all pairs                               p≥0.15       p≥0.15    YES
+
+
+========================================================================
+  RQ2: How frequently do developers fix a vulnerable dependency
+       manually in the presence of a Dependabot security update?
+========================================================================
+
+── Data Summary ──
+  Non-open PRs:               4195
+  Total vulnerabilities:       4978
+
+── Overall Vulnerability Fix Proportions ──
+  Fixed by bot:      2662 (53.48%)
+  Fixed by human:    1507 (30.27%)
+  Not fixed:         809 (16.25%)
+  Among fixes — Bot: 63.85%, Human: 36.15%
+  Bot fixes / human fixes ratio: 1.8x
+
+  Repos after merge with PR data: 962
+  Vulnerabilities after merge:    4922
+
+── Table IV: Percentages per Project Group ──
+  Group               Fixed  Not Fixed  |      Bot    Human
+  --------------------------------------------------------
+  [1,2]              76.35%     23.65%  |   52.83%   47.17%
+  [3,4]              90.77%      9.23%  |   61.36%   38.64%
+  [5,10]             86.04%     13.96%  |   64.11%   35.89%
+  [11,67]            83.93%     16.07%  |   71.11%   28.89%
+  Total              84.62%     15.38%  |   63.91%   36.09%
+
+── Chi-squared Test: Fixed vs Not Fixed ──
+  Contingency table:
+[[ 636  197]
+ [ 797   81]
+ [1510  245]
+ [1222  234]]
+  χ² = 72.5765, p = 1.20e-15, Cramer's V = 0.1214
+
+  Post-hoc pairwise (BH corrected) — Fixed vs Not Fixed:
+      Very low vs Low         p_adj = 6.42e-15 ***
+      Very low vs High        p_adj = 3.99e-09 ***
+      Very low vs Very high   p_adj = 1.58e-05 ***
+           Low vs High        p_adj = 7.66e-04 ***
+           Low vs Very high   p_adj = 7.44e-06 ***
+          High vs Very high   p_adj = 1.05e-01 
+
+── Chi-squared Test: Bot vs Human ──
+  Contingency table:
+[[336 300]
+ [489 308]
+ [968 542]
+ [869 353]]
+  χ² = 63.6214, p = 9.89e-14, Cramer's V = 0.1236
+
+  Post-hoc pairwise (BH corrected) — Bot vs Human:
+      Very low vs Low         p_adj = 1.71e-03 **
+      Very low vs High        p_adj = 3.96e-06 ***
+      Very low vs Very high   p_adj = 4.32e-14 ***
+           Low vs High        p_adj = 2.09e-01 
+           Low vs Very high   p_adj = 1.25e-05 ***
+          High vs Very high   p_adj = 1.85e-04 ***
+
+── RQ2 Comparison with Paper ──
+  Metric                                             Paper   Replicated  Match
+  ---------------------------------------------------------------------------
+  Total vulnerabilities                               4978         4978
+  Non-open PRs                                        4195         4195
+  Fixed by bot                                  2662 (53.48%) 2662 (53.48%)
+  Fixed by human                                1507 (30.27%) 1507 (30.27%)
+  Not fixed                                     809 (16.25%) 809 (16.07%)
+  Bot share of fixes                                63.85%       63.85%
+  Human share of fixes                              36.15%       36.15%
+  χ² (fixed vs not) p-value                       1.19e-15     1.20e-15
+  Cramer's V (fixed vs not)                           0.12         0.12
+  χ² (bot vs human) p-value                       9.89e-14     9.89e-14
+  Cramer's V (bot vs human)                           0.12         0.12
+
+  Per-group comparison with Table IV:
+  Group      Metric             Paper   Replicated  Match
+  -------------------------------------------------------
+  [1,2]      Fixed             76.35%       76.35%    YES
+             Not fixed         23.65%       23.65%    YES
+             Bot               52.83%       52.83%    YES
+             Human             47.17%       47.17%    YES
+  [3,4]      Fixed             90.77%       90.77%    YES
+             Not fixed          9.23%        9.23%    YES
+             Bot               61.36%       61.36%    YES
+             Human             38.64%       38.64%    YES
+  [5,10]     Fixed             86.04%       86.04%    YES
+             Not fixed         13.96%       13.96%    YES
+             Bot               64.11%       64.11%    YES
+             Human             35.89%       35.89%    YES
+  [11,67]    Fixed             84.07%       83.93%    YES
+             Not fixed         15.93%       16.07%    YES
+             Bot               71.11%       71.11%    YES
+             Human             28.89%       28.89%    YES
+
+
+========================================================================
+  REPLICATION COMPLETE
+========================================================================

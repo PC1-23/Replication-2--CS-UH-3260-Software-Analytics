@@ -1,0 +1,103 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1055,
+        "createdAt": "2020-02-25T02:40:07Z",
+        "title": "Bump nokogiri from 1.10.4 to 1.10.8",
+        "bodyText": "Bumps nokogiri from 1.10.4 to 1.10.8.\n\nRelease notes\nSourced from nokogiri's releases.\n\n1.10.8 / 2020-02-10\nSecurity\n[MRI] Pulled in upstream patch from libxml that addresses CVE-2020-7595. Full details are available in #1992. Note that this patch is not yet (as of 2020-02-10) in an upstream release of libxml.\n1.10.7 / 2019-12-03\nBug\n\n[MRI] Ensure the patch applied in v1.10.6 works with GNU patch. #1954\n\n1.10.6 / 2019-12-03\nBug\n\n[MRI] Fix FreeBSD installation of vendored libxml2. [#1941, #1953] (Thanks, @​nurse!)\n\n1.10.5 / 2019-10-31\nDependencies\n\n[MRI] vendored libxml2 is updated from 2.9.9 to 2.9.10\n[MRI] vendored libxslt is updated from 1.1.33 to 1.1.34\n\n\n\n\nChangelog\nSourced from nokogiri's changelog.\n\n1.10.8 / 2020-02-10\nSecurity\n[MRI] Pulled in upstream patch from libxml that addresses CVE-2020-7595. Full details are available in #1992. Note that this patch is not yet (as of 2020-02-10) in an upstream release of libxml.\n1.10.7 / 2019-12-03\nFixed\n\n[MRI] Ensure the patch applied in v1.10.6 works with GNU patch. [#1954]\n\n1.10.6 / 2019-12-03\nFixed\n\n[MRI] Fix FreeBSD installation of vendored libxml2. [#1941, #1953] (Thanks, @​nurse!)\n\n1.10.5 / 2019-10-31\nSecurity\n[MRI] Vendored libxslt upgraded to v1.1.34 which addresses three CVEs for libxslt:\n\nCVE-2019-13117\nCVE-2019-13118\nCVE-2019-18197\nCVE-2019-19956\n\nMore details are available at #1943.\nDependencies\n\n[MRI] vendored libxml2 is updated from 2.9.9 to 2.9.10\n[MRI] vendored libxslt is updated from 1.1.33 to 1.1.34\n\n\n\n\nCommits\n\n6ce10d1 version bump to v1.10.8\n2320f5b update CHANGELOG for v1.10.8\n4a77fdb remove patches from the hoe Manifest\n570b6cb update to use rake-compiler ~1.1.0\n2cdb68e backport libxml2 patch for CVE-2020-7595\ne6b3229 version bump to v1.10.7\n4f9d443 update CHANGELOG\n80e67ef Fix the patch from #1953 to work with both git and patch\n7cf1b85 Fix typo in generated metadata\nd76180d add gem metadata\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-02-28T01:12:57Z",
+        "mergedBy": {
+            "login": "ROBOTIS-David",
+            "resourcePath": "/ROBOTIS-David"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1125,
+        "createdAt": "2020-05-26T19:48:19Z",
+        "title": "Bump activesupport from 5.2.3 to 6.0.3.1",
+        "bodyText": "Bumps activesupport from 5.2.3 to 6.0.3.1.\n\nRelease notes\nSourced from activesupport's releases.\n\n6.0.3\nIn this version, we fixed warnings when used with Ruby 2.7 across the entire framework.\nFollowing are the list of other changes, per-framework.\nActive Support\n\n\nArray#to_sentence no longer returns a frozen string.\nBefore:\n['one', 'two'].to_sentence.frozen?\n# => true\n\nAfter:\n['one', 'two'].to_sentence.frozen?\n# => false\n\nNicolas Dular\n\n\nUpdate ActiveSupport::Messages::Metadata#fresh? to work for cookies with expiry set when\nActiveSupport.parse_json_times = true.\nChristian Gregg\n\n\nActive Model\n\nNo changes.\n\nActive Record\n\n\nRecommend applications don't use the database kwarg in connected_to\nThe database kwarg in connected_to was meant to be used for one-off scripts but is often used in requests. This is really dangerous because it re-establishes a connection every time. It's deprecated in 6.1 and will be removed in 6.2 without replacement. This change soft deprecates it in 6.0 by removing documentation.\nEileen M. Uchitelle\n\n\nFix support for PostgreSQL 11+ partitioned indexes.\nSebastián Palma\n\n\nAdd support for beginless ranges, introduced in Ruby 2.7.\nJosh Goodall\n\n\n ... (truncated)\n\n\n\nChangelog\nSourced from activesupport's changelog.\n\nRails 6.0.3.1 (May 18, 2020)\n\n\n[CVE-2020-8165] Deprecate Marshal.load on raw cache read in RedisCacheStore\n\n\n[CVE-2020-8165] Avoid Marshal.load on raw cache value in MemCacheStore\n\n\nRails 6.0.3 (May 06, 2020)\n\n\nArray#to_sentence no longer returns a frozen string.\nBefore:\n['one', 'two'].to_sentence.frozen?\n# => true\n\nAfter:\n['one', 'two'].to_sentence.frozen?\n# => false\n\nNicolas Dular\n\n\nUpdate ActiveSupport::Messages::Metadata#fresh? to work for cookies with expiry set when\nActiveSupport.parse_json_times = true.\nChristian Gregg\n\n\nRails 6.0.2.2 (March 19, 2020)\n\nNo changes.\n\nRails 6.0.2.1 (December 18, 2019)\n\nNo changes.\n\nRails 6.0.2 (December 13, 2019)\n\n\nEager load translations during initialization.\nDiego Plentz\n\n\nUse per-thread CPU time clock on ActiveSupport::Notifications.\nGeorge Claghorn\n\n\nRails 6.0.1 (November 5, 2019)\n ... (truncated)\n\n\n\nCommits\n\n34991a6 Preparing for 6.0.3.1 release\n2c8fe2a bumping version, updating changelog\n0ad524a update changelog\nbd39a13 activesupport: Deprecate Marshal.load on raw cache read in RedisCacheStore\n0a7ce52 activesupport: Avoid Marshal.load on raw cache value in MemCacheStore\nb738f19 Preparing for 6.0.3 release\n509b9da Preparing for 6.0.3.rc1 release\n02d07cc adds missing require [Fixes #39042]\nf2f7bcc Fix Builder::XmlMarkup lazy load in Array#to_xml\n320734e Merge pull request #36941 from ts-3156/master\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-27T01:14:19Z",
+        "mergedBy": {
+            "login": "ROBOTIS-David",
+            "resourcePath": "/ROBOTIS-David"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                }
+            ]
+        }
+    }
+]

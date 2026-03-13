@@ -1,0 +1,298 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1460,
+        "createdAt": "2019-10-31T12:43:01Z",
+        "title": "Bump werkzeug from 0.14.1 to 0.15.3",
+        "bodyText": "Bumps werkzeug from 0.14.1 to 0.15.3.\n\nRelease notes\nSourced from werkzeug's releases.\n\n0.15.3\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-3-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/#version-0-15-3\n\n0.15.2\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-2-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/#version-0-15-2\n\n0.15.1\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-1-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/\n\n0.15.0\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-0-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/\n\n\n\n\nChangelog\nSourced from werkzeug's changelog.\n\nVersion 0.15.3\nReleased 2019-05-14\n\nProperly handle multi-line header folding in development server in\nPython 2.7. (:issue:1080)\nRestore the response argument to :exc:~exceptions.Unauthorized.\n(:pr:1527)\n:exc:~exceptions.Unauthorized doesn't add the WWW-Authenticate\nheader if www_authenticate is not given. (:issue:1516)\nThe default URL converter correctly encodes bytes to string rather\nthan representing them with b''. (:issue:1502)\nFix the filename format string in\n:class:~middleware.profiler.ProfilerMiddleware to correctly handle\nfloat values. (:issue:1511)\nUpdate :class:~middleware.lint.LintMiddleware to work on Python 3.\n(:issue:1510)\nThe debugger detects cycles in chained exceptions and does not time\nout in that case. (:issue:1536)\nWhen running the development server in Docker, the debugger security\npin is now unique per container.\n\nVersion 0.15.2\nReleased 2019-04-02\n\nRule code generation uses a filename that coverage will ignore.\nThe previous value, \"generated\", was causing coverage to fail.\n(:issue:1487)\nThe test client removes the cookie header if there are no persisted\ncookies. This fixes an issue introduced in 0.15.0 where the cookies\nfrom the original request were used for redirects, causing functions\nsuch as logout to fail. (:issue:1491)\nThe test client copies the environ before passing it to the app, to\nprevent in-place modifications from affecting redirect requests.\n(:issue:1498)\nThe \"werkzeug\" logger only adds a handler if there is no handler\nconfigured for its level in the logging chain. This avoids double\nlogging if other code configures logging first. (:issue:1492)\n\nVersion 0.15.1\nReleased 2019-03-21\n\n:exc:~exceptions.Unauthorized takes description as the first\n\n ... (truncated)\n\n\n\nCommits\n\n9b1123a release version 0.15.3\n00bc43b unique debugger pin in Docker containers\n2cbdf2b Merge pull request #1542 from asottile/exceptions_arent_always_hashable\n0e669f6 Fix unhashable exception types\nbdc17e4 Merge pull request #1540 from pallets/break-tb-cycle\n44e38c2 break cycle in chained exceptions\n777500b Merge pull request #1518 from NiklasMM/fix/1510_lint-middleware-python3-compa...\ne00c7c2 Make LintMiddleware Python 3 compatible and add tests\nd590cc7 Merge pull request #1539 from pallets/profiler-format\n0388fc9 update filename_format for ProfilerMiddleware.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1461,
+        "createdAt": "2019-10-31T12:43:04Z",
+        "title": "Bump flask from 0.12.4 to 1.0",
+        "bodyText": "Bumps flask from 0.12.4 to 1.0.\n\nRelease notes\nSourced from flask's releases.\n\n1.0\nThe Pallets team is pleased to release Flask 1.0. [Read the announcement on our blog.](https://www.palletsprojects.com/blog/flask-1-0-released/\nThere are over a year's worth of changes in this release. Many features have been improved or changed. Read the changelog to understand how your project's code will be affected.\nJSON Security Fix\nFlask previously decoded incoming JSON bytes using the content type of the request. Although JSON should only be encoded as UTF-8, Flask was more lenient. However, Python includes non-text related encodings that could result in unexpected memory use by a request.\nFlask will now detect the encoding of incoming JSON data as one of the supported UTF encodings, and will not allow arbitrary encodings from the request.\nInstall or Upgrade\nInstall from PyPI with pip:\npip install -U Flask\n\n\n\n\nChangelog\nSourced from flask's changelog.\n\nVersion 1.0\nReleased 2018-04-26\n\nPython 2.6 and 3.3 are no longer supported.\nBump minimum dependency versions to the latest stable versions:\nWerkzeug >= 0.14, Jinja >= 2.10, itsdangerous >= 0.24, Click >= 5.1.\n:issue:2586\nSkip :meth:app.run <Flask.run> when a Flask application is run\nfrom the command line. This avoids some behavior that was confusing\nto debug.\nChange the default for :data:JSONIFY_PRETTYPRINT_REGULAR to\nFalse. :func:~json.jsonify returns a compact format by\ndefault, and an indented format in debug mode. :pr:2193\n:meth:Flask.__init__ <Flask> accepts the host_matching\nargument and sets it on :attr:~Flask.url_map. :issue:1559\n:meth:Flask.__init__ <Flask> accepts the static_host argument\nand passes it as the host argument when defining the static\nroute. :issue:1559\n:func:send_file supports Unicode in attachment_filename.\n:pr:2223\nPass _scheme argument from :func:url_for to\n:meth:~Flask.handle_url_build_error. :pr:2017\n:meth:~Flask.add_url_rule accepts the\nprovide_automatic_options argument to disable adding the\nOPTIONS method. :pr:1489\n:class:~views.MethodView subclasses inherit method handlers from\nbase classes. :pr:1936\nErrors caused while opening the session at the beginning of the\nrequest are handled by the app's error handlers. :pr:2254\nBlueprints gained :attr:~Blueprint.json_encoder and\n:attr:~Blueprint.json_decoder attributes to override the app's\nencoder and decoder. :pr:1898\n:meth:Flask.make_response raises TypeError instead of\nValueError for bad response types. The error messages have been\nimproved to describe why the type is invalid. :pr:2256\nAdd routes CLI command to output routes registered on the\napplication. :pr:2259\nShow warning when session cookie domain is a bare hostname or an IP\naddress, as these may not behave properly in some browsers, such as\nChrome. :pr:2282\nAllow IP address as exact session cookie domain. :pr:2282\nSESSION_COOKIE_DOMAIN is set if it is detected through\nSERVER_NAME. :pr:2282\nAuto-detect zero-argument app factory called create_app or\nmake_app from FLASK_APP. :pr:2297\nFactory functions are not required to take a script_info\nparameter to work with the flask command. If they take a single\nparameter or a parameter named script_info, the\n\n ... (truncated)\n\n\n\nCommits\n\n291f3c3 Bump version number to 1.0\n36e68a4 release 1.0\n216151c Merge branch '0.12-maintenance'\n062745b Merge pull request #2720 from pallets/setup-link\n5c8110d ensure order of project urls\n10a77a5 Add project_urls so that PyPI will show GitHub stats.\n2ede0b8 add donate link\n4137aec add donate link\n4df5f82 Merge pull request #2719 from greyli/patch-9\n7df3524 Fix typo in docs\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1462,
+        "createdAt": "2019-10-31T12:43:08Z",
+        "title": "Bump pillow from 5.2.0 to 6.2.0",
+        "bodyText": "Bumps pillow from 5.2.0 to 6.2.0.\n\nRelease notes\nSourced from pillow's releases.\n\n6.2.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.2.0.html\n6.1.0\nhttps://pillow.readthedocs.io/en/stable/releasenotes/6.1.0.html\n6.0.0\nNo release notes provided.\n5.4.1\nNo release notes provided.\n5.4.0\nNo release notes provided.\n5.3.0\nNo release notes provided.\n\n\n\nChangelog\nSourced from pillow's changelog.\n\n6.2.0 (2019-10-01)\n\n\nCatch buffer overruns #4104\n[radarhere]\n\n\nInitialize rows_per_strip when RowsPerStrip tag is missing #4034\n[cgohlke, radarhere]\n\n\nRaise error if TIFF dimension is a string #4103\n[radarhere]\n\n\nAdded decompression bomb checks #4102\n[radarhere]\n\n\nFix ImageGrab.grab DPI scaling on Windows 10 version 1607+ #4000\n[nulano, radarhere]\n\n\nCorrected negative seeks #4101\n[radarhere]\n\n\nAdded argument to capture all screens on Windows #3950\n[nulano, radarhere]\n\n\nUpdated warning to specify when Image.frombuffer defaults will change #4086\n[radarhere]\n\n\nChanged WindowsViewer format to PNG #4080\n[radarhere]\n\n\nUse TIFF orientation #4063\n[radarhere]\n\n\nRaise the same error if a truncated image is loaded a second time #3965\n[radarhere]\n\n\nLazily use ImageFileDirectory_v1 values from Exif #4031\n[radarhere]\n\n\nImproved HSV conversion #4004\n[radarhere]\n\n\nAdded text stroking #3978\n[radarhere, hugovk]\n\n\nNo more deprecated bdist_wininst .exe installers #4029\n[hugovk]\n\n\nDo not allow floodfill to extend into negative coordinates #4017\n[radarhere]\n\n\n ... (truncated)\n\n\n\nCommits\n\n8a30d13 Updated CHANGES.rst [ci skip]\n75602d1 6.2.0 version bump\n4756af9 Updated CHANGES.rst [ci skip]\ncc16025 Merge pull request #4104 from radarhere/overrun\nfb84701 Merge pull request #4034 from cgohlke/patch-1\nb9693a5 Merge pull request #4103 from radarhere/dimension\nf228d0c Merge pull request #4102 from radarhere/decompression\naaf2c42 Merge pull request #4000 from nulano/dpi_fix\nb36c1bc Merge pull request #4101 from radarhere/negative_seek\n9a977b9 Raise error if dimension is a string\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-08-06T13:15:25Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #1637.",
+                    "createdAt": "2020-08-06T13:15:25Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1463,
+        "createdAt": "2019-10-31T12:43:25Z",
+        "title": "Bump jquery from 1.12.4 to 3.4.1",
+        "bodyText": "Bumps jquery from 1.12.4 to 3.4.1.\n\nCommits\n\n75f7e96 3.4.1\n7dddb19 Core: Make isAttached work with iOS 10.0-10.2\n6c1e7db Event: Prevent leverageNative from registering duplicate dummy handlers\n24d71ac Event: Fix handling of multiple async focus events\nb4fadc9 Build: Test on Node.js 12, stop testing on Node.js 6 & 11\n0d4af52 Build: Fix unresolved jQuery reference in finalPropName\n22caea8 Build: Updating the 3.4-stable version to 3.4.1-pre\n59ea765 Release: update AUTHORS.txt\n7c1ef15 Release: update version to 3.4.0-pre\nd940bc0 Build: Update Sizzle from 2.3.3 to 2.3.4\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-04-30T09:11:21Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #1588.",
+                    "createdAt": "2020-04-30T09:11:20Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 1588,
+        "createdAt": "2020-04-30T09:11:18Z",
+        "title": "Bump jquery from 1.12.4 to 3.5.0",
+        "bodyText": "Bumps jquery from 1.12.4 to 3.5.0.\n\nCommits\n\n7a0a850 3.5.0\n8570a08 Release: Update AUTHORS.txt\nda3dd85 Ajax: Do not execute scripts for unsuccessful HTTP responses\n065143c Ajax: Overwrite s.contentType with content-type header value, if any\n1a4f10d Tests: Blacklist one focusin test in IE\n9e15d6b Event: Use only one focusin/out handler per matching window & document\n966a709 Manipulation: Skip the select wrapper for <option> outside of IE 9\n1d61fd9 Manipulation: Make jQuery.htmlPrefilter an identity function\n04bf577 Selector: Update Sizzle from 2.3.4 to 2.3.5\n7506c9c Build: Resolve Travis config warnings\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by mgol, a new releaser for jquery since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "admin-vizcentric",
+                            "resourcePath": "/admin-vizcentric"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 302,
+        "createdAt": "2019-11-02T18:39:52Z",
+        "title": "Bump generator-jhipster from 3.12.2 to 6.3.1",
+        "bodyText": "Bumps generator-jhipster from 3.12.2 to 6.3.1.\n\nCommits\n\n61f2122 Release v6.3.1\ne6cdd4a Merge pull request from GHSA-mc84-xr9p-938r\ne156daf Remove Checkstyle\n7a43da8 Merge pull request #10163 from mshima/use_existing_data\n51163b8 Migrate checktyle.xml to the root directory of the project, fix ESLint issues\n063553c Merge pull request #10454 from murdos/fix-formatting-added_entity_changelog\n53d2d40 Update checkstyle plugin version\nb3ff210 Correct checktyle.xml file location\n1c32c42 Rename checktyle file as it is not an EJS template\ncecd357 Rename checktyle file as it is not an EJS template\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-18T13:45:49Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-03-18T13:45:52Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Cobrijani",
+                            "resourcePath": "/Cobrijani"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 321,
+        "createdAt": "2019-11-18T18:23:19Z",
+        "title": "Bump bower from 1.7.9 to 1.8.8",
+        "bodyText": "Bumps bower from 1.7.9 to 1.8.8.\n\nRelease notes\nSourced from bower's releases.\n\nv1.8.8\nFix security issue connected to extracting .tar.gz archives\nThis bug allows to write arbitrary file on filesystem when Bower extracts malicious package\nNeedlessly to say, please upgrade\nv1.8.7\nFixes side effect of fix from v1.8.6 that caused improper permissions for extracted folders\nbower/bower#2532\nv1.8.6\nFix Zip Slip Vulnerability of decompress-zip package: https://snyk.io/research/zip-slip-vulnerability\nNote: v1.8.5 has been unpublished because of missing files\nv1.8.4\n\nFixes release 1.8.3 by publishing with npm@3 instead of npm@5 (to include lib/node_modules)\n\nv1.8.3\n\n451c60e Do not store resolutions if --save is not used, fixes #2344 (#2508)\n50ee729 Allow to disable shorthand resolver (#2507)\nbb17839 Allow shallow cloning when source is a ssh protocol (#2506)\n5a6ae54 Add support for Arrays in Environment Variable replacement (#2411)\n74af42c Only replace last @ after (if any) last / with # (#2395)\n💯Make tests work on Windows / Linux / OSX on node versions 0.10 / 0.12 / 4 / 6 / 8 / 9\n💅Format source code with prettier\n\nv1.8.2\nMigrate registry url from http://bower.herokuapp.com to https://registry.bower.io\nIt is so we leverage CDN and offload Heroku instance reducing costs.\nv1.8.0\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n\n\n\nChangelog\nSourced from bower's changelog.\n\nChangelog\nNewer releases\nPlease see: https://github.com/bower/bower/releases\n1.8.0 - 2016-11-07\n\nDownload tar archives from GitHub when possible (#2263)\n\nChange default shorthand resolver for github from git:// to https://\n\n\nFix ssl handling by not setting GIT_SSL_NO_VERIFY=false (#2361)\nAllow for removing components with url instead of name (#2368)\nShow in warning message location of malformed bower.json (#2357)\nImprove handling of non-semver versions in git resolver (#2316)\nFix handling of cached releases pluginResolverFactory (#2356)\nAllow to type the entire version when conflict occured (#2243)\nAllow owner/reponame shorthand for registering components (#2248)\nAllow single-char repo names and package names (#2249)\nMake bower version no longer honor version in bower.json (#2232)\nAdd postinstall hook (#2252)\nAllow for @ instead of # for install and info commands (#2322)\nUpgrade all bundled modules\n\n\n\n\nCommits\n\n67741b4 Bump to 1.8.8\n45c6bfa Fix .tar.gz extract vulnerability\n4f68fc7 Update decompress-zip and bump\n206046b Bump to 1.8.6\n43894f5 Bump to 1.8.5\n6390815 Update decompress-zip\ne8b94ec Mention parcel\n51feb8f Fix release script\n1c15dea Bump to 1.8.4\n2aa1f27 Update publish script\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-03-18T13:44:50Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-03-18T13:44:52Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

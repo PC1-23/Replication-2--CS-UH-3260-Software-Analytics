@@ -1,0 +1,191 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 83,
+        "createdAt": "2019-11-15T05:23:15Z",
+        "title": "Bump angular from 1.5.7 to 1.7.8",
+        "bodyText": "Bumps angular from 1.5.7 to 1.7.8.\n\nChangelog\nSourced from angular's changelog.\n\n1.7.8 enthusiastic-oblation (2019-03-11)\nBug Fixes\n\nrequired: correctly validate required on non-input element surrounded by ngIf\n(a4c7bd,\n#16830,\n#16836)\n\n\n1.7.7 kingly-exiting (2019-02-04)\nBug Fixes\n\nngRequired: set error correctly when inside ngRepeat and false by default\n(5ad4f5,\n#16814,\n#16820)\n\n\n1.7.6 gravity-manipulation (2019-01-17)\nBug Fixes\n\n$compile: fix ng-prop-* with undefined values\n(772440,\n#16797,\n#16798)\ncompile: properly handle false value for boolean attrs with jQuery\n(27486b,\n#16778,\n#16779)\nngRepeat:\n\nfix reference to last collection value remaining across linkages\n(cf919a)\nfix trackBy function being invoked with incorrect scope\n(d4d103,\n#16776,\n#16777)\n\n\naria/ngClick: check if element is contenteditable before blocking spacebar\n(289374,\n#16762)\ninput: prevent browsers from autofilling hidden inputs\n(7cbb10)\nAngular: add workaround for Safari / Webdriver problem\n(eb49f6)\n$browser: normalize inputted URLs\n(2f72a6,\n#16606)\ninterpolate: do not create directives for constant media URL attributes\n\n ... (truncated)\n\n\n\nCommits\n\ndd26545 docs(CHANGELOG): add 1.7.8 release notes\na4c7bdc fix(required): correctly validate required on non-input element surrounded by...\nedb3e22 docs(guide/di): clarify example description\n7446836 chore(scripts): use https for git repo URLs\n3f79662 docs(CHANGELOG): update with 1.7.7 release notes\ne4830b9 docs(RELEASE): store release instructions\n5ad4f55 fix(ngRequired): set error correctly when inside ngRepeat and false by default\n43bb414 docs(angular.copy): fix list of unsupported types\n64c7c53 docs(angular.merge): add notes about support and lodash compatibility\n5075c87 docs(angular.copy): list object types / features that are not supported\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by petebd, a new releaser for angular since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-20T15:49:15Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Superseded by #84.",
+                    "createdAt": "2019-11-20T15:49:14Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 84,
+        "createdAt": "2019-11-20T15:49:12Z",
+        "title": "Bump angular from 1.5.7 to 1.7.9",
+        "bodyText": "Bumps angular from 1.5.7 to 1.7.9.\n\nChangelog\nSourced from angular's changelog.\n\n1.7.9 pollution-eradication (2019-11-19)\nBug Fixes\n\nangular.merge: do not merge proto property\n(726f49)\n(Thanks to the Snyk Security Research Team for identifyng this issue.)\nngStyle: correctly remove old style when new style value is invalid\n(5edd25,\n#16860,\n#16868)\n\n\n1.7.8 enthusiastic-oblation (2019-03-11)\nBug Fixes\n\nrequired: correctly validate required on non-input element surrounded by ngIf\n(a4c7bd,\n#16830,\n#16836)\n\n\n1.7.7 kingly-exiting (2019-02-04)\nBug Fixes\n\nngRequired: set error correctly when inside ngRepeat and false by default\n(5ad4f5,\n#16814,\n#16820)\n\n\n1.7.6 gravity-manipulation (2019-01-17)\nBug Fixes\n\n$compile: fix ng-prop-* with undefined values\n(772440,\n#16797,\n#16798)\ncompile: properly handle false value for boolean attrs with jQuery\n(27486b,\n#16778,\n#16779)\nngRepeat:\n\nfix reference to last collection value remaining across linkages\n(cf919a)\nfix trackBy function being invoked with incorrect scope\n(d4d103,\n\n\n\n ... (truncated)\n\n\n\nCommits\n\nd257c45 docs: release notes for 1.7.9\n1b1684c docs($compile): fix typos and incorrect example\n726f49d fix(angular.merge): do not merge proto property\n8a187f1 chore(saucelabs): switch to latest version of desktop Safari\nd97e6f1 chore(saucelabs): upgrade SauceConnect to 4.5.4\n26e893a docs(guide/migration): fix typo (misceallenous --> miscellaneous)\n5edd253 fix(ngStyle): correctly remove old style when new style value is invalid\n019dded chore(*): update jQuery from 3.2.1 to 3.4.0\n0007be1 chore(*): make yarn.lock & GitHub templates identical between master & v1.7.x\n863528f docs(DEVELOPERS): remove git revert misleading information\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by petebacondarwin, a new releaser for angular since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-11-25T14:54:14Z",
+        "mergedBy": {
+            "login": "JJediny",
+            "resourcePath": "/JJediny"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "saydlette",
+                            "resourcePath": "/saydlette"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 91,
+        "createdAt": "2020-05-12T22:37:26Z",
+        "title": "Bump angular from 1.5.7 to 1.7.9",
+        "bodyText": "⚠️  Dependabot is rebasing this PR ⚠️\nIf you make any changes to it yourself then they will take precedence over the rebase.\n\nBumps angular from 1.5.7 to 1.7.9.\n\nChangelog\nSourced from angular's changelog.\n\n1.7.9 pollution-eradication (2019-11-19)\nBug Fixes\n\nangular.merge: do not merge proto property\n(726f49)\n(Thanks to the Snyk Security Research Team for identifyng this issue.)\nngStyle: correctly remove old style when new style value is invalid\n(5edd25,\n#16860,\n#16868)\n\n\n1.7.8 enthusiastic-oblation (2019-03-11)\nBug Fixes\n\nrequired: correctly validate required on non-input element surrounded by ngIf\n(a4c7bd,\n#16830,\n#16836)\n\n\n1.7.7 kingly-exiting (2019-02-04)\nBug Fixes\n\nngRequired: set error correctly when inside ngRepeat and false by default\n(5ad4f5,\n#16814,\n#16820)\n\n\n1.7.6 gravity-manipulation (2019-01-17)\nBug Fixes\n\n$compile: fix ng-prop-* with undefined values\n(772440,\n#16797,\n#16798)\ncompile: properly handle false value for boolean attrs with jQuery\n(27486b,\n#16778,\n#16779)\nngRepeat:\n\nfix reference to last collection value remaining across linkages\n(cf919a)\nfix trackBy function being invoked with incorrect scope\n(d4d103,\n\n\n\n ... (truncated)\n\n\n\nCommits\n\nd257c45 docs: release notes for 1.7.9\n1b1684c docs($compile): fix typos and incorrect example\n726f49d fix(angular.merge): do not merge proto property\n8a187f1 chore(saucelabs): switch to latest version of desktop Safari\nd97e6f1 chore(saucelabs): upgrade SauceConnect to 4.5.4\n26e893a docs(guide/migration): fix typo (misceallenous --> miscellaneous)\n5edd253 fix(ngStyle): correctly remove old style when new style value is invalid\n019dded chore(*): update jQuery from 3.2.1 to 3.4.0\n0007be1 chore(*): make yarn.lock & GitHub templates identical between master & v1.7.x\n863528f docs(DEVELOPERS): remove git revert misleading information\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by petebacondarwin, a new releaser for angular since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2020-05-13T14:09:31Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2020-05-13T14:09:33Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

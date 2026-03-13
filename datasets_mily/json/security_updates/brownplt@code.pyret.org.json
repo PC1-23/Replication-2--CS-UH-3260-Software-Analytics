@@ -1,0 +1,184 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 317,
+        "createdAt": "2019-11-01T16:48:48Z",
+        "title": "Bump eslint from 2.13.1 to 6.6.0",
+        "bodyText": "Bumps eslint from 2.13.1 to 6.6.0.\n\nRelease notes\nSourced from eslint's releases.\n\nv6.6.0\n\n39dfe08 Update: false positives in function-call-argument-newline (fixes #12123) (#12280) (Scott O'Hara)\n4d84210 Update: improve report location for no-trailing-spaces (fixes #12315) (#12477) (Milos Djermanovic)\nc6a7745 Update: no-trailing-spaces false negatives after comments (fixes #12479) (#12480) (Milos Djermanovic)\n0bffe95 Fix: no-misleading-character-class crash on invalid regex (fixes #12169) (#12347) (Milos Djermanovic)\nc6a9a3b Update: Add enforceForIndexOf option to use-isnan (fixes #12207) (#12379) (Milos Djermanovic)\n364877b Update: measure plugin loading time and output in debug message (#12395) (Victor Homyakov)\n1744fab Fix: operator-assignment removes and duplicates comments (#12485) (Milos Djermanovic)\n52ca11a Fix: operator-assignment invalid autofix with adjacent tokens (#12483) (Milos Djermanovic)\n0f6d0dc Fix: CLIEngine#addPlugin reset lastConfigArrays (fixes #12425) (#12468) (Toru Nagashima)\n923a8cb Chore: Fix lint failure in JSDoc comment (#12489) (Brandon Mills)\naac3be4 Update: Add ignored prop regex no-param-reassign (#11275) (Luke Bennett)\ne5382d6 Chore: Remove unused parameter in dot-location (#12464) (Milos Djermanovic)\n49faefb Fix: no-obj-calls false positive (fixes #12437) (#12467) (Toru Nagashima)\nb3dbd96 Fix: problematic installation issue (fixes #11018) (#12309) (Toru Nagashima)\ncd7c29b Sponsors: Sync README with website (ESLint Jenkins)\n8233873 Docs: Add note about Node.js requiring SSL support (fixes #11413) (#12475) (Nicholas C. Zakas)\n89e8aaf Fix: improve report location for no-tabs (#12471) (Milos Djermanovic)\n7dffe48 Update: Enable function string option in comma-dangle (fixes #12058) (#12462) (YeonJuan)\ne15e1f9 Docs: fix doc for no-unneeded-ternary rule (fixes #12098) (#12410) (Sam Rae)\nb1dc58f Sponsors: Sync README with website (ESLint Jenkins)\n61749c9 Chore: Provide debug log for parser errors (#12474) (Brad Zacher)\n7c8bbe0 Update: enforceForOrderingRelations no-unsafe-negation (fixes #12163) (#12414) (Sam Rae)\n349ed67 Update: improve report location for no-mixed-operators (#12328) (Chiawen Chen)\na102eaa Fix: prefer-numeric-literals invalid autofix with adjacent tokens (#12387) (Milos Djermanovic)\n6e7c18d Update: enforceForNewInMemberExpressions no-extra-parens (fixes #12428) (#12436) (Milos Djermanovic)\n51fbbd7 Fix: array-bracket-newline consistent error with comments (fixes #12416) (#12441) (Milos Djermanovic)\ne657d4c Fix: report full dot location in dot-location (#12452) (Milos Djermanovic)\n2d6e345 Update: make isSpaceBetweenTokens() ignore newline in comments (#12407) (YeonJuan)\n84f71de Update: remove default overrides in keyword-spacing (fixes #12369) (#12411) (YeonJuan)\n18a0b0e Update: improve report location for no-space-in-parens (#12364) (Chiawen Chen)\nd61c8a5 Update: improve report location for no-multi-spaces (#12329) (Chiawen Chen)\n561093f Upgrade: bump inquirer to ^7.0.0 (#12440) (Joe Graham)\nfb633b2 Chore: Add a script for testing with more control (#12444) (Eric Wang)\n012ec51 Sponsors: Sync README with website (ESLint Jenkins)\n874fe16 New: pass cwd from cli engine (#12389) (Eric Wang)\nb962775 Update: no-self-assign should detect member expression with this (#12279) (Tibor Blenessy)\n02977f2 Docs: Clarify eslint:recommended semver policy (#12429) (Kevin Partington)\n97045ae Docs: Fixes object type for rules in \"Use a Plugin\" (#12409) (Daisy Develops)\n24ca088 Docs: Fix typo in v6 migration guide (#12412) (Benjamim Sonntag)\nb094008 Chore: update version parameter name (#12402) (Toru Nagashima)\ne5637ba Chore: enable jsdoc/require-description (#12365) (Kai Cataldo)\nd31f337 Sponsors: Sync README with website (ESLint Jenkins)\n7ffb22f Chore: Clean up inline directive parsing (#12375) (Jordan Eldredge)\n84467c0 Docs: fix wrong max-depth example (fixes #11991) (#12358) (Gabriel R Sezefredo)\n3642342 Docs: Fix minor formatting/grammar errors (#12371) (cherryblossom000)\nc47fa0d Docs: Fix missing word in sentence (#12361) (Dan Boulet)\n8108f49 Chore: enable additional eslint-plugin-jsdoc rules (#12336) (Kai Cataldo)\nb718d2e Chore: update issue template with --eslint-fix flag (#12352) (James George)\n20ba14d Sponsors: Sync README with website (ESLint Jenkins)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from eslint's changelog.\n\nv6.6.0 - October 25, 2019\n\n39dfe08 Update: false positives in function-call-argument-newline (fixes #12123) (#12280) (Scott O'Hara)\n4d84210 Update: improve report location for no-trailing-spaces (fixes #12315) (#12477) (Milos Djermanovic)\nc6a7745 Update: no-trailing-spaces false negatives after comments (fixes #12479) (#12480) (Milos Djermanovic)\n0bffe95 Fix: no-misleading-character-class crash on invalid regex (fixes #12169) (#12347) (Milos Djermanovic)\nc6a9a3b Update: Add enforceForIndexOf option to use-isnan (fixes #12207) (#12379) (Milos Djermanovic)\n364877b Update: measure plugin loading time and output in debug message (#12395) (Victor Homyakov)\n1744fab Fix: operator-assignment removes and duplicates comments (#12485) (Milos Djermanovic)\n52ca11a Fix: operator-assignment invalid autofix with adjacent tokens (#12483) (Milos Djermanovic)\n0f6d0dc Fix: CLIEngine#addPlugin reset lastConfigArrays (fixes #12425) (#12468) (Toru Nagashima)\n923a8cb Chore: Fix lint failure in JSDoc comment (#12489) (Brandon Mills)\naac3be4 Update: Add ignored prop regex no-param-reassign (#11275) (Luke Bennett)\ne5382d6 Chore: Remove unused parameter in dot-location (#12464) (Milos Djermanovic)\n49faefb Fix: no-obj-calls false positive (fixes #12437) (#12467) (Toru Nagashima)\nb3dbd96 Fix: problematic installation issue (fixes #11018) (#12309) (Toru Nagashima)\ncd7c29b Sponsors: Sync README with website (ESLint Jenkins)\n8233873 Docs: Add note about Node.js requiring SSL support (fixes #11413) (#12475) (Nicholas C. Zakas)\n89e8aaf Fix: improve report location for no-tabs (#12471) (Milos Djermanovic)\n7dffe48 Update: Enable function string option in comma-dangle (fixes #12058) (#12462) (YeonJuan)\ne15e1f9 Docs: fix doc for no-unneeded-ternary rule (fixes #12098) (#12410) (Sam Rae)\nb1dc58f Sponsors: Sync README with website (ESLint Jenkins)\n61749c9 Chore: Provide debug log for parser errors (#12474) (Brad Zacher)\n7c8bbe0 Update: enforceForOrderingRelations no-unsafe-negation (fixes #12163) (#12414) (Sam Rae)\n349ed67 Update: improve report location for no-mixed-operators (#12328) (Chiawen Chen)\na102eaa Fix: prefer-numeric-literals invalid autofix with adjacent tokens (#12387) (Milos Djermanovic)\n6e7c18d Update: enforceForNewInMemberExpressions no-extra-parens (fixes #12428) (#12436) (Milos Djermanovic)\n51fbbd7 Fix: array-bracket-newline consistent error with comments (fixes #12416) (#12441) (Milos Djermanovic)\ne657d4c Fix: report full dot location in dot-location (#12452) (Milos Djermanovic)\n2d6e345 Update: make isSpaceBetweenTokens() ignore newline in comments (#12407) (YeonJuan)\n84f71de Update: remove default overrides in keyword-spacing (fixes #12369) (#12411) (YeonJuan)\n18a0b0e Update: improve report location for no-space-in-parens (#12364) (Chiawen Chen)\nd61c8a5 Update: improve report location for no-multi-spaces (#12329) (Chiawen Chen)\n561093f Upgrade: bump inquirer to ^7.0.0 (#12440) (Joe Graham)\nfb633b2 Chore: Add a script for testing with more control (#12444) (Eric Wang)\n012ec51 Sponsors: Sync README with website (ESLint Jenkins)\n874fe16 New: pass cwd from cli engine (#12389) (Eric Wang)\nb962775 Update: no-self-assign should detect member expression with this (#12279) (Tibor Blenessy)\n02977f2 Docs: Clarify eslint:recommended semver policy (#12429) (Kevin Partington)\n97045ae Docs: Fixes object type for rules in \"Use a Plugin\" (#12409) (Daisy Develops)\n24ca088 Docs: Fix typo in v6 migration guide (#12412) (Benjamim Sonntag)\nb094008 Chore: update version parameter name (#12402) (Toru Nagashima)\ne5637ba Chore: enable jsdoc/require-description (#12365) (Kai Cataldo)\nd31f337 Sponsors: Sync README with website (ESLint Jenkins)\n7ffb22f Chore: Clean up inline directive parsing (#12375) (Jordan Eldredge)\n84467c0 Docs: fix wrong max-depth example (fixes #11991) (#12358) (Gabriel R Sezefredo)\n3642342 Docs: Fix minor formatting/grammar errors (#12371) (cherryblossom000)\nc47fa0d Docs: Fix missing word in sentence (#12361) (Dan Boulet)\n8108f49 Chore: enable additional eslint-plugin-jsdoc rules (#12336) (Kai Cataldo)\nb718d2e Chore: update issue template with --eslint-fix flag (#12352) (James George)\n\n ... (truncated)\n\n\n\nCommits\n\n879c373 6.6.0\nc8ba30a Build: changelog update for 6.6.0\n39dfe08 Update: false positives in function-call-argument-newline (fixes #12123) (#12...\n4d84210 Update: improve report location for no-trailing-spaces (fixes #12315) (#12477)\nc6a7745 Update: no-trailing-spaces false negatives after comments (fixes #12479) (#12...\n0bffe95 Fix: no-misleading-character-class crash on invalid regex (fixes #12169) (#12...\nc6a9a3b Update: Add enforceForIndexOf option to use-isnan (fixes #12207) (#12379)\n364877b Update: measure plugin loading time and output in debug message (#12395)\n1744fab Fix: operator-assignment removes and duplicates comments (#12485)\n52ca11a Fix: operator-assignment invalid autofix with adjacent tokens (#12483)\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by eslintbot, a new releaser for eslint since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-19T21:47:19Z",
+        "mergedBy": {
+            "login": "jpolitz",
+            "resourcePath": "/jpolitz"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "dependabot",
+                            "resourcePath": "/apps/dependabot"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 322,
+        "createdAt": "2019-12-19T21:38:20Z",
+        "title": "Bump lodash from 2.4.2 to 4.17.15",
+        "bodyText": "Bumps lodash from 2.4.2 to 4.17.15.\n\nRelease notes\nSourced from lodash's releases.\n\n4.0.0\nlodash v4.0.0\n2015 was big year! Lodash became the most depended on npm package, passed 1 billion downloads, & its v3 release saw massive adoption!\nThe year was also one of collaboration, as discussions began on merging Lodash & Underscore. Much of Lodash v4 is proofing out the ideas from those discussions. Lodash v4 would not be possible without the collaboration & contributions of the Underscore core team. In the spirit of merging our teams have blended with several members contributing to both libraries.\nFor 2016 & lodash v4.0.0 we wanted to cut loose, push forward, & take things up a notch!\nModern only\nWith v4 we’re breaking free from old projects, old environments, & dropping old IE < 9 support!\n4 kB Core\nLodash’s kitchen-sink size will continue to grow as new methods & functionality are added. However, we now offer a 4 kB (gzipped) core build that’s compatible with Backbone v1.2.4 for folks who want Lodash without lugging around the kitchen sink.\nMore ES6\nWe’ve continued to embrace ES6 with methods like _.isSymbol, added support for cloning & comparing array buffers, maps, sets, & symbols, converting iterators to arrays, & iterable _(…).\nIn addition, we’ve published an es-build & pulled babel-plugin-lodash into core to make tree-shaking a breeze.\nMore Modular\nPop quiz! 📣\nWhat category path does the bindAll method belong to? Is it\nA) require('lodash/function/bindAll')\nB) require('lodash/utility/bindAll')\nC) require('lodash/util/bindAll')\nDon’t know? Well, with v4 it doesn’t matter because now module paths are as simple as\nvar bindAll = require('lodash/bindAll');\nWe’ve also reduced module complexity making it easier to create smaller bundles. This has helped Lodash adoption with libraries like Async & Redux!\n1st Class FP\nWith v3 we introduced lodash-fp. We learned a lot & with v4 we decided to pull it into core.\nNow you can get immutable, auto-curried, iteratee-first, data-last methods as simply as\nvar _ = require('lodash/fp');\nvar object = { 'a': 1 };\n</tr></table> ... (truncated)\n\n\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-12-19T23:10:46Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "Looks like lodash is up-to-date now, so this is no longer needed.",
+                    "createdAt": "2019-12-19T23:10:44Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 323,
+        "createdAt": "2019-12-19T23:11:55Z",
+        "title": "Bump jquery from 1.12.4 to 3.4.0",
+        "bodyText": "Bumps jquery from 1.12.4 to 3.4.0.\n\nCommits\n\nb7fc909 3.4.0\n59ea765 Release: update AUTHORS.txt\n7c1ef15 Release: update version to 3.4.0-pre\nd940bc0 Build: Update Sizzle from 2.3.3 to 2.3.4\n9b9fca4 Update README.md\na2a73db Tests: Make Android Browser 4.0-4.3 dimensions tests green\n4455f8d Tests: Make Android Browser 4.0-4.3 AJAX tests green\n0050403 Core: Preserve CSP nonce on scripts with src attribute in DOM manipulation\nfe5f04d Event: Prevent leverageNative from double-firing focusin\n753d591 Core: Prevent Object.prototype pollution for $.extend( true, ... )\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-20T18:09:33Z",
+        "mergedBy": {
+            "login": "jpolitz",
+            "resourcePath": "/jpolitz"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

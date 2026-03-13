@@ -1,0 +1,922 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 125,
+        "createdAt": "2019-06-10T18:48:38Z",
+        "title": "Bump django from 2.1.7 to 2.1.9",
+        "bodyText": "Bumps django from 2.1.7 to 2.1.9.\n\nCommits\n\n60ebd19 [2.1.x] Bumped version for 2.1.9 release.\n95649bc [2.1.x] Applied jQuery patch for CVE-2019-11358.\n09186a1 [2.1.x] Fixed CVE-2019-12308 -- Made AdminURLFieldWidget validate URL before ...\nf6e2b55 [2.1.x] Added stub release notes for security releases.\nfb2b425 [2.1.x] Refs #27807 -- Removed docs for User.username_validator.\n0a8617a [2.1.x] Refs #30331 -- Doc'd that psycopg2 < 2.8 is required.\n32561b8 [2.1.x] Post-release version bump.\ne49b2ae [2.1.x] Bumped version for 2.1.8 release.\naafdf62 [2.1.x] Fixed #30289 -- Prevented admin inlines for a ManyToManyField's impli...\n6bfad83 [2.1.x] Added stub 2.1.8 release notes.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-06-10T19:39:36Z",
+        "mergedBy": {
+            "login": "ayr-ton",
+            "resourcePath": "/ayr-ton"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit ae11df5 and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (40% is the threshold).\nThis pull request will bring the total coverage in the repository to 95.0% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2019-06-10T18:51:04Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 126,
+        "createdAt": "2019-07-03T20:42:58Z",
+        "title": "Bump django from 2.1.9 to 2.1.10",
+        "bodyText": "Bumps django from 2.1.9 to 2.1.10.\n\nCommits\n\n90a1cfd [2.1.x] Bumped version for 2.1.10 release.\n1e40f42 [2.1.x] Fixed CVE-2019-12781 -- Made HttpRequest always trust SECURE_PROXY_SS...\n87be9c9 [2.1.x] Added stub release notes for security releases.\n757c226 [2.1.x] Fixed GeoIPTest.test04_city() failure with the latest GeoIP2 database.\n20968e3 [2.1.x] Bumped minimum ESLint version to 4.18.2.\nd58f8e4 [2.1.x] Added CVE-2019-12308 to the security release archive.\n8827e09 [2.1.x] Added CVE-2019-11358 to the security release archive.\n73158f1 [2.1.x] Fixed typos in 1.11.21, 2.1.9, 2.2.2 release notes.\neecf5a1 [2.1.x] Post-release version bump.\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-03T21:28:48Z",
+        "mergedBy": {
+            "login": "ayr-ton",
+            "resourcePath": "/ayr-ton"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 127,
+        "createdAt": "2019-07-11T12:47:40Z",
+        "title": "Bump lodash from 4.17.11 to 4.17.13",
+        "bodyText": "Bumps lodash from 4.17.11 to 4.17.13.\n\nCommits\n\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\n17a34bc Fix test bootstrap for core build.\n53838a3 Fix tests in older browsers.\n29e2584 Fix style:test lint nits.\n8f4d3eb Update deps.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-07-16T14:22:28Z",
+        "mergedBy": {
+            "login": "ayr-ton",
+            "resourcePath": "/ayr-ton"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit 43aad18 and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (40% is the threshold).\nThis pull request will bring the total coverage in the repository to 95.0% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2019-07-11T12:49:34Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 128,
+        "createdAt": "2019-08-06T01:48:10Z",
+        "title": "Bump django from 2.1.10 to 2.1.11",
+        "bodyText": "Bumps django from 2.1.10 to 2.1.11.\n\nCommits\n\nff9dcc0 [2.1.x] Bumped version for 2.1.11 release.\n5d50a2e [2.1.x] Fixed CVE-2019-14235 -- Fixed potential memory exhaustion in django.u...\nf74b3ae [2.1.x] Fixed CVE-2019-14234 -- Protected JSONField/HStoreField key and index...\n5ff8e79 [2.1.X] Fixed CVE-2019-14233 -- Prevented excessive HTMLParser recursion in s...\nc23723a [2.1.X] Fixed CVE-2019-14232 -- Adjusted regex to avoid backtracking issues w...\n24eba90 [2.1.x] Added stub release notes for security releases.\n765dac3 [2.1.x] Added CVE-2019-12781 to the security release archive.\nfafde97 [2.1.x] Post-release version bump.\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-08-06T12:19:14Z",
+        "mergedBy": {
+            "login": "ayr-ton",
+            "resourcePath": "/ayr-ton"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "codeclimate",
+                        "resourcePath": "/apps/codeclimate"
+                    },
+                    "bodyText": "Code Climate has analyzed commit 8f4a78c and detected 0 issues on this pull request.\nThe test coverage on the diff in this pull request is 100.0% (40% is the threshold).\nThis pull request will bring the total coverage in the repository to 95.0% (0.0% change).\nView more on Code Climate.",
+                    "createdAt": "2019-08-06T01:49:53Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReviewRequestedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 161,
+        "createdAt": "2019-12-20T23:19:17Z",
+        "title": "Bump waitress from 1.1.0 to 1.4.0",
+        "bodyText": "Bumps waitress from 1.1.0 to 1.4.0.\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.0 (2019-12-20)\nBugfixes\n\n- Waitress used to slam the door shut on HTTP pipelined requests without\n  setting the ``Connection: close`` header as appropriate in the response. This\n  is of course not very friendly. Waitress now explicitly sets the header when\n  responding with an internally generated error such as 400 Bad Request or 500\n  Internal Server Error to notify the remote client that it will be closing the\n  connection after the response is sent.\n\n- Waitress no longer allows any spaces to exist between the header field-name\n  and the colon. While waitress did not strip the space and thereby was not\n  vulnerable to any potential header field-name confusion, it should have sent\n  back a 400 Bad Request. See [Pylons/waitress#273](https://github-redirect.dependabot.com/Pylons/waitress/issues/273)\n\nSecurity Fixes\n\n\n\nWaitress implemented a \"MAY\" part of the RFC7230\n(https://tools.ietf.org/html/rfc7230#section-3.5) which states:\nAlthough the line terminator for the start-line and header fields is\nthe sequence CRLF, a recipient MAY recognize a single LF as a line\nterminator and ignore any preceding CR.\n\nUnfortunately if a front-end server does not parse header fields with an LF\nthe same way as it does those with a CRLF it can lead to the front-end and\nthe back-end server parsing the same HTTP message in two different ways. This\ncan lead to a potential for HTTP request smuggling/splitting whereby Waitress\nmay see two requests while the front-end server only sees a single HTTP\nmessage.\nFor more information I can highly recommend the blog post by ZeddYu Lu\nhttps://blog.zeddyu.info/2019/12/08/HTTP-Smuggling-en/\n\n\nWaitress used to treat LF the same as CRLF in Transfer-Encoding: chunked\nrequests, while the maintainer doesn't believe this could lead to a security\nissue, this is no longer supported and all chunks are now validated to be\nproperly framed with CRLF as required by RFC7230.\n\n\nWaitress now validates that the Transfer-Encoding header contains only\ntransfer codes that it is able to decode. At the moment that includes the\nonly valid header value being chunked.\nThat means that if the following header is sent:\nTransfer-Encoding: gzip, chunked\n\n\n ... (truncated)\n\n\n\nCommits\n\nf11093a Merge pull request from GHSA-g2xc-35jw-c63p\ne586be8 Version 1.4.0\nd1f283b Update CHANGES.txt and HISTORY.txt as appropriate\n60f92b8 Allow end of chunk parser to be resumeable\n8ecd8dc Improve validation of Transfer-Encoding\n575994c Upon receiving invalid Content-Length bail\n804e313 Disallow BWS in header field-names\nfb08ecf Properly enforce max_request_header_size\n8eba394 Remove support for non CRLF line endings\n7ff1e6b Make sure all errors have a code/reason\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-20T23:19:52Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 162,
+        "createdAt": "2019-12-20T23:20:46Z",
+        "title": "Bump django from 2.1.11 to 2.1.15",
+        "bodyText": "Bumps django from 2.1.11 to 2.1.15.\n\nCommits\n\n3baf68b [2.1.x] Bumped version for 2.1.5 release.\n2fc998e [2.1.x] Added release date for 2.1.15.\n103ebe2 Fixed CVE-2019-19118 -- Required edit permissions on parent model for editabl...\nf57f81a [2.1.x] Refs #30953 -- Added 2.1.15 release note for 0107e3d1058f653f66032f7f...\n015fab7 [2.1.x] Fixed #30953 -- Made select_for_update() lock queryset's model when u...\ned50f6c [2.1.x] Made versionadded/versionchanged annotations without a content end wi...\n0423ea1 [2.1.x] Added stub release notes for 2.1.15.\ncfc0378 [2.1.x] Post-release version bump.\n11f29b6 [2.1.x] Bumped version for 2.1.14 release.\n341b2aa [2.1.x] Added release dates for 2.1.14 and 1.11.26.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-20T23:21:19Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 163,
+        "createdAt": "2019-12-26T16:41:43Z",
+        "title": "Bump waitress from 1.4.0 to 1.4.1",
+        "bodyText": "Bumps waitress from 1.4.0 to 1.4.1.\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.1 (2019-12-24)\nSecurity Fixes\n\n- Waitress did not properly validate that the HTTP headers it received were\n  properly formed, thereby potentially allowing a front-end server to treat a\n  request different from Waitress. This could lead to HTTP request\n  smuggling/splitting.\n\n  Please see the security advisory for more information:\n  https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4\n\n\n\n\nCommits\n\ncd83598 Prep v1.4.1\n11d9e13 Merge pull request from GHSA-m5ff-3wj3-8ph4\na046a76 Add links to advisories for previous security issues\n3c58e39 Bump version number\nde3324d Add documentation for security issue\n3bcd690 Define VCHAR/OBS_TEXT once\n2e46f24 Validate HTTP header-field more completely\n2a11d68 Add file with RFC7230 definitions/ABNF -> regex\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2019-12-26T16:42:16Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 164,
+        "createdAt": "2020-01-06T18:52:34Z",
+        "title": "Bump waitress from 1.4.1 to 1.4.2",
+        "bodyText": "Bumps waitress from 1.4.1 to 1.4.2.\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.2 (2020-01-02)\nSecurity Fixes\n\n- This is a follow-up to the fix introduced in 1.4.1 to tighten up the way\n  Waitress strips whitespace from header values. This makes sure Waitress won't\n  accidentally treat non-printable characters as whitespace and lead to a\n  potental HTTP request smuggling/splitting security issue.\n\n  Thanks to ZeddYu Lu for the extra test cases.\n\n  Please see the security advisory for more information:\n  https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4\n\n  CVE-ID: CVE-2019-16789\n\nBugfixes\n~~~~~~~~\n\n- Updated the regex used to validate header-field content to match the errata\n  that was published for RFC7230.\n\n  See: https://www.rfc-editor.org/errata_search.php?rfc=7230&eid=4189\n\n\n\n\nCommits\n\n8af9adb Prep for 1.4.2\n634d991 Merge pull request #277 from Pylons/invalid-whitespace-cont\n3a54e29 Add CHANGES and bump version to 1.4.2\n0bf98da Update RFC7230 regex with errata for header field-content\nddb65b4 Remove accidental stripping of non-printable characters\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-06T18:53:08Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 165,
+        "createdAt": "2020-02-04T03:08:44Z",
+        "title": "Bump waitress from 1.4.2 to 1.4.3",
+        "bodyText": "Bumps waitress from 1.4.2 to 1.4.3.\n\nChangelog\nSourced from waitress's changelog.\n\n1.4.3 (2020-02-02)\nSecurity Fixes\n\n- In Waitress version 1.4.2 a new regular expression was added to validate the\n  headers that Waitress receives to make sure that it matches RFC7230.\n  Unfortunately the regular expression was written in a way that with invalid\n  input it leads to catastrophic backtracking which allows for a Denial of\n  Service and CPU usage going to a 100%.\n\n  This was reported by Fil Zembowicz to the Pylons Project. Please see\n  https://github.com/Pylons/waitress/security/advisories/GHSA-73m2-3pwg-5fgc\n  for more information.\n\n\n\n\nCommits\n\ncbc89bf Prep v1.4.3\n6e46f9e Merge pull request from GHSA-73m2-3pwg-5fgc\n51b9bd4 Remove accidental backslash\nf87abb7 Add bad header that caused catastrophic backtracking\n2fe8e54 Add header parsing tests with short headers\nac0ca05 Remove catastrophic backtracking in regex\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-02-04T03:09:18Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 166,
+        "createdAt": "2020-02-11T22:35:05Z",
+        "title": "Bump django from 2.1.15 to 2.2.10",
+        "bodyText": "Bumps django from 2.1.15 to 2.2.10.\n\nCommits\n\nb2c33a5 [2.2.x] Bumped version for 2.2.10 release.\nc67a368 [2.2.x] Fixed CVE-2020-7471 -- Properly escaped StringAgg(delimiter) parameter.\n96d6443 [2.2.x] Fixed timezones tests for PyYAML 5.3+.\n813b33e [2.2.x] Added CVE-2019-19844 to the security archive.\ne728612 [2.2.x] Post-release version bump.\nc494d90 [2.2.x] Bumped version for 2.2.9 release.\n4d334be [2.2.x] Fixed CVE-2019-19844 -- Used verified user email for password reset r...\n86befcc [2.2.x] Refs #31073 -- Added release notes for 02eff7ef60466da108b1a33f1e4dc0...\nf33be1e [2.2.x] Fixed #31073 -- Prevented CheckboxInput.get_context() from mutating a...\ne8b0903 [2.2.x] Fixed #31006 -- Doc'd backslash escaping in date/time template filters.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-02-11T22:35:39Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 170,
+        "createdAt": "2020-04-05T15:40:14Z",
+        "title": "Bump mixin-deep from 1.3.1 to 1.3.2",
+        "bodyText": "Bumps mixin-deep from 1.3.1 to 1.3.2.\n\nCommits\n\n754f0c2 1.3.2\n90ee1fa ensure keys are valid when mixing in values\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by doowb, a new releaser for mixin-deep since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-05T15:40:47Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 171,
+        "createdAt": "2020-04-05T15:40:14Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-05T15:41:21Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 172,
+        "createdAt": "2020-04-05T15:40:21Z",
+        "title": "Bump handlebars from 4.1.1 to 4.7.6",
+        "bodyText": "Bumps handlebars from 4.1.1 to 4.7.6.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.7.6 - April 3rd, 2020\nChore/Housekeeping:\n\n#1672 - Switch cmd parser to latest minimist (@dougwilson\n\nCompatibility notes:\n\nRestored Node.js compatibility\n\nCommits\nv4.7.5 - April 2nd, 2020\nChore/Housekeeping:\n\nNode.js version support has been changed to v6+ Reverted in 4.7.6\n\nCompatibility notes:\n\nNode.js < v6 is no longer supported Reverted in 4.7.6\n\nCommits\nv4.7.4 - April 1st, 2020\nChore/Housekeeping:\n\n#1666 - Replaced minimist with yargs for handlebars CLI (@aorinevo, @AviVahl & @fabb)\n\nCompatibility notes:\n\nNo incompatibilities are to be expected\n\nCommits\nv4.7.3 - February 5th, 2020\nChore/Housekeeping:\n\n#1644 - Download links to aws broken on handlebarsjs.com - access denied (@Tea56)\nFix spelling and punctuation in changelog - d78cc73\n\nBugfixes:\n\nAdd Type Definition for Handlebars.VERSION, Fixes #1647 - 4de51fe\nInclude Type Definition for runtime.js in Package - a32d05f\n\nCompatibility notes:\n ... (truncated)\n\n\n\nCommits\n\ne6ad93e v4.7.6\n2bf4fc6 Update release notes\nb64202b Update release-notes.md\nc2f1e62 Switch cmd parser to latest minimist\n08e9a11 Revert \"chore: set Node.js compatibility to v6+\"\n1fd2ede v4.7.5\n3c9c2f5 Update release notes\n16487a0 chore: downgrade yargs to v14\n309d2b4 chore: set Node.js compatibility to v6+\n645ac73 test: fix integration tests\nAdditional commits viewable in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by erisds, a new releaser for handlebars since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-05T15:40:44Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 173,
+        "createdAt": "2020-04-05T16:31:22Z",
+        "title": "Bump eslint-utils from 1.3.1 to 1.4.3",
+        "bodyText": "Bumps eslint-utils from 1.3.1 to 1.4.3.\n\nRelease notes\nSourced from eslint-utils's releases.\n\nv1.4.3\n🐛 Bug fixes\n\n8f9e481ecc1204c7a1331b697f97903f90c75154 fixed false positive of ReferenceTracker.\n\nv1.4.2\n🐛 Bug fixes\n\ne4cb01498df6096b66edb0c78965ee6f47d3ac77 fixed a regression of the previous release.\n\nv1.4.1\n🐛 Bug fixes\n\nc119e832952c8c653bd4f21e39eb9f7ce48e5947 fixed getStaticValue() function to handle null literal correctly even if runtimes don't support BigInt natively.\n587cca2f82c245f5fc4a8b9fb2cf6b35c0d02552 fixed getStringIfConstant() function to handle regular expression literals and BigInt literals even if runtimes don't support those.\n08158db1c98fd71cf0f32ddefbc147e2620e724c fixed GHSA-3gx7-xhv7-5mx3.\n\nv1.4.0\n✨ Enhancements\n\n66456c5356310fc4309b4fe2756995f27b907747 (and ebf5a8378d3f0a20a74adb158a7112cb616bce44, aac472e815551688d23cc8fd88f9044dbf276804) added isParenthesized() function that checks if a given node is parenthesized or not.\n4f8407dd6cd52274ba115b3a8558153ec6d799a7 (and cb518c70ee037722f802d808bbbe93da83f07fb3) added hasSideEffect() function that checks if a given node may have side-effects or not.\n\n\n\n\nCommits\n\n23f4ddc 🔖 1.4.3\n8f9e481 🐛 fix reference tracker false positive\n6633278 ⚒ fix test scripts\n7c8e67c ⚒ fix build scripts\n41ff95e ⚒ update dependencies\n4942012 ⚒ fix build scripts\nf1c8d02 ⚒ update build scripts\na88598a Create FUNDING.yml\n4e1bc07 1.4.2\ne4cb014 🐛 add null test\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-05T16:31:55Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 176,
+        "createdAt": "2020-05-06T19:42:20Z",
+        "title": "Bump pysaml2 from 4.5.0 to 5.0.0",
+        "bodyText": "Bumps pysaml2 from 4.5.0 to 5.0.0.\n\nRelease notes\nSourced from pysaml2's releases.\n\nVersion 5.0.0\n5.0.0 (2020-01-13)\n\nFix XML Signature Wrapping (XSW) vulnerabilities - CVE-2020-5390\nAdd freshness period feature for MetaDataMDX\nFix bug in duration calculation in time_util library\nFix ipv6 validation to accommodate for addresses with brackets\nFix xmlsec temporary files deletions\nAdd method to get supported algorithms from metadata\nAdd mdstore method to extract assurance certifications\nAdd mdstore method to extract contact_person data\nAdd attribute mappings from the Swiss eduPerson Schema\nMake AESCipher and Fernet interfaces compatible\nRemove deprecated saml2.aes module\nRemove deprecated saml2.extensions.ui module\nReplace deprecated mongodb operations\nRename ToOld error to TooOld\nFix pytest warnings\nMock tests that need a network connection\nStart dropping python2 support\n\nVersion 4.9.0\n4.9.0 (2019-11-03)\n\nAdd mdstore methods to extract mdui uiinfo elements\nAdd attribute mapping for umbrellaID attributes\nFix logic error in pick_binding method for Entity class\nValidate the audience of assertions regardless of a response being unsolicited\nFix PKCS_9 saml_url prefix\ndocs: Fix warnings from docs generation\ndocs: Update release instructions regarding branch releases\ndocs: Fix list formatting on IdP example page\ndocs: Update pysaml2 options doc with name_id_format_allow_create\nmisc: fix various typos\n\nVersion 4.8.0\n4.8.0 (2019-07-08)\n\nRefactor the way ForceAuthn is set: check for \"true\" and \"1\"\nAllow to set NameQualifier and SPNameQualifier attributes for ePTID\nParse assertions with Holder-of-Key profile\nAdd created_at timestamps to all mongodb documents\nLook for existing persistent id's before creating new ones\nDo not add AllowCreate property for default transient NameID\nEnable entity category import from module search path\nAdd SAML subject identifier attributes to saml2_uri attributemap\nFix deprecation warning regarding the cgi module - use the html module when available\nMisc minor improvements\ntests: Be compatible with latest pytest\ntests: Make tests pass after 2024\n\n ... (truncated)\n\n\n\nChangelog\nSourced from pysaml2's changelog.\n\n5.0.0 (2020-01-13)\n\nFix XML Signature Wrapping (XSW) vulnerabilities - CVE-2020-5390\nAdd freshness period feature for MetaDataMDX\nFix bug in duration calculation in time_util library\nFix ipv6 validation to accommodate for addresses with brackets\nFix xmlsec temporary files deletions\nAdd method to get supported algorithms from metadata\nAdd mdstore method to extract assurance certifications\nAdd mdstore method to extract contact_person data\nAdd attribute mappings from the Swiss eduPerson Schema\nMake AESCipher and Fernet interfaces compatible\nRemove deprecated saml2.aes module\nRemove deprecated saml2.extensions.ui module\nReplace deprecated mongodb operations\nRename ToOld error to TooOld\nFix pytest warnings\nMock tests that need a network connection\nStart dropping python2 support\n\n4.9.0 (2019-11-03)\n\nAdd mdstore methods to extract mdui uiinfo elements\nAdd attribute mapping for umbrellaID attributes\nFix logic error in pick_binding method for Entity class\nValidate the audience of assertions regardless of a response being unsolicited\nFix PKCS_9 saml_url prefix\ndocs: Fix warnings from docs generation\ndocs: Update release instructions regarding branch releases\ndocs: Fix list formatting on IdP example page\ndocs: Update pysaml2 options doc with name_id_format_allow_create\nmisc: fix various typos\n\n4.8.0 (2019-07-08)\n\nRefactor the way ForceAuthn is set: check for \"true\" and \"1\"\nAllow to set NameQualifier and SPNameQualifier attributes for ePTID\nParse assertions with Holder-of-Key profile\nAdd created_at timestamps to all mongodb documents\nLook for existing persistent id's before creating new ones\nDo not add AllowCreate property for default transient NameID\nEnable entity category import from module search path\nAdd SAML subject identifier attributes to saml2_uri attributemap\nFix deprecation warning regarding the cgi module - use the html module when available\nMisc minor improvements\ntests: Be compatible with latest pytest\ntests: Make tests pass after 2024\ntests: Add py37 as a test target\n\n ... (truncated)\n\n\n\nCommits\n\nf27c7e7 Release version 5.0.0\n5e9d5ac Fix XML Signature Wrapping (XSW) vulnerabilities\n324656e Merge branch 'feature-add-metadata-freshness'\n9030d03 Format configuration examples\n55be003 Reformat and rearrange code\n7fd1719 Update documentation with mdq freshness_period\n08a071d Remove unused default value\n3525c60 Add freshness period feature for MetaDataMDX\nc569598 Fix bug in time_util library\nb3635ec Remove deprecated saml2.aes module\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.\n\n\n\nThis change is ",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-05-06T19:42:53Z",
+        "mergedBy": {
+            "login": "mergify",
+            "resourcePath": "/apps/mergify"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements.txt"
+                }
+            ]
+        }
+    }
+]

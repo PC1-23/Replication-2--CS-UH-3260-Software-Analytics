@@ -1,0 +1,515 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 51,
+        "createdAt": "2019-11-02T22:31:10Z",
+        "title": "Bump sequelize from 4.37.10 to 5.15.1 in /structure/template",
+        "bodyText": "Bumps sequelize from 4.37.10 to 5.15.1.\n\nRelease notes\nSourced from sequelize's releases.\n\nv5.15.1\n5.15.1 (2019-08-18)\nSecurity\n\nsequelize.json.fn: use common path extraction for mysql/mariadb/sqlite (#11329) (9bd0bc1)\n\nThis fixes a security issue with sequelize.json() for MySQL. Old code was still used for formatting sub paths for json queries when used with sequelize.json() helper function\nExample of attack vector\nreturn User.findAll({\n  where: sequelize.json(\"data.id')) AS DECIMAL) = 1 DELETE YOLO INJECTIONS; -- \", 1)\n});\nThanks to @​Kirill89 from Snyk Security Research Team for reporting this issue.\nv5.15.0\n5.15.0 (2019-08-14)\nFeatures\n\nassociations: source and target key support for belongs-to-many (#11311) (83e263b)\n\nv5.14.0\n5.14.0 (2019-08-13)\nFeatures\n\nsupport include option in bulkInsert (#11307) (4f09899)\n\nv5.13.1\n5.13.1 (2019-08-11)\nBug Fixes\n\ncount: fix null count with includes (#11295) (592099d)\n\nv5.13.0\n5.13.0 (2019-08-09)\nBug Fixes\n ... (truncated)\n\n\n\nCommits\n\n9bd0bc1 fix(sequelize.json.fn): use common path extraction for mysql/mariadb/sqlite (...\n83e263b feat(associations): source and target key support for belongs-to-many (#11311)\n4f09899 feat: support include option in bulkInsert (#11307)\nde06ac3 docs(security): grammar mistakes\n29eb1c8 docs(security): add responsible disclosure policy (#11300)\n592099d fix(count): fix null count with includes (#11295)\n80d3625 docs(query-interface): fix typo with remove-column parameter (#11294)\na39c63a fix(types): return a usable type when using the sequelize.models lookup (#11293)\n98a4089 fix(types): use correct this value in getterMethods and setterMethods (#11292)\ndd428a0 refactor(association): name model that association is missing from (#11290)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:24Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:26Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "structure/template/package-lock.json"
+                },
+                {
+                    "path": "structure/template/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 52,
+        "createdAt": "2019-11-06T17:33:09Z",
+        "title": "Bump sequelize from 4.44.3 to 5.21.2",
+        "bodyText": "Bumps sequelize from 4.44.3 to 5.21.2.\n\nRelease notes\nSourced from sequelize's releases.\n\nv5.21.2\n5.21.2 (2019-10-29)\nBug Fixes\n\ntypings: transaction locking (#11621) (6c781d6)\n\nv5.21.1\n5.21.1 (2019-10-19)\nBug Fixes\n\nassociations: allow binary key for belongs-to-many (#11581) (2083c9a)\n\nv5.21.0\n5.21.0 (2019-10-18)\nBug Fixes\n\npostgres: update upsert regex to match the last RETURNING * (#11538) (2b9baa2)\n\nFeatures\n\nmariadb: support indexHints on mariadb dialect (#11573) (a34399f)\n\nv5.20.0\n5.20.0 (2019-10-18)\nFeatures\n\nmodel: add options.include[].right option (#11537) (2949a63)\n\nv5.19.8\n5.19.8 (2019-10-17)\nBug Fixes\n\ntypes: add array of Buffers to WhereValue type (#11559) (3517eb7)\n\nv5.19.7\n5.19.7 (2019-10-16)\nBug Fixes\n ... (truncated)\n\n\n\nCommits\n\n6c781d6 fix(typings): transaction locking (#11621)\n2083c9a fix(associations): allow binary key for belongs-to-many (#11581)\n10bf060 [ci-skip] change: use latest tag\ncaa677f build: enable appveyor\n300ee61 build: setup publish config for v5\n2b9baa2 fix(postgres): update upsert regex to match the last RETURNING * (#11538)\na34399f feat(mariadb): support indexHints on mariadb dialect (#11573)\n2949a63 feat(model): add options.include[].right option (#11537)\n7d251bd docs: .sequelizerc configuration options (#11553)\n3517eb7 fix(types): add array of Buffers to WhereValue type (#11559)\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:25Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:27Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 53,
+        "createdAt": "2019-11-07T08:20:19Z",
+        "title": "Bump connect-pg-simple from 4.2.1 to 6.0.1 in /structure/template",
+        "bodyText": "Bumps connect-pg-simple from 4.2.1 to 6.0.1.\n\nRelease notes\nSourced from connect-pg-simple's releases.\n\nv6.0.1\n\nVery minor security fix: schemaName and tableName wasn't escaped. If any of the two contained a string with a double quote in it, then that would enable an SQL injection. This was previously a feature of tableName, before the introduction of a separate schemaName, as that allowed a schema to be defined as part of tableName. Defining schema name through tableName is still supported after this fix, but is now deprecated.\nFix: Errors wasn't propagated properly. Fixed in #150. Thanks @​bobnil!\n\nvoxpelli/node-connect-pg-simple@v6.0.0...v6.0.1\nv6.0.0\n\nBreaking change: Now requires at least Node.js 10.x, this as Node.js 8.x only have a short time left in its LTS\nBreaking change: This project now uses INSERT ... ON CONFLICT, more popularly known as UPSERT. This is only supported on PostgreSQL version 9.5 and above.\nUpdate pg-promise dev dependency to 9.x\nListen on pool errors. Fixes #29\nLots of dev dependency updates\n\nvoxpelli/node-connect-pg-simple@v5.0.0...v6.0.0\n\n\n\nChangelog\nSourced from connect-pg-simple's changelog.\n\n6.0.1 (2019-08-21)\n\nVery minor security fix: schemaName and tableName wasn't escaped. If any of the two contained a string with a double quote in it, then that would enable an SQL injection. This was previously a feature of tableName, before the introduction of a separate schemaName, as that allowed a schema to be defined as part of tableName. Defining schema name through tableName is still supported after this fix, but is now deprecated.\nFix: Errors wasn't propagated properly. Fixed in #150. Thanks @​bobnil!\n\n6.0.0 (2019-07-28)\n\nBreaking change: Now requires at least Node.js 10.x, this as Node.js 8.x only have a short time left in its LTS\nBreaking change: This project now uses INSERT ... ON CONFLICT, more popularly known as UPSERT. This is only supported on PostgreSQL version 9.5 and above.\nListen on pool errors. Fixes #29\n\n5.0.0 (2018-06-06)\n\nBreaking change: Now requires at least Node.js 8.x (this as Node.js 6.x only have a short time left in its LTS and I rather don't bump the major version more often than I have to)\nBreaking change: Now expects pg 7.x to be used\nFix: Connection string is now handled by pg instead of by this module. Should improve support for things like ssl.\n\n\n\n\nCommits\n\n876348d 6.0.1\nad9bf56 Update CHANGELOG\n3aced7b Add GitHub Actions flow\nc2b937f Minor refactoring: Remove some .bind()\ndf61c95 Security: Escape schemaName + tableName\n5779bd2 Bugfix: errors not propagated\nc03f05d Remove unneeded denodeify\nd64a89d Unpin dev dependencies\n5b99a86 Update dev dependencies\n424300e Update dependency husky to v3.0.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:25Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:27Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "structure/template/package-lock.json"
+                },
+                {
+                    "path": "structure/template/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 54,
+        "createdAt": "2019-11-07T08:20:19Z",
+        "title": "Bump morgan from 1.9.0 to 1.9.1 in /structure/template",
+        "bodyText": "Bumps morgan from 1.9.0 to 1.9.1.\n\nRelease notes\nSourced from morgan's releases.\n\n1.9.1\n\nFix using special characters in format\ndeps: depd@~1.1.2\n\nperf: remove argument reassignment\n\n\n\n\n\n\nChangelog\nSourced from morgan's changelog.\n\n1.9.1 / 2018-09-10\n\nFix using special characters in format\ndeps: depd@~1.1.2\n\nperf: remove argument reassignment\n\n\n\n\n\n\nCommits\n\n572dd93 1.9.1\ne02de38 lint: apply standard 12 style\ne329663 Fix using special characters in format\neb1968a tests: use strict equality checks\n310b206 build: use yaml eslint configuration\n5810937 build: Node.js@9.11\nf60afd5 build: Node.js@8.11\n5295b0c build: eslint-plugin-standard@3.1.0\n178daaf build: eslint-plugin-promise@3.8.0\n7b08641 build: eslint-plugin-import@2.12.0\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:26Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:27Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "structure/template/package-lock.json"
+                },
+                {
+                    "path": "structure/template/package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 55,
+        "createdAt": "2019-11-07T08:20:20Z",
+        "title": "Bump merge from 1.2.0 to 1.2.1 in /structure/template",
+        "bodyText": "Bumps merge from 1.2.0 to 1.2.1.\n\nCommits\n\nb31e67f link broken\n6ad6035 Fix prototype pollution\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:26Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:28Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "structure/template/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 56,
+        "createdAt": "2019-11-07T08:20:24Z",
+        "title": "Bump lodash from 4.17.10 to 4.17.15 in /structure/template",
+        "bodyText": "Bumps lodash from 4.17.10 to 4.17.15.\n\nCommits\n\nddfd9b1 Bump to v4.17.15.\nb185fce Rebuild lodash and docs.\nbe87d30 Bump to v4.17.14.\na6fe6b1 Rebuild lodash and docs.\ne371828 Bump to v4.17.13.\n357e899 Rebuild lodash and docs.\nfd9a062 Bump to v4.17.12.\ne77d681 Rebuild lodash and docs.\n629d186 Update OpenJS references.\n2406eac Fix minified build.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:27Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:28Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "structure/template/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 57,
+        "createdAt": "2019-11-07T08:20:26Z",
+        "title": "Bump extend from 3.0.1 to 3.0.2 in /structure/template",
+        "bodyText": "Bumps extend from 3.0.1 to 3.0.2.\n\nChangelog\nSourced from extend's changelog.\n\n3.0.2 / 2018-07-19\n\n[Fix] Prevent merging __proto__ property (#48)\n[Dev Deps] update eslint, @ljharb/eslint-config, tape\n[Tests] up to node v10.7, v9.11, v8.11, v7.10, v6.14, v4.9; use nvm install-latest-npm\n\n\n\n\nCommits\n\n8d106d2 v3.0.2\ne97091f [Dev Deps] update tape\ne841aac [Tests] up to node v10.7\n0e68e71 [Fix] Prevent merging proto property\na689700 Only apps should have lockfiles\nf13c1c4 [Dev Deps] update eslint, @ljharb/eslint-config, tape\nf3570fe [Tests] up to node v10.0, v9.11, v8.11, v7.10, v6.14, v4.9; use...\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:27Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:29Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "structure/template/package-lock.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "Syno0",
+                            "resourcePath": "/Syno0"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 58,
+        "createdAt": "2019-11-07T08:21:03Z",
+        "title": "Bump connect-pg-simple from 4.2.1 to 6.0.1",
+        "bodyText": "Bumps connect-pg-simple from 4.2.1 to 6.0.1.\n\nRelease notes\nSourced from connect-pg-simple's releases.\n\nv6.0.1\n\nVery minor security fix: schemaName and tableName wasn't escaped. If any of the two contained a string with a double quote in it, then that would enable an SQL injection. This was previously a feature of tableName, before the introduction of a separate schemaName, as that allowed a schema to be defined as part of tableName. Defining schema name through tableName is still supported after this fix, but is now deprecated.\nFix: Errors wasn't propagated properly. Fixed in #150. Thanks @​bobnil!\n\nvoxpelli/node-connect-pg-simple@v6.0.0...v6.0.1\nv6.0.0\n\nBreaking change: Now requires at least Node.js 10.x, this as Node.js 8.x only have a short time left in its LTS\nBreaking change: This project now uses INSERT ... ON CONFLICT, more popularly known as UPSERT. This is only supported on PostgreSQL version 9.5 and above.\nUpdate pg-promise dev dependency to 9.x\nListen on pool errors. Fixes #29\nLots of dev dependency updates\n\nvoxpelli/node-connect-pg-simple@v5.0.0...v6.0.0\n\n\n\nChangelog\nSourced from connect-pg-simple's changelog.\n\n6.0.1 (2019-08-21)\n\nVery minor security fix: schemaName and tableName wasn't escaped. If any of the two contained a string with a double quote in it, then that would enable an SQL injection. This was previously a feature of tableName, before the introduction of a separate schemaName, as that allowed a schema to be defined as part of tableName. Defining schema name through tableName is still supported after this fix, but is now deprecated.\nFix: Errors wasn't propagated properly. Fixed in #150. Thanks @​bobnil!\n\n6.0.0 (2019-07-28)\n\nBreaking change: Now requires at least Node.js 10.x, this as Node.js 8.x only have a short time left in its LTS\nBreaking change: This project now uses INSERT ... ON CONFLICT, more popularly known as UPSERT. This is only supported on PostgreSQL version 9.5 and above.\nListen on pool errors. Fixes #29\n\n5.0.0 (2018-06-06)\n\nBreaking change: Now requires at least Node.js 8.x (this as Node.js 6.x only have a short time left in its LTS and I rather don't bump the major version more often than I have to)\nBreaking change: Now expects pg 7.x to be used\nFix: Connection string is now handled by pg instead of by this module. Should improve support for things like ssl.\n\n\n\n\nCommits\n\n876348d 6.0.1\nad9bf56 Update CHANGELOG\n3aced7b Add GitHub Actions flow\nc2b937f Minor refactoring: Remove some .bind()\ndf61c95 Security: Escape schemaName + tableName\n5779bd2 Bugfix: errors not propagated\nc03f05d Remove unneeded denodeify\nd64a89d Unpin dev dependencies\n5b99a86 Update dev dependencies\n424300e Update dependency husky to v3.0.2\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-26T16:36:01Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-26T16:36:04Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

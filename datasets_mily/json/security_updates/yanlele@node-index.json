@@ -1,0 +1,222 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 3,
+        "createdAt": "2019-07-19T19:43:50Z",
+        "title": "Bump flask from 0.10.1 to 1.0 in /book/20、docker&Devops/docs/03、docker网络/labs/labs/flask-skeleton",
+        "bodyText": "Bumps flask from 0.10.1 to 1.0.\n\nRelease notes\nSourced from flask's releases.\n\n1.0\nThe Pallets team is pleased to release Flask 1.0. [Read the announcement on our blog.](https://www.palletsprojects.com/blog/flask-1-0-released/\nThere are over a year's worth of changes in this release. Many features have been improved or changed. Read the changelog to understand how your project's code will be affected.\nJSON Security Fix\nFlask previously decoded incoming JSON bytes using the content type of the request. Although JSON should only be encoded as UTF-8, Flask was more lenient. However, Python includes non-text related encodings that could result in unexpected memory use by a request.\nFlask will now detect the encoding of incoming JSON data as one of the supported UTF encodings, and will not allow arbitrary encodings from the request.\nInstall or Upgrade\nInstall from PyPI with pip:\npip install -U Flask\n\n0.12.4\nThis is a repackage of 0.12.3 to fix an issue with how the package was built.\nUpgrade\nUpgrade from PyPI with pip. Use a version identifier if you want to stay at 0.12:\npip install -U 'Flask~=0.12.4'\n\n0.12.3\nThis release includes an important security fix for JSON and a minor backport for CLI support in PyCharm. It is provided for projects that cannot update to Flask 1.0 immediately. See the 1.0 announcement and update to it instead if possible.\nJSON Security Fix\nFlask previously decoded incoming JSON bytes using the content type of the request. Although JSON should only be encoded as UTF-8, Flask was more lenient. However, Python includes non-text related encodings that could result in unexpected memory use by a request.\nFlask will now detect the encoding of incoming JSON data as one of the supported UTF encodings, and will not allow arbitrary encodings from the request.\nUpgrade\nUpgrade from PyPI with pip. Use a version identifier if you want to stay at 0.12:\npip install -U 'Flask~=0.12.3'\n\n ... (truncated)\n\n\n\nChangelog\nSourced from flask's changelog.\n\nVersion 1.0\nReleased 2018-04-26\n\nPython 2.6 and 3.3 are no longer supported.\nBump minimum dependency versions to the latest stable versions:\nWerkzeug >= 0.14, Jinja >= 2.10, itsdangerous >= 0.24, Click >= 5.1.\n:issue:2586\nSkip :meth:app.run <Flask.run> when a Flask application is run\nfrom the command line. This avoids some behavior that was confusing\nto debug.\nChange the default for :data:JSONIFY_PRETTYPRINT_REGULAR to\nFalse. :func:~json.jsonify returns a compact format by\ndefault, and an indented format in debug mode. :pr:2193\n:meth:Flask.__init__ <Flask> accepts the host_matching\nargument and sets it on :attr:~Flask.url_map. :issue:1559\n:meth:Flask.__init__ <Flask> accepts the static_host argument\nand passes it as the host argument when defining the static\nroute. :issue:1559\n:func:send_file supports Unicode in attachment_filename.\n:pr:2223\nPass _scheme argument from :func:url_for to\n:meth:~Flask.handle_url_build_error. :pr:2017\n:meth:~Flask.add_url_rule accepts the\nprovide_automatic_options argument to disable adding the\nOPTIONS method. :pr:1489\n:class:~views.MethodView subclasses inherit method handlers from\nbase classes. :pr:1936\nErrors caused while opening the session at the beginning of the\nrequest are handled by the app's error handlers. :pr:2254\nBlueprints gained :attr:~Blueprint.json_encoder and\n:attr:~Blueprint.json_decoder attributes to override the app's\nencoder and decoder. :pr:1898\n:meth:Flask.make_response raises TypeError instead of\nValueError for bad response types. The error messages have been\nimproved to describe why the type is invalid. :pr:2256\nAdd routes CLI command to output routes registered on the\napplication. :pr:2259\nShow warning when session cookie domain is a bare hostname or an IP\naddress, as these may not behave properly in some browsers, such as\nChrome. :pr:2282\nAllow IP address as exact session cookie domain. :pr:2282\nSESSION_COOKIE_DOMAIN is set if it is detected through\nSERVER_NAME. :pr:2282\nAuto-detect zero-argument app factory called create_app or\nmake_app from FLASK_APP. :pr:2297\nFactory functions are not required to take a script_info\nparameter to work with the flask command. If they take a single\nparameter or a parameter named script_info, the\n\n ... (truncated)\n\n\n\nCommits\n\n291f3c3 Bump version number to 1.0\n36e68a4 release 1.0\n216151c Merge branch '0.12-maintenance'\n23047a7 Bump version number to 0.12.4.dev\n1a9e58e Bump version number to 0.12.3\n63deee0 release 0.12.3\n062745b Merge pull request #2720 from pallets/setup-link\n5c8110d ensure order of project urls\n10a77a5 Add project_urls so that PyPI will show GitHub stats.\n22992a0 add donate link\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "book/20、docker&Devops/docs/03、docker网络/labs/labs/flask-skeleton/requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 4,
+        "createdAt": "2019-08-21T20:34:36Z",
+        "title": "Bump werkzeug from 0.11.10 to 0.15.3 in /book/20、docker&Devops/docs/03、docker网络/labs/labs/flask-skeleton",
+        "bodyText": "Bumps werkzeug from 0.11.10 to 0.15.3.\n\nRelease notes\nSourced from werkzeug's releases.\n\n0.15.3\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-3-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/#version-0-15-3\n\n0.15.2\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-2-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/#version-0-15-2\n\n0.15.1\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-1-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/\n\n0.15.0\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-0-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/\n\n0.13\nRead the announcement here.\nRead the full changelog.\nInstall from PyPI with pip:\npip install -U Werkzeug\n\n\n\n\nChangelog\nSourced from werkzeug's changelog.\n\nVersion 0.15.3\nReleased 2019-05-14\n\nProperly handle multi-line header folding in development server in\nPython 2.7. (:issue:1080)\nRestore the response argument to :exc:~exceptions.Unauthorized.\n(:pr:1527)\n:exc:~exceptions.Unauthorized doesn't add the WWW-Authenticate\nheader if www_authenticate is not given. (:issue:1516)\nThe default URL converter correctly encodes bytes to string rather\nthan representing them with b''. (:issue:1502)\nFix the filename format string in\n:class:~middleware.profiler.ProfilerMiddleware to correctly handle\nfloat values. (:issue:1511)\nUpdate :class:~middleware.lint.LintMiddleware to work on Python 3.\n(:issue:1510)\nThe debugger detects cycles in chained exceptions and does not time\nout in that case. (:issue:1536)\nWhen running the development server in Docker, the debugger security\npin is now unique per container.\n\nVersion 0.15.2\nReleased 2019-04-02\n\nRule code generation uses a filename that coverage will ignore.\nThe previous value, \"generated\", was causing coverage to fail.\n(:issue:1487)\nThe test client removes the cookie header if there are no persisted\ncookies. This fixes an issue introduced in 0.15.0 where the cookies\nfrom the original request were used for redirects, causing functions\nsuch as logout to fail. (:issue:1491)\nThe test client copies the environ before passing it to the app, to\nprevent in-place modifications from affecting redirect requests.\n(:issue:1498)\nThe \"werkzeug\" logger only adds a handler if there is no handler\nconfigured for its level in the logging chain. This avoids double\nlogging if other code configures logging first. (:issue:1492)\n\nVersion 0.15.1\nReleased 2019-03-21\n\n:exc:~exceptions.Unauthorized takes description as the first\n\n ... (truncated)\n\n\n\nCommits\n\n9b1123a release version 0.15.3\n00bc43b unique debugger pin in Docker containers\n2cbdf2b Merge pull request #1542 from asottile/exceptions_arent_always_hashable\n0e669f6 Fix unhashable exception types\nbdc17e4 Merge pull request #1540 from pallets/break-tb-cycle\n44e38c2 break cycle in chained exceptions\n777500b Merge pull request #1518 from NiklasMM/fix/1510_lint-middleware-python3-compa...\ne00c7c2 Make LintMiddleware Python 3 compatible and add tests\nd590cc7 Merge pull request #1539 from pallets/profiler-format\n0388fc9 update filename_format for ProfilerMiddleware.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "book/20、docker&Devops/docs/03、docker网络/labs/labs/flask-skeleton/requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 5,
+        "createdAt": "2019-09-09T15:03:41Z",
+        "title": "Bump flask from 0.10.1 to 1.0 in /book/20、docker&Devops/code/chapter5/labs/flask-skeleton",
+        "bodyText": "Bumps flask from 0.10.1 to 1.0.\n\nRelease notes\nSourced from flask's releases.\n\n1.0\nThe Pallets team is pleased to release Flask 1.0. [Read the announcement on our blog.](https://www.palletsprojects.com/blog/flask-1-0-released/\nThere are over a year's worth of changes in this release. Many features have been improved or changed. Read the changelog to understand how your project's code will be affected.\nJSON Security Fix\nFlask previously decoded incoming JSON bytes using the content type of the request. Although JSON should only be encoded as UTF-8, Flask was more lenient. However, Python includes non-text related encodings that could result in unexpected memory use by a request.\nFlask will now detect the encoding of incoming JSON data as one of the supported UTF encodings, and will not allow arbitrary encodings from the request.\nInstall or Upgrade\nInstall from PyPI with pip:\npip install -U Flask\n\n0.12.4\nThis is a repackage of 0.12.3 to fix an issue with how the package was built.\nUpgrade\nUpgrade from PyPI with pip. Use a version identifier if you want to stay at 0.12:\npip install -U 'Flask~=0.12.4'\n\n0.12.3\nThis release includes an important security fix for JSON and a minor backport for CLI support in PyCharm. It is provided for projects that cannot update to Flask 1.0 immediately. See the 1.0 announcement and update to it instead if possible.\nJSON Security Fix\nFlask previously decoded incoming JSON bytes using the content type of the request. Although JSON should only be encoded as UTF-8, Flask was more lenient. However, Python includes non-text related encodings that could result in unexpected memory use by a request.\nFlask will now detect the encoding of incoming JSON data as one of the supported UTF encodings, and will not allow arbitrary encodings from the request.\nUpgrade\nUpgrade from PyPI with pip. Use a version identifier if you want to stay at 0.12:\npip install -U 'Flask~=0.12.3'\n\n ... (truncated)\n\n\n\nChangelog\nSourced from flask's changelog.\n\nVersion 1.0\nReleased 2018-04-26\n\nPython 2.6 and 3.3 are no longer supported.\nBump minimum dependency versions to the latest stable versions:\nWerkzeug >= 0.14, Jinja >= 2.10, itsdangerous >= 0.24, Click >= 5.1.\n:issue:2586\nSkip :meth:app.run <Flask.run> when a Flask application is run\nfrom the command line. This avoids some behavior that was confusing\nto debug.\nChange the default for :data:JSONIFY_PRETTYPRINT_REGULAR to\nFalse. :func:~json.jsonify returns a compact format by\ndefault, and an indented format in debug mode. :pr:2193\n:meth:Flask.__init__ <Flask> accepts the host_matching\nargument and sets it on :attr:~Flask.url_map. :issue:1559\n:meth:Flask.__init__ <Flask> accepts the static_host argument\nand passes it as the host argument when defining the static\nroute. :issue:1559\n:func:send_file supports Unicode in attachment_filename.\n:pr:2223\nPass _scheme argument from :func:url_for to\n:meth:~Flask.handle_url_build_error. :pr:2017\n:meth:~Flask.add_url_rule accepts the\nprovide_automatic_options argument to disable adding the\nOPTIONS method. :pr:1489\n:class:~views.MethodView subclasses inherit method handlers from\nbase classes. :pr:1936\nErrors caused while opening the session at the beginning of the\nrequest are handled by the app's error handlers. :pr:2254\nBlueprints gained :attr:~Blueprint.json_encoder and\n:attr:~Blueprint.json_decoder attributes to override the app's\nencoder and decoder. :pr:1898\n:meth:Flask.make_response raises TypeError instead of\nValueError for bad response types. The error messages have been\nimproved to describe why the type is invalid. :pr:2256\nAdd routes CLI command to output routes registered on the\napplication. :pr:2259\nShow warning when session cookie domain is a bare hostname or an IP\naddress, as these may not behave properly in some browsers, such as\nChrome. :pr:2282\nAllow IP address as exact session cookie domain. :pr:2282\nSESSION_COOKIE_DOMAIN is set if it is detected through\nSERVER_NAME. :pr:2282\nAuto-detect zero-argument app factory called create_app or\nmake_app from FLASK_APP. :pr:2297\nFactory functions are not required to take a script_info\nparameter to work with the flask command. If they take a single\nparameter or a parameter named script_info, the\n\n ... (truncated)\n\n\n\nCommits\n\n291f3c3 Bump version number to 1.0\n36e68a4 release 1.0\n216151c Merge branch '0.12-maintenance'\n23047a7 Bump version number to 0.12.4.dev\n1a9e58e Bump version number to 0.12.3\n63deee0 release 0.12.3\n062745b Merge pull request #2720 from pallets/setup-link\n5c8110d ensure order of project urls\n10a77a5 Add project_urls so that PyPI will show GitHub stats.\n22992a0 add donate link\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "book/20、docker&Devops/code/chapter5/labs/flask-skeleton/requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 6,
+        "createdAt": "2019-09-09T15:03:50Z",
+        "title": "Bump werkzeug from 0.11.10 to 0.15.3 in /book/20、docker&Devops/code/chapter5/labs/flask-skeleton",
+        "bodyText": "Bumps werkzeug from 0.11.10 to 0.15.3.\n\nRelease notes\nSourced from werkzeug's releases.\n\n0.15.3\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-3-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/#version-0-15-3\n\n0.15.2\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-2-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/#version-0-15-2\n\n0.15.1\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-1-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/\n\n0.15.0\n\nBlog: https://palletsprojects.com/blog/werkzeug-0-15-0-released/\nChanges: https://werkzeug.palletsprojects.com/en/0.15.x/changes/\n\n0.13\nRead the announcement here.\nRead the full changelog.\nInstall from PyPI with pip:\npip install -U Werkzeug\n\n\n\n\nChangelog\nSourced from werkzeug's changelog.\n\nVersion 0.15.3\nReleased 2019-05-14\n\nProperly handle multi-line header folding in development server in\nPython 2.7. (:issue:1080)\nRestore the response argument to :exc:~exceptions.Unauthorized.\n(:pr:1527)\n:exc:~exceptions.Unauthorized doesn't add the WWW-Authenticate\nheader if www_authenticate is not given. (:issue:1516)\nThe default URL converter correctly encodes bytes to string rather\nthan representing them with b''. (:issue:1502)\nFix the filename format string in\n:class:~middleware.profiler.ProfilerMiddleware to correctly handle\nfloat values. (:issue:1511)\nUpdate :class:~middleware.lint.LintMiddleware to work on Python 3.\n(:issue:1510)\nThe debugger detects cycles in chained exceptions and does not time\nout in that case. (:issue:1536)\nWhen running the development server in Docker, the debugger security\npin is now unique per container.\n\nVersion 0.15.2\nReleased 2019-04-02\n\nRule code generation uses a filename that coverage will ignore.\nThe previous value, \"generated\", was causing coverage to fail.\n(:issue:1487)\nThe test client removes the cookie header if there are no persisted\ncookies. This fixes an issue introduced in 0.15.0 where the cookies\nfrom the original request were used for redirects, causing functions\nsuch as logout to fail. (:issue:1491)\nThe test client copies the environ before passing it to the app, to\nprevent in-place modifications from affecting redirect requests.\n(:issue:1498)\nThe \"werkzeug\" logger only adds a handler if there is no handler\nconfigured for its level in the logging chain. This avoids double\nlogging if other code configures logging first. (:issue:1492)\n\nVersion 0.15.1\nReleased 2019-03-21\n\n:exc:~exceptions.Unauthorized takes description as the first\n\n ... (truncated)\n\n\n\nCommits\n\n9b1123a release version 0.15.3\n00bc43b unique debugger pin in Docker containers\n2cbdf2b Merge pull request #1542 from asottile/exceptions_arent_always_hashable\n0e669f6 Fix unhashable exception types\nbdc17e4 Merge pull request #1540 from pallets/break-tb-cycle\n44e38c2 break cycle in chained exceptions\n777500b Merge pull request #1518 from NiklasMM/fix/1510_lint-middleware-python3-compa...\ne00c7c2 Make LintMiddleware Python 3 compatible and add tests\nd590cc7 Merge pull request #1539 from pallets/profiler-format\n0388fc9 update filename_format for ProfilerMiddleware.\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "book/20、docker&Devops/code/chapter5/labs/flask-skeleton/requirements.txt"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 7,
+        "createdAt": "2020-01-17T16:04:53Z",
+        "title": "build(deps): bump mongoose from 4.13.20 to 5.8.7",
+        "bodyText": "Bumps mongoose from 4.13.20 to 5.8.7.\n\nChangelog\nSourced from mongoose's changelog.\n\n5.8.7 / 2020-01-10\n\nfix(documentarray): modify ownerDocument when setting doc array to a doc array thats part of another document #8479\nfix(document): ensure that you can call splice() after slice() on an array #8482\ndocs(populate): improve cross-db populate docs to include model refs #8497\n\n5.8.6 / 2020-01-07\n\nchore: merge changes from 4.13.20 and override mistaken publish to latest tag\n\n\n\n\nCommits\n\na4d623e chore: release 5.8.7\nc866866 chore: update opencollective sponsors\n2a18b0f test: fix tests re: #8481\nb3d5faa Actually fix #8479\nd938e9a fix(documentarray): modify ownerDocument when setting doc array to a doc arra...\nb2f2bdf test(documentarray): repro #8479\na041b44 fix(document): ensure that you can call splice() after slice() on an array\na3ab3a6 test(document): repro #8482\nb4b6486 docs(populate): improve cross-db populate docs to include model refs\n56bbac4 chore: now working on 5.8.7\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                }
+            ]
+        },
+        "number": 8,
+        "createdAt": "2020-04-18T04:16:25Z",
+        "title": "build(deps): bump mongoose from 4.13.20 to 5.9.9 in /18年/1月/13、mongoose创建数据结构和实现基本的增删改查",
+        "bodyText": "Bumps mongoose from 4.13.20 to 5.9.9.\n\nChangelog\nSourced from mongoose's changelog.\n\n5.9.9 / 2020-04-13\n\nfix(model): make Model.bulkWrite accept strict option #8782 #8788 AbdelrahmanHafez\nfix(virtual): make populated virtual getter return value when it is passed in #8775 #8774 makinde\nfix(document): handle validating document array whose docs contain maps and nested paths #8767\nfix(document): skip discriminator key when overwriting a document #8765\nfix(populate): support clone option with lean #8761 #8760\ndocs(transactions): use endSession() in all transactions examples #8741\ndocs(queries): expand streaming section to include async iterators, cursor timeouts, and sesssion idle timeouts #8720\ndocs(model+query+findoneandupdate): add docs for returnOriginal option #8766\ndocs(model): fix punctuation #8788 dandv\ndocs: fix typos #8780 #8799 dandv\n\n5.9.8 / 2020-04-06\n\nfix(map): run getters when calling Map#get() #8730\nfix(populate): handle refPath function in embedded discriminator #8731\nfix(model): allow setting timestamps to false for bulkWrite #8758 #8745 AbdelrahmanHafez\nfix(model): pass custom options to exists() when no changes to save #8764 #8739 AbdelrahmanHafez\nfix(update): respect useNestedStrict: false when updating a single nested path #8735\nfix(schema): allow modelName as a schema path, since modelName is a static property on models #7967\ndocs(promises): add section about using exec() with queries and await #8747\ndocs(connections): clarify that connectTimeoutMS doesn't do anything with useUnifiedTopology, should use serverSelectionTimeoutMS #8721\nchore: upgrade mpath -> 0.7.0 #8762 roja548\n\n5.9.7 / 2020-03-30\n\nfix(map): avoid infinite loop when setting a map of documents to a document copied using spread operator #8722\nfix(query): clean stack trace for filter cast errors so they include the calling file #8691\nfix(model): make bulkWrite updates error if strict and upsert are set and filter contains a non-schema path #8698\nfix(cast): make internal castToNumber() allow undefined #8725 p3x-robot\n\n5.9.6 / 2020-03-23\n\nfix(document): allow saving document with nested document array after setting nestedArr.0 #8689\ndocs(connections): expand section about multiple connections to describe patterns for exporting schemas #8679\ndocs(populate): add note about execPopulate() to \"populate an existing document\" section #8671 #8275\ndocs: fix broken links #8690 AbdelrahmanHafez\ndocs(guide): fix typos #8704 MateRyze\ndocs(guide): fix minor typo #8683 pkellz\n\n5.9.5 / 2020-03-16\n\nfix: upgrade mongodb driver -> 3.5.5 #8667 #8664 AbdelrahmanHafez\nfix(connection): emit \"disconnected\" after losing connectivity to every member of a replica set with useUnifiedTopology: true #8643\nfix(array): allow calling slice() after push() #8668 #8655 AbdelrahmanHafez\nfix(map): avoid marking map as modified if setting key to the same value #8652\nfix(updateValidators): don't run Mixed update validator on dotted path underneath mixed type #8659\nfix(populate): ensure top-level limit applies if one document being populated has more than limit results #8657\nfix(populate): throw error if both limit and perDocumentLimit are set #8661 #8658 AbdelrahmanHafez\n\n ... (truncated)\n\n\n\nCommits\n\nb302138 chore: release 5.9.9\n0a83a9f Merge pull request #8788 from dandv/patch-4\n89a70e8 chore: update opencollective sponsors\n9bb0274 docs(lib/model): fix punctuation\n2a73b75 Merge pull request #8782 from AbdelrahmanHafez/bulkWrite-strict\nb743498 test(transactions): use endSession() in all transactions examples\n95351e7 docs(queries): expand streaming section to include async iterators, cursor ti...\nb107d90 fix(populate): support clone option with lean\nc95a2f1 fix(document): skip discriminator key when overwriting a document\n7dc8a0a style: fix lint\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "18年/1月/13、mongoose创建数据结构和实现基本的增删改查/package.json"
+                }
+            ]
+        }
+    }
+]

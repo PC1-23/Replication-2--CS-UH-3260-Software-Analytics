@@ -1,0 +1,78 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "raprasad",
+                            "resourcePath": "/raprasad"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 715,
+        "createdAt": "2019-11-02T19:42:38Z",
+        "title": "Bump requests from 2.19.1 to 2.20.0 in /requirements",
+        "bodyText": "Bumps requests from 2.19.1 to 2.20.0.\n\nChangelog\nSourced from requests's changelog.\n\n2.20.0 (2018-10-18)\nBugfixes\n\nContent-Type header parsing is now case-insensitive (e.g.\ncharset=utf8 v Charset=utf8).\nFixed exception leak where certain redirect urls would raise\nuncaught urllib3 exceptions.\nRequests removes Authorization header from requests redirected\nfrom https to http on the same hostname. (CVE-2018-18074)\nshould_bypass_proxies now handles URIs without hostnames (e.g.\nfiles).\n\nDependencies\n\nRequests now supports urllib3 v1.24.\n\nDeprecations\n\nRequests has officially stopped support for Python 2.6.\n\n\n\n\nCommits\n\nbd84045 v2.20.0\n7fd9267 remove final remnants from 2.6\n6ae8a21 Add myself to AUTHORS\n89ab030 Use comprehensions whenever possible\n2c6a842 Merge pull request #4827 from webmaven/patch-1\n30be889 CVE URLs update: www sub-subdomain no longer valid\na6cd380 Merge pull request #4765 from requests/encapsulate_urllib3_exc\nbbdbcc8 wrap url parsing exceptions from urllib3's PoolManager\nff0c325 Merge pull request #4805 from jdufresne/https\nb0ad249 Prefer https:// for URLs throughout project\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-14T17:09:16Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "raprasad",
+                        "resourcePath": "/raprasad"
+                    },
+                    "bodyText": "Closing this.  Current D3M library uses the older requests lib",
+                    "createdAt": "2019-11-14T17:09:16Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-14T17:09:18Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "requirements/base.txt"
+                }
+            ]
+        }
+    }
+]

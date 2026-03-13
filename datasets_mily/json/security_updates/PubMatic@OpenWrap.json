@@ -1,0 +1,42 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefForcePushedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 133,
+        "createdAt": "2019-11-02T20:12:37Z",
+        "title": "Bump open from 0.0.5 to 7.0.0",
+        "bodyText": "Bumps open from 0.0.5 to 7.0.0.\n\nRelease notes\nSourced from open's releases.\n\nv7.0.0\nBreaking\n\nCorrectly handle URL and path escaping on Windows (#146)  7ef15d2\nIf you use open with URLs, you'll want to use the new {url: true} option.\nRead more.\n\nEnhancements\n\nAdd support for WSL 2 (#150)  12333bf\n\nsindresorhus/open@v6.4.0...v7.0.0\nv6.4.0\n\nAdd executable check for local xdg-open (#140)  78fcc9e\n\nsindresorhus/open@v6.3.0...v6.4.0\nv6.3.0\n\nUse the system xdg-open on Linux when open is bundled/packaged (#134)  c69fd06\n\nsindresorhus/open@v6.2.0...v6.3.0\nv6.2.0\n\nAdd TypeScript definition (#128)  d1895c8\n\nsindresorhus/open@v6.1.0...v6.2.0\nv6.1.0\n\nAdd background option for macOS (#126)  6a2b11b\n\nsindresorhus/open@v6.0.0...v6.1.0\nv6.0.0\nBreaking:\n\nRename the package from opn to open (See the readme for more info)  eca88d8\nMake the wait option false by default  da2d663\nRequire Node.js 8  5c525b5\n\nEnhancements:\n\nAdd support for Windows apps referenced by their WSL paths (#118)  b30220c\n\nsindresorhus/open@v5.5.0...v6.0.0\nv5.5.0\n\nUse system xdg-open in Electron apps on Linux (#108)  6d3f255\n\nsindresorhus/open@v5.4.0...v5.5.0\n\n\n\nCommits\n\nSee full diff in compare view\n\n\n\nMaintainer changes\nThis version was pushed to npm by sindresorhus, a new releaser for open since your current version.\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "OPEN",
+        "closed": false,
+        "merged": false,
+        "closedAt": null,
+        "mergedBy": null,
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 54,
+        "createdAt": "2020-01-28T15:48:53Z",
+        "title": "Bump handlebars from 4.0.10 to 4.7.2",
+        "bodyText": "Bumps handlebars from 4.0.10 to 4.7.2.\n\nChangelog\nSourced from handlebars's changelog.\n\nv4.7.2 - January 13th, 2020\nBugfixes:\n\nfix: don't wrap helpers that are not functions - 9d5aa36, #1639\n\nChore/Build:\n\nchore: execute saucelabs-task only if access-key exists - a4fd391\n\nCompatibility notes:\n\nNo breaking changes are to be expected\n\nCommits\nv4.7.1 - January 12th, 2020\nBugfixes:\n\nfix: fix log output in case of illegal property access - f152dfc\nfix: log error for illegal property access only once per property - 3c1e252\n\nCompatibility notes:\n\nno incompatibilities are to be expected.\n\nCommits\nv4.7.0 - January 10th, 2020\nFeatures:\n\nfeat: default options for controlling proto access - 7af1c12, #1635\n\nThis makes it possible to disable the prototype access restrictions added in 4.6.0\nan error is logged in the console, if access to prototype properties is attempted and denied\nand no explicit configuration has taken place.\n\n\n\nCompatibility notes:\n\nno compatibilities are expected\n\nCommits\nv4.6.0 - January 8th, 2020\nFeatures:\n\nfeat: access control to prototype properties via whitelist (#1633)- d03b6ec\n\n ... (truncated)\n\n\n\nCommits\n\n586e672 v4.7.2\nf0c6c4c Update release notes\na4fd391 chore: execute saucelabs-task only if access-key exists\n9d5aa36 fix: don't wrap helpers that are not functions\n14ba3d0 v4.7.1\n4cddfe7 Update release notes\nf152dfc fix: fix log output in case of illegal property access\n3c1e252 fix: log error for illegal property access only once per property\n0d5c807 v4.7.0\n1f0834b Update release notes\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-29T16:38:44Z",
+        "mergedBy": {
+            "login": "cindyli",
+            "resourcePath": "/cindyli"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "claassistantio",
+                        "resourcePath": "/claassistantio"
+                    },
+                    "bodyText": "Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our Contributor License Agreement before we can accept your contribution.You have signed the CLA already but the status is still pending? Let us recheck it.",
+                    "createdAt": "2020-01-28T15:49:08Z"
+                },
+                {
+                    "author": {
+                        "login": "BlueSlug",
+                        "resourcePath": "/BlueSlug"
+                    },
+                    "bodyText": "Server and browser tests are passing in my environment, should be safe to merge.",
+                    "createdAt": "2020-01-29T13:57:14Z"
+                },
+                {
+                    "author": {
+                        "login": "cindyli",
+                        "resourcePath": "/cindyli"
+                    },
+                    "bodyText": "Merged at e10cccf",
+                    "createdAt": "2020-01-29T16:40:35Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 55,
+        "createdAt": "2020-01-28T15:48:59Z",
+        "title": "Bump express-basic-auth from 1.1.5 to 1.2.0",
+        "bodyText": "Bumps express-basic-auth from 1.1.5 to 1.2.0.\n\nCommits\n\nfa600c9 1.2.0\nf593b20 1.1.7\n00bb29f 🔒✨ Add time safe compare function (#21)\n1ea015d 1.1.6\n616e2bc ⬆️ Update dependencies\n5633a3f ⬆️ Update basic-auth dependency\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-01-29T16:38:43Z",
+        "mergedBy": {
+            "login": "cindyli",
+            "resourcePath": "/cindyli"
+        },
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "claassistantio",
+                        "resourcePath": "/claassistantio"
+                    },
+                    "bodyText": "Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our Contributor License Agreement before we can accept your contribution.You have signed the CLA already but the status is still pending? Let us recheck it.",
+                    "createdAt": "2020-01-28T15:49:13Z"
+                },
+                {
+                    "author": {
+                        "login": "BlueSlug",
+                        "resourcePath": "/BlueSlug"
+                    },
+                    "bodyText": "Server and browser tests are passing in my environment, the usage of this package seems to behave properly as well.",
+                    "createdAt": "2020-01-29T13:49:37Z"
+                },
+                {
+                    "author": {
+                        "login": "cindyli",
+                        "resourcePath": "/cindyli"
+                    },
+                    "bodyText": "Merged at b39b9af",
+                    "createdAt": "2020-01-29T16:39:34Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package.json"
+                }
+            ]
+        }
+    }
+]

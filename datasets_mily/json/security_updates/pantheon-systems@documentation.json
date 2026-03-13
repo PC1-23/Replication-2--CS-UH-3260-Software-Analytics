@@ -1,0 +1,390 @@
+[
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CommitCommentThread"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "alexfornuto",
+                            "resourcePath": "/alexfornuto"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                }
+            ]
+        },
+        "number": 5283,
+        "createdAt": "2019-11-01T23:11:25Z",
+        "title": "Bump ffi from 1.9.10 to 1.11.1",
+        "bodyText": "Bumps ffi from 1.9.10 to 1.11.1.\n\nChangelog\nSourced from ffi's changelog.\n\n1.11.1 / 2019-05-20\nChanged:\n\nRaise required ruby version to >=2.0. #699, #700\nFix a possible linker error on ruby < 2.3 on Linux.\n\n1.11.0 / 2019-05-17\nThis version was yanked on 2019-05-20 to fix an install issue on ruby-1.9.3. #700\nAdded:\n\nAdd ability to disable or force use of system libffi. #669\nUse like gem inst ffi -- --enable-system-libffi .\nAdd ability to call FFI callbacks from outside of FFI call frame. #584\nAdd proper documentation to FFI::Generator and ::Task\nAdd gemspec metadata. #696, #698\n\nChanged:\n\nFix stdcall on Win32. #649, #669\nFix load paths for FFI::Generator::Task\nFix FFI::Pointer#read_string(0) to return a binary String. #692\nFix benchmark suite so that it runs on ruby-2.x\nMove FFI::Platform::CPU from C to Ruby. #663\nMove FFI::StructByReference to Ruby. #681\nMove FFI::DataConverter to Ruby (#661)\nVarious cleanups and improvements of specs and benchmarks\n\nRemoved:\n\nRemove ruby-1.8 and 1.9 compatibility code. #683\nRemove unused spec files. #684\n\n1.10.0 / 2019-01-06\nAdded:\n\nAdd /opt/local/lib/ to ffi's fallback library search path. #638\nAdd binary gem support for ruby-2.6 on Windows\nAdd FreeBSD on AArch64 and ARM support. #644\nAdd FFI::LastError.winapi_error on Windows native or Cygwin. #633\n\nChanged:\n\nUpdate to rake-compiler-dock-0.7.0\nUse 64-bit inodes on FreeBSD >= 12. #644\nSwitch time_t and suseconds_t types to long on FreeBSD. #627\nMake register_t long_long on 64-bit FreeBSD. #644\nFix Pointer#write_array_of_type #637\n\n ... (truncated)\n\n\n\nCommits\n\n3d8c91c Update CHANGELOG for ffi-1.11.1\n2a3d9d6 Bump VERSION to 1.11.1\n19d5776 Add some missing items to CHANGELOG for ffi-1.11.0\n08b9b78 Raise ruby version requirement to >=2.0\ne76c43b Fix build on ruby-2.0 on Linux\n9b4a9e4 Add version 1.11.0 to CHANGELOG\n36f1bb5 Bump VERSION to 1.11.0\n29c07a9 Pass options from rake task to the FFI::Generator\n7efdd2e Include the name of the template file instead of just rake\nbc99b7e Add proper documentation to FFI::Generator and ::Task\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-04T16:28:38Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "alexfornuto",
+                        "resourcePath": "/alexfornuto"
+                    },
+                    "bodyText": "Gemfile.lock is not longer part of this repo, but exists in the historical 'sculpin' branch which is not used in production.",
+                    "createdAt": "2019-11-04T16:28:34Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-04T16:28:40Z"
+                },
+                {
+                    "author": {
+                        "login": "alexfornuto",
+                        "resourcePath": "/alexfornuto"
+                    },
+                    "bodyText": "@dependabot please just go away.",
+                    "createdAt": "2019-11-04T16:36:09Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                },
+                {
+                    "path": "source/_docs/drupal-s3.md"
+                },
+                {
+                    "path": "source/_docs/wordpress-s3.md"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CommitCommentThread"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "alexfornuto",
+                            "resourcePath": "/alexfornuto"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 5284,
+        "createdAt": "2019-11-01T23:11:28Z",
+        "title": "Bump nokogiri from 1.8.2 to 1.10.5",
+        "bodyText": "Bumps nokogiri from 1.8.2 to 1.10.5.\n\nRelease notes\nSourced from nokogiri's releases.\n\n1.10.5 / 2019-10-31\nDependencies\n\n[MRI] vendored libxml2 is updated from 2.9.9 to 2.9.10\n[MRI] vendored libxslt is updated from 1.1.33 to 1.1.34\n\n1.10.4 / 2019-08-11\nSecurity\nAddress CVE-2019-5477 (#1915)\nA command injection vulnerability in Nokogiri v1.10.3 and earlier allows commands to be executed in a subprocess by Ruby's Kernel.open method. Processes are vulnerable only if the undocumented method Nokogiri::CSS::Tokenizer#load_file is being passed untrusted user input.\nThis vulnerability appears in code generated by the Rexical gem versions v1.0.6 and earlier. Rexical is used by Nokogiri to generate lexical scanner code for parsing CSS queries. The underlying vulnerability was addressed in Rexical v1.0.7 and Nokogiri upgraded to this version of Rexical in Nokogiri v1.10.4.\nThis CVE's public notice is sparklemotion/nokogiri#1915\n1.10.3 / 2019-04-22\nSecurity Notes\n[MRI] Pulled in upstream patch from libxslt that addresses CVE-2019-11068. Full details are available in #1892. Note that this patch is not yet (as of 2019-04-22) in an upstream release of libxslt.\n1.10.2 / 2019-03-24\nSecurity\n\n[MRI] Remove support from vendored libxml2 for future script macros. #1871\n[MRI] Remove support from vendored libxml2 for server-side includes within attributes. #1877\n\nBug fixes\n\n[JRuby] Fix node ownership in duplicated documents. #1060\n[JRuby] Rethrow exceptions caught by Java SAX handler. [#1847, #1872] (Thanks, @​adjam!)\n\n1.10.1 / 2019-01-13\nFeatures\n\n[MRI] During installation, handle Xcode 10's new library pathOS. [#1801, #1851] (Thanks, @​mlj and @​deepj!)\nAvoid unnecessary creation of Procs in many methods. #1776 (Thanks, @​chopraanmol1!)\n\n ... (truncated)\n\n\n\nChangelog\nSourced from nokogiri's changelog.\n\n1.10.5 / 2019-10-31\nDependencies\n\n[MRI] vendored libxml2 is updated from 2.9.9 to 2.9.10\n[MRI] vendored libxslt is updated from 1.1.33 to 1.1.34\n\n1.10.4 / 2019-08-11\nSecurity\nAddress CVE-2019-5477 (#1915)\nA command injection vulnerability in Nokogiri v1.10.3 and earlier allows commands to be executed in a subprocess by Ruby's Kernel.open method. Processes are vulnerable only if the undocumented method Nokogiri::CSS::Tokenizer#load_file is being passed untrusted user input.\nThis vulnerability appears in code generated by the Rexical gem versions v1.0.6 and earlier. Rexical is used by Nokogiri to generate lexical scanner code for parsing CSS queries. The underlying vulnerability was addressed in Rexical v1.0.7 and Nokogiri upgraded to this version of Rexical in Nokogiri v1.10.4.\nThis CVE's public notice is sparklemotion/nokogiri#1915\n1.10.3 / 2019-04-22\nSecurity Notes\n[MRI] Pulled in upstream patch from libxslt that addresses CVE-2019-11068. Full details are available in #1892. Note that this patch is not yet (as of 2019-04-22) in an upstream release of libxslt.\n1.10.2 / 2019-03-24\nSecurity\n\n[MRI] Remove support from vendored libxml2 for future script macros. #1871\n[MRI] Remove support from vendored libxml2 for server-side includes within attributes. #1877\n\nBug fixes\n\n[JRuby] Fix node ownership in duplicated documents. #1060\n[JRuby] Rethrow exceptions caught by Java SAX handler. [#1847, #1872] (Thanks, @​adjam!)\n\n1.10.1 / 2019-01-13\nFeatures\n\n[MRI] During installation, handle Xcode 10's new library path. [#1801, #1851] (Thanks, @​mlj and @​deepj!)\nAvoid unnecessary creation of Procs in many methods. #1776 (Thanks, @​chopraanmol1!)\n\n ... (truncated)\n\n\n\nCommits\n\n1bc2ff9 version bump to v1.10.5\n383c1f8 update CHANGELOG\n43a1753 dependency: update libxslt to 1.1.34 final\n99d8a6b dependency: update libxml to 2.9.10 final\n2a86496 add suppressions for ruby 2.7\ndca794a update CHANGELOG with correct release date for v1.10.4\n077e010 update rake-compiler commands to install bundler\nbeb832e version bump to v1.10.4\n5d30128 Merge branch '1915-css-tokenizer-load-file-vulnerability_v1.10.x' into v1.10.x\nc86b5fc update CHANGELOG\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-04T16:29:09Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "alexfornuto",
+                        "resourcePath": "/alexfornuto"
+                    },
+                    "bodyText": "Gemfile.lock is not longer part of this repo, but exists in the historical 'sculpin' branch which is not used in production.",
+                    "createdAt": "2019-11-04T16:29:09Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-04T16:29:12Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "Gemfile.lock"
+                },
+                {
+                    "path": "source/_docs/drupal-s3.md"
+                },
+                {
+                    "path": "source/_docs/wordpress-s3.md"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CommitCommentThread"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ClosedEvent",
+                        "actor": {
+                            "login": "alexfornuto",
+                            "resourcePath": "/alexfornuto"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "IssueComment"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 5285,
+        "createdAt": "2019-11-01T23:11:34Z",
+        "title": "Bump angular from 1.5.8 to 1.6.0",
+        "bodyText": "Bumps angular from 1.5.8 to 1.6.0.\n\nChangelog\nSourced from angular's changelog.\n\n1.6.0 rainbow-tsunami (2016-12-08)\nHere are the full changes for the release of 1.6.0 that are not already released in the 1.5.x branch,\nconsolidating all the changes shown in the previous 1.6.0 release candidates.\nNew Features\n\nngModelOptions: allow options to be inherited from ancestor ngModelOptions\n(296cfc,\n#10922)\n$compile:\n\nadd preAssignBindingsEnabled option\n(dfb8cf)\nset preAssignBindingsEnabled to false by default\n(bcd0d4,\n#15352)\nthrow error when directive name or factory function is invalid\n(53a3bf\n#15056)\n\n\njqLite:\n\nimplement jqLite(f) as an alias to jqLite(document).ready(f)\n(369fb7)\ndon't throw for elements with missing getAttribute\n(4e6c14)\ndon't get/set properties when getting/setting boolean attributes\n(7ceb5f,\n#14126)\ndon't remove a boolean attribute for .attr(attrName, '')\n(3faf45)\nremove the attribute for .attr(attribute, null)\n(4e3624)\nreturn [] for .val() on <select multiple> with no selection\n(d882fd)\ncamelCase keys in jqLite#data\n(fc0c11,\n#15126)\nalign jqLite camelCasing logic with JQuery\n(73050c,\n#7744)\n\n\n$http:\n\nremove deprecated callback methods: success()/error()\n(b54a39)\nJSONP callback must be specified by jsonpCallbackParam config\n(fb6634,\n#15161,\n#11352)\nJSONP requests now require a trusted resource URL\n(6476af,\n#11352)\n\n\n$anchorScroll: convert numeric hash targets to string\n(9062ba\n\n ... (truncated)\n\n\n\nCommits\n\n4c5afb5 chore(jenkins): ensure deps are installed before trying to use them\nf0dc288 chore(jenkins): fix working directory to make yarn work\n70490ef docs(CHANGELOG): fix 1.6.0 release name\ndfef3bf chore(package): update dist-tag for 1.6.0 release\nf727add docs(CHANGELOG): 1.6.0 release notes\nfc89a85 chore(jenkins): fix yarn and grunt installation\nb4f5377 docs(guide/migration): fix typo\n7a667c7 fix(select): do not throw when removing the element (e.g. via ngIf)\n752b1e6 fix($resource): allow params in hostname (except for IPv6 addresses)\n1102c84 docs(guide/templates): camelCase directive name for consistency\nAdditional commits viewable in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot ignore this [patch|minor|major] version will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "CLOSED",
+        "closed": true,
+        "merged": false,
+        "closedAt": "2019-11-04T16:30:27Z",
+        "mergedBy": null,
+        "comments": {
+            "nodes": [
+                {
+                    "author": {
+                        "login": "alexfornuto",
+                        "resourcePath": "/alexfornuto"
+                    },
+                    "bodyText": "This version of package.json is not what's in master, but exists in the historical 'sculpin' branch which is not used in production.",
+                    "createdAt": "2019-11-04T16:30:27Z"
+                },
+                {
+                    "author": {
+                        "login": "dependabot",
+                        "resourcePath": "/apps/dependabot"
+                    },
+                    "bodyText": "OK, I won't notify you again about this release, but will get in touch when a new version is available. If you'd rather skip all updates until the next major or minor version, let me know by commenting @dependabot ignore this major version or @dependabot ignore this minor version.\nIf you change your mind, just re-open this PR and I'll resolve any conflicts on it.",
+                    "createdAt": "2019-11-04T16:30:29Z"
+                }
+            ]
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "package-lock.json"
+                },
+                {
+                    "path": "package.json"
+                },
+                {
+                    "path": "source/_docs/drupal-s3.md"
+                },
+                {
+                    "path": "source/_docs/wordpress-s3.md"
+                }
+            ]
+        }
+    },
+    {
+        "timeline": {
+            "edges": [
+                {
+                    "node": {
+                        "__typename": "Commit"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CommitCommentThread"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "AssignedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "LabeledEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "ReferencedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "MergedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "HeadRefDeletedEvent"
+                    }
+                },
+                {
+                    "node": {
+                        "__typename": "CrossReferencedEvent"
+                    }
+                }
+            ]
+        },
+        "number": 5623,
+        "createdAt": "2020-04-05T02:34:42Z",
+        "title": "Bump acorn from 5.7.3 to 5.7.4 in /gatsby",
+        "bodyText": "Bumps acorn from 5.7.3 to 5.7.4.\n\nCommits\n\n6370e90 Mark version 5.7.4\nfbc15b1 More rigorously check surrogate pairs in regexp validator\nSee full diff in compare view\n\n\n\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting @dependabot rebase.\n\n\nDependabot commands and options\n\nYou can trigger Dependabot actions by commenting on this PR:\n\n@dependabot rebase will rebase this PR\n@dependabot recreate will recreate this PR, overwriting any edits that have been made to it\n@dependabot merge will merge this PR after your CI passes on it\n@dependabot squash and merge will squash and merge this PR after your CI passes on it\n@dependabot cancel merge will cancel a previously requested merge and block automerging\n@dependabot reopen will reopen this PR if it is closed\n@dependabot close will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n@dependabot ignore this major version will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this minor version will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n@dependabot ignore this dependency will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n@dependabot use these labels will set the current labels as the default for future PRs for this repo and language\n@dependabot use these reviewers will set the current reviewers as the default for future PRs for this repo and language\n@dependabot use these assignees will set the current assignees as the default for future PRs for this repo and language\n@dependabot use this milestone will set the current milestone as the default for future PRs for this repo and language\n\nYou can disable automated security fix PRs for this repo from the Security Alerts page.",
+        "state": "MERGED",
+        "closed": true,
+        "merged": true,
+        "closedAt": "2020-04-06T18:29:16Z",
+        "mergedBy": {
+            "login": "alexfornuto",
+            "resourcePath": "/alexfornuto"
+        },
+        "comments": {
+            "nodes": []
+        },
+        "files": {
+            "nodes": [
+                {
+                    "path": "gatsby/package-lock.json"
+                },
+                {
+                    "path": "gatsby/yarn.lock"
+                }
+            ]
+        }
+    }
+]
